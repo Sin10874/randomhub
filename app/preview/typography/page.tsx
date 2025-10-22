@@ -1,3 +1,9 @@
+/**
+ * Typography Preview Page
+ * DEV ONLY - For comparing font pairings before implementing globally
+ * This page can be removed in production if desired
+ */
+
 'use client';
 
 import { useState } from 'react';

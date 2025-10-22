@@ -41,7 +41,7 @@ const tools = [
 export default function PopularTools() {
   return (
     <div className="w-full max-w-5xl mx-auto mt-12">
-      <h2 className="text-3xl font-bold text-center mb-8 text-white drop-shadow-lg">
+      <h2 className="font-display text-3xl font-bold text-center mb-8 text-white drop-shadow-lg tracking-tight">
         Popular Tools
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -61,7 +61,7 @@ export default function PopularTools() {
               >
                 <Icon className="w-8 h-8 text-white drop-shadow-md" strokeWidth={2.5} />
               </div>
-              <h3 className="text-lg font-bold text-gray-800 mb-2 group-hover:text-purple-600 transition-colors">
+              <h3 className="font-display text-lg font-bold text-gray-800 mb-2 group-hover:text-purple-600 transition-colors tracking-tight">
                 {tool.title}
               </h3>
               <p className="text-sm text-gray-600 leading-relaxed">{tool.description}</p>

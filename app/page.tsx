@@ -9,7 +9,7 @@ export default function Home() {
       <main className="flex-1 container mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12 lg:py-16">
         {/* Hero Section */}
         <div className="text-center mb-8 sm:mb-12">
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white drop-shadow-2xl mb-4">
+          <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl font-bold text-white drop-shadow-2xl mb-4 tracking-tight">
             Welcome to RandomHub
           </h1>
           <p className="text-lg sm:text-xl text-white/90 drop-shadow-lg max-w-2xl mx-auto">

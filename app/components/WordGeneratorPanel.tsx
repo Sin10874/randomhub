@@ -46,7 +46,7 @@ export default function WordGeneratorPanel() {
 
   return (
     <div className="w-full max-w-5xl mx-auto bg-white/95 backdrop-blur-sm rounded-2xl shadow-2xl p-8">
-      <h1 className="text-3xl font-bold text-center mb-8 bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">
+      <h1 className="font-display text-3xl font-bold text-center mb-8 bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent tracking-tight">
         Random Word Generator
       </h1>
 
