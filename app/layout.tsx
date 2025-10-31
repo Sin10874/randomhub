@@ -13,7 +13,7 @@ const inter = Inter({
 // Display serif font for headings and emphasis
 const crimsonPro = Crimson_Pro({
   subsets: ["latin"],
-  weight: ["600", "700"],
+  weight: ["400", "500", "600", "700"],
   variable: "--font-display",
   display: "swap",
 });
@@ -30,7 +30,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="antialiased">
-      <body className={`${inter.variable} ${crimsonPro.variable} font-sans`}>
+      <body className={`${inter.variable} ${crimsonPro.variable} font-display`}>
         {children}
       </body>
     </html>

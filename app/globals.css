@@ -20,3 +20,60 @@ body {
     background-position: 0% 50%;
   }
 }
+
+/* 淡入动画 */
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.5s ease-out forwards;
+}
+
+/* 网格背景图案 */
+.bg-grid-pattern {
+  background-image: 
+    linear-gradient(to right, rgba(139, 92, 246, 0.1) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(139, 92, 246, 0.1) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+/* 优化移动端输入框 */
+@media (max-width: 640px) {
+  input[type="text"],
+  input[type="number"],
+  select {
+    font-size: 16px !important; /* 防止iOS自动缩放 */
+  }
+}
+
+/* 优化 kbd 标签样式 */
+kbd {
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  background: #f1f5f9;
+  border: 1px solid #cbd5e1;
+  border-radius: 0.25rem;
+  font-family: ui-monospace, monospace;
+  font-size: 0.75rem;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+/* 平滑滚动 */
+html {
+  scroll-behavior: smooth;
+}
+
+/* 优化触摸设备的按钮反馈 */
+@media (hover: none) {
+  button:active {
+    transform: scale(0.95);
+  }
+}
