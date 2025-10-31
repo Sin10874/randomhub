@@ -31,6 +31,20 @@ export const metadata: Metadata = {
   authors: [{ name: "RandomHub" }],
   creator: "RandomHub",
   publisher: "RandomHub",
+  icons: {
+    icon: [
+      { url: '/icon.svg', type: 'image/svg+xml' },
+      { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
+      { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
+    ],
+    apple: [
+      { url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' },
+    ],
+    other: [
+      { rel: 'mask-icon', url: '/safari-pinned-tab.svg', color: '#667eea' },
+    ],
+  },
+  manifest: '/site.webmanifest',
   alternates: {
     canonical: siteUrl,
   },
@@ -83,7 +97,7 @@ export default function RootLayout({
     '@type': 'Organization',
     name: 'RandomHub',
     url: siteUrl,
-    logo: `${siteUrl}/logo.png`,
+    logo: `${siteUrl}/icon.svg`,
     description: 'Free random generation tools including word, name, city, and letter generators',
     sameAs: [],
   };
@@ -107,6 +121,12 @@ export default function RootLayout({
   return (
     <html lang="en" className="antialiased">
       <head>
+        {/* Favicon and Icons - Ensure Google can crawl these */}
+        <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+        <link rel="manifest" href="/site.webmanifest" />
+        <meta name="theme-color" content="#667eea" />
+        
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
