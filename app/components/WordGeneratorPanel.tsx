@@ -82,12 +82,9 @@ export default function WordGeneratorPanel() {
     <div className="w-full max-w-6xl mx-auto">
       {/* 标题区域 */}
       <div className="text-center mb-6 sm:mb-8 px-4">
-        <h1 className="font-display text-3xl sm:text-4xl md:text-5xl font-bold text-white tracking-tight mb-3 animate-fade-in drop-shadow-lg">
+        <h1 className="font-display text-3xl sm:text-4xl md:text-5xl font-bold text-white tracking-tight animate-fade-in drop-shadow-lg">
           Random Word Generator
         </h1>
-        <p className="text-white/90 text-sm sm:text-base max-w-2xl mx-auto drop-shadow-md">
-          Generate from 5000+ English words with custom filters
-        </p>
       </div>
 
       {/* 主面板 */}
@@ -95,10 +92,10 @@ export default function WordGeneratorPanel() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-0">
           {/* Settings card */}
           <div className="border-b lg:border-b-0 lg:border-r border-violet-100/60 p-6 sm:p-8 bg-gradient-to-br from-violet-50/50 to-transparent">
-            <h2 className="text-xl sm:text-2xl font-semibold text-gray-800 mb-6 flex items-center gap-2">
+            <div className="text-xl sm:text-2xl font-semibold text-gray-800 mb-6 flex items-center gap-2">
               <SlidersHorizontal className="w-5 h-5 sm:w-6 sm:h-6 text-violet-600" />
               Settings
-            </h2>
+            </div>
 
             <div className="space-y-5 mb-6">
               {/* Word Type */}
@@ -209,10 +206,10 @@ export default function WordGeneratorPanel() {
 
           {/* Result card */}
           <div className="p-6 sm:p-8 bg-gradient-to-br from-blue-50/50 to-transparent min-h-[400px] lg:min-h-0 flex flex-col">
-            <h2 className="text-xl sm:text-2xl font-semibold text-gray-800 mb-6 flex items-center gap-2">
+            <div className="text-xl sm:text-2xl font-semibold text-gray-800 mb-6 flex items-center gap-2">
               <Sparkles className="w-5 h-5 sm:w-6 sm:h-6 text-blue-600" />
               Result
-            </h2>
+            </div>
 
             <div className="flex-1 rounded-2xl border-2 border-dashed border-violet-200 bg-gradient-to-br from-violet-50/50 via-blue-50/30 to-pink-50/20 p-6 sm:p-10 flex flex-col items-center justify-center relative overflow-hidden">
               {/* 装饰性背景元素 */}

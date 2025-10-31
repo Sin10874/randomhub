@@ -15,6 +15,8 @@ export interface City {
   climate?: string;
   landmarks?: string[];
   specialties?: string[];
+  nickname?: string;
+  famousFor?: string[];
   overview?: string;
   highlights?: string;
   culture?: string;

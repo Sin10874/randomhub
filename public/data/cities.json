@@ -45,31 +45,37 @@
     "latitude": 48.8566,
     "longitude": 2.3522,
     "description": "Paris, the capital of France, is renowned as the City of Light. Famous for the Eiffel Tower, Louvre Museum, and Notre-Dame Cathedral, Paris is a global center for art, fashion, gastronomy, and culture. The city's romantic atmosphere and rich history attract millions of visitors annually.",
-    "population": "2.1 million",
+    "population": "2.2 million",
     "timezone": "CET (UTC+1)",
     "currency": "Euro (EUR)",
     "language": [
       "French"
     ],
-    "bestTimeToVisit": "Spring (April-June) or Fall (September-October)",
+    "bestTimeToVisit": "April to June or September to November",
     "climate": "Oceanic",
     "landmarks": [
       "Eiffel Tower",
       "Louvre Museum",
-      "Notre-Dame Cathedral",
       "Arc de Triomphe",
-      "Montmartre"
+      "Notre-Dame",
+      "Sacré-Cœur"
     ],
     "specialties": [
       "Croissants",
-      "Fashion",
+      "Baguettes",
+      "Cheese",
       "Wine",
-      "Art Museums",
-      "Romantic Atmosphere"
+      "Macarons"
     ],
-    "overview": "Paris, the City of Light, is one of the world's most beautiful and romantic destinations. As France's capital, it's a global center for art, fashion, gastronomy, and culture. The city's elegant boulevards, world-class museums, and iconic landmarks create an unforgettable experience.",
-    "highlights": "Climb the Eiffel Tower for stunning views, explore the Louvre's vast art collection, stroll along the Seine River, visit Montmartre's artistic quarter, savor authentic French cuisine, and experience the vibrant café culture.",
-    "culture": "Parisian culture revolves around art, fashion, food, and romance. The city is home to countless museums, theaters, and galleries. French cuisine is celebrated worldwide, and Paris is the fashion capital with prestigious events like Fashion Week."
+    "overview": "Paris is France's capital and the world's most romantic city, famous for the Eiffel Tower, world-class art museums, and café culture. The City of Light offers stunning architecture, haute cuisine, high fashion, and timeless elegance. Paris embodies French culture and joie de vivre.",
+    "highlights": "Ascend the Eiffel Tower, explore the Louvre's masterpieces, stroll Champs-Élysées to Arc de Triomphe, visit Notre-Dame Cathedral, see Sacré-Cœur in Montmartre, enjoy café culture, cruise the Seine, and experience Parisian elegance.",
+    "culture": "Paris's culture is sophisticated, artistic, and romantic. The city is famous for café culture, haute cuisine, fashion, and intellectual life. Parisians are known for style, directness, and pride in their language and culture. Art, philosophy, and gastronomy are taken seriously.",
+    "nickname": "City of Light / City of Love",
+    "famousFor": [
+      "Eiffel Tower",
+      "Art",
+      "Romance"
+    ]
   },
   {
     "city": "New York",
@@ -118,31 +124,37 @@
     "latitude": 51.5074,
     "longitude": -0.1278,
     "description": "London is the capital and largest city of England and the United Kingdom. With a history spanning over two millennia, it's home to iconic landmarks like Big Ben, the Tower of London, and Buckingham Palace. As a global financial hub, London combines centuries-old traditions with modern innovation.",
-    "population": "9 million",
+    "population": "9.0 million",
     "timezone": "GMT (UTC+0)",
     "currency": "British Pound (GBP)",
     "language": [
       "English"
     ],
-    "bestTimeToVisit": "Late Spring (May-June) or Early Fall (September)",
-    "climate": "Temperate oceanic",
+    "bestTimeToVisit": "May to September (summer)",
+    "climate": "Oceanic",
     "landmarks": [
       "Big Ben",
-      "Tower of London",
+      "Tower Bridge",
       "Buckingham Palace",
-      "London Eye",
-      "Tower Bridge"
+      "British Museum",
+      "London Eye"
     ],
     "specialties": [
-      "Afternoon Tea",
-      "Fish and Chips",
-      "Royal History",
-      "Museums",
-      "Theater"
+      "Fish and chips",
+      "Afternoon tea",
+      "Curry",
+      "Sunday roast",
+      "Pies"
     ],
-    "overview": "London is a historic capital city that seamlessly blends royal tradition with modern innovation. As one of the world's oldest cities, it's home to countless historic sites, world-class museums, and a vibrant cultural scene. The city's rich heritage and diverse communities create a unique atmosphere.",
-    "highlights": "Watch the Changing of the Guard at Buckingham Palace, explore the Tower of London's rich history, visit free world-class museums, take a ride on the London Eye, enjoy traditional afternoon tea, and experience the West End's famous theater scene.",
-    "culture": "London's culture is characterized by its royal heritage, world-class arts scene, and diverse communities. The city is renowned for its museums (many free), West End theater, historic pubs, and culinary diversity. Traditional British customs coexist with modern multiculturalism."
+    "overview": "London is the UK's capital and a global financial center, blending 2,000 years of history with modern multiculturalism. The diverse metropolis offers world-class museums, royal palaces, West End theater, and neighborhoods from every culture. London consistently ranks among the world's most influential cities.",
+    "highlights": "Visit Big Ben and Houses of Parliament, tour Buckingham Palace, walk Tower Bridge, explore free world-class museums (British Museum, Natural History), see a West End show, experience diverse neighborhoods, and ride the iconic red double-decker buses.",
+    "culture": "London's culture is remarkably multicultural - over 300 languages spoken. The city embraces teatime tradition, pub culture, football passion, and the monarchy. Londoners are cosmopolitan, reserved but friendly, and proud of their city's diversity and history.",
+    "nickname": "The Big Smoke",
+    "famousFor": [
+      "Royalty",
+      "History",
+      "Multicultural"
+    ]
   },
   {
     "city": "Sydney",
@@ -189,7 +201,38 @@
     "continent": "Asia",
     "latitude": 39.9042,
     "longitude": 116.4074,
-    "description": "Beijing is the capital of China and one of the world's oldest cities. Home to the Forbidden City, Temple of Heaven, and Great Wall, Beijing seamlessly blends ancient history with modern development. As a political and cultural center, it showcases China's rich heritage and rapid modernization."
+    "description": "Beijing is the capital of China and one of the world's oldest cities. Home to the Forbidden City, Temple of Heaven, and Great Wall, Beijing seamlessly blends ancient history with modern development. As a political and cultural center, it showcases China's rich heritage and rapid modernization.",
+    "population": "21.5 million",
+    "timezone": "CST (UTC+8)",
+    "currency": "Chinese Yuan (CNY)",
+    "language": [
+      "Mandarin"
+    ],
+    "bestTimeToVisit": "September to October (autumn)",
+    "climate": "Humid continental",
+    "landmarks": [
+      "Forbidden City",
+      "Great Wall",
+      "Temple of Heaven",
+      "Summer Palace",
+      "Tiananmen Square"
+    ],
+    "specialties": [
+      "Peking duck",
+      "Jiaozi",
+      "Beijing noodles",
+      "Baozi",
+      "Hot pot"
+    ],
+    "nickname": "Capital of Capitals",
+    "famousFor": [
+      "Forbidden City",
+      "Great Wall",
+      "Olympics 2008"
+    ],
+    "overview": "Beijing is China's capital and political heart, offering incredible imperial heritage from Ming and Qing dynasties. Home to the Forbidden City, Great Wall access, and Olympic sites, Beijing blends ancient history with modern development. The massive city showcases China's power and history.",
+    "highlights": "Explore vast Forbidden City imperial palace, visit Great Wall sections near Beijing, see Temple of Heaven's architecture, tour Summer Palace gardens, walk Tiananmen Square, eat Peking duck, and experience Beijing's hutong alleys.",
+    "culture": "Beijing's culture is traditional Chinese with political importance. The city dialect (Beijing Mandarin) is standard Chinese. Beijingers are known for being direct and proud of their capital status. Tea culture, calligraphy, and opera are traditional arts."
   },
   {
     "city": "Rio de Janeiro",
@@ -316,7 +359,38 @@
     "continent": "Europe",
     "latitude": 52.52,
     "longitude": 13.405,
-    "description": "Berlin is the capital and largest city of Germany. Known for its tumultuous history, Berlin is now a vibrant cultural center with world-class museums, art galleries, and nightlife. The Berlin Wall's fall marked a new era, and today the city is celebrated for its creativity, innovation, and multicultural atmosphere."
+    "description": "Berlin is the capital and largest city of Germany. Known for its tumultuous history, Berlin is now a vibrant cultural center with world-class museums, art galleries, and nightlife. The Berlin Wall's fall marked a new era, and today the city is celebrated for its creativity, innovation, and multicultural atmosphere.",
+    "population": "3.7 million",
+    "timezone": "CET (UTC+1)",
+    "currency": "Euro (EUR)",
+    "language": [
+      "German"
+    ],
+    "bestTimeToVisit": "May to September (summer)",
+    "climate": "Oceanic",
+    "landmarks": [
+      "Brandenburg Gate",
+      "Berlin Wall",
+      "Reichstag",
+      "Museum Island",
+      "Holocaust Memorial"
+    ],
+    "specialties": [
+      "Currywurst",
+      "Döner kebab",
+      "Beer",
+      "Pretzels",
+      "Schnitzel"
+    ],
+    "nickname": "Grey City / Poor but Sexy",
+    "famousFor": [
+      "History",
+      "Nightlife",
+      "Arts Scene"
+    ],
+    "overview": "Berlin is Germany's capital with turbulent 20th-century history visible everywhere - Berlin Wall remnants, Holocaust memorials, Cold War sites. The creative, gritty city offers world-class museums, legendary nightlife, street art, and multicultural atmosphere. Berlin is Europe's most affordable major capital.",
+    "highlights": "See Brandenburg Gate and Berlin Wall remnants, visit sobering Holocaust Memorial, tour Reichstag dome, explore Museum Island, experience legendary club scene, discover street art, and learn about Berlin's complex history.",
+    "culture": "Berlin's culture is creative, alternative, and historically conscious. The city embraces graffiti, techno clubs, Turkish döner, and LGBTQ+ scene. Berliners are known for being direct, casual, and politically engaged. The motto \"poor but sexy\" reflects affordability and artistic spirit."
   },
   {
     "city": "Mumbai",
@@ -365,7 +439,39 @@
     "continent": "Europe",
     "latitude": 41.3851,
     "longitude": 2.1734,
-    "description": "Barcelona is the capital of Catalonia and Spain's second-largest city. Famous for Gaudi's architectural masterpieces like Sagrada Familia and Park Güell, Barcelona combines stunning architecture with Mediterranean beaches. The city's rich culture, world-class cuisine, and vibrant street life make it a top European destination."
+    "description": "Barcelona is the capital of Catalonia and Spain's second-largest city. Famous for Gaudi's architectural masterpieces like Sagrada Familia and Park Güell, Barcelona combines stunning architecture with Mediterranean beaches. The city's rich culture, world-class cuisine, and vibrant street life make it a top European destination.",
+    "population": "1.6 million",
+    "timezone": "CET (UTC+1)",
+    "currency": "Euro (EUR)",
+    "language": [
+      "Catalan",
+      "Spanish"
+    ],
+    "bestTimeToVisit": "May to June or September to October",
+    "climate": "Hot-summer Mediterranean",
+    "landmarks": [
+      "Sagrada Família",
+      "Park Güell",
+      "La Rambla",
+      "Gothic Quarter",
+      "Casa Batlló"
+    ],
+    "specialties": [
+      "Tapas",
+      "Paella",
+      "Cava",
+      "Pan con tomate",
+      "Crema catalana"
+    ],
+    "nickname": "Jewel of the Mediterranean",
+    "famousFor": [
+      "Gaudí Architecture",
+      "Beaches",
+      "FC Barcelona"
+    ],
+    "overview": "Barcelona is Catalonia's capital, offering Antoni Gaudí's whimsical architecture, Mediterranean beaches, Gothic Quarter, and vibrant culture. The cosmopolitan city blends medieval heritage with modernist buildings, beach lifestyle with urban energy, and Catalan pride with international flair.",
+    "highlights": "Visit the stunning Sagrada Família basilica, explore colorful Park Güell, stroll La Rambla promenade, wander Gothic Quarter's medieval streets, relax on city beaches, see Gaudí's houses, and experience Catalan culture.",
+    "culture": "Barcelona's culture is distinctly Catalan with strong regional identity separate from Spain. The city embraces beach lifestyle, late dining, siesta tradition, and football (FC Barcelona). Catalans are proud, entrepreneurial, and passionate about their language and independence."
   },
   {
     "city": "Toronto",
@@ -536,7 +642,38 @@
     "continent": "Europe",
     "latitude": 41.9028,
     "longitude": 12.4964,
-    "description": "Rome, the Eternal City, is Italy's capital and one of the world's most historic cities. Home to ancient ruins like the Colosseum and Forum, Vatican City, and countless Renaissance art treasures, Rome is a living museum. The city's rich history, architecture, and cuisine make it a timeless destination."
+    "description": "Rome, the Eternal City, is Italy's capital and one of the world's most historic cities. Home to ancient ruins like the Colosseum and Forum, Vatican City, and countless Renaissance art treasures, Rome is a living museum. The city's rich history, architecture, and cuisine make it a timeless destination.",
+    "population": "2.8 million",
+    "timezone": "CET (UTC+1)",
+    "currency": "Euro (EUR)",
+    "language": [
+      "Italian"
+    ],
+    "bestTimeToVisit": "April to June or September to October",
+    "climate": "Mediterranean",
+    "landmarks": [
+      "Colosseum",
+      "Vatican City",
+      "Trevi Fountain",
+      "Roman Forum",
+      "Pantheon"
+    ],
+    "specialties": [
+      "Pasta carbonara",
+      "Pizza",
+      "Gelato",
+      "Cacio e pepe",
+      "Espresso"
+    ],
+    "nickname": "Eternal City",
+    "famousFor": [
+      "Ancient History",
+      "Vatican",
+      "Cuisine"
+    ],
+    "overview": "Rome is Italy's capital and one of the world's most historic cities, offering 3,000 years of history at every corner. The Eternal City features ancient Colosseum, Vatican City, Baroque fountains, and incredible Italian cuisine. Rome is an open-air museum where past and present coexist.",
+    "highlights": "Visit the iconic Colosseum and Roman Forum, explore Vatican City and Sistine Chapel, throw coins in Trevi Fountain, see the Pantheon, eat authentic Roman pasta, wander charming Trastevere, and walk cobblestone streets steeped in history.",
+    "culture": "Rome's culture is deeply historical and Catholic with la dolce vita lifestyle. Romans are passionate, expressive, and proud of their heritage. The city embraces slow dining, afternoon siestas, coffee culture, and family values. History is lived daily, not just observed."
   },
   {
     "city": "Amsterdam",
@@ -544,7 +681,39 @@
     "continent": "Europe",
     "latitude": 52.3676,
     "longitude": 4.9041,
-    "description": "Amsterdam is the capital of the Netherlands, known for its artistic heritage, elaborate canal system, and narrow houses with gabled facades. The city's museums house works by Van Gogh and Rembrandt, while its vibrant nightlife and progressive culture attract visitors from around the world."
+    "description": "Amsterdam is the capital of the Netherlands, known for its artistic heritage, elaborate canal system, and narrow houses with gabled facades. The city's museums house works by Van Gogh and Rembrandt, while its vibrant nightlife and progressive culture attract visitors from around the world.",
+    "population": "875,000",
+    "timezone": "CET (UTC+1)",
+    "currency": "Euro (EUR)",
+    "language": [
+      "Dutch",
+      "English"
+    ],
+    "bestTimeToVisit": "April to May (tulip season) or September",
+    "climate": "Oceanic",
+    "landmarks": [
+      "Canal Ring",
+      "Anne Frank House",
+      "Rijksmuseum",
+      "Van Gogh Museum",
+      "Dam Square"
+    ],
+    "specialties": [
+      "Stroopwafels",
+      "Cheese",
+      "Herring",
+      "Pancakes",
+      "Craft beer"
+    ],
+    "nickname": "Venice of the North",
+    "famousFor": [
+      "Canals",
+      "Bicycles",
+      "Liberal Policies"
+    ],
+    "overview": "Amsterdam is the Netherlands' charming capital, famous for UNESCO canal rings, bicycles everywhere, and liberal attitudes. The compact city offers world-class art museums, Anne Frank's story, beautiful architecture, and relaxed café culture. Amsterdam combines historical charm with progressive values.",
+    "highlights": "Cruise the picturesque canals, visit moving Anne Frank House, see Rembrandt and Van Gogh masterpieces at museums, cycle like a local, explore charming Jordaan neighborhood, see tulips at Keukenhof (April-May), and experience café culture.",
+    "culture": "Amsterdam's culture is liberal, bicycle-oriented, and gezellig (cozy). The Dutch are direct, speak excellent English, and embrace tolerance. Cycling is the main transport, café culture thrives, and the city has relaxed attitudes toward controversial topics."
   },
   {
     "city": "Vancouver",
@@ -594,7 +763,39 @@
     "continent": "Europe",
     "latitude": 59.3293,
     "longitude": 18.0686,
-    "description": "Stockholm is the capital and largest city of Sweden. Built on 14 islands connected by bridges, Stockholm is known for its stunning architecture, clean waterways, and progressive social policies. The city blends historic charm with modern innovation, making it a leader in sustainability and design."
+    "description": "Stockholm is the capital and largest city of Sweden. Built on 14 islands connected by bridges, Stockholm is known for its stunning architecture, clean waterways, and progressive social policies. The city blends historic charm with modern innovation, making it a leader in sustainability and design.",
+    "population": "975,000",
+    "timezone": "CET (UTC+1)",
+    "currency": "Swedish Krona (SEK)",
+    "language": [
+      "Swedish",
+      "English"
+    ],
+    "bestTimeToVisit": "June to August (summer)",
+    "climate": "Oceanic",
+    "landmarks": [
+      "Gamla Stan",
+      "Vasa Museum",
+      "City Hall",
+      "Royal Palace",
+      "ABBA Museum"
+    ],
+    "specialties": [
+      "Meatballs",
+      "Gravlax",
+      "Cinnamon buns",
+      "Herring",
+      "Fika"
+    ],
+    "nickname": "Venice of the North",
+    "famousFor": [
+      "Design",
+      "Nobel Prize",
+      "Archipelago"
+    ],
+    "overview": "Stockholm is Sweden's beautiful capital spread across 14 islands connected by bridges. The elegant city offers medieval Gamla Stan, Scandinavian design, innovative cuisine, and access to stunning archipelago. Stockholm combines historic charm with modern sustainability and quality of life.",
+    "highlights": "Explore medieval Gamla Stan old town, visit impressive Vasa ship museum, tour Nobel Prize City Hall, enjoy Swedish fika (coffee and pastry), take boat trips through the archipelago, and experience Scandinavian design.",
+    "culture": "Stockholm's culture values design, sustainability, and work-life balance. Swedes are reserved but friendly, speak excellent English, and embrace lagom (moderation) philosophy. Fika breaks, innovation, and environmental consciousness define lifestyle."
   },
   {
     "city": "Istanbul",
@@ -841,7 +1042,38 @@
     "continent": "Europe",
     "latitude": 48.2082,
     "longitude": 16.3738,
-    "description": "Vienna is Austria's capital and largest city, known for its imperial palaces, classical music heritage, and coffeehouse culture. Once the center of the Habsburg Empire, Vienna combines baroque architecture with modern innovation. The city's high quality of life and cultural richness make it a top European destination."
+    "description": "Vienna is Austria's capital and largest city, known for its imperial palaces, classical music heritage, and coffeehouse culture. Once the center of the Habsburg Empire, Vienna combines baroque architecture with modern innovation. The city's high quality of life and cultural richness make it a top European destination.",
+    "population": "1.9 million",
+    "timezone": "CET (UTC+1)",
+    "currency": "Euro (EUR)",
+    "language": [
+      "German"
+    ],
+    "bestTimeToVisit": "April to May or September to October",
+    "climate": "Oceanic",
+    "landmarks": [
+      "Schönbrunn Palace",
+      "St. Stephen's Cathedral",
+      "Hofburg Palace",
+      "Belvedere Palace",
+      "Ringstrasse"
+    ],
+    "specialties": [
+      "Wiener schnitzel",
+      "Sachertorte",
+      "Apple strudel",
+      "Coffee",
+      "Sausages"
+    ],
+    "nickname": "City of Music / City of Dreams",
+    "famousFor": [
+      "Classical Music",
+      "Palaces",
+      "Coffee Houses"
+    ],
+    "overview": "Vienna is Austria's elegant capital, former seat of Habsburg Empire with stunning palaces, classical music heritage (Mozart, Beethoven, Strauss), and traditional coffee house culture. The sophisticated city offers imperial grandeur, world-class opera, and exceptional quality of life.",
+    "highlights": "Tour magnificent Schönbrunn and Hofburg palaces, attend a classical concert or opera, visit historic coffee houses, see St. Stephen's Cathedral, stroll grand Ringstrasse boulevard, and experience Viennese elegance.",
+    "culture": "Vienna's culture is refined, traditional, and music-focused. The city embraces classical music, opera, coffee house tradition, and formality. Viennese are known for being polite, cultured, and appreciating quality of life. Waltz, Sachertorte, and coffee with cake are cultural institutions."
   },
   {
     "city": "Lagos",
@@ -889,7 +1121,39 @@
     "continent": "Europe",
     "latitude": 59.9139,
     "longitude": 10.7522,
-    "description": "Oslo is the capital and largest city of Norway. Located at the head of a fjord, Oslo combines natural beauty with urban sophistication. Known for its Viking heritage, modern architecture like the Opera House, and high quality of life, Oslo exemplifies Scandinavian design and sustainability."
+    "description": "Oslo is the capital and largest city of Norway. Located at the head of a fjord, Oslo combines natural beauty with urban sophistication. Known for its Viking heritage, modern architecture like the Opera House, and high quality of life, Oslo exemplifies Scandinavian design and sustainability.",
+    "population": "697,000",
+    "timezone": "CET (UTC+1)",
+    "currency": "Norwegian Krone (NOK)",
+    "language": [
+      "Norwegian",
+      "English"
+    ],
+    "bestTimeToVisit": "May to August (summer)",
+    "climate": "Humid continental",
+    "landmarks": [
+      "Opera House",
+      "Vigeland Park",
+      "Viking Ship Museum",
+      "Holmenkollen",
+      "Akershus Fortress"
+    ],
+    "specialties": [
+      "Salmon",
+      "Brown cheese",
+      "Waffles",
+      "Aquavit",
+      "Fish soup"
+    ],
+    "nickname": "City of Tigers",
+    "famousFor": [
+      "Natural Beauty",
+      "Nobel Peace Prize",
+      "Vikings"
+    ],
+    "overview": "Oslo is Norway's capital with stunning setting between fjord and forests. The modern, expensive city offers striking Opera House, Viking heritage, world-class museums, and easy access to nature. Oslo represents Norwegian wealth (from oil), progressive values, and outdoor lifestyle.",
+    "highlights": "Walk on Oslo Opera House roof, explore Vigeland sculpture park, visit Viking Ship Museum, ski at Holmenkollen, see Nobel Peace Prize Center, hike surrounding forests, and enjoy Norwegian seafood.",
+    "culture": "Oslo's culture is outdoorsy, egalitarian, and wealthy. Norwegians love nature, skiing, and hiking - many keep cabins in mountains. The city is progressive, expensive, and environmentally conscious. The janteloven (law of Jante) promotes modesty."
   },
   {
     "city": "São Paulo",
@@ -936,7 +1200,40 @@
     "continent": "Asia",
     "latitude": -6.2088,
     "longitude": 106.8456,
-    "description": "Jakarta is Indonesia's capital and largest city. Located on Java's northwest coast, Jakarta is a bustling metropolis with over 10 million residents. The city blends traditional Indonesian culture with rapid modernization, featuring historic neighborhoods, modern skyscrapers, and vibrant street food culture."
+    "description": "Jakarta is Indonesia's capital and largest city. Located on Java's northwest coast, Jakarta is a bustling metropolis with over 10 million residents. The city blends traditional Indonesian culture with rapid modernization, featuring historic neighborhoods, modern skyscrapers, and vibrant street food culture.",
+    "population": "10.6 million",
+    "timezone": "WIB (UTC+7)",
+    "currency": "Indonesian Rupiah (IDR)",
+    "language": [
+      "Indonesian",
+      "Javanese",
+      "English"
+    ],
+    "bestTimeToVisit": "May to September (dry season)",
+    "climate": "Tropical monsoon",
+    "landmarks": [
+      "National Monument",
+      "Old Town (Kota Tua)",
+      "Istiqlal Mosque",
+      "Grand Indonesia",
+      "Thousand Islands"
+    ],
+    "specialties": [
+      "Nasi goreng",
+      "Satay",
+      "Gado-gado",
+      "Rendang",
+      "Martabak"
+    ],
+    "nickname": "Big Durian",
+    "famousFor": [
+      "Traffic Jams",
+      "Street Food",
+      "Diverse Culture"
+    ],
+    "overview": "Jakarta is Indonesia's sprawling capital, a chaotic megacity of contrasts. The massive metropolis offers Dutch colonial heritage, modern malls, street food paradise, and gateway to Indonesia's islands. Despite notorious traffic, Jakarta is Southeast Asia's largest economy.",
+    "highlights": "Visit National Monument (Monas), explore Dutch colonial Old Town, see massive Istiqlal Mosque, shop in huge malls, eat incredible Indonesian street food, escape to nearby Thousand Islands, and experience Jakarta's nightlife.",
+    "culture": "Jakarta's culture is diverse Indonesian mix - Javanese, Sundanese, and hundreds of ethnic groups. The city is famous for traffic jams, street food, and rapid development. Jakartans are resilient, entrepreneurial, and embrace modern lifestyle despite challenges."
   },
   {
     "city": "Madrid",
@@ -944,7 +1241,38 @@
     "continent": "Europe",
     "latitude": 40.4168,
     "longitude": -3.7038,
-    "description": "Madrid is Spain's capital and largest city, located in the heart of the Iberian Peninsula. Known for its grand boulevards, world-class art museums including the Prado, and vibrant nightlife, Madrid combines royal history with modern Spanish culture. The city's energy and passion are palpable in its streets."
+    "description": "Madrid is Spain's capital and largest city, located in the heart of the Iberian Peninsula. Known for its grand boulevards, world-class art museums including the Prado, and vibrant nightlife, Madrid combines royal history with modern Spanish culture. The city's energy and passion are palpable in its streets.",
+    "population": "3.3 million",
+    "timezone": "CET (UTC+1)",
+    "currency": "Euro (EUR)",
+    "language": [
+      "Spanish"
+    ],
+    "bestTimeToVisit": "March to May or September to November",
+    "climate": "Hot-summer Mediterranean",
+    "landmarks": [
+      "Prado Museum",
+      "Royal Palace",
+      "Retiro Park",
+      "Plaza Mayor",
+      "Gran Vía"
+    ],
+    "specialties": [
+      "Tapas",
+      "Jamón ibérico",
+      "Churros con chocolate",
+      "Cocido madrileño",
+      "Paella"
+    ],
+    "nickname": "Capital of Joy",
+    "famousFor": [
+      "Nightlife",
+      "Museums",
+      "Tapas"
+    ],
+    "overview": "Madrid is Spain's vibrant capital, known for world-class art museums, lively tapas culture, and energetic nightlife. The sunny city offers grand plazas, royal palace, beautiful parks, and late-night lifestyle. Madrid embodies Spanish passion, warmth, and love for life.",
+    "highlights": "Visit the Prado Museum's masterpieces, tour the Royal Palace, stroll Retiro Park, enjoy tapas hopping, explore Plaza Mayor, shop on Gran Vía, experience late-night culture (dinner at 10pm!), and watch flamenco shows.",
+    "culture": "Madrid's culture is social, nocturnal, and passionate. Madrileños embrace late dining (10pm+), afternoon siestas, tapas bar-hopping, and nightlife that starts after midnight. The city is football-obsessed (Real Madrid), family-oriented, and known for warm hospitality."
   },
   {
     "city": "Warsaw",
@@ -952,7 +1280,38 @@
     "continent": "Europe",
     "latitude": 52.2297,
     "longitude": 21.0122,
-    "description": "Warsaw is Poland's capital and largest city. Rebuilt after World War II devastation, Warsaw showcases resilience and determination. The city blends meticulously restored Old Town with modern skyscrapers, reflecting Poland's post-communist transformation. Warsaw is now a thriving European capital with rich culture and history."
+    "description": "Warsaw is Poland's capital and largest city. Rebuilt after World War II devastation, Warsaw showcases resilience and determination. The city blends meticulously restored Old Town with modern skyscrapers, reflecting Poland's post-communist transformation. Warsaw is now a thriving European capital with rich culture and history.",
+    "population": "1.8 million",
+    "timezone": "CET (UTC+1)",
+    "currency": "Polish Złoty (PLN)",
+    "language": [
+      "Polish"
+    ],
+    "bestTimeToVisit": "May to September (summer)",
+    "climate": "Humid continental",
+    "landmarks": [
+      "Old Town",
+      "Royal Castle",
+      "Palace of Culture",
+      "POLIN Museum",
+      "Łazienki Park"
+    ],
+    "specialties": [
+      "Pierogi",
+      "Bigos",
+      "Żurek",
+      "Vodka",
+      "Pączki"
+    ],
+    "nickname": "Phoenix City",
+    "famousFor": [
+      "WWII History",
+      "Chopin",
+      "Reconstruction"
+    ],
+    "overview": "Warsaw is Poland's capital, rebuilt from 85% destruction in WWII. The Phoenix City offers reconstructed Old Town (UNESCO), communist-era architecture, Jewish heritage, and dynamic modern development. Warsaw represents Polish resilience and rapid economic growth.",
+    "highlights": "Explore beautifully reconstructed Old Town, visit moving POLIN Jewish museum, see Palace of Culture (Stalin's gift), tour Royal Castle, attend Chopin concert, relax in Łazienki Park, and learn about Warsaw's WWII destruction and rebirth.",
+    "culture": "Warsaw's culture is proud, resilient, and Catholic. Poles value family, tradition, and their complex history. The city has survived multiple destructions and rebuilt. Vodka culture, hearty food, and Chopin's legacy are important cultural elements."
   },
   {
     "city": "Auckland",
@@ -1000,7 +1359,39 @@
     "continent": "Europe",
     "latitude": 53.3498,
     "longitude": -6.2603,
-    "description": "Dublin is Ireland's capital and largest city. Known for its literary heritage, friendly pubs, and warm hospitality, Dublin offers a rich cultural experience. The city's historic architecture, vibrant music scene, and thriving tech industry create a unique blend of tradition and innovation."
+    "description": "Dublin is Ireland's capital and largest city. Known for its literary heritage, friendly pubs, and warm hospitality, Dublin offers a rich cultural experience. The city's historic architecture, vibrant music scene, and thriving tech industry create a unique blend of tradition and innovation.",
+    "population": "555,000",
+    "timezone": "GMT (UTC+0)",
+    "currency": "Euro (EUR)",
+    "language": [
+      "English",
+      "Irish"
+    ],
+    "bestTimeToVisit": "May to September (summer)",
+    "climate": "Oceanic",
+    "landmarks": [
+      "Trinity College",
+      "Guinness Storehouse",
+      "Temple Bar",
+      "Dublin Castle",
+      "St. Patrick's Cathedral"
+    ],
+    "specialties": [
+      "Guinness",
+      "Irish stew",
+      "Fish and chips",
+      "Whiskey",
+      "Soda bread"
+    ],
+    "nickname": "Fair City",
+    "famousFor": [
+      "Guinness",
+      "Literary Heritage",
+      "Pubs"
+    ],
+    "overview": "Dublin is Ireland's charming capital, famous for Guinness, literary heritage (Joyce, Yeats, Wilde), and lively pub culture. The friendly city offers Georgian architecture, Viking history, beautiful Trinity College, and legendary Irish hospitality. Dublin combines historic charm with youthful energy.",
+    "highlights": "Visit Trinity College and Book of Kells, tour Guinness Storehouse, enjoy live music in Temple Bar pubs, explore Dublin Castle, see St. Patrick's Cathedral, walk St. Stephen's Green, and experience Irish pub culture.",
+    "culture": "Dublin's culture centers on storytelling, literature, music, and pub life. The Irish are famously friendly, witty, and love conversation. Guinness, whiskey, and traditional music sessions define social life. The literary tradition is deeply cherished."
   },
   {
     "city": "Prague",
@@ -1008,7 +1399,38 @@
     "continent": "Europe",
     "latitude": 50.0755,
     "longitude": 14.4378,
-    "description": "Prague is the capital and largest city of the Czech Republic. Known as the City of a Hundred Spires, Prague's historic center is a UNESCO World Heritage site. The city's medieval architecture, stunning castle, and rich cultural heritage make it one of Europe's most beautiful and romantic destinations."
+    "description": "Prague is the capital and largest city of the Czech Republic. Known as the City of a Hundred Spires, Prague's historic center is a UNESCO World Heritage site. The city's medieval architecture, stunning castle, and rich cultural heritage make it one of Europe's most beautiful and romantic destinations.",
+    "population": "1.3 million",
+    "timezone": "CET (UTC+1)",
+    "currency": "Czech Koruna (CZK)",
+    "language": [
+      "Czech"
+    ],
+    "bestTimeToVisit": "April to June or September to October",
+    "climate": "Oceanic",
+    "landmarks": [
+      "Charles Bridge",
+      "Prague Castle",
+      "Old Town Square",
+      "Astronomical Clock",
+      "Wenceslas Square"
+    ],
+    "specialties": [
+      "Goulash",
+      "Trdelník",
+      "Czech beer",
+      "Svíčková",
+      "Pilsner"
+    ],
+    "nickname": "City of a Hundred Spires",
+    "famousFor": [
+      "Medieval Architecture",
+      "Beer",
+      "Fairy-tale Beauty"
+    ],
+    "overview": "Prague is the Czech Republic's fairy-tale capital, one of Europe's most beautiful cities with medieval architecture, Prague Castle, and Charles Bridge. The romantic city offers cobblestone streets, Gothic churches, world-class beer, and affordable charm. Prague escaped WWII destruction, preserving its historic beauty.",
+    "highlights": "Walk iconic Charles Bridge, tour Prague Castle complex, see Old Town Square's Astronomical Clock, explore Jewish Quarter, enjoy Czech beer in traditional pubs, wander picturesque Lesser Town, and experience Prague's romantic atmosphere.",
+    "culture": "Prague's culture centers on beer (Czechs drink most per capita worldwide), classical music, and historic preservation. Czechs are reserved but friendly, literary-minded, and proud of their independence. The city has a sophisticated, slightly melancholic spirit."
   },
   {
     "city": "Athens",
@@ -1016,7 +1438,38 @@
     "continent": "Europe",
     "latitude": 37.9838,
     "longitude": 23.7275,
-    "description": "Athens is Greece's capital and largest city, and one of the world's oldest cities. Home to iconic ancient landmarks like the Acropolis and Parthenon, Athens is the birthplace of democracy and Western civilization. The city blends ancient history with modern urban life, creating a unique Mediterranean atmosphere."
+    "description": "Athens is Greece's capital and largest city, and one of the world's oldest cities. Home to iconic ancient landmarks like the Acropolis and Parthenon, Athens is the birthplace of democracy and Western civilization. The city blends ancient history with modern urban life, creating a unique Mediterranean atmosphere.",
+    "population": "665,000",
+    "timezone": "EET (UTC+2)",
+    "currency": "Euro (EUR)",
+    "language": [
+      "Greek"
+    ],
+    "bestTimeToVisit": "April to June or September to October",
+    "climate": "Hot-summer Mediterranean",
+    "landmarks": [
+      "Acropolis",
+      "Parthenon",
+      "Ancient Agora",
+      "Plaka",
+      "Temple of Olympian Zeus"
+    ],
+    "specialties": [
+      "Souvlaki",
+      "Moussaka",
+      "Tzatziki",
+      "Greek salad",
+      "Ouzo"
+    ],
+    "nickname": "Cradle of Western Civilization",
+    "famousFor": [
+      "Ancient History",
+      "Acropolis",
+      "Philosophy"
+    ],
+    "overview": "Athens is Greece's capital and the birthplace of Western civilization, democracy, and philosophy. The ancient city offers the iconic Acropolis, Parthenon, and incredible 2,500-year history alongside modern Greek culture. Athens is where ancient ruins meet Mediterranean lifestyle.",
+    "highlights": "Visit the magnificent Acropolis and Parthenon, explore Ancient Agora where Socrates walked, wander charming Plaka neighborhood, see the Acropolis Museum, enjoy Greek cuisine and ouzo, and experience where Western philosophy was born.",
+    "culture": "Athens's culture is proudly Greek with strong historical consciousness. Greeks are warm, social, and family-oriented with Mediterranean lifestyle - late dining, outdoor living, and slower pace. Coffee culture, tavernas, and ancient history define identity."
   },
   {
     "city": "San Francisco",
@@ -1065,7 +1518,38 @@
     "continent": "Europe",
     "latitude": 38.7223,
     "longitude": -9.1393,
-    "description": "Lisbon is Portugal's capital and largest city, built on seven hills overlooking the Tagus River. Known for its colorful tiled buildings, historic trams, and Fado music, Lisbon combines traditional charm with modern innovation. The city's mild climate, stunning views, and rich maritime history make it a captivating destination."
+    "description": "Lisbon is Portugal's capital and largest city, built on seven hills overlooking the Tagus River. Known for its colorful tiled buildings, historic trams, and Fado music, Lisbon combines traditional charm with modern innovation. The city's mild climate, stunning views, and rich maritime history make it a captivating destination.",
+    "population": "505,000",
+    "timezone": "WET (UTC+0)",
+    "currency": "Euro (EUR)",
+    "language": [
+      "Portuguese"
+    ],
+    "bestTimeToVisit": "March to May or September to October",
+    "climate": "Hot-summer Mediterranean",
+    "landmarks": [
+      "Belém Tower",
+      "Jerónimos Monastery",
+      "São Jorge Castle",
+      "Alfama",
+      "Tram 28"
+    ],
+    "specialties": [
+      "Pastéis de nata",
+      "Bacalhau",
+      "Seafood",
+      "Port wine",
+      "Ginjinha"
+    ],
+    "nickname": "City of Seven Hills",
+    "famousFor": [
+      "Tram 28",
+      "Pastéis de Nata",
+      "Fado Music"
+    ],
+    "overview": "Lisbon is Portugal's hilly coastal capital, one of Europe's most charming cities with colorful tiles, vintage trams, and melancholic fado music. The affordable, sunny city offers beautiful viewpoints, Age of Discovery monuments, delicious pastéis de nata, and laid-back lifestyle.",
+    "highlights": "Ride iconic yellow Tram 28, visit Belém Tower and Jerónimos Monastery, explore medieval Alfama neighborhood, enjoy panoramic viewpoints, eat pastéis de nata custard tarts, listen to fado music, and soak up sunshine.",
+    "culture": "Lisbon's culture is relaxed, nostalgic, and maritime. The city embraces fado music (melancholic songs), saudade (nostalgic longing), tile art (azulejos), and coffee culture. Portuguese are warm, unpretentious, and enjoy slow living despite economic challenges."
   },
   {
     "city": "Kuala Lumpur",
@@ -1115,7 +1599,40 @@
     "continent": "Europe",
     "latitude": 47.3769,
     "longitude": 8.5417,
-    "description": "Zurich is Switzerland's largest city and a global financial hub. Located on the shores of Lake Zurich, the city combines stunning natural beauty with world-class banking, high quality of life, and rich cultural offerings. Zurich's cleanliness, efficiency, and proximity to the Alps make it an exceptional European city."
+    "description": "Zurich is Switzerland's largest city and a global financial hub. Located on the shores of Lake Zurich, the city combines stunning natural beauty with world-class banking, high quality of life, and rich cultural offerings. Zurich's cleanliness, efficiency, and proximity to the Alps make it an exceptional European city.",
+    "population": "421,000",
+    "timezone": "CET (UTC+1)",
+    "currency": "Swiss Franc (CHF)",
+    "language": [
+      "Swiss German",
+      "German",
+      "English"
+    ],
+    "bestTimeToVisit": "June to August (summer)",
+    "climate": "Oceanic",
+    "landmarks": [
+      "Old Town",
+      "Lake Zurich",
+      "Grossmünster",
+      "Bahnhofstrasse",
+      "Uetliberg"
+    ],
+    "specialties": [
+      "Cheese fondue",
+      "Raclette",
+      "Chocolate",
+      "Rösti",
+      "Swiss wine"
+    ],
+    "nickname": "Financial Capital",
+    "famousFor": [
+      "Banking",
+      "Quality of Life",
+      "Cleanliness"
+    ],
+    "overview": "Zurich is Switzerland's largest city and global financial center, consistently ranked among the world's most livable cities. The expensive, efficient city offers pristine lake setting, medieval old town, world-class shopping, and stunning Alps proximity. Zurich represents Swiss precision, wealth, and quality.",
+    "highlights": "Stroll medieval Old Town, swim in Lake Zurich, shop on luxurious Bahnhofstrasse, visit Grossmünster church, hike Uetliberg mountain for Alps views, enjoy Swiss chocolate and cheese, and experience Swiss efficiency.",
+    "culture": "Zurich's culture values punctuality, cleanliness, and quality. The Swiss are reserved, multilingual, and appreciate order and precision. The city is expensive but offers exceptional quality of life. Banking, chocolate, and watches are cultural symbols."
   },
   {
     "city": "Copenhagen",
@@ -1123,7 +1640,39 @@
     "continent": "Europe",
     "latitude": 55.6761,
     "longitude": 12.5683,
-    "description": "Copenhagen is Denmark's capital and largest city. Known for its cycling culture, innovative design, and hygge lifestyle, Copenhagen consistently ranks among the world's happiest and most livable cities. The city's waterfront, historic palaces, and progressive values create a unique Scandinavian atmosphere."
+    "description": "Copenhagen is Denmark's capital and largest city. Known for its cycling culture, innovative design, and hygge lifestyle, Copenhagen consistently ranks among the world's happiest and most livable cities. The city's waterfront, historic palaces, and progressive values create a unique Scandinavian atmosphere.",
+    "population": "633,000",
+    "timezone": "CET (UTC+1)",
+    "currency": "Danish Krone (DKK)",
+    "language": [
+      "Danish",
+      "English"
+    ],
+    "bestTimeToVisit": "June to August (summer)",
+    "climate": "Oceanic",
+    "landmarks": [
+      "Little Mermaid",
+      "Tivoli Gardens",
+      "Nyhavn",
+      "Christiania",
+      "Rosenborg Castle"
+    ],
+    "specialties": [
+      "Smørrebrød",
+      "Danish pastries",
+      "Hot dogs",
+      "New Nordic cuisine",
+      "Aquavit"
+    ],
+    "nickname": "City of Spires",
+    "famousFor": [
+      "Cycling",
+      "Hygge",
+      "Design"
+    ],
+    "overview": "Copenhagen is Denmark's capital and one of the world's most livable and happiest cities. The bike-friendly city offers colorful Nyhavn harbor, Tivoli Gardens, New Nordic cuisine, and hygge lifestyle. Copenhagen combines Scandinavian design, sustainability, and quality of life.",
+    "highlights": "Visit iconic Little Mermaid statue, enjoy Tivoli Gardens amusement park, explore colorful Nyhavn waterfront, bike everywhere like locals, visit alternative Christiania community, see Rosenborg Castle, and experience Danish hygge.",
+    "culture": "Copenhagen's culture embraces hygge (cozy contentment), cycling, and work-life balance. Danes are among the world's happiest people, direct but friendly, and value equality. The city is bike-centric, design-focused, and sustainably minded."
   },
   {
     "city": "Helsinki",
@@ -1131,7 +1680,40 @@
     "continent": "Europe",
     "latitude": 60.1699,
     "longitude": 24.9384,
-    "description": "Helsinki is Finland's capital and largest city. Located on the Baltic Sea, Helsinki is known for its modern design, clean architecture, and high-tech innovation. The city's seaside setting, sauna culture, and quality of life exemplify Finnish values of sustainability and functionality."
+    "description": "Helsinki is Finland's capital and largest city. Located on the Baltic Sea, Helsinki is known for its modern design, clean architecture, and high-tech innovation. The city's seaside setting, sauna culture, and quality of life exemplify Finnish values of sustainability and functionality.",
+    "population": "656,000",
+    "timezone": "EET (UTC+2)",
+    "currency": "Euro (EUR)",
+    "language": [
+      "Finnish",
+      "Swedish",
+      "English"
+    ],
+    "bestTimeToVisit": "June to August (summer)",
+    "climate": "Humid continental",
+    "landmarks": [
+      "Senate Square",
+      "Temppeliaukio Church",
+      "Suomenlinna",
+      "Market Square",
+      "Sibelius Monument"
+    ],
+    "specialties": [
+      "Salmon soup",
+      "Reindeer",
+      "Cinnamon buns",
+      "Salmiakki",
+      "Berry desserts"
+    ],
+    "nickname": "Daughter of the Baltic",
+    "famousFor": [
+      "Design",
+      "Saunas",
+      "Northern Location"
+    ],
+    "overview": "Helsinki is Finland's capital on the Baltic Sea, the world's northernmost metropolitan area over 1 million. The modern, design-focused city offers unique architecture, sauna culture, nearby archipelago, and easy access to nature. Helsinki represents Finnish innovation, education excellence, and nature connection.",
+    "highlights": "Visit Senate Square and Cathedral, see unique Temppeliaukio Rock Church, explore Suomenlinna fortress island, enjoy Market Square, experience Finnish sauna, discover design shops, and appreciate Nordic architecture.",
+    "culture": "Helsinki's culture values design, education, and nature. Finns are reserved but honest, love saunas and lakes, and embrace silence comfortably. The city has excellent education system, strong coffee culture, and deep connection to forests and archipelago."
   },
   {
     "city": "Brussels",
@@ -1139,7 +1721,40 @@
     "continent": "Europe",
     "latitude": 50.8503,
     "longitude": 4.3517,
-    "description": "Brussels is Belgium's capital and largest city, also serving as the de facto capital of the European Union. Known for its Grand Place, delicious chocolate, and comic strip culture, Brussels blends Flemish and French influences. The city's international character and historic charm make it a unique European capital."
+    "description": "Brussels is Belgium's capital and largest city, also serving as the de facto capital of the European Union. Known for its Grand Place, delicious chocolate, and comic strip culture, Brussels blends Flemish and French influences. The city's international character and historic charm make it a unique European capital.",
+    "population": "1.2 million",
+    "timezone": "CET (UTC+1)",
+    "currency": "Euro (EUR)",
+    "language": [
+      "French",
+      "Dutch",
+      "English"
+    ],
+    "bestTimeToVisit": "April to June or September",
+    "climate": "Oceanic",
+    "landmarks": [
+      "Grand Place",
+      "Manneken Pis",
+      "Atomium",
+      "Royal Palace",
+      "European Parliament"
+    ],
+    "specialties": [
+      "Waffles",
+      "Chocolate",
+      "Frites",
+      "Beer",
+      "Mussels"
+    ],
+    "nickname": "Capital of Europe",
+    "famousFor": [
+      "EU Headquarters",
+      "Chocolate",
+      "Comic Strips"
+    ],
+    "overview": "Brussels is Belgium's capital and EU headquarters, a multicultural city famous for waffles, chocolate, beer, and French fries. The compact city offers stunning Grand Place, Art Nouveau architecture, comic strip culture (Tintin), and over 800 beer varieties. Brussels is Europe's political heart.",
+    "highlights": "Marvel at ornate Grand Place square, see quirky Manneken Pis statue, visit futuristic Atomium, enjoy Belgian waffles and chocolate, try hundreds of beer varieties, explore EU quarter, and discover comic strip murals.",
+    "culture": "Brussels's culture is bilingual (French/Dutch), bureaucratic (EU capital), and food-focused. Belgians love beer, chocolate, frites, and waffles. The city has a surreal sense of humor (Magritte, Tintin) and embraces both French sophistication and Flemish pragmatism."
   },
   {
     "city": "Bucharest",
@@ -1147,7 +1762,38 @@
     "continent": "Europe",
     "latitude": 44.4268,
     "longitude": 26.1025,
-    "description": "Bucharest is Romania's capital and largest city. Known as the Paris of the East, Bucharest features wide boulevards, Belle Époque architecture, and the massive Palace of the Parliament. The city has transformed since the fall of communism, becoming a vibrant Eastern European capital with rich culture and history."
+    "description": "Bucharest is Romania's capital and largest city. Known as the Paris of the East, Bucharest features wide boulevards, Belle Époque architecture, and the massive Palace of the Parliament. The city has transformed since the fall of communism, becoming a vibrant Eastern European capital with rich culture and history.",
+    "population": "1.9 million",
+    "timezone": "EET (UTC+2)",
+    "currency": "Romanian Leu (RON)",
+    "language": [
+      "Romanian"
+    ],
+    "bestTimeToVisit": "May to September (summer)",
+    "climate": "Humid continental",
+    "landmarks": [
+      "Palace of Parliament",
+      "Old Town",
+      "Village Museum",
+      "Arc de Triomphe",
+      "Herăstrău Park"
+    ],
+    "specialties": [
+      "Sarmale",
+      "Mămăligă",
+      "Mici",
+      "Plăcintă",
+      "Țuică"
+    ],
+    "nickname": "Little Paris",
+    "famousFor": [
+      "Palace of Parliament",
+      "Communist Architecture",
+      "Nightlife"
+    ],
+    "overview": "Bucharest is Romania's capital, known for massive Palace of Parliament (world's second-largest building), Belle Époque architecture, communist-era blocks, and vibrant nightlife. The affordable, energetic city offers contrasts between elegant past and communist legacy. Bucharest is rapidly modernizing.",
+    "highlights": "Tour enormous Palace of Parliament, explore charming Old Town, visit Village Museum showcasing Romanian architecture, see Arc de Triomphe, relax in parks, enjoy affordable nightlife, and discover Romania's complex history.",
+    "culture": "Bucharest's culture blends Latin influences (Romanian is Latin-based) with Slavic and Ottoman elements. Romanians are warm, proud, and family-oriented. The city has transformed since communism with energetic nightlife, entrepreneurial spirit, and European integration."
   },
   {
     "city": "Budapest",
@@ -1155,7 +1801,38 @@
     "continent": "Europe",
     "latitude": 47.4979,
     "longitude": 19.0402,
-    "description": "Budapest is Hungary's capital and largest city, formed by the unification of Buda and Pest. Known for its stunning Parliament building, thermal baths, and romantic Danube views, Budapest combines grand architecture with vibrant nightlife. The city's rich history and cultural scene make it a top European destination."
+    "description": "Budapest is Hungary's capital and largest city, formed by the unification of Buda and Pest. Known for its stunning Parliament building, thermal baths, and romantic Danube views, Budapest combines grand architecture with vibrant nightlife. The city's rich history and cultural scene make it a top European destination.",
+    "population": "1.7 million",
+    "timezone": "CET (UTC+1)",
+    "currency": "Hungarian Forint (HUF)",
+    "language": [
+      "Hungarian"
+    ],
+    "bestTimeToVisit": "April to June or September to October",
+    "climate": "Humid continental",
+    "landmarks": [
+      "Parliament Building",
+      "Buda Castle",
+      "Chain Bridge",
+      "Thermal Baths",
+      "Fisherman's Bastion"
+    ],
+    "specialties": [
+      "Goulash",
+      "Langos",
+      "Chimney cake",
+      "Pálinka",
+      "Tokaji wine"
+    ],
+    "nickname": "Pearl of the Danube",
+    "famousFor": [
+      "Thermal Baths",
+      "Parliament",
+      "Ruin Bars"
+    ],
+    "overview": "Budapest is Hungary's stunning capital straddling the Danube River, divided into hilly Buda and flat Pest. The elegant city offers magnificent Parliament, historic thermal baths, beautiful bridges, ruin bars, and affordable charm. Budapest is one of Europe's most beautiful and underrated capitals.",
+    "highlights": "Visit stunning Parliament Building, tour Buda Castle and Fisherman's Bastion, relax in historic thermal baths (Széchenyi, Gellért), walk Chain Bridge, explore unique ruin bars, enjoy Danube river cruise, and savor Hungarian goulash.",
+    "culture": "Budapest's culture is proud, melancholic, and spa-loving. Hungarians value thermal bath culture (over 100 natural hot springs), paprika-heavy cuisine, and tragic historical consciousness. The city embraces ruin bar nightlife, classical music, and Danube beauty."
   },
   {
     "city": "Seattle",
@@ -1444,7 +2121,40 @@
     "continent": "Asia",
     "latitude": 19.076,
     "longitude": 72.8777,
-    "description": "Mumbai (formerly Bombay) is India's financial capital and most populous city. Home to Bollywood, the world's largest film industry, Mumbai is a bustling metropolis where tradition meets modernity. The city's diverse neighborhoods, from historic Colaba to business districts, showcase India's economic growth and cultural richness."
+    "description": "Mumbai (formerly Bombay) is India's financial capital and most populous city. Home to Bollywood, the world's largest film industry, Mumbai is a bustling metropolis where tradition meets modernity. The city's diverse neighborhoods, from historic Colaba to business districts, showcase India's economic growth and cultural richness.",
+    "population": "20.7 million",
+    "timezone": "IST (UTC+5:30)",
+    "currency": "Indian Rupee (INR)",
+    "language": [
+      "Hindi",
+      "Marathi",
+      "English"
+    ],
+    "bestTimeToVisit": "November to February (winter)",
+    "climate": "Tropical wet and dry",
+    "landmarks": [
+      "Gateway of India",
+      "Marine Drive",
+      "Chhatrapati Shivaji Terminus",
+      "Elephanta Caves",
+      "Haji Ali Dargah"
+    ],
+    "specialties": [
+      "Vada pav",
+      "Pav bhaji",
+      "Bhel puri",
+      "Chai",
+      "Street food"
+    ],
+    "nickname": "City of Dreams / Bollywood Capital",
+    "famousFor": [
+      "Bollywood",
+      "Street Food",
+      "Contrasts"
+    ],
+    "overview": "Mumbai (formerly Bombay) is India's financial capital and Bollywood's home, a city of extreme contrasts and relentless energy. The massive metropolis offers colonial architecture, street food culture, beaches, slums next to skyscrapers, and never-say-die spirit. Mumbai represents India's ambitions and challenges.",
+    "highlights": "Visit Gateway of India monument, stroll Marine Drive promenade, see Victorian Gothic architecture at CST station, explore Elephanta Caves, eat incredible street food, experience Bollywood culture, and witness Mumbai's contrasts.",
+    "culture": "Mumbai's culture is defined by hustle, Bollywood dreams, and resilience. The city never sleeps, with local trains packed 24/7. Mumbaikars are known for their work ethic, street food obsession, and friendly spirit despite crowding."
   },
   {
     "city": "Marrakech",
