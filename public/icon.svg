@@ -1,16 +1,23 @@
 <svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- 圆角矩形背景，使用与Navbar相同的渐变 -->
+  <!-- 圆角矩形背景 - 橙色到黄色渐变 -->
   <rect width="512" height="512" rx="120" fill="url(#gradient)"/>
   
-  <!-- 清晰的R字母 - 使用简洁的路径 -->
+  <!-- 3D阴影效果 - 深灰色阴影向下向右延伸 -->
+  <g transform="translate(12, 12)">
+    <!-- R字母主体阴影 -->
+    <path d="M200 150H280C310 150 330 170 330 200V220C330 235 320 245 305 245H250V320C250 330 242 338 232 338C222 338 214 330 214 320V150H200ZM250 200H280C290 200 295 195 295 185V175C295 165 290 160 280 160H250V200Z" fill="#333333" opacity="0.7"/>
+    <!-- R的右下腿阴影 -->
+    <path d="M250 245L300 320" stroke="#333333" stroke-width="45" stroke-linecap="round" stroke-linejoin="round" opacity="0.7"/>
+  </g>
+  
+  <!-- 白色粗体R字母 -->
   <path d="M200 150H280C310 150 330 170 330 200V220C330 235 320 245 305 245H250V320C250 330 242 338 232 338C222 338 214 330 214 320V150H200ZM250 200H280C290 200 295 195 295 185V175C295 165 290 160 280 160H250V200Z" fill="white"/>
-  <!-- R的右下腿 -->
   <path d="M250 245L300 320" stroke="white" stroke-width="45" stroke-linecap="round" stroke-linejoin="round"/>
   
   <defs>
-    <linearGradient id="gradient" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#a855f7"/>
-      <stop offset="100%" stop-color="#3b82f6"/>
+    <linearGradient id="gradient" x1="0%" y1="100%" x2="100%" y2="0%" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FF6F00"/>
+      <stop offset="100%" stop-color="#FFC107"/>
     </linearGradient>
   </defs>
 </svg>

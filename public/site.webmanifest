@@ -4,8 +4,8 @@
   "description": "Generate random words, names, cities, and letters for free",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#667eea",
-  "theme_color": "#667eea",
+  "background_color": "#FF8C00",
+  "theme_color": "#FF8C00",
   "orientation": "portrait-primary",
   "icons": [
     {

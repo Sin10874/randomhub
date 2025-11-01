@@ -41,7 +41,7 @@ export const metadata: Metadata = {
       { url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' },
     ],
     other: [
-      { rel: 'mask-icon', url: '/safari-pinned-tab.svg', color: '#667eea' },
+      { rel: 'mask-icon', url: '/safari-pinned-tab.svg', color: '#FF8C00' },
     ],
   },
   manifest: '/site.webmanifest',
@@ -125,7 +125,7 @@ export default function RootLayout({
         <link rel="icon" href="/icon.svg" type="image/svg+xml" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <link rel="manifest" href="/site.webmanifest" />
-        <meta name="theme-color" content="#667eea" />
+        <meta name="theme-color" content="#FF8C00" />
         
         <script
           type="application/ld+json"
