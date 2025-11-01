@@ -1,5 +1,5 @@
 <svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- 圆角矩形背景 - 橙色到黄色渐变 -->
+  <!-- 圆角矩形背景 - 从左上角亮黄色到右下角深橙色的渐变 -->
   <rect width="512" height="512" rx="120" fill="url(#gradient)"/>
   
   <!-- 3D阴影效果 - 深灰色阴影向下向右延伸 -->
@@ -15,9 +15,10 @@
   <path d="M250 245L300 320" stroke="white" stroke-width="45" stroke-linecap="round" stroke-linejoin="round"/>
   
   <defs>
-    <linearGradient id="gradient" x1="0%" y1="100%" x2="100%" y2="0%" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#FF6F00"/>
-      <stop offset="100%" stop-color="#FFC107"/>
+    <!-- 渐变方向：从左上角（亮黄色）到右下角（深橙色） -->
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFC107"/>
+      <stop offset="100%" stop-color="#FF6F00"/>
     </linearGradient>
   </defs>
 </svg>
