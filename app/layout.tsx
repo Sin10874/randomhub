@@ -33,9 +33,8 @@ export const metadata: Metadata = {
   publisher: "RandomHub",
   icons: {
     icon: [
-      { url: '/icon.svg', type: 'image/svg+xml' },
-      { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
       { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
+      { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
     ],
     apple: [
       { url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' },
@@ -97,7 +96,7 @@ export default function RootLayout({
     '@type': 'Organization',
     name: 'RandomHub',
     url: siteUrl,
-    logo: `${siteUrl}/icon.svg`,
+    logo: `${siteUrl}/favicon-32x32.png`,
     description: 'Free random generation tools including word, name, city, and letter generators',
     sameAs: [],
   };
@@ -122,7 +121,8 @@ export default function RootLayout({
     <html lang="en" className="antialiased">
       <head>
         {/* Favicon and Icons - Ensure Google can crawl these */}
-        <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+        <link rel="icon" href="/favicon-32x32.png" type="image/png" sizes="32x32" />
+        <link rel="icon" href="/favicon-16x16.png" type="image/png" sizes="16x16" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <link rel="manifest" href="/site.webmanifest" />
         <meta name="theme-color" content="#FF8C00" />

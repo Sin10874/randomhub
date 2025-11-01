@@ -93,7 +93,7 @@ export default function WordGeneratorPanel() {
           {/* Settings card */}
           <div className="border-b lg:border-b-0 lg:border-r border-violet-100/60 p-6 sm:p-8 bg-gradient-to-br from-violet-50/50 to-transparent">
             <div className="text-xl sm:text-2xl font-semibold text-gray-800 mb-6 flex items-center gap-2">
-              <SlidersHorizontal className="w-5 h-5 sm:w-6 sm:h-6 text-violet-600" />
+              <SlidersHorizontal className="w-5 h-5 sm:w-6 sm:h-6 text-orange-600" />
               Settings
             </div>
 
@@ -184,7 +184,7 @@ export default function WordGeneratorPanel() {
             <button
               onClick={handleGenerate}
               disabled={isGenerating}
-              className="w-full bg-gradient-to-r from-purple-600 via-violet-600 to-blue-600 text-white font-semibold py-3.5 sm:py-4 rounded-xl hover:from-purple-700 hover:via-violet-700 hover:to-blue-700 transition-all shadow-lg hover:shadow-xl active:scale-95 disabled:opacity-50 disabled:cursor-not-allowed text-base sm:text-lg flex items-center justify-center gap-2"
+              className="w-full bg-gradient-to-r from-orange-500 via-orange-600 to-orange-700 text-white font-semibold py-3.5 sm:py-4 rounded-xl hover:from-orange-600 hover:via-orange-700 hover:to-orange-800 transition-all shadow-lg hover:shadow-xl active:scale-95 disabled:opacity-50 disabled:cursor-not-allowed text-base sm:text-lg flex items-center justify-center gap-2"
             >
               {isGenerating ? (
                 <>
@@ -207,7 +207,7 @@ export default function WordGeneratorPanel() {
           {/* Result card */}
           <div className="p-6 sm:p-8 bg-gradient-to-br from-blue-50/50 to-transparent min-h-[400px] lg:min-h-0 flex flex-col">
             <div className="text-xl sm:text-2xl font-semibold text-gray-800 mb-6 flex items-center gap-2">
-              <Sparkles className="w-5 h-5 sm:w-6 sm:h-6 text-blue-600" />
+              <Sparkles className="w-5 h-5 sm:w-6 sm:h-6 text-orange-600" />
               Result
             </div>
 
@@ -273,8 +273,8 @@ export default function WordGeneratorPanel() {
                 </div>
               ) : (
                 <div className="text-center z-10 animate-fade-in">
-                  <div className="w-20 h-20 mx-auto mb-6 rounded-full bg-gradient-to-br from-violet-100 to-blue-100 flex items-center justify-center">
-                    <Sparkles className="w-10 h-10 text-violet-500" />
+                  <div className="w-20 h-20 mx-auto mb-6 rounded-full bg-gradient-to-br from-orange-100 to-orange-50 flex items-center justify-center">
+                    <Sparkles className="w-10 h-10 text-orange-500" />
                   </div>
                   <p className="text-slate-400 text-base sm:text-lg font-medium mb-2">
                     Ready to generate!

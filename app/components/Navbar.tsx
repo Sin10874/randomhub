@@ -5,17 +5,8 @@ export default function Navbar() {
     <nav className="bg-white/90 backdrop-blur-sm shadow-md">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          <Link href="/" className="flex items-center space-x-2">
-            <div className="w-8 h-8 relative flex-shrink-0">
-              <img
-                src="/icon.svg"
-                alt="RandomHub Logo"
-                width={32}
-                height={32}
-                className="rounded-lg"
-              />
-            </div>
-            <span className="text-2xl font-bold bg-gradient-to-r from-orange-600 to-orange-500 bg-clip-text text-transparent">
+          <Link href="/" className="flex items-center">
+            <span className="text-2xl font-bold text-orange-600">
               RandomHub
             </span>
           </Link>
