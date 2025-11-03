@@ -33,6 +33,7 @@ export const metadata: Metadata = {
   publisher: "RandomHub",
   icons: {
     icon: [
+      { url: '/favicon.ico', sizes: 'any' }, // Google优先查找的标准favicon
       { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
       { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
     ],
@@ -97,6 +98,7 @@ export default function RootLayout({
     name: 'RandomHub',
     url: siteUrl,
     logo: `${siteUrl}/favicon-32x32.png`,
+    image: `${siteUrl}/favicon-32x32.png`,
     description: 'Free random generation tools including word, name, city, and letter generators',
     sameAs: [],
   };
@@ -121,8 +123,11 @@ export default function RootLayout({
     <html lang="en" className="antialiased">
       <head>
         {/* Favicon and Icons - Ensure Google can crawl these */}
+        {/* Standard favicon.ico - Google优先查找这个 */}
+        <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="icon" href="/favicon-32x32.png" type="image/png" sizes="32x32" />
         <link rel="icon" href="/favicon-16x16.png" type="image/png" sizes="16x16" />
+        <link rel="shortcut icon" href="/favicon.ico" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <link rel="manifest" href="/site.webmanifest" />
         <meta name="theme-color" content="#FF8C00" />
