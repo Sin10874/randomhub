@@ -127,6 +127,19 @@ export default function RootLayout({
   return (
     <html lang="en" className="antialiased">
       <head>
+        {/* Google Analytics */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-GY5D56TB81"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-GY5D56TB81');
+            `,
+          }}
+        />
+        
         {/* Favicon and Icons - Ensure Google can crawl these */}
         {/* Standard favicon.ico - Google优先查找这个 */}
         <link rel="icon" href="/favicon.ico" sizes="any" />
