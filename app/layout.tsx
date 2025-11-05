@@ -97,8 +97,13 @@ export default function RootLayout({
     '@type': 'Organization',
     name: 'RandomHub',
     url: siteUrl,
-    logo: `${siteUrl}/favicon-32x32.png`,
-    image: `${siteUrl}/favicon-32x32.png`,
+    logo: {
+      '@type': 'ImageObject',
+      url: `${siteUrl}/android-chrome-512x512.png`,
+      width: 512,
+      height: 512,
+    },
+    image: `${siteUrl}/android-chrome-512x512.png`,
     description: 'Free random generation tools including word, name, city, and letter generators',
     sameAs: [],
   };
