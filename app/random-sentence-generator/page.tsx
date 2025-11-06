@@ -7,7 +7,7 @@ export default function SentenceGeneratorPage() {
     '@context': 'https://schema.org',
     '@type': 'WebApplication',
     name: 'RandomHub - Random Sentence Generator',
-    url: `${siteUrl}/tools/sentence-generator`,
+    url: `${siteUrl}/random-sentence-generator`,
     applicationCategory: 'UtilityApplication',
     operatingSystem: 'Any',
     offers: {

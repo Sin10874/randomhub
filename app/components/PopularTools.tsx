@@ -7,7 +7,7 @@ const tools = [
   {
     title: 'Random Sentence Generator',
     description: 'Generate random sentences for writing and creativity',
-    href: '/tools/sentence-generator',
+    href: '/random-sentence-generator',
     Icon: MessageSquareText,
     gradient: 'from-orange-500 to-pink-500',
     hoverGradient: 'hover:from-orange-600 hover:to-pink-600',

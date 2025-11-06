@@ -10,7 +10,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: '/random-name-generator', priority: 0.9, changeFreq: 'weekly' as const },
     { path: '/random-city-generator', priority: 0.9, changeFreq: 'weekly' as const },
     { path: '/random-letter-generator', priority: 0.9, changeFreq: 'weekly' as const },
-    { path: '/tools/sentence-generator', priority: 0.9, changeFreq: 'weekly' as const },
+    { path: '/random-sentence-generator', priority: 0.9, changeFreq: 'weekly' as const },
     { path: '/privacy', priority: 0.5, changeFreq: 'monthly' as const },
   ]
 
