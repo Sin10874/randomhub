@@ -1,9 +1,17 @@
 'use client';
 
 import Link from 'next/link';
-import { UserSquare, Building2, CaseUpper } from 'lucide-react';
+import { UserSquare, Building2, CaseUpper, MessageSquareText } from 'lucide-react';
 
 const tools = [
+  {
+    title: 'Random Sentence Generator',
+    description: 'Generate random sentences for writing and creativity',
+    href: '/tools/sentence-generator',
+    Icon: MessageSquareText,
+    gradient: 'from-orange-500 to-pink-500',
+    hoverGradient: 'hover:from-orange-600 hover:to-pink-600',
+  },
   {
     title: 'Random Name Generator',
     description: 'Generate random names for your characters or projects',

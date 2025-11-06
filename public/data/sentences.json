@@ -1,0 +1,6230 @@
+[
+  {
+    "sentence": "The morning sun painted the sky in shades of orange and pink.",
+    "type": "Declarative",
+    "topic": "Nature",
+    "wordCount": 11
+  },
+  {
+    "sentence": "Have you ever wondered what lies beyond the stars?",
+    "type": "Interrogative",
+    "topic": "Science",
+    "wordCount": 9
+  },
+  {
+    "sentence": "What an incredible performance that was!",
+    "type": "Exclamatory",
+    "topic": "Entertainment",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Please remember to submit your assignment before Friday.",
+    "type": "Imperative",
+    "topic": "Education",
+    "wordCount": 8
+  },
+  {
+    "sentence": "The coffee shop on the corner serves the best espresso in town.",
+    "type": "Declarative",
+    "topic": "Daily Life",
+    "wordCount": 12
+  },
+  {
+    "sentence": "Technology has transformed the way we communicate with each other.",
+    "type": "Declarative",
+    "topic": "Technology",
+    "wordCount": 10
+  },
+  {
+    "sentence": "Where did you put my keys this morning?",
+    "type": "Interrogative",
+    "topic": "Daily Life",
+    "wordCount": 8
+  },
+  {
+    "sentence": "The team celebrated their victory with enthusiasm and joy.",
+    "type": "Declarative",
+    "topic": "Sports",
+    "wordCount": 9
+  },
+  {
+    "sentence": "Don't forget to water the plants before you leave.",
+    "type": "Imperative",
+    "topic": "Daily Life",
+    "wordCount": 9
+  },
+  {
+    "sentence": "How amazing is this view from the mountaintop!",
+    "type": "Exclamatory",
+    "topic": "Travel",
+    "wordCount": 8
+  },
+  {
+    "sentence": "The ancient library contained thousands of rare manuscripts.",
+    "type": "Declarative",
+    "topic": "Education",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Could you help me understand this complex problem?",
+    "type": "Interrogative",
+    "topic": "Education",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Scientists discovered a new species in the Amazon rainforest.",
+    "type": "Declarative",
+    "topic": "Science",
+    "wordCount": 9
+  },
+  {
+    "sentence": "Turn left at the next intersection and continue for two miles.",
+    "type": "Imperative",
+    "topic": "Travel",
+    "wordCount": 11
+  },
+  {
+    "sentence": "What a beautiful sunset we're witnessing tonight!",
+    "type": "Exclamatory",
+    "topic": "Nature",
+    "wordCount": 8
+  },
+  {
+    "sentence": "The new smartphone features an improved camera and longer battery life.",
+    "type": "Declarative",
+    "topic": "Technology",
+    "wordCount": 11
+  },
+  {
+    "sentence": "Why do birds migrate south during winter months?",
+    "type": "Interrogative",
+    "topic": "Nature",
+    "wordCount": 8
+  },
+  {
+    "sentence": "The concert was absolutely spectacular and unforgettable!",
+    "type": "Exclamatory",
+    "topic": "Entertainment",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Try to finish your homework before dinner time.",
+    "type": "Imperative",
+    "topic": "Education",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Athletes train rigorously to compete at the highest level.",
+    "type": "Declarative",
+    "topic": "Sports",
+    "wordCount": 9
+  },
+  {
+    "sentence": "The historic museum attracts visitors from around the world.",
+    "type": "Declarative",
+    "topic": "Travel",
+    "wordCount": 9
+  },
+  {
+    "sentence": "When will the movie premiere in theaters nationwide?",
+    "type": "Interrogative",
+    "topic": "Entertainment",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Remember to backup your important files regularly.",
+    "type": "Imperative",
+    "topic": "Technology",
+    "wordCount": 7
+  },
+  {
+    "sentence": "What an inspiring story of courage and determination!",
+    "type": "Exclamatory",
+    "topic": "Daily Life",
+    "wordCount": 8
+  },
+  {
+    "sentence": "The championship game will be played this Saturday afternoon.",
+    "type": "Declarative",
+    "topic": "Sports",
+    "wordCount": 9
+  },
+  {
+    "sentence": "How does photosynthesis work in plants?",
+    "type": "Interrogative",
+    "topic": "Science",
+    "wordCount": 6
+  },
+  {
+    "sentence": "The documentary revealed fascinating insights about marine life.",
+    "type": "Declarative",
+    "topic": "Entertainment",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Pack your bags and prepare for an adventure of a lifetime.",
+    "type": "Imperative",
+    "topic": "Travel",
+    "wordCount": 11
+  },
+  {
+    "sentence": "This is the most delicious meal I have ever tasted!",
+    "type": "Exclamatory",
+    "topic": "Daily Life",
+    "wordCount": 10
+  },
+  {
+    "sentence": "Researchers are developing innovative solutions for renewable energy.",
+    "type": "Declarative",
+    "topic": "Science",
+    "wordCount": 9
+  },
+  {
+    "sentence": "The gentle breeze rustled through the leaves of the oak tree.",
+    "type": "Declarative",
+    "topic": "Nature",
+    "wordCount": 11
+  },
+  {
+    "sentence": "Can artificial intelligence replace human creativity?",
+    "type": "Interrogative",
+    "topic": "Technology",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Practice your presentation skills before the important meeting.",
+    "type": "Imperative",
+    "topic": "Daily Life",
+    "wordCount": 8
+  },
+  {
+    "sentence": "The marathon runner crossed the finish line with determination!",
+    "type": "Exclamatory",
+    "topic": "Sports",
+    "wordCount": 9
+  },
+  {
+    "sentence": "Students collaborate on projects to enhance their learning experience.",
+    "type": "Declarative",
+    "topic": "Education",
+    "wordCount": 10
+  },
+  {
+    "sentence": "What inspired you to pursue this particular career path?",
+    "type": "Interrogative",
+    "topic": "Daily Life",
+    "wordCount": 9
+  },
+  {
+    "sentence": "The orchestra performed a magnificent symphony at the concert hall.",
+    "type": "Declarative",
+    "topic": "Entertainment",
+    "wordCount": 10
+  },
+  {
+    "sentence": "Explore the wonders of the world through travel and discovery.",
+    "type": "Imperative",
+    "topic": "Travel",
+    "wordCount": 11
+  },
+  {
+    "sentence": "How extraordinary this scientific breakthrough truly is!",
+    "type": "Exclamatory",
+    "topic": "Science",
+    "wordCount": 7
+  },
+  {
+    "sentence": "The changing seasons bring new colors to the landscape.",
+    "type": "Declarative",
+    "topic": "Nature",
+    "wordCount": 9
+  },
+  {
+    "sentence": "Virtual reality technology creates immersive digital experiences for users.",
+    "type": "Declarative",
+    "topic": "Technology",
+    "wordCount": 9
+  },
+  {
+    "sentence": "Which team do you think will win the championship this year?",
+    "type": "Interrogative",
+    "topic": "Sports",
+    "wordCount": 11
+  },
+  {
+    "sentence": "Focus on your goals and never give up on your dreams.",
+    "type": "Imperative",
+    "topic": "Daily Life",
+    "wordCount": 11
+  },
+  {
+    "sentence": "What a thrilling adventure that expedition turned out to be!",
+    "type": "Exclamatory",
+    "topic": "Travel",
+    "wordCount": 10
+  },
+  {
+    "sentence": "The professor explained the complex theory with remarkable clarity.",
+    "type": "Declarative",
+    "topic": "Education",
+    "wordCount": 9
+  },
+  {
+    "sentence": "Is climate change affecting global weather patterns significantly?",
+    "type": "Interrogative",
+    "topic": "Science",
+    "wordCount": 8
+  },
+  {
+    "sentence": "The blockbuster film broke box office records worldwide.",
+    "type": "Declarative",
+    "topic": "Entertainment",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Take time to appreciate the simple pleasures in life.",
+    "type": "Imperative",
+    "topic": "Daily Life",
+    "wordCount": 10
+  },
+  {
+    "sentence": "How magnificent the Northern Lights appear in the Arctic sky!",
+    "type": "Exclamatory",
+    "topic": "Nature",
+    "wordCount": 10
+  },
+  {
+    "sentence": "The innovative app simplifies daily tasks and improves productivity.",
+    "type": "Declarative",
+    "topic": "Technology",
+    "wordCount": 9
+  },
+  {
+    "sentence": "Who will represent our country at the international sporting event?",
+    "type": "Interrogative",
+    "topic": "Sports",
+    "wordCount": 10
+  },
+  {
+    "sentence": "The tropical island paradise offers pristine beaches and crystal-clear waters.",
+    "type": "Declarative",
+    "topic": "Travel",
+    "wordCount": 11
+  },
+  {
+    "sentence": "Study consistently to achieve excellent results in your examinations.",
+    "type": "Imperative",
+    "topic": "Education",
+    "wordCount": 9
+  },
+  {
+    "sentence": "What an incredible performance by the talented young musician!",
+    "type": "Exclamatory",
+    "topic": "Entertainment",
+    "wordCount": 9
+  },
+  {
+    "sentence": "Astronomers detected unusual signals from a distant galaxy.",
+    "type": "Declarative",
+    "topic": "Science",
+    "wordCount": 8
+  },
+  {
+    "sentence": "The butterfly emerged from its chrysalis with beautiful wings.",
+    "type": "Declarative",
+    "topic": "Nature",
+    "wordCount": 9
+  },
+  {
+    "sentence": "How will quantum computing revolutionize data processing?",
+    "type": "Interrogative",
+    "topic": "Technology",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Listen carefully to the instructions before beginning the experiment.",
+    "type": "Imperative",
+    "topic": "Education",
+    "wordCount": 9
+  },
+  {
+    "sentence": "The soccer match ended with an absolutely thrilling victory!",
+    "type": "Exclamatory",
+    "topic": "Sports",
+    "wordCount": 9
+  },
+  {
+    "sentence": "Families gather together to celebrate special occasions and traditions.",
+    "type": "Declarative",
+    "topic": "Daily Life",
+    "wordCount": 9
+  },
+  {
+    "sentence": "Where can we find the best hiking trails in this region?",
+    "type": "Interrogative",
+    "topic": "Travel",
+    "wordCount": 11
+  },
+  {
+    "sentence": "The award-winning series captivated audiences across multiple seasons.",
+    "type": "Declarative",
+    "topic": "Entertainment",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Protect the environment by reducing waste and recycling materials.",
+    "type": "Imperative",
+    "topic": "Science",
+    "wordCount": 9
+  },
+  {
+    "sentence": "How breathtaking the view is from this mountain summit!",
+    "type": "Exclamatory",
+    "topic": "Nature",
+    "wordCount": 9
+  },
+  {
+    "sentence": "The latest software update includes enhanced security features.",
+    "type": "Declarative",
+    "topic": "Technology",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Why do athletes need proper nutrition and rest?",
+    "type": "Interrogative",
+    "topic": "Sports",
+    "wordCount": 8
+  },
+  {
+    "sentence": "The university offers diverse programs to suit different interests.",
+    "type": "Declarative",
+    "topic": "Education",
+    "wordCount": 9
+  },
+  {
+    "sentence": "Share your experiences and inspire others to follow their passions.",
+    "type": "Imperative",
+    "topic": "Daily Life",
+    "wordCount": 10
+  },
+  {
+    "sentence": "What a spectacular fireworks display lit up the night sky!",
+    "type": "Exclamatory",
+    "topic": "Entertainment",
+    "wordCount": 9
+  },
+  {
+    "sentence": "The cultural festival showcases traditions from around the globe.",
+    "type": "Declarative",
+    "topic": "Travel",
+    "wordCount": 9
+  },
+  {
+    "sentence": "Can renewable energy sources meet our growing power demands?",
+    "type": "Interrogative",
+    "topic": "Science",
+    "wordCount": 9
+  },
+  {
+    "sentence": "The rainforest ecosystem supports countless species of plants and animals.",
+    "type": "Declarative",
+    "topic": "Nature",
+    "wordCount": 10
+  },
+  {
+    "sentence": "Embrace new technologies to stay competitive in the modern workplace.",
+    "type": "Imperative",
+    "topic": "Technology",
+    "wordCount": 10
+  },
+  {
+    "sentence": "How impressive the athlete's dedication and training regimen are!",
+    "type": "Exclamatory",
+    "topic": "Sports",
+    "wordCount": 9
+  },
+  {
+    "sentence": "The teacher encouraged students to think critically and ask questions.",
+    "type": "Declarative",
+    "topic": "Education",
+    "wordCount": 10
+  },
+  {
+    "sentence": "What motivates people to make significant life changes?",
+    "type": "Interrogative",
+    "topic": "Daily Life",
+    "wordCount": 8
+  },
+  {
+    "sentence": "The streaming platform offers unlimited entertainment for subscribers.",
+    "type": "Declarative",
+    "topic": "Entertainment",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Discover hidden gems and local cuisine during your travels.",
+    "type": "Imperative",
+    "topic": "Travel",
+    "wordCount": 9
+  },
+  {
+    "sentence": "What an amazing discovery in the field of medicine!",
+    "type": "Exclamatory",
+    "topic": "Science",
+    "wordCount": 9
+  },
+  {
+    "sentence": "The ocean waves crashed against the rocky shoreline.",
+    "type": "Declarative",
+    "topic": "Nature",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Wildflowers bloom abundantly in the meadows during springtime.",
+    "type": "Declarative",
+    "topic": "Nature",
+    "wordCount": 8
+  },
+  {
+    "sentence": "The stars twinkle brightly in the clear night sky.",
+    "type": "Declarative",
+    "topic": "Nature",
+    "wordCount": 9
+  },
+  {
+    "sentence": "Fresh snow covered the mountain peaks overnight.",
+    "type": "Declarative",
+    "topic": "Nature",
+    "wordCount": 7
+  },
+  {
+    "sentence": "The river flows peacefully through the valley below.",
+    "type": "Declarative",
+    "topic": "Nature",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Eagles soar majestically above the canyon walls.",
+    "type": "Declarative",
+    "topic": "Nature",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Autumn leaves create a colorful carpet on the ground.",
+    "type": "Declarative",
+    "topic": "Nature",
+    "wordCount": 9
+  },
+  {
+    "sentence": "The waterfall cascades dramatically into the pool below.",
+    "type": "Declarative",
+    "topic": "Nature",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Coral reefs host diverse marine ecosystems beneath the ocean.",
+    "type": "Declarative",
+    "topic": "Nature",
+    "wordCount": 9
+  },
+  {
+    "sentence": "The desert landscape transforms after rare rainfall events.",
+    "type": "Declarative",
+    "topic": "Nature",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Why do leaves change color in the fall?",
+    "type": "Interrogative",
+    "topic": "Nature",
+    "wordCount": 8
+  },
+  {
+    "sentence": "How do animals adapt to extreme weather conditions?",
+    "type": "Interrogative",
+    "topic": "Nature",
+    "wordCount": 8
+  },
+  {
+    "sentence": "What causes thunder and lightning during storms?",
+    "type": "Interrogative",
+    "topic": "Nature",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Where can we observe the most diverse wildlife?",
+    "type": "Interrogative",
+    "topic": "Nature",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Which flowers attract butterflies and hummingbirds?",
+    "type": "Interrogative",
+    "topic": "Nature",
+    "wordCount": 6
+  },
+  {
+    "sentence": "How magnificent the sunrise over the ocean appears!",
+    "type": "Exclamatory",
+    "topic": "Nature",
+    "wordCount": 8
+  },
+  {
+    "sentence": "What incredible colors the autumn forest displays!",
+    "type": "Exclamatory",
+    "topic": "Nature",
+    "wordCount": 7
+  },
+  {
+    "sentence": "How peaceful the mountain lake looks at dawn!",
+    "type": "Exclamatory",
+    "topic": "Nature",
+    "wordCount": 8
+  },
+  {
+    "sentence": "What a stunning rainbow appeared after the storm!",
+    "type": "Exclamatory",
+    "topic": "Nature",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Observe the wildlife quietly without disturbing their natural habitat.",
+    "type": "Imperative",
+    "topic": "Nature",
+    "wordCount": 10
+  },
+  {
+    "sentence": "Plant native species to support local ecosystems.",
+    "type": "Imperative",
+    "topic": "Nature",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Preserve natural resources for future generations to enjoy.",
+    "type": "Imperative",
+    "topic": "Nature",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Quantum mechanics explains the behavior of subatomic particles.",
+    "type": "Declarative",
+    "topic": "Science",
+    "wordCount": 9
+  },
+  {
+    "sentence": "The human brain contains approximately 86 billion neurons.",
+    "type": "Declarative",
+    "topic": "Science",
+    "wordCount": 8
+  },
+  {
+    "sentence": "DNA carries genetic information from parents to offspring.",
+    "type": "Declarative",
+    "topic": "Science",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Gravity keeps planets orbiting around the sun.",
+    "type": "Declarative",
+    "topic": "Science",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Chemical reactions transform substances into new compounds.",
+    "type": "Declarative",
+    "topic": "Science",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Bacteria play essential roles in various ecological processes.",
+    "type": "Declarative",
+    "topic": "Science",
+    "wordCount": 8
+  },
+  {
+    "sentence": "The periodic table organizes elements by atomic structure.",
+    "type": "Declarative",
+    "topic": "Science",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Evolution shapes species through natural selection over time.",
+    "type": "Declarative",
+    "topic": "Science",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Antibiotics fight bacterial infections in the human body.",
+    "type": "Declarative",
+    "topic": "Science",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Black holes possess gravitational forces that trap light.",
+    "type": "Declarative",
+    "topic": "Science",
+    "wordCount": 8
+  },
+  {
+    "sentence": "What causes earthquakes to occur along fault lines?",
+    "type": "Interrogative",
+    "topic": "Science",
+    "wordCount": 8
+  },
+  {
+    "sentence": "How do vaccines strengthen the immune system?",
+    "type": "Interrogative",
+    "topic": "Science",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Why is the speed of light considered constant?",
+    "type": "Interrogative",
+    "topic": "Science",
+    "wordCount": 8
+  },
+  {
+    "sentence": "What happens when matter enters a black hole?",
+    "type": "Interrogative",
+    "topic": "Science",
+    "wordCount": 8
+  },
+  {
+    "sentence": "How do cells generate energy through mitochondria?",
+    "type": "Interrogative",
+    "topic": "Science",
+    "wordCount": 7
+  },
+  {
+    "sentence": "What an incredible advancement in genetic engineering!",
+    "type": "Exclamatory",
+    "topic": "Science",
+    "wordCount": 7
+  },
+  {
+    "sentence": "How revolutionary this new telescope technology is!",
+    "type": "Exclamatory",
+    "topic": "Science",
+    "wordCount": 7
+  },
+  {
+    "sentence": "What fascinating discoveries scientists make every day!",
+    "type": "Exclamatory",
+    "topic": "Science",
+    "wordCount": 7
+  },
+  {
+    "sentence": "How remarkable the human genome project was!",
+    "type": "Exclamatory",
+    "topic": "Science",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Conduct experiments carefully following proper safety protocols.",
+    "type": "Imperative",
+    "topic": "Science",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Record your observations accurately in the research journal.",
+    "type": "Imperative",
+    "topic": "Science",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Analyze the data thoroughly before drawing conclusions.",
+    "type": "Imperative",
+    "topic": "Science",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Verify your hypothesis through repeated testing.",
+    "type": "Imperative",
+    "topic": "Science",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Critical thinking skills help students solve complex problems.",
+    "type": "Declarative",
+    "topic": "Education",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Online learning platforms provide flexible educational opportunities.",
+    "type": "Declarative",
+    "topic": "Education",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Interactive lessons engage students more effectively than lectures.",
+    "type": "Declarative",
+    "topic": "Education",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Reading comprehension improves with consistent practice and focus.",
+    "type": "Declarative",
+    "topic": "Education",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Educational technology transforms traditional classroom teaching methods.",
+    "type": "Declarative",
+    "topic": "Education",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Scholarships make higher education accessible to deserving students.",
+    "type": "Declarative",
+    "topic": "Education",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Group discussions foster collaborative learning among classmates.",
+    "type": "Declarative",
+    "topic": "Education",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Writing essays develops analytical and communication skills.",
+    "type": "Declarative",
+    "topic": "Education",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Mathematics builds logical reasoning and problem-solving abilities.",
+    "type": "Declarative",
+    "topic": "Education",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Language learning opens doors to new cultures and perspectives.",
+    "type": "Declarative",
+    "topic": "Education",
+    "wordCount": 9
+  },
+  {
+    "sentence": "What teaching methods work best for visual learners?",
+    "type": "Interrogative",
+    "topic": "Education",
+    "wordCount": 8
+  },
+  {
+    "sentence": "How can students improve their time management skills?",
+    "type": "Interrogative",
+    "topic": "Education",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Why is lifelong learning important in modern society?",
+    "type": "Interrogative",
+    "topic": "Education",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Which study techniques enhance memory retention most effectively?",
+    "type": "Interrogative",
+    "topic": "Education",
+    "wordCount": 8
+  },
+  {
+    "sentence": "What subjects should be added to school curricula?",
+    "type": "Interrogative",
+    "topic": "Education",
+    "wordCount": 8
+  },
+  {
+    "sentence": "What an outstanding achievement in academic excellence!",
+    "type": "Exclamatory",
+    "topic": "Education",
+    "wordCount": 7
+  },
+  {
+    "sentence": "How inspiring that graduation ceremony truly was!",
+    "type": "Exclamatory",
+    "topic": "Education",
+    "wordCount": 7
+  },
+  {
+    "sentence": "What brilliant ideas these students presented!",
+    "type": "Exclamatory",
+    "topic": "Education",
+    "wordCount": 6
+  },
+  {
+    "sentence": "How wonderful the school's new library looks!",
+    "type": "Exclamatory",
+    "topic": "Education",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Review your notes regularly to reinforce learning.",
+    "type": "Imperative",
+    "topic": "Education",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Ask questions when concepts are unclear or confusing.",
+    "type": "Imperative",
+    "topic": "Education",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Participate actively in class discussions and activities.",
+    "type": "Imperative",
+    "topic": "Education",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Develop good study habits early in your academic career.",
+    "type": "Imperative",
+    "topic": "Education",
+    "wordCount": 9
+  },
+  {
+    "sentence": "Morning routines set the tone for productive days.",
+    "type": "Declarative",
+    "topic": "Daily Life",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Balanced meals contribute to overall health and wellbeing.",
+    "type": "Declarative",
+    "topic": "Daily Life",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Regular exercise improves both physical and mental fitness.",
+    "type": "Declarative",
+    "topic": "Daily Life",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Adequate sleep helps the body recover and rejuvenate.",
+    "type": "Declarative",
+    "topic": "Daily Life",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Hobbies provide relaxation and creative outlets for stress.",
+    "type": "Declarative",
+    "topic": "Daily Life",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Social connections enhance happiness and life satisfaction.",
+    "type": "Declarative",
+    "topic": "Daily Life",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Time management skills increase daily productivity significantly.",
+    "type": "Declarative",
+    "topic": "Daily Life",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Reading books expands knowledge and imagination.",
+    "type": "Declarative",
+    "topic": "Daily Life",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Meditation reduces stress and promotes inner peace.",
+    "type": "Declarative",
+    "topic": "Daily Life",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Grocery shopping requires planning and budgeting skills.",
+    "type": "Declarative",
+    "topic": "Daily Life",
+    "wordCount": 7
+  },
+  {
+    "sentence": "How do you maintain work-life balance effectively?",
+    "type": "Interrogative",
+    "topic": "Daily Life",
+    "wordCount": 7
+  },
+  {
+    "sentence": "What morning rituals help you start the day?",
+    "type": "Interrogative",
+    "topic": "Daily Life",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Why is it important to stay hydrated throughout the day?",
+    "type": "Interrogative",
+    "topic": "Daily Life",
+    "wordCount": 10
+  },
+  {
+    "sentence": "How can people reduce daily stress and anxiety?",
+    "type": "Interrogative",
+    "topic": "Daily Life",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Which household chores do you find most challenging?",
+    "type": "Interrogative",
+    "topic": "Daily Life",
+    "wordCount": 8
+  },
+  {
+    "sentence": "What a wonderful surprise that birthday party was!",
+    "type": "Exclamatory",
+    "topic": "Daily Life",
+    "wordCount": 8
+  },
+  {
+    "sentence": "How delightful this homemade dessert tastes!",
+    "type": "Exclamatory",
+    "topic": "Daily Life",
+    "wordCount": 6
+  },
+  {
+    "sentence": "What an amazing transformation this room underwent!",
+    "type": "Exclamatory",
+    "topic": "Daily Life",
+    "wordCount": 7
+  },
+  {
+    "sentence": "How comforting a warm cup of tea feels!",
+    "type": "Exclamatory",
+    "topic": "Daily Life",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Organize your workspace to improve efficiency and focus.",
+    "type": "Imperative",
+    "topic": "Daily Life",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Set realistic goals and work toward them consistently.",
+    "type": "Imperative",
+    "topic": "Daily Life",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Maintain a positive attitude despite daily challenges.",
+    "type": "Imperative",
+    "topic": "Daily Life",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Spend quality time with loved ones regularly.",
+    "type": "Imperative",
+    "topic": "Daily Life",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Artificial intelligence revolutionizes various industries worldwide.",
+    "type": "Declarative",
+    "topic": "Technology",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Cloud computing enables remote access to data and applications.",
+    "type": "Declarative",
+    "topic": "Technology",
+    "wordCount": 9
+  },
+  {
+    "sentence": "Cybersecurity protects sensitive information from digital threats.",
+    "type": "Declarative",
+    "topic": "Technology",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Blockchain technology ensures secure and transparent transactions.",
+    "type": "Declarative",
+    "topic": "Technology",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Machine learning algorithms improve through pattern recognition.",
+    "type": "Declarative",
+    "topic": "Technology",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Smartphones connect people across vast geographical distances.",
+    "type": "Declarative",
+    "topic": "Technology",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Robotics automation increases manufacturing efficiency and precision.",
+    "type": "Declarative",
+    "topic": "Technology",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Social media platforms reshape modern communication patterns.",
+    "type": "Declarative",
+    "topic": "Technology",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Internet of Things devices create interconnected smart homes.",
+    "type": "Declarative",
+    "topic": "Technology",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Streaming services transform how audiences consume entertainment content.",
+    "type": "Declarative",
+    "topic": "Technology",
+    "wordCount": 8
+  },
+  {
+    "sentence": "How does encryption protect our online privacy?",
+    "type": "Interrogative",
+    "topic": "Technology",
+    "wordCount": 7
+  },
+  {
+    "sentence": "What impact will 5G networks have globally?",
+    "type": "Interrogative",
+    "topic": "Technology",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Why are software updates important for device security?",
+    "type": "Interrogative",
+    "topic": "Technology",
+    "wordCount": 7
+  },
+  {
+    "sentence": "How do algorithms influence our online experiences?",
+    "type": "Interrogative",
+    "topic": "Technology",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Which programming languages are most popular currently?",
+    "type": "Interrogative",
+    "topic": "Technology",
+    "wordCount": 6
+  },
+  {
+    "sentence": "What an innovative breakthrough in smartphone technology!",
+    "type": "Exclamatory",
+    "topic": "Technology",
+    "wordCount": 7
+  },
+  {
+    "sentence": "How impressive these autonomous vehicles have become!",
+    "type": "Exclamatory",
+    "topic": "Technology",
+    "wordCount": 7
+  },
+  {
+    "sentence": "What incredible speed this new processor delivers!",
+    "type": "Exclamatory",
+    "topic": "Technology",
+    "wordCount": 7
+  },
+  {
+    "sentence": "How convenient mobile payment systems are nowadays!",
+    "type": "Exclamatory",
+    "topic": "Technology",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Update your passwords regularly for better security.",
+    "type": "Imperative",
+    "topic": "Technology",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Enable two-factor authentication on important accounts.",
+    "type": "Imperative",
+    "topic": "Technology",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Learn new programming skills to advance your career.",
+    "type": "Imperative",
+    "topic": "Technology",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Protect your devices with reliable antivirus software.",
+    "type": "Imperative",
+    "topic": "Technology",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Professional athletes dedicate countless hours to training.",
+    "type": "Declarative",
+    "topic": "Sports",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Team sports teach valuable lessons about cooperation.",
+    "type": "Declarative",
+    "topic": "Sports",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Olympic competitions showcase the world's finest athletes.",
+    "type": "Declarative",
+    "topic": "Sports",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Basketball requires agility, coordination, and strategic thinking.",
+    "type": "Declarative",
+    "topic": "Sports",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Swimming provides excellent full-body cardiovascular exercise.",
+    "type": "Declarative",
+    "topic": "Sports",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Tennis matches test both physical stamina and mental strength.",
+    "type": "Declarative",
+    "topic": "Sports",
+    "wordCount": 9
+  },
+  {
+    "sentence": "Cycling builds endurance and strengthens leg muscles.",
+    "type": "Declarative",
+    "topic": "Sports",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Football unites fans from diverse backgrounds worldwide.",
+    "type": "Declarative",
+    "topic": "Sports",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Yoga enhances flexibility, balance, and mindfulness.",
+    "type": "Declarative",
+    "topic": "Sports",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Golf demands precision, patience, and consistent practice.",
+    "type": "Declarative",
+    "topic": "Sports",
+    "wordCount": 7
+  },
+  {
+    "sentence": "What strategies help teams win championship games?",
+    "type": "Interrogative",
+    "topic": "Sports",
+    "wordCount": 7
+  },
+  {
+    "sentence": "How do athletes recover from serious injuries?",
+    "type": "Interrogative",
+    "topic": "Sports",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Why is sportsmanship important in competitive events?",
+    "type": "Interrogative",
+    "topic": "Sports",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Which exercises improve athletic performance most effectively?",
+    "type": "Interrogative",
+    "topic": "Sports",
+    "wordCount": 7
+  },
+  {
+    "sentence": "How do coaches motivate players during difficult seasons?",
+    "type": "Interrogative",
+    "topic": "Sports",
+    "wordCount": 8
+  },
+  {
+    "sentence": "What an unbelievable comeback in the final quarter!",
+    "type": "Exclamatory",
+    "topic": "Sports",
+    "wordCount": 8
+  },
+  {
+    "sentence": "How spectacular that winning goal was!",
+    "type": "Exclamatory",
+    "topic": "Sports",
+    "wordCount": 6
+  },
+  {
+    "sentence": "What incredible teamwork led to this victory!",
+    "type": "Exclamatory",
+    "topic": "Sports",
+    "wordCount": 7
+  },
+  {
+    "sentence": "How amazing that world record performance was!",
+    "type": "Exclamatory",
+    "topic": "Sports",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Warm up properly before engaging in physical activities.",
+    "type": "Imperative",
+    "topic": "Sports",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Stay hydrated during intense workout sessions.",
+    "type": "Imperative",
+    "topic": "Sports",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Practice fundamental skills to improve your game.",
+    "type": "Imperative",
+    "topic": "Sports",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Respect opponents and officials during competitions.",
+    "type": "Imperative",
+    "topic": "Sports",
+    "wordCount": 6
+  },
+  {
+    "sentence": "International travel broadens perspectives and cultural understanding.",
+    "type": "Declarative",
+    "topic": "Travel",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Historic landmarks tell stories of civilizations past.",
+    "type": "Declarative",
+    "topic": "Travel",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Adventure tourism offers thrilling experiences in exotic locations.",
+    "type": "Declarative",
+    "topic": "Travel",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Local markets provide authentic cultural experiences for visitors.",
+    "type": "Declarative",
+    "topic": "Travel",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Backpacking teaches independence and resourcefulness to travelers.",
+    "type": "Declarative",
+    "topic": "Travel",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Coastal towns offer relaxing seaside escapes from city life.",
+    "type": "Declarative",
+    "topic": "Travel",
+    "wordCount": 9
+  },
+  {
+    "sentence": "Mountain hiking trails challenge adventurers with stunning views.",
+    "type": "Declarative",
+    "topic": "Travel",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Cultural festivals celebrate traditions unique to each region.",
+    "type": "Declarative",
+    "topic": "Travel",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Travel photography captures memorable moments from journeys.",
+    "type": "Declarative",
+    "topic": "Travel",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Hostels provide budget-friendly accommodation for solo travelers.",
+    "type": "Declarative",
+    "topic": "Travel",
+    "wordCount": 7
+  },
+  {
+    "sentence": "What destinations offer the best wildlife viewing opportunities?",
+    "type": "Interrogative",
+    "topic": "Travel",
+    "wordCount": 8
+  },
+  {
+    "sentence": "How can travelers minimize their environmental impact?",
+    "type": "Interrogative",
+    "topic": "Travel",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Why do people enjoy visiting historical sites?",
+    "type": "Interrogative",
+    "topic": "Travel",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Which countries require visas for international visitors?",
+    "type": "Interrogative",
+    "topic": "Travel",
+    "wordCount": 7
+  },
+  {
+    "sentence": "How do you plan budget-friendly travel itineraries?",
+    "type": "Interrogative",
+    "topic": "Travel",
+    "wordCount": 7
+  },
+  {
+    "sentence": "What an unforgettable journey through the ancient ruins!",
+    "type": "Exclamatory",
+    "topic": "Travel",
+    "wordCount": 8
+  },
+  {
+    "sentence": "How magnificent the palace architecture truly is!",
+    "type": "Exclamatory",
+    "topic": "Travel",
+    "wordCount": 7
+  },
+  {
+    "sentence": "What stunning landscapes we discovered on our trek!",
+    "type": "Exclamatory",
+    "topic": "Travel",
+    "wordCount": 8
+  },
+  {
+    "sentence": "How welcoming the local people were everywhere!",
+    "type": "Exclamatory",
+    "topic": "Travel",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Research your destination thoroughly before departure.",
+    "type": "Imperative",
+    "topic": "Travel",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Respect local customs and traditions during your visit.",
+    "type": "Imperative",
+    "topic": "Travel",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Keep important documents secure while traveling abroad.",
+    "type": "Imperative",
+    "topic": "Travel",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Learn basic phrases in the local language.",
+    "type": "Imperative",
+    "topic": "Travel",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Movies transport audiences to imaginative worlds and stories.",
+    "type": "Declarative",
+    "topic": "Entertainment",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Music festivals attract thousands of enthusiastic fans annually.",
+    "type": "Declarative",
+    "topic": "Entertainment",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Theater performances showcase talented actors and compelling narratives.",
+    "type": "Declarative",
+    "topic": "Entertainment",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Comedy shows provide laughter and stress relief.",
+    "type": "Declarative",
+    "topic": "Entertainment",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Video games offer interactive entertainment for all ages.",
+    "type": "Declarative",
+    "topic": "Entertainment",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Art galleries exhibit creative works from talented artists.",
+    "type": "Declarative",
+    "topic": "Entertainment",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Podcasts deliver engaging content on diverse topics.",
+    "type": "Declarative",
+    "topic": "Entertainment",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Dance performances combine athleticism with artistic expression.",
+    "type": "Declarative",
+    "topic": "Entertainment",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Book clubs encourage reading and literary discussions.",
+    "type": "Declarative",
+    "topic": "Entertainment",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Virtual reality creates immersive entertainment experiences.",
+    "type": "Declarative",
+    "topic": "Entertainment",
+    "wordCount": 5
+  },
+  {
+    "sentence": "What makes certain films become timeless classics?",
+    "type": "Interrogative",
+    "topic": "Entertainment",
+    "wordCount": 7
+  },
+  {
+    "sentence": "How do musicians develop their unique artistic style?",
+    "type": "Interrogative",
+    "topic": "Entertainment",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Why do some books become bestsellers?",
+    "type": "Interrogative",
+    "topic": "Entertainment",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Which genres appeal to different audience demographics?",
+    "type": "Interrogative",
+    "topic": "Entertainment",
+    "wordCount": 6
+  },
+  {
+    "sentence": "How do critics evaluate artistic performances?",
+    "type": "Interrogative",
+    "topic": "Entertainment",
+    "wordCount": 6
+  },
+  {
+    "sentence": "What a captivating plot twist that ending had!",
+    "type": "Exclamatory",
+    "topic": "Entertainment",
+    "wordCount": 7
+  },
+  {
+    "sentence": "How talented these performers truly are!",
+    "type": "Exclamatory",
+    "topic": "Entertainment",
+    "wordCount": 6
+  },
+  {
+    "sentence": "What an emotional and powerful soundtrack!",
+    "type": "Exclamatory",
+    "topic": "Entertainment",
+    "wordCount": 6
+  },
+  {
+    "sentence": "How beautifully choreographed that dance routine was!",
+    "type": "Exclamatory",
+    "topic": "Entertainment",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Support local artists by attending community events.",
+    "type": "Imperative",
+    "topic": "Entertainment",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Explore different genres to broaden your entertainment horizons.",
+    "type": "Imperative",
+    "topic": "Entertainment",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Recommend your favorite shows to friends and family.",
+    "type": "Imperative",
+    "topic": "Entertainment",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Appreciate the creativity behind every artistic production.",
+    "type": "Imperative",
+    "topic": "Entertainment",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Thunderstorms bring essential rainfall to drought-stricken regions.",
+    "type": "Declarative",
+    "topic": "Nature",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Moss grows softly on the ancient forest floor.",
+    "type": "Declarative",
+    "topic": "Nature",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Glaciers move slowly carving valleys through mountains.",
+    "type": "Declarative",
+    "topic": "Nature",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Fireflies illuminate summer evenings with their bioluminescent glow.",
+    "type": "Declarative",
+    "topic": "Nature",
+    "wordCount": 9
+  },
+  {
+    "sentence": "Tide pools reveal fascinating marine creatures and ecosystems.",
+    "type": "Declarative",
+    "topic": "Nature",
+    "wordCount": 8
+  },
+  {
+    "sentence": "When do most flowers bloom in your area?",
+    "type": "Interrogative",
+    "topic": "Nature",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Can you identify different bird species by their calls?",
+    "type": "Interrogative",
+    "topic": "Nature",
+    "wordCount": 9
+  },
+  {
+    "sentence": "What incredible diversity exists within rainforest ecosystems!",
+    "type": "Exclamatory",
+    "topic": "Nature",
+    "wordCount": 7
+  },
+  {
+    "sentence": "How serene the forest becomes at twilight!",
+    "type": "Exclamatory",
+    "topic": "Nature",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Conserve water resources during dry seasons.",
+    "type": "Imperative",
+    "topic": "Nature",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Avoid disturbing nesting birds during breeding season.",
+    "type": "Imperative",
+    "topic": "Nature",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Fusion energy could provide unlimited clean power.",
+    "type": "Declarative",
+    "topic": "Science",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Microscopes reveal invisible worlds of microorganisms.",
+    "type": "Declarative",
+    "topic": "Science",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Plate tectonics explain continental drift and mountain formation.",
+    "type": "Declarative",
+    "topic": "Science",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Stem cells offer promising treatments for various diseases.",
+    "type": "Declarative",
+    "topic": "Science",
+    "wordCount": 8
+  },
+  {
+    "sentence": "The universe continues expanding at an accelerating rate.",
+    "type": "Declarative",
+    "topic": "Science",
+    "wordCount": 8
+  },
+  {
+    "sentence": "What role do enzymes play in digestion?",
+    "type": "Interrogative",
+    "topic": "Science",
+    "wordCount": 7
+  },
+  {
+    "sentence": "How do scientists measure the age of fossils?",
+    "type": "Interrogative",
+    "topic": "Science",
+    "wordCount": 8
+  },
+  {
+    "sentence": "What astonishing complexity exists in a single cell!",
+    "type": "Exclamatory",
+    "topic": "Science",
+    "wordCount": 8
+  },
+  {
+    "sentence": "How precise modern medical imaging has become!",
+    "type": "Exclamatory",
+    "topic": "Science",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Document all variables when conducting scientific research.",
+    "type": "Imperative",
+    "topic": "Science",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Question assumptions and test hypotheses rigorously.",
+    "type": "Imperative",
+    "topic": "Science",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Libraries provide free access to knowledge and resources.",
+    "type": "Declarative",
+    "topic": "Education",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Peer tutoring helps students understand difficult concepts better.",
+    "type": "Declarative",
+    "topic": "Education",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Educational games make learning enjoyable for young children.",
+    "type": "Declarative",
+    "topic": "Education",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Mentorship programs guide students toward career success.",
+    "type": "Declarative",
+    "topic": "Education",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Field trips enhance classroom lessons with real-world experiences.",
+    "type": "Declarative",
+    "topic": "Education",
+    "wordCount": 8
+  },
+  {
+    "sentence": "What factors contribute to effective teaching methods?",
+    "type": "Interrogative",
+    "topic": "Education",
+    "wordCount": 7
+  },
+  {
+    "sentence": "How can technology improve distance learning outcomes?",
+    "type": "Interrogative",
+    "topic": "Education",
+    "wordCount": 7
+  },
+  {
+    "sentence": "What remarkable progress this student has made!",
+    "type": "Exclamatory",
+    "topic": "Education",
+    "wordCount": 7
+  },
+  {
+    "sentence": "How engaging that interactive lesson was!",
+    "type": "Exclamatory",
+    "topic": "Education",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Take detailed notes during lectures and presentations.",
+    "type": "Imperative",
+    "topic": "Education",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Seek feedback to improve your academic performance.",
+    "type": "Imperative",
+    "topic": "Education",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Cooking at home saves money and promotes healthy eating.",
+    "type": "Declarative",
+    "topic": "Daily Life",
+    "wordCount": 9
+  },
+  {
+    "sentence": "Volunteering enriches communities and builds personal character.",
+    "type": "Declarative",
+    "topic": "Daily Life",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Public transportation reduces traffic congestion and pollution.",
+    "type": "Declarative",
+    "topic": "Daily Life",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Gardening provides fresh produce and outdoor exercise.",
+    "type": "Declarative",
+    "topic": "Daily Life",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Recycling helps reduce environmental waste significantly.",
+    "type": "Declarative",
+    "topic": "Daily Life",
+    "wordCount": 6
+  },
+  {
+    "sentence": "What daily habits contribute to long-term happiness?",
+    "type": "Interrogative",
+    "topic": "Daily Life",
+    "wordCount": 8
+  },
+  {
+    "sentence": "How do you prioritize tasks effectively each day?",
+    "type": "Interrogative",
+    "topic": "Daily Life",
+    "wordCount": 8
+  },
+  {
+    "sentence": "What a lovely afternoon spent with family!",
+    "type": "Exclamatory",
+    "topic": "Daily Life",
+    "wordCount": 7
+  },
+  {
+    "sentence": "How refreshing this morning walk feels!",
+    "type": "Exclamatory",
+    "topic": "Daily Life",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Establish healthy boundaries in personal relationships.",
+    "type": "Imperative",
+    "topic": "Daily Life",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Express gratitude daily for life's blessings.",
+    "type": "Imperative",
+    "topic": "Daily Life",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Biometric authentication enhances device security measures.",
+    "type": "Declarative",
+    "topic": "Technology",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Drones deliver packages and capture aerial photography.",
+    "type": "Declarative",
+    "topic": "Technology",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Wearable technology monitors health metrics continuously.",
+    "type": "Declarative",
+    "topic": "Technology",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Digital assistants simplify everyday tasks through voice commands.",
+    "type": "Declarative",
+    "topic": "Technology",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Augmented reality overlays digital information on physical environments.",
+    "type": "Declarative",
+    "topic": "Technology",
+    "wordCount": 8
+  },
+  {
+    "sentence": "What ethical concerns arise from artificial intelligence?",
+    "type": "Interrogative",
+    "topic": "Technology",
+    "wordCount": 7
+  },
+  {
+    "sentence": "How can we protect personal data online?",
+    "type": "Interrogative",
+    "topic": "Technology",
+    "wordCount": 7
+  },
+  {
+    "sentence": "What incredible innovation electric vehicles represent!",
+    "type": "Exclamatory",
+    "topic": "Technology",
+    "wordCount": 6
+  },
+  {
+    "sentence": "How rapidly technology transforms our daily lives!",
+    "type": "Exclamatory",
+    "topic": "Technology",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Configure privacy settings on all social media platforms.",
+    "type": "Imperative",
+    "topic": "Technology",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Verify information sources before sharing content online.",
+    "type": "Imperative",
+    "topic": "Technology",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Boxing develops discipline, strength, and cardiovascular fitness.",
+    "type": "Declarative",
+    "topic": "Sports",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Rock climbing challenges both body and mind equally.",
+    "type": "Declarative",
+    "topic": "Sports",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Skiing provides exhilarating winter recreation opportunities.",
+    "type": "Declarative",
+    "topic": "Sports",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Rowing builds strength while offering peaceful water experiences.",
+    "type": "Declarative",
+    "topic": "Sports",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Martial arts teach self-defense and mental discipline.",
+    "type": "Declarative",
+    "topic": "Sports",
+    "wordCount": 7
+  },
+  {
+    "sentence": "What mental preparation do athletes use before competitions?",
+    "type": "Interrogative",
+    "topic": "Sports",
+    "wordCount": 8
+  },
+  {
+    "sentence": "How do professional teams build winning strategies?",
+    "type": "Interrogative",
+    "topic": "Sports",
+    "wordCount": 7
+  },
+  {
+    "sentence": "What a phenomenal athletic achievement that was!",
+    "type": "Exclamatory",
+    "topic": "Sports",
+    "wordCount": 7
+  },
+  {
+    "sentence": "How intense that championship match turned out!",
+    "type": "Exclamatory",
+    "topic": "Sports",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Cool down gradually after intense exercise.",
+    "type": "Imperative",
+    "topic": "Sports",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Set achievable fitness goals and track progress.",
+    "type": "Imperative",
+    "topic": "Sports",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Eco-tourism promotes environmental conservation through responsible travel.",
+    "type": "Declarative",
+    "topic": "Travel",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Cruise ships offer luxury accommodations and multiple destinations.",
+    "type": "Declarative",
+    "topic": "Travel",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Road trips provide freedom to explore at your pace.",
+    "type": "Declarative",
+    "topic": "Travel",
+    "wordCount": 9
+  },
+  {
+    "sentence": "UNESCO sites preserve important cultural and natural heritage.",
+    "type": "Declarative",
+    "topic": "Travel",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Travel insurance protects against unexpected emergencies abroad.",
+    "type": "Declarative",
+    "topic": "Travel",
+    "wordCount": 7
+  },
+  {
+    "sentence": "What essential items should you pack for international trips?",
+    "type": "Interrogative",
+    "topic": "Travel",
+    "wordCount": 9
+  },
+  {
+    "sentence": "How do different cultures celebrate traditional holidays?",
+    "type": "Interrogative",
+    "topic": "Travel",
+    "wordCount": 7
+  },
+  {
+    "sentence": "What breathtaking architecture these cathedrals display!",
+    "type": "Exclamatory",
+    "topic": "Travel",
+    "wordCount": 6
+  },
+  {
+    "sentence": "How diverse and vibrant this market is!",
+    "type": "Exclamatory",
+    "topic": "Travel",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Bring appropriate clothing for different weather conditions.",
+    "type": "Imperative",
+    "topic": "Travel",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Purchase travel guides before visiting new destinations.",
+    "type": "Imperative",
+    "topic": "Travel",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Animation brings imaginative characters and stories to life.",
+    "type": "Declarative",
+    "topic": "Entertainment",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Live concerts create unforgettable shared musical experiences.",
+    "type": "Declarative",
+    "topic": "Entertainment",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Reality shows offer unscripted drama and entertainment.",
+    "type": "Declarative",
+    "topic": "Entertainment",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Stand-up comedy provides social commentary through humor.",
+    "type": "Declarative",
+    "topic": "Entertainment",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Graphic novels combine visual art with storytelling narratives.",
+    "type": "Declarative",
+    "topic": "Entertainment",
+    "wordCount": 7
+  },
+  {
+    "sentence": "What elements make memorable movie soundtracks?",
+    "type": "Interrogative",
+    "topic": "Entertainment",
+    "wordCount": 6
+  },
+  {
+    "sentence": "How do streaming platforms change viewing habits?",
+    "type": "Interrogative",
+    "topic": "Entertainment",
+    "wordCount": 7
+  },
+  {
+    "sentence": "What a gripping storyline that novel had!",
+    "type": "Exclamatory",
+    "topic": "Entertainment",
+    "wordCount": 6
+  },
+  {
+    "sentence": "How mesmerizing the special effects were!",
+    "type": "Exclamatory",
+    "topic": "Entertainment",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Discover independent films at local theaters.",
+    "type": "Imperative",
+    "topic": "Entertainment",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Share your reviews to help others find quality content.",
+    "type": "Imperative",
+    "topic": "Entertainment",
+    "wordCount": 9
+  },
+  {
+    "sentence": "Volcanoes shape landscapes through eruptions and lava flows.",
+    "type": "Declarative",
+    "topic": "Nature",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Bees pollinate flowers ensuring plant reproduction continues.",
+    "type": "Declarative",
+    "topic": "Nature",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Geothermal springs create natural hot water pools.",
+    "type": "Declarative",
+    "topic": "Nature",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Migratory patterns help animals find food and shelter.",
+    "type": "Declarative",
+    "topic": "Nature",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Are wetlands important for biodiversity conservation?",
+    "type": "Interrogative",
+    "topic": "Nature",
+    "wordCount": 6
+  },
+  {
+    "sentence": "How do forests regulate global climate patterns?",
+    "type": "Interrogative",
+    "topic": "Nature",
+    "wordCount": 7
+  },
+  {
+    "sentence": "What majestic creatures roam the African savanna!",
+    "type": "Exclamatory",
+    "topic": "Nature",
+    "wordCount": 7
+  },
+  {
+    "sentence": "How pristine this wilderness area remains!",
+    "type": "Exclamatory",
+    "topic": "Nature",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Reduce plastic consumption to protect marine life.",
+    "type": "Imperative",
+    "topic": "Nature",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Nanotechnology manipulates matter at molecular scales.",
+    "type": "Declarative",
+    "topic": "Science",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Genetics determines inherited traits and characteristics.",
+    "type": "Declarative",
+    "topic": "Science",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Neuroscience explores how brains process information.",
+    "type": "Declarative",
+    "topic": "Science",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Telescopes extend our vision across cosmic distances.",
+    "type": "Declarative",
+    "topic": "Science",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Why do scientists study extremophile organisms?",
+    "type": "Interrogative",
+    "topic": "Science",
+    "wordCount": 6
+  },
+  {
+    "sentence": "How does cryogenics preserve biological materials?",
+    "type": "Interrogative",
+    "topic": "Science",
+    "wordCount": 6
+  },
+  {
+    "sentence": "What groundbreaking research in immunology!",
+    "type": "Exclamatory",
+    "topic": "Science",
+    "wordCount": 5
+  },
+  {
+    "sentence": "How elegant mathematical proofs can be!",
+    "type": "Exclamatory",
+    "topic": "Science",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Collaborate with peers on research projects.",
+    "type": "Imperative",
+    "topic": "Science",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Distance learning expands educational access globally.",
+    "type": "Declarative",
+    "topic": "Education",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Standardized tests measure academic achievement levels.",
+    "type": "Declarative",
+    "topic": "Education",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Creative arts education nurtures innovation and expression.",
+    "type": "Declarative",
+    "topic": "Education",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Internships provide valuable hands-on career experience.",
+    "type": "Declarative",
+    "topic": "Education",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Should homework be reduced in elementary schools?",
+    "type": "Interrogative",
+    "topic": "Education",
+    "wordCount": 7
+  },
+  {
+    "sentence": "How does project-based learning enhance understanding?",
+    "type": "Interrogative",
+    "topic": "Education",
+    "wordCount": 6
+  },
+  {
+    "sentence": "What impressive research that thesis presents!",
+    "type": "Exclamatory",
+    "topic": "Education",
+    "wordCount": 6
+  },
+  {
+    "sentence": "How motivating that scholarship award is!",
+    "type": "Exclamatory",
+    "topic": "Education",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Utilize library resources for comprehensive research.",
+    "type": "Imperative",
+    "topic": "Education",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Meal planning streamlines grocery shopping and budgeting.",
+    "type": "Declarative",
+    "topic": "Daily Life",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Decluttering creates peaceful and organized living spaces.",
+    "type": "Declarative",
+    "topic": "Daily Life",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Journaling helps process emotions and track personal growth.",
+    "type": "Declarative",
+    "topic": "Daily Life",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Financial planning ensures long-term economic stability.",
+    "type": "Declarative",
+    "topic": "Daily Life",
+    "wordCount": 6
+  },
+  {
+    "sentence": "How do you balance career and personal life?",
+    "type": "Interrogative",
+    "topic": "Daily Life",
+    "wordCount": 8
+  },
+  {
+    "sentence": "What strategies help manage monthly expenses?",
+    "type": "Interrogative",
+    "topic": "Daily Life",
+    "wordCount": 6
+  },
+  {
+    "sentence": "What a productive day that turned out!",
+    "type": "Exclamatory",
+    "topic": "Daily Life",
+    "wordCount": 7
+  },
+  {
+    "sentence": "How satisfying completing projects feels!",
+    "type": "Exclamatory",
+    "topic": "Daily Life",
+    "wordCount": 5
+  },
+  {
+    "sentence": "Create daily routines that support your goals.",
+    "type": "Imperative",
+    "topic": "Daily Life",
+    "wordCount": 7
+  },
+  {
+    "sentence": "3D printing revolutionizes manufacturing and prototyping processes.",
+    "type": "Declarative",
+    "topic": "Technology",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Smart homes automate lighting, temperature, and security systems.",
+    "type": "Declarative",
+    "topic": "Technology",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Renewable energy technology reduces carbon footprint significantly.",
+    "type": "Declarative",
+    "topic": "Technology",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Satellite technology enables global communication networks.",
+    "type": "Declarative",
+    "topic": "Technology",
+    "wordCount": 6
+  },
+  {
+    "sentence": "What challenges does quantum encryption solve?",
+    "type": "Interrogative",
+    "topic": "Technology",
+    "wordCount": 6
+  },
+  {
+    "sentence": "How will edge computing change data processing?",
+    "type": "Interrogative",
+    "topic": "Technology",
+    "wordCount": 7
+  },
+  {
+    "sentence": "What transformative potential biotechnology offers!",
+    "type": "Exclamatory",
+    "topic": "Technology",
+    "wordCount": 5
+  },
+  {
+    "sentence": "How seamlessly these devices integrate together!",
+    "type": "Exclamatory",
+    "topic": "Technology",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Limit screen time to protect eye health.",
+    "type": "Imperative",
+    "topic": "Technology",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Archery requires focus, precision, and steady hands.",
+    "type": "Declarative",
+    "topic": "Sports",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Skateboarding combines athleticism with creative self-expression.",
+    "type": "Declarative",
+    "topic": "Sports",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Track and field competitions showcase diverse athletic abilities.",
+    "type": "Declarative",
+    "topic": "Sports",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Surfing connects athletes with ocean waves naturally.",
+    "type": "Declarative",
+    "topic": "Sports",
+    "wordCount": 7
+  },
+  {
+    "sentence": "What training regimens produce Olympic champions?",
+    "type": "Interrogative",
+    "topic": "Sports",
+    "wordCount": 6
+  },
+  {
+    "sentence": "How do teams develop effective communication patterns?",
+    "type": "Interrogative",
+    "topic": "Sports",
+    "wordCount": 7
+  },
+  {
+    "sentence": "What an extraordinary display of skill!",
+    "type": "Exclamatory",
+    "topic": "Sports",
+    "wordCount": 6
+  },
+  {
+    "sentence": "How inspiring that underdog victory was!",
+    "type": "Exclamatory",
+    "topic": "Sports",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Maintain proper form during strength training exercises.",
+    "type": "Imperative",
+    "topic": "Sports",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Heritage sites connect visitors with historical narratives.",
+    "type": "Declarative",
+    "topic": "Travel",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Travel bloggers document adventures and share destination tips.",
+    "type": "Declarative",
+    "topic": "Travel",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Language barriers create opportunities for creative communication.",
+    "type": "Declarative",
+    "topic": "Travel",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Souvenir shopping preserves memories of special trips.",
+    "type": "Declarative",
+    "topic": "Travel",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Which transportation methods work best for European travel?",
+    "type": "Interrogative",
+    "topic": "Travel",
+    "wordCount": 8
+  },
+  {
+    "sentence": "How can solo travelers stay safe abroad?",
+    "type": "Interrogative",
+    "topic": "Travel",
+    "wordCount": 7
+  },
+  {
+    "sentence": "What enchanting castles dot the countryside!",
+    "type": "Exclamatory",
+    "topic": "Travel",
+    "wordCount": 6
+  },
+  {
+    "sentence": "How delicious authentic regional cuisine tastes!",
+    "type": "Exclamatory",
+    "topic": "Travel",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Exchange currency before arriving at your destination.",
+    "type": "Imperative",
+    "topic": "Travel",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Broadway shows feature world-class theatrical productions.",
+    "type": "Declarative",
+    "topic": "Entertainment",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Digital streaming changed how audiences access media content.",
+    "type": "Declarative",
+    "topic": "Entertainment",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Fan conventions celebrate beloved entertainment franchises.",
+    "type": "Declarative",
+    "topic": "Entertainment",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Celebrity interviews reveal personalities behind public personas.",
+    "type": "Declarative",
+    "topic": "Entertainment",
+    "wordCount": 7
+  },
+  {
+    "sentence": "What makes television series addictive to viewers?",
+    "type": "Interrogative",
+    "topic": "Entertainment",
+    "wordCount": 7
+  },
+  {
+    "sentence": "How do award shows influence industry trends?",
+    "type": "Interrogative",
+    "topic": "Entertainment",
+    "wordCount": 7
+  },
+  {
+    "sentence": "What a brilliant performance that actor delivered!",
+    "type": "Exclamatory",
+    "topic": "Entertainment",
+    "wordCount": 7
+  },
+  {
+    "sentence": "How clever that plot resolution turned out!",
+    "type": "Exclamatory",
+    "topic": "Entertainment",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Subscribe to cultural newsletters for event updates.",
+    "type": "Imperative",
+    "topic": "Entertainment",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Forests provide oxygen and habitats for countless species.",
+    "type": "Declarative",
+    "topic": "Nature",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Hummingbirds hover gracefully while feeding on nectar.",
+    "type": "Declarative",
+    "topic": "Nature",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Lightning strikes illuminate the dark stormy sky.",
+    "type": "Declarative",
+    "topic": "Nature",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Sand dunes shift constantly with changing winds.",
+    "type": "Declarative",
+    "topic": "Nature",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Kelp forests create underwater ecosystems along coastlines.",
+    "type": "Declarative",
+    "topic": "Nature",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Seasons cycle predictably throughout the calendar year.",
+    "type": "Declarative",
+    "topic": "Nature",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Redwood trees grow to incredible heights over centuries.",
+    "type": "Declarative",
+    "topic": "Nature",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Arctic ice caps reflect sunlight back into space.",
+    "type": "Declarative",
+    "topic": "Nature",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Mushrooms decompose organic matter in forest ecosystems.",
+    "type": "Declarative",
+    "topic": "Nature",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Prairie grasslands support diverse wildlife populations.",
+    "type": "Declarative",
+    "topic": "Nature",
+    "wordCount": 6
+  },
+  {
+    "sentence": "What factors influence animal migration timing?",
+    "type": "Interrogative",
+    "topic": "Nature",
+    "wordCount": 6
+  },
+  {
+    "sentence": "How do plants adapt to limited water availability?",
+    "type": "Interrogative",
+    "topic": "Nature",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Why are pollinators essential for food production?",
+    "type": "Interrogative",
+    "topic": "Nature",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Which ecosystems face the greatest conservation challenges?",
+    "type": "Interrogative",
+    "topic": "Nature",
+    "wordCount": 7
+  },
+  {
+    "sentence": "When does wildlife activity peak in different seasons?",
+    "type": "Interrogative",
+    "topic": "Nature",
+    "wordCount": 8
+  },
+  {
+    "sentence": "What extraordinary beauty this canyon reveals!",
+    "type": "Exclamatory",
+    "topic": "Nature",
+    "wordCount": 6
+  },
+  {
+    "sentence": "How vibrant the coral reef appears underwater!",
+    "type": "Exclamatory",
+    "topic": "Nature",
+    "wordCount": 7
+  },
+  {
+    "sentence": "What amazing adaptations desert creatures possess!",
+    "type": "Exclamatory",
+    "topic": "Nature",
+    "wordCount": 6
+  },
+  {
+    "sentence": "How powerful that thunderstorm was last night!",
+    "type": "Exclamatory",
+    "topic": "Nature",
+    "wordCount": 7
+  },
+  {
+    "sentence": "What delicate patterns snowflakes create!",
+    "type": "Exclamatory",
+    "topic": "Nature",
+    "wordCount": 5
+  },
+  {
+    "sentence": "Protect endangered species through conservation efforts.",
+    "type": "Imperative",
+    "topic": "Nature",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Leave no trace when exploring natural areas.",
+    "type": "Imperative",
+    "topic": "Nature",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Support sustainable farming practices in your community.",
+    "type": "Imperative",
+    "topic": "Nature",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Observe seasonal changes in your local environment.",
+    "type": "Imperative",
+    "topic": "Nature",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Particle physics explores fundamental components of matter.",
+    "type": "Declarative",
+    "topic": "Science",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Antibodies defend the body against infectious diseases.",
+    "type": "Declarative",
+    "topic": "Science",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Superconductors conduct electricity without resistance at low temperatures.",
+    "type": "Declarative",
+    "topic": "Science",
+    "wordCount": 9
+  },
+  {
+    "sentence": "Fossils provide evidence of prehistoric life forms.",
+    "type": "Declarative",
+    "topic": "Science",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Electromagnetic waves travel at the speed of light.",
+    "type": "Declarative",
+    "topic": "Science",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Catalysts accelerate chemical reactions without being consumed.",
+    "type": "Declarative",
+    "topic": "Science",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Carbon dating determines the age of organic materials.",
+    "type": "Declarative",
+    "topic": "Science",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Microbiomes influence human health and disease resistance.",
+    "type": "Declarative",
+    "topic": "Science",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Semiconductors enable modern electronic device functionality.",
+    "type": "Declarative",
+    "topic": "Science",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Chromosomes carry hereditary information in living organisms.",
+    "type": "Declarative",
+    "topic": "Science",
+    "wordCount": 7
+  },
+  {
+    "sentence": "What discoveries await in deep ocean exploration?",
+    "type": "Interrogative",
+    "topic": "Science",
+    "wordCount": 7
+  },
+  {
+    "sentence": "How does gene therapy treat genetic disorders?",
+    "type": "Interrogative",
+    "topic": "Science",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Why do elements combine in specific ratios?",
+    "type": "Interrogative",
+    "topic": "Science",
+    "wordCount": 7
+  },
+  {
+    "sentence": "What causes northern lights to appear?",
+    "type": "Interrogative",
+    "topic": "Science",
+    "wordCount": 6
+  },
+  {
+    "sentence": "How will nanotechnology transform medical treatments?",
+    "type": "Interrogative",
+    "topic": "Science",
+    "wordCount": 6
+  },
+  {
+    "sentence": "What remarkable precision electron microscopes achieve!",
+    "type": "Exclamatory",
+    "topic": "Science",
+    "wordCount": 6
+  },
+  {
+    "sentence": "How astounding the scale of galaxies truly is!",
+    "type": "Exclamatory",
+    "topic": "Science",
+    "wordCount": 8
+  },
+  {
+    "sentence": "What incredible potential stem cell research holds!",
+    "type": "Exclamatory",
+    "topic": "Science",
+    "wordCount": 7
+  },
+  {
+    "sentence": "How fascinating bacterial communication networks are!",
+    "type": "Exclamatory",
+    "topic": "Science",
+    "wordCount": 6
+  },
+  {
+    "sentence": "What groundbreaking applications CRISPR technology enables!",
+    "type": "Exclamatory",
+    "topic": "Science",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Maintain accurate measurements during laboratory procedures.",
+    "type": "Imperative",
+    "topic": "Science",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Follow ethical guidelines in all research activities.",
+    "type": "Imperative",
+    "topic": "Science",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Peer review your findings before publishing results.",
+    "type": "Imperative",
+    "topic": "Science",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Calibrate instruments regularly for consistent accuracy.",
+    "type": "Imperative",
+    "topic": "Science",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Study groups enhance collaborative learning experiences.",
+    "type": "Declarative",
+    "topic": "Education",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Curriculum development adapts to changing workforce needs.",
+    "type": "Declarative",
+    "topic": "Education",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Teachers inspire students to reach their full potential.",
+    "type": "Declarative",
+    "topic": "Education",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Literacy programs empower individuals through reading skills.",
+    "type": "Declarative",
+    "topic": "Education",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Educational podcasts deliver knowledge in accessible formats.",
+    "type": "Declarative",
+    "topic": "Education",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Special education addresses diverse learning requirements.",
+    "type": "Declarative",
+    "topic": "Education",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Student exchanges promote cross-cultural understanding.",
+    "type": "Declarative",
+    "topic": "Education",
+    "wordCount": 5
+  },
+  {
+    "sentence": "Classroom technology facilitates interactive instruction methods.",
+    "type": "Declarative",
+    "topic": "Education",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Academic conferences foster professional development opportunities.",
+    "type": "Declarative",
+    "topic": "Education",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Assessment tools measure student progress objectively.",
+    "type": "Declarative",
+    "topic": "Education",
+    "wordCount": 6
+  },
+  {
+    "sentence": "What role does creativity play in education?",
+    "type": "Interrogative",
+    "topic": "Education",
+    "wordCount": 7
+  },
+  {
+    "sentence": "How can schools better support struggling learners?",
+    "type": "Interrogative",
+    "topic": "Education",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Why is early childhood education so important?",
+    "type": "Interrogative",
+    "topic": "Education",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Which assessment methods measure understanding most accurately?",
+    "type": "Interrogative",
+    "topic": "Education",
+    "wordCount": 7
+  },
+  {
+    "sentence": "How does physical activity improve learning outcomes?",
+    "type": "Interrogative",
+    "topic": "Education",
+    "wordCount": 7
+  },
+  {
+    "sentence": "What phenomenal dedication these educators demonstrate!",
+    "type": "Exclamatory",
+    "topic": "Education",
+    "wordCount": 6
+  },
+  {
+    "sentence": "How transformative quality education can be!",
+    "type": "Exclamatory",
+    "topic": "Education",
+    "wordCount": 6
+  },
+  {
+    "sentence": "What creative solutions students develop!",
+    "type": "Exclamatory",
+    "topic": "Education",
+    "wordCount": 5
+  },
+  {
+    "sentence": "How impressive that science fair project was!",
+    "type": "Exclamatory",
+    "topic": "Education",
+    "wordCount": 7
+  },
+  {
+    "sentence": "What innovative teaching methods modern educators use!",
+    "type": "Exclamatory",
+    "topic": "Education",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Engage actively with course materials and discussions.",
+    "type": "Imperative",
+    "topic": "Education",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Challenge yourself with increasingly difficult concepts.",
+    "type": "Imperative",
+    "topic": "Education",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Explore subjects beyond your primary area of study.",
+    "type": "Imperative",
+    "topic": "Education",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Connect theoretical knowledge with practical applications.",
+    "type": "Imperative",
+    "topic": "Education",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Community service strengthens social bonds and empathy.",
+    "type": "Declarative",
+    "topic": "Daily Life",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Morning sunlight regulates circadian rhythms naturally.",
+    "type": "Declarative",
+    "topic": "Daily Life",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Minimalism promotes intentional living with fewer possessions.",
+    "type": "Declarative",
+    "topic": "Daily Life",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Neighborhood walks provide exercise and social connection.",
+    "type": "Declarative",
+    "topic": "Daily Life",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Handwritten letters carry personal meaning and thoughtfulness.",
+    "type": "Declarative",
+    "topic": "Daily Life",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Weekend markets offer fresh local produce.",
+    "type": "Declarative",
+    "topic": "Daily Life",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Pet ownership provides companionship and routine.",
+    "type": "Declarative",
+    "topic": "Daily Life",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Home maintenance prevents costly repairs over time.",
+    "type": "Declarative",
+    "topic": "Daily Life",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Seasonal cleaning refreshes living spaces thoroughly.",
+    "type": "Declarative",
+    "topic": "Daily Life",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Family traditions create lasting memories across generations.",
+    "type": "Declarative",
+    "topic": "Daily Life",
+    "wordCount": 7
+  },
+  {
+    "sentence": "What simple pleasures bring you daily joy?",
+    "type": "Interrogative",
+    "topic": "Daily Life",
+    "wordCount": 7
+  },
+  {
+    "sentence": "How do you unwind after stressful days?",
+    "type": "Interrogative",
+    "topic": "Daily Life",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Why is establishing routines beneficial for wellbeing?",
+    "type": "Interrogative",
+    "topic": "Daily Life",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Which daily habits improve overall quality of life?",
+    "type": "Interrogative",
+    "topic": "Daily Life",
+    "wordCount": 8
+  },
+  {
+    "sentence": "How can mindfulness enhance everyday experiences?",
+    "type": "Interrogative",
+    "topic": "Daily Life",
+    "wordCount": 6
+  },
+  {
+    "sentence": "What a beautiful garden you've cultivated!",
+    "type": "Exclamatory",
+    "topic": "Daily Life",
+    "wordCount": 6
+  },
+  {
+    "sentence": "How organized your workspace looks now!",
+    "type": "Exclamatory",
+    "topic": "Daily Life",
+    "wordCount": 6
+  },
+  {
+    "sentence": "What thoughtful gestures neighbors share!",
+    "type": "Exclamatory",
+    "topic": "Daily Life",
+    "wordCount": 5
+  },
+  {
+    "sentence": "How peaceful Sunday mornings can be!",
+    "type": "Exclamatory",
+    "topic": "Daily Life",
+    "wordCount": 6
+  },
+  {
+    "sentence": "What joy cooking brings to families!",
+    "type": "Exclamatory",
+    "topic": "Daily Life",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Prioritize self-care alongside daily responsibilities.",
+    "type": "Imperative",
+    "topic": "Daily Life",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Limit distractions during focused work periods.",
+    "type": "Imperative",
+    "topic": "Daily Life",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Cultivate gratitude through daily reflection practices.",
+    "type": "Imperative",
+    "topic": "Daily Life",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Balance screen time with outdoor activities.",
+    "type": "Imperative",
+    "topic": "Daily Life",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Fiber optic cables transmit data at incredible speeds.",
+    "type": "Declarative",
+    "topic": "Technology",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Open source software promotes collaborative development worldwide.",
+    "type": "Declarative",
+    "topic": "Technology",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Cryptocurrency utilizes blockchain for secure digital transactions.",
+    "type": "Declarative",
+    "topic": "Technology",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Voice recognition technology understands spoken commands accurately.",
+    "type": "Declarative",
+    "topic": "Technology",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Wireless charging eliminates cable clutter for devices.",
+    "type": "Declarative",
+    "topic": "Technology",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Motion sensors enable automatic lighting control systems.",
+    "type": "Declarative",
+    "topic": "Technology",
+    "wordCount": 6
+  },
+  {
+    "sentence": "GPS technology provides accurate location tracking globally.",
+    "type": "Declarative",
+    "topic": "Technology",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Touchscreen interfaces revolutionized mobile device interaction.",
+    "type": "Declarative",
+    "topic": "Technology",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Battery technology advances extend device usage times.",
+    "type": "Declarative",
+    "topic": "Technology",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Computer vision enables machines to interpret visual information.",
+    "type": "Declarative",
+    "topic": "Technology",
+    "wordCount": 8
+  },
+  {
+    "sentence": "What security risks does Internet of Things pose?",
+    "type": "Interrogative",
+    "topic": "Technology",
+    "wordCount": 8
+  },
+  {
+    "sentence": "How will artificial intelligence affect employment?",
+    "type": "Interrogative",
+    "topic": "Technology",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Why are tech companies investing in space exploration?",
+    "type": "Interrogative",
+    "topic": "Technology",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Which emerging technologies show greatest promise?",
+    "type": "Interrogative",
+    "topic": "Technology",
+    "wordCount": 6
+  },
+  {
+    "sentence": "How does machine learning differ from traditional programming?",
+    "type": "Interrogative",
+    "topic": "Technology",
+    "wordCount": 8
+  },
+  {
+    "sentence": "What revolutionary changes 5G networks enable!",
+    "type": "Exclamatory",
+    "topic": "Technology",
+    "wordCount": 6
+  },
+  {
+    "sentence": "How sophisticated modern robotics have become!",
+    "type": "Exclamatory",
+    "topic": "Technology",
+    "wordCount": 6
+  },
+  {
+    "sentence": "What incredible computing power quantum computers possess!",
+    "type": "Exclamatory",
+    "topic": "Technology",
+    "wordCount": 7
+  },
+  {
+    "sentence": "How transformative digital technology has been!",
+    "type": "Exclamatory",
+    "topic": "Technology",
+    "wordCount": 6
+  },
+  {
+    "sentence": "What amazing capabilities smartwatches now offer!",
+    "type": "Exclamatory",
+    "topic": "Technology",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Keep software and applications updated regularly.",
+    "type": "Imperative",
+    "topic": "Technology",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Use strong encryption for sensitive communications.",
+    "type": "Imperative",
+    "topic": "Technology",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Backup important data to multiple secure locations.",
+    "type": "Imperative",
+    "topic": "Technology",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Research privacy policies before installing new apps.",
+    "type": "Imperative",
+    "topic": "Technology",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Weightlifting builds muscle strength and bone density.",
+    "type": "Declarative",
+    "topic": "Sports",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Volleyball develops teamwork and quick reflexes.",
+    "type": "Declarative",
+    "topic": "Sports",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Distance running improves cardiovascular endurance significantly.",
+    "type": "Declarative",
+    "topic": "Sports",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Baseball requires precision, timing, and strategic thinking.",
+    "type": "Declarative",
+    "topic": "Sports",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Ice hockey combines speed, skill, and physical contact.",
+    "type": "Declarative",
+    "topic": "Sports",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Fencing teaches discipline, focus, and tactical awareness.",
+    "type": "Declarative",
+    "topic": "Sports",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Rugby builds toughness and requires exceptional teamwork.",
+    "type": "Declarative",
+    "topic": "Sports",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Badminton provides excellent aerobic exercise opportunities.",
+    "type": "Declarative",
+    "topic": "Sports",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Gymnastics demands flexibility, strength, and artistic expression.",
+    "type": "Declarative",
+    "topic": "Sports",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Triathlon training develops comprehensive athletic fitness.",
+    "type": "Declarative",
+    "topic": "Sports",
+    "wordCount": 6
+  },
+  {
+    "sentence": "What psychological techniques improve athletic performance?",
+    "type": "Interrogative",
+    "topic": "Sports",
+    "wordCount": 6
+  },
+  {
+    "sentence": "How do athletes prevent common sports injuries?",
+    "type": "Interrogative",
+    "topic": "Sports",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Why is rest crucial for athletic improvement?",
+    "type": "Interrogative",
+    "topic": "Sports",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Which stretching methods prevent muscle strain effectively?",
+    "type": "Interrogative",
+    "topic": "Sports",
+    "wordCount": 7
+  },
+  {
+    "sentence": "How does altitude affect endurance training?",
+    "type": "Interrogative",
+    "topic": "Sports",
+    "wordCount": 6
+  },
+  {
+    "sentence": "What a nail-biting finish that race had!",
+    "type": "Exclamatory",
+    "topic": "Sports",
+    "wordCount": 7
+  },
+  {
+    "sentence": "How graceful that figure skating routine was!",
+    "type": "Exclamatory",
+    "topic": "Sports",
+    "wordCount": 7
+  },
+  {
+    "sentence": "What tremendous effort these marathoners show!",
+    "type": "Exclamatory",
+    "topic": "Sports",
+    "wordCount": 6
+  },
+  {
+    "sentence": "How perfectly synchronized that swim team performed!",
+    "type": "Exclamatory",
+    "topic": "Sports",
+    "wordCount": 7
+  },
+  {
+    "sentence": "What exceptional sportsmanship both teams displayed!",
+    "type": "Exclamatory",
+    "topic": "Sports",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Train consistently to achieve long-term fitness goals.",
+    "type": "Imperative",
+    "topic": "Sports",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Listen to your body's signals during workouts.",
+    "type": "Imperative",
+    "topic": "Sports",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Invest in proper equipment for injury prevention.",
+    "type": "Imperative",
+    "topic": "Sports",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Vary your training routine to avoid plateaus.",
+    "type": "Imperative",
+    "topic": "Sports",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Sustainable tourism minimizes environmental impact while traveling.",
+    "type": "Declarative",
+    "topic": "Travel",
+    "wordCount": 7
+  },
+  {
+    "sentence": "National parks preserve natural wonders for future generations.",
+    "type": "Declarative",
+    "topic": "Travel",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Travel apps simplify itinerary planning and navigation.",
+    "type": "Declarative",
+    "topic": "Travel",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Currency exchange rates affect international travel budgets.",
+    "type": "Declarative",
+    "topic": "Travel",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Airport lounges provide comfortable spaces between flights.",
+    "type": "Declarative",
+    "topic": "Travel",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Travel immunizations protect against regional diseases.",
+    "type": "Declarative",
+    "topic": "Travel",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Cultural immersion experiences deepen travel understanding.",
+    "type": "Declarative",
+    "topic": "Travel",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Off-season travel offers lower prices and fewer crowds.",
+    "type": "Declarative",
+    "topic": "Travel",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Travel companions enhance shared adventure experiences.",
+    "type": "Declarative",
+    "topic": "Travel",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Packing cubes organize luggage efficiently for trips.",
+    "type": "Declarative",
+    "topic": "Travel",
+    "wordCount": 7
+  },
+  {
+    "sentence": "What preparations ensure safe international travel?",
+    "type": "Interrogative",
+    "topic": "Travel",
+    "wordCount": 6
+  },
+  {
+    "sentence": "How do travelers overcome language barriers abroad?",
+    "type": "Interrogative",
+    "topic": "Travel",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Why do people seek adventure travel experiences?",
+    "type": "Interrogative",
+    "topic": "Travel",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Which travel documents require advance preparation?",
+    "type": "Interrogative",
+    "topic": "Travel",
+    "wordCount": 6
+  },
+  {
+    "sentence": "How can travelers reduce their carbon footprint?",
+    "type": "Interrogative",
+    "topic": "Travel",
+    "wordCount": 7
+  },
+  {
+    "sentence": "What spectacular temples this ancient city contains!",
+    "type": "Exclamatory",
+    "topic": "Travel",
+    "wordCount": 7
+  },
+  {
+    "sentence": "How warm the local hospitality feels here!",
+    "type": "Exclamatory",
+    "topic": "Travel",
+    "wordCount": 7
+  },
+  {
+    "sentence": "What incredible views from this mountain peak!",
+    "type": "Exclamatory",
+    "topic": "Travel",
+    "wordCount": 7
+  },
+  {
+    "sentence": "How charming these cobblestone streets are!",
+    "type": "Exclamatory",
+    "topic": "Travel",
+    "wordCount": 6
+  },
+  {
+    "sentence": "What fascinating history these ruins reveal!",
+    "type": "Exclamatory",
+    "topic": "Travel",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Book accommodations well in advance for popular destinations.",
+    "type": "Imperative",
+    "topic": "Travel",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Stay connected with family during extended trips.",
+    "type": "Imperative",
+    "topic": "Travel",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Document your journey through photos and journals.",
+    "type": "Imperative",
+    "topic": "Travel",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Try authentic local dishes at every destination.",
+    "type": "Imperative",
+    "topic": "Travel",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Film festivals showcase independent cinema from emerging directors.",
+    "type": "Declarative",
+    "topic": "Entertainment",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Karaoke brings friends together through shared musical enjoyment.",
+    "type": "Declarative",
+    "topic": "Entertainment",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Documentary films educate audiences about important issues.",
+    "type": "Declarative",
+    "topic": "Entertainment",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Board games provide screen-free entertainment for families.",
+    "type": "Declarative",
+    "topic": "Entertainment",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Photography exhibitions display artistic visual narratives.",
+    "type": "Declarative",
+    "topic": "Entertainment",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Comedy clubs feature live stand-up performances nightly.",
+    "type": "Declarative",
+    "topic": "Entertainment",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Audiobooks make literature accessible during commutes.",
+    "type": "Declarative",
+    "topic": "Entertainment",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Opera combines music, drama, and theatrical spectacle.",
+    "type": "Declarative",
+    "topic": "Entertainment",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Magic shows create wonder through illusion and surprise.",
+    "type": "Declarative",
+    "topic": "Entertainment",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Street performances enliven public spaces with spontaneous art.",
+    "type": "Declarative",
+    "topic": "Entertainment",
+    "wordCount": 8
+  },
+  {
+    "sentence": "What makes characters memorable in great stories?",
+    "type": "Interrogative",
+    "topic": "Entertainment",
+    "wordCount": 7
+  },
+  {
+    "sentence": "How do special effects enhance cinematic experiences?",
+    "type": "Interrogative",
+    "topic": "Entertainment",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Why do certain songs become cultural phenomena?",
+    "type": "Interrogative",
+    "topic": "Entertainment",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Which entertainment platforms dominate modern consumption?",
+    "type": "Interrogative",
+    "topic": "Entertainment",
+    "wordCount": 6
+  },
+  {
+    "sentence": "How does music influence mood and emotion?",
+    "type": "Interrogative",
+    "topic": "Entertainment",
+    "wordCount": 6
+  },
+  {
+    "sentence": "What an unforgettable concert experience that was!",
+    "type": "Exclamatory",
+    "topic": "Entertainment",
+    "wordCount": 7
+  },
+  {
+    "sentence": "How moving that theatrical performance truly was!",
+    "type": "Exclamatory",
+    "topic": "Entertainment",
+    "wordCount": 7
+  },
+  {
+    "sentence": "What incredible talent this artist possesses!",
+    "type": "Exclamatory",
+    "topic": "Entertainment",
+    "wordCount": 6
+  },
+  {
+    "sentence": "How hilarious that comedy sketch was!",
+    "type": "Exclamatory",
+    "topic": "Entertainment",
+    "wordCount": 6
+  },
+  {
+    "sentence": "What beautiful cinematography this film features!",
+    "type": "Exclamatory",
+    "topic": "Entertainment",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Support independent artists through direct purchases.",
+    "type": "Imperative",
+    "topic": "Entertainment",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Attend live performances to support local venues.",
+    "type": "Imperative",
+    "topic": "Entertainment",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Share recommendations to help creators gain exposure.",
+    "type": "Imperative",
+    "topic": "Entertainment",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Respect copyright when sharing creative works online.",
+    "type": "Imperative",
+    "topic": "Entertainment",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Bamboo forests create peaceful natural sanctuaries.",
+    "type": "Declarative",
+    "topic": "Nature",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Tidal zones reveal diverse marine life twice daily.",
+    "type": "Declarative",
+    "topic": "Nature",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Alpine meadows burst with wildflowers each summer.",
+    "type": "Declarative",
+    "topic": "Nature",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Peregrine falcons dive at incredible hunting speeds.",
+    "type": "Declarative",
+    "topic": "Nature",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Cave systems preserve ancient geological formations underground.",
+    "type": "Declarative",
+    "topic": "Nature",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Nitrogen cycle maintains soil fertility naturally.",
+    "type": "Declarative",
+    "topic": "Nature",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Deciduous trees shed leaves to conserve winter energy.",
+    "type": "Declarative",
+    "topic": "Nature",
+    "wordCount": 8
+  },
+  {
+    "sentence": "River deltas form where waterways meet oceans.",
+    "type": "Declarative",
+    "topic": "Nature",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Nocturnal animals possess excellent night vision capabilities.",
+    "type": "Declarative",
+    "topic": "Nature",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Pollen dispersal ensures plant reproduction success.",
+    "type": "Declarative",
+    "topic": "Nature",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Why do some species exhibit seasonal color changes?",
+    "type": "Interrogative",
+    "topic": "Nature",
+    "wordCount": 8
+  },
+  {
+    "sentence": "How do trees communicate through underground networks?",
+    "type": "Interrogative",
+    "topic": "Nature",
+    "wordCount": 8
+  },
+  {
+    "sentence": "What natural processes create mountain ranges?",
+    "type": "Interrogative",
+    "topic": "Nature",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Which animals demonstrate remarkable problem-solving abilities?",
+    "type": "Interrogative",
+    "topic": "Nature",
+    "wordCount": 7
+  },
+  {
+    "sentence": "How do predators and prey maintain population balance?",
+    "type": "Interrogative",
+    "topic": "Nature",
+    "wordCount": 8
+  },
+  {
+    "sentence": "What stunning complexity spider webs demonstrate!",
+    "type": "Exclamatory",
+    "topic": "Nature",
+    "wordCount": 6
+  },
+  {
+    "sentence": "How majestic that soaring eagle appears!",
+    "type": "Exclamatory",
+    "topic": "Nature",
+    "wordCount": 6
+  },
+  {
+    "sentence": "What intricate patterns butterfly wings display!",
+    "type": "Exclamatory",
+    "topic": "Nature",
+    "wordCount": 6
+  },
+  {
+    "sentence": "How perfectly synchronized that fish school moves!",
+    "type": "Exclamatory",
+    "topic": "Nature",
+    "wordCount": 7
+  },
+  {
+    "sentence": "What remarkable camouflage this insect possesses!",
+    "type": "Exclamatory",
+    "topic": "Nature",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Document wildlife observations in nature journals.",
+    "type": "Imperative",
+    "topic": "Nature",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Support habitat restoration projects in your area.",
+    "type": "Imperative",
+    "topic": "Nature",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Learn to identify local plant and animal species.",
+    "type": "Imperative",
+    "topic": "Nature",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Minimize light pollution to protect nocturnal wildlife.",
+    "type": "Imperative",
+    "topic": "Nature",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Antimatter research explores fundamental physics questions.",
+    "type": "Declarative",
+    "topic": "Science",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Epigenetics reveals how environment influences gene expression.",
+    "type": "Declarative",
+    "topic": "Science",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Spectroscopy analyzes light to determine chemical composition.",
+    "type": "Declarative",
+    "topic": "Science",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Bioengineering develops artificial tissues and organs.",
+    "type": "Declarative",
+    "topic": "Science",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Astrophysics studies celestial objects and cosmic phenomena.",
+    "type": "Declarative",
+    "topic": "Science",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Thermodynamics governs energy transfer in physical systems.",
+    "type": "Declarative",
+    "topic": "Science",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Crystallography determines molecular structure through diffraction patterns.",
+    "type": "Declarative",
+    "topic": "Science",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Immunotherapy harnesses immune systems to fight diseases.",
+    "type": "Declarative",
+    "topic": "Science",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Aerodynamics principles enable modern aircraft flight.",
+    "type": "Declarative",
+    "topic": "Science",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Radioisotopes enable medical imaging and cancer treatments.",
+    "type": "Declarative",
+    "topic": "Science",
+    "wordCount": 7
+  },
+  {
+    "sentence": "What mechanisms drive continental plate movement?",
+    "type": "Interrogative",
+    "topic": "Science",
+    "wordCount": 6
+  },
+  {
+    "sentence": "How does the immune system recognize foreign invaders?",
+    "type": "Interrogative",
+    "topic": "Science",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Why does time dilate at relativistic speeds?",
+    "type": "Interrogative",
+    "topic": "Science",
+    "wordCount": 7
+  },
+  {
+    "sentence": "What causes superconductivity in certain materials?",
+    "type": "Interrogative",
+    "topic": "Science",
+    "wordCount": 6
+  },
+  {
+    "sentence": "How do prions cause neurodegenerative diseases?",
+    "type": "Interrogative",
+    "topic": "Science",
+    "wordCount": 6
+  },
+  {
+    "sentence": "What extraordinary precision atomic clocks achieve!",
+    "type": "Exclamatory",
+    "topic": "Science",
+    "wordCount": 6
+  },
+  {
+    "sentence": "How powerful the James Webb telescope is!",
+    "type": "Exclamatory",
+    "topic": "Science",
+    "wordCount": 7
+  },
+  {
+    "sentence": "What revolutionary implications quantum entanglement has!",
+    "type": "Exclamatory",
+    "topic": "Science",
+    "wordCount": 6
+  },
+  {
+    "sentence": "How remarkably adaptable microorganisms prove to be!",
+    "type": "Exclamatory",
+    "topic": "Science",
+    "wordCount": 7
+  },
+  {
+    "sentence": "What intricate mechanisms drive cellular processes!",
+    "type": "Exclamatory",
+    "topic": "Science",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Control variables carefully in experimental designs.",
+    "type": "Imperative",
+    "topic": "Science",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Publish null results to prevent publication bias.",
+    "type": "Imperative",
+    "topic": "Science",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Encourage interdisciplinary collaboration in research projects.",
+    "type": "Imperative",
+    "topic": "Science",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Translate scientific findings for public understanding.",
+    "type": "Imperative",
+    "topic": "Science",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Socratic method encourages critical thinking through questioning.",
+    "type": "Declarative",
+    "topic": "Education",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Phonics instruction builds foundational reading skills.",
+    "type": "Declarative",
+    "topic": "Education",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Differentiated instruction addresses diverse learning needs.",
+    "type": "Declarative",
+    "topic": "Education",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Service learning connects academics with community engagement.",
+    "type": "Declarative",
+    "topic": "Education",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Formative assessments guide ongoing instructional adjustments.",
+    "type": "Declarative",
+    "topic": "Education",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Growth mindset fosters resilience in academic challenges.",
+    "type": "Declarative",
+    "topic": "Education",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Peer feedback improves writing through collaborative revision.",
+    "type": "Declarative",
+    "topic": "Education",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Visual aids enhance comprehension for diverse learners.",
+    "type": "Declarative",
+    "topic": "Education",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Metacognition helps students monitor their learning processes.",
+    "type": "Declarative",
+    "topic": "Education",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Portfolios document student growth over academic periods.",
+    "type": "Declarative",
+    "topic": "Education",
+    "wordCount": 7
+  },
+  {
+    "sentence": "What teaching strategies engage reluctant learners?",
+    "type": "Interrogative",
+    "topic": "Education",
+    "wordCount": 6
+  },
+  {
+    "sentence": "How can schools foster inclusive learning environments?",
+    "type": "Interrogative",
+    "topic": "Education",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Why do some students struggle with standardized tests?",
+    "type": "Interrogative",
+    "topic": "Education",
+    "wordCount": 8
+  },
+  {
+    "sentence": "What role does curiosity play in learning?",
+    "type": "Interrogative",
+    "topic": "Education",
+    "wordCount": 7
+  },
+  {
+    "sentence": "How does spaced repetition improve retention?",
+    "type": "Interrogative",
+    "topic": "Education",
+    "wordCount": 6
+  },
+  {
+    "sentence": "What incredible potential every student possesses!",
+    "type": "Exclamatory",
+    "topic": "Education",
+    "wordCount": 6
+  },
+  {
+    "sentence": "How transformative mentorship relationships can be!",
+    "type": "Exclamatory",
+    "topic": "Education",
+    "wordCount": 6
+  },
+  {
+    "sentence": "What breakthrough that learning moment was!",
+    "type": "Exclamatory",
+    "topic": "Education",
+    "wordCount": 6
+  },
+  {
+    "sentence": "How enthusiastically these young learners participate!",
+    "type": "Exclamatory",
+    "topic": "Education",
+    "wordCount": 6
+  },
+  {
+    "sentence": "What impressive critical thinking skills they've developed!",
+    "type": "Exclamatory",
+    "topic": "Education",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Scaffold complex tasks into manageable steps.",
+    "type": "Imperative",
+    "topic": "Education",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Foster student autonomy through choice and ownership.",
+    "type": "Imperative",
+    "topic": "Education",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Model lifelong learning through professional development.",
+    "type": "Imperative",
+    "topic": "Education",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Create psychologically safe classroom environments.",
+    "type": "Imperative",
+    "topic": "Education",
+    "wordCount": 5
+  },
+  {
+    "sentence": "Hygge practices create cozy comfortable living spaces.",
+    "type": "Declarative",
+    "topic": "Daily Life",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Meal prep saves time during busy weekdays.",
+    "type": "Declarative",
+    "topic": "Daily Life",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Digital detox periods restore mental clarity.",
+    "type": "Declarative",
+    "topic": "Daily Life",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Random acts of kindness brighten others' days.",
+    "type": "Declarative",
+    "topic": "Daily Life",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Morning rituals establish productive daily momentum.",
+    "type": "Declarative",
+    "topic": "Daily Life",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Sustainable living reduces environmental footprint significantly.",
+    "type": "Declarative",
+    "topic": "Daily Life",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Batch cooking simplifies weekly meal planning.",
+    "type": "Declarative",
+    "topic": "Daily Life",
+    "wordCount": 5
+  },
+  {
+    "sentence": "Mindfulness meditation improves emotional regulation skills.",
+    "type": "Declarative",
+    "topic": "Daily Life",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Work-from-home arrangements offer flexibility and challenges.",
+    "type": "Declarative",
+    "topic": "Daily Life",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Capsule wardrobes simplify daily clothing decisions.",
+    "type": "Declarative",
+    "topic": "Daily Life",
+    "wordCount": 6
+  },
+  {
+    "sentence": "What habits contribute most to wellbeing?",
+    "type": "Interrogative",
+    "topic": "Daily Life",
+    "wordCount": 6
+  },
+  {
+    "sentence": "How can busy families maintain quality connections?",
+    "type": "Interrogative",
+    "topic": "Daily Life",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Why do routines reduce decision fatigue?",
+    "type": "Interrogative",
+    "topic": "Daily Life",
+    "wordCount": 6
+  },
+  {
+    "sentence": "What makes certain spaces feel welcoming?",
+    "type": "Interrogative",
+    "topic": "Daily Life",
+    "wordCount": 6
+  },
+  {
+    "sentence": "How does clutter affect mental clarity?",
+    "type": "Interrogative",
+    "topic": "Daily Life",
+    "wordCount": 6
+  },
+  {
+    "sentence": "What a difference fresh flowers make indoors!",
+    "type": "Exclamatory",
+    "topic": "Daily Life",
+    "wordCount": 7
+  },
+  {
+    "sentence": "How satisfying completing household projects feels!",
+    "type": "Exclamatory",
+    "topic": "Daily Life",
+    "wordCount": 6
+  },
+  {
+    "sentence": "What comfort a well-organized home provides!",
+    "type": "Exclamatory",
+    "topic": "Daily Life",
+    "wordCount": 6
+  },
+  {
+    "sentence": "How wonderful lazy weekend mornings are!",
+    "type": "Exclamatory",
+    "topic": "Daily Life",
+    "wordCount": 6
+  },
+  {
+    "sentence": "What joy sharing meals with family brings!",
+    "type": "Exclamatory",
+    "topic": "Daily Life",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Establish boundaries between work and personal time.",
+    "type": "Imperative",
+    "topic": "Daily Life",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Practice forgiveness to release emotional burdens.",
+    "type": "Imperative",
+    "topic": "Daily Life",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Designate specific spaces for different activities.",
+    "type": "Imperative",
+    "topic": "Daily Life",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Invest time in relationships that matter most.",
+    "type": "Imperative",
+    "topic": "Daily Life",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Cloud infrastructure enables scalable computing resources.",
+    "type": "Declarative",
+    "topic": "Technology",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Quantum sensors achieve unprecedented measurement precision.",
+    "type": "Declarative",
+    "topic": "Technology",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Biometric systems authenticate users through physical characteristics.",
+    "type": "Declarative",
+    "topic": "Technology",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Autonomous vehicles navigate using multiple sensor systems.",
+    "type": "Declarative",
+    "topic": "Technology",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Holographic displays project three-dimensional visual information.",
+    "type": "Declarative",
+    "topic": "Technology",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Quantum cryptography ensures theoretically unbreakable encryption.",
+    "type": "Declarative",
+    "topic": "Technology",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Neural interfaces connect brains directly to computers.",
+    "type": "Declarative",
+    "topic": "Technology",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Solid-state batteries promise safer energy storage.",
+    "type": "Declarative",
+    "topic": "Technology",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Digital currencies challenge traditional financial systems.",
+    "type": "Declarative",
+    "topic": "Technology",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Natural language processing enables human-computer conversation.",
+    "type": "Declarative",
+    "topic": "Technology",
+    "wordCount": 6
+  },
+  {
+    "sentence": "What societal changes will automation bring?",
+    "type": "Interrogative",
+    "topic": "Technology",
+    "wordCount": 6
+  },
+  {
+    "sentence": "How can technology bridge the digital divide?",
+    "type": "Interrogative",
+    "topic": "Technology",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Why does Moore's Law continue defying predictions?",
+    "type": "Interrogative",
+    "topic": "Technology",
+    "wordCount": 6
+  },
+  {
+    "sentence": "What determines technology adoption rates?",
+    "type": "Interrogative",
+    "topic": "Technology",
+    "wordCount": 5
+  },
+  {
+    "sentence": "How will biocomputing change information processing?",
+    "type": "Interrogative",
+    "topic": "Technology",
+    "wordCount": 6
+  },
+  {
+    "sentence": "What incredible miniaturization microchips demonstrate!",
+    "type": "Exclamatory",
+    "topic": "Technology",
+    "wordCount": 5
+  },
+  {
+    "sentence": "How dramatically artificial intelligence evolves!",
+    "type": "Exclamatory",
+    "topic": "Technology",
+    "wordCount": 5
+  },
+  {
+    "sentence": "What revolutionary potential quantum computing holds!",
+    "type": "Exclamatory",
+    "topic": "Technology",
+    "wordCount": 6
+  },
+  {
+    "sentence": "How seamlessly modern devices interconnect!",
+    "type": "Exclamatory",
+    "topic": "Technology",
+    "wordCount": 5
+  },
+  {
+    "sentence": "What amazing accessibility features technology provides!",
+    "type": "Exclamatory",
+    "topic": "Technology",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Evaluate sources critically before trusting information.",
+    "type": "Imperative",
+    "topic": "Technology",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Monitor children's online activities for safety.",
+    "type": "Imperative",
+    "topic": "Technology",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Update security software to protect against threats.",
+    "type": "Imperative",
+    "topic": "Technology",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Support open standards for technological interoperability.",
+    "type": "Imperative",
+    "topic": "Technology",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Powerlifting develops maximum strength through progressive overload.",
+    "type": "Declarative",
+    "topic": "Sports",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Interval training alternates intensity for optimal conditioning.",
+    "type": "Declarative",
+    "topic": "Sports",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Biomechanics analysis improves athletic movement efficiency.",
+    "type": "Declarative",
+    "topic": "Sports",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Sport psychology addresses mental performance factors.",
+    "type": "Declarative",
+    "topic": "Sports",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Plyometric exercises enhance explosive power development.",
+    "type": "Declarative",
+    "topic": "Sports",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Periodization structures training into progressive phases.",
+    "type": "Declarative",
+    "topic": "Sports",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Functional fitness prepares bodies for daily activities.",
+    "type": "Declarative",
+    "topic": "Sports",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Core stability supports all athletic movements.",
+    "type": "Declarative",
+    "topic": "Sports",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Dynamic stretching prepares muscles for activity.",
+    "type": "Declarative",
+    "topic": "Sports",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Recovery protocols prevent overtraining and injuries.",
+    "type": "Declarative",
+    "topic": "Sports",
+    "wordCount": 6
+  },
+  {
+    "sentence": "What role does genetics play in athleticism?",
+    "type": "Interrogative",
+    "topic": "Sports",
+    "wordCount": 7
+  },
+  {
+    "sentence": "How do athletes maintain motivation through setbacks?",
+    "type": "Interrogative",
+    "topic": "Sports",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Why do some sports emphasize technique over strength?",
+    "type": "Interrogative",
+    "topic": "Sports",
+    "wordCount": 8
+  },
+  {
+    "sentence": "What distinguishes professional from amateur training?",
+    "type": "Interrogative",
+    "topic": "Sports",
+    "wordCount": 6
+  },
+  {
+    "sentence": "How does altitude training improve performance?",
+    "type": "Interrogative",
+    "topic": "Sports",
+    "wordCount": 6
+  },
+  {
+    "sentence": "What phenomenal endurance ultra-marathoners demonstrate!",
+    "type": "Exclamatory",
+    "topic": "Sports",
+    "wordCount": 5
+  },
+  {
+    "sentence": "How precisely gymnasts execute complex routines!",
+    "type": "Exclamatory",
+    "topic": "Sports",
+    "wordCount": 6
+  },
+  {
+    "sentence": "What dedication serious athletes show daily!",
+    "type": "Exclamatory",
+    "topic": "Sports",
+    "wordCount": 6
+  },
+  {
+    "sentence": "How inspiring Paralympic athletes truly are!",
+    "type": "Exclamatory",
+    "topic": "Sports",
+    "wordCount": 6
+  },
+  {
+    "sentence": "What teamwork championship teams consistently display!",
+    "type": "Exclamatory",
+    "topic": "Sports",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Prioritize injury prevention over performance gains.",
+    "type": "Imperative",
+    "topic": "Sports",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Track progress systematically using measurable metrics.",
+    "type": "Imperative",
+    "topic": "Sports",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Balance training loads with adequate recovery periods.",
+    "type": "Imperative",
+    "topic": "Sports",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Seek coaching to refine technical skills.",
+    "type": "Imperative",
+    "topic": "Sports",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Responsible tourism preserves destinations for future visitors.",
+    "type": "Declarative",
+    "topic": "Travel",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Travel hacking maximizes rewards and minimizes costs.",
+    "type": "Declarative",
+    "topic": "Travel",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Slow travel emphasizes depth over breadth of experience.",
+    "type": "Declarative",
+    "topic": "Travel",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Working holidays combine income with cultural exploration.",
+    "type": "Declarative",
+    "topic": "Travel",
+    "wordCount": 7
+  },
+  {
+    "sentence": "House-sitting provides affordable accommodation in various locations.",
+    "type": "Declarative",
+    "topic": "Travel",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Travel insurance protects against unexpected medical emergencies.",
+    "type": "Declarative",
+    "topic": "Travel",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Digital nomads work remotely while traveling extensively.",
+    "type": "Declarative",
+    "topic": "Travel",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Cultural sensitivity prevents unintentional offense abroad.",
+    "type": "Declarative",
+    "topic": "Travel",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Travel advisories warn of potential safety concerns.",
+    "type": "Declarative",
+    "topic": "Travel",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Photography documentation captures fleeting travel moments.",
+    "type": "Declarative",
+    "topic": "Travel",
+    "wordCount": 6
+  },
+  {
+    "sentence": "What motivates people to travel solo?",
+    "type": "Interrogative",
+    "topic": "Travel",
+    "wordCount": 6
+  },
+  {
+    "sentence": "How can travelers minimize jet lag effects?",
+    "type": "Interrogative",
+    "topic": "Travel",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Why do certain places attract mass tourism?",
+    "type": "Interrogative",
+    "topic": "Travel",
+    "wordCount": 7
+  },
+  {
+    "sentence": "What preparations ensure smooth border crossings?",
+    "type": "Interrogative",
+    "topic": "Travel",
+    "wordCount": 6
+  },
+  {
+    "sentence": "How does travel change personal perspectives?",
+    "type": "Interrogative",
+    "topic": "Travel",
+    "wordCount": 6
+  },
+  {
+    "sentence": "What incredible hospitality this village shows!",
+    "type": "Exclamatory",
+    "topic": "Travel",
+    "wordCount": 6
+  },
+  {
+    "sentence": "How transformative that cultural exchange was!",
+    "type": "Exclamatory",
+    "topic": "Travel",
+    "wordCount": 6
+  },
+  {
+    "sentence": "What breathtaking scenery this route offers!",
+    "type": "Exclamatory",
+    "topic": "Travel",
+    "wordCount": 6
+  },
+  {
+    "sentence": "How welcoming international travelers find locals!",
+    "type": "Exclamatory",
+    "topic": "Travel",
+    "wordCount": 6
+  },
+  {
+    "sentence": "What amazing adventures await curious explorers!",
+    "type": "Exclamatory",
+    "topic": "Travel",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Notify banks before traveling internationally.",
+    "type": "Imperative",
+    "topic": "Travel",
+    "wordCount": 5
+  },
+  {
+    "sentence": "Carry copies of important documents separately.",
+    "type": "Imperative",
+    "topic": "Travel",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Register with embassies when visiting risky regions.",
+    "type": "Imperative",
+    "topic": "Travel",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Respect wildlife viewing distances for safety.",
+    "type": "Imperative",
+    "topic": "Travel",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Streaming services revolutionized content distribution models.",
+    "type": "Declarative",
+    "topic": "Entertainment",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Genre fusion creates innovative artistic expressions.",
+    "type": "Declarative",
+    "topic": "Entertainment",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Live performances offer unique unrepeatable experiences.",
+    "type": "Declarative",
+    "topic": "Entertainment",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Fandom communities connect passionate enthusiasts globally.",
+    "type": "Declarative",
+    "topic": "Entertainment",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Entertainment algorithms personalize content recommendations effectively.",
+    "type": "Declarative",
+    "topic": "Entertainment",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Behind-the-scenes content reveals creative processes fascinatingly.",
+    "type": "Declarative",
+    "topic": "Entertainment",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Remakes reinterpret classic stories for modern audiences.",
+    "type": "Declarative",
+    "topic": "Entertainment",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Interactive media blurs distinctions between creators and consumers.",
+    "type": "Declarative",
+    "topic": "Entertainment",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Critics influence public perception of artistic works.",
+    "type": "Declarative",
+    "topic": "Entertainment",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Merchandising extends entertainment franchises into physical products.",
+    "type": "Declarative",
+    "topic": "Entertainment",
+    "wordCount": 7
+  },
+  {
+    "sentence": "What elements make stories universally appealing?",
+    "type": "Interrogative",
+    "topic": "Entertainment",
+    "wordCount": 6
+  },
+  {
+    "sentence": "How does timing affect comedic delivery?",
+    "type": "Interrogative",
+    "topic": "Entertainment",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Why do sequels often disappoint audiences?",
+    "type": "Interrogative",
+    "topic": "Entertainment",
+    "wordCount": 6
+  },
+  {
+    "sentence": "What makes certain performances career-defining?",
+    "type": "Interrogative",
+    "topic": "Entertainment",
+    "wordCount": 5
+  },
+  {
+    "sentence": "How do memes influence popular culture?",
+    "type": "Interrogative",
+    "topic": "Entertainment",
+    "wordCount": 6
+  },
+  {
+    "sentence": "What masterful storytelling this series demonstrates!",
+    "type": "Exclamatory",
+    "topic": "Entertainment",
+    "wordCount": 6
+  },
+  {
+    "sentence": "How emotionally powerful that final scene was!",
+    "type": "Exclamatory",
+    "topic": "Entertainment",
+    "wordCount": 7
+  },
+  {
+    "sentence": "What brilliant cinematography this director achieves!",
+    "type": "Exclamatory",
+    "topic": "Entertainment",
+    "wordCount": 6
+  },
+  {
+    "sentence": "How infectious that song's melody is!",
+    "type": "Exclamatory",
+    "topic": "Entertainment",
+    "wordCount": 6
+  },
+  {
+    "sentence": "What extraordinary range this actor displays!",
+    "type": "Exclamatory",
+    "topic": "Entertainment",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Support diverse voices in entertainment industries.",
+    "type": "Imperative",
+    "topic": "Entertainment",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Consume media mindfully rather than passively.",
+    "type": "Imperative",
+    "topic": "Entertainment",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Appreciate artistry beyond commercial success metrics.",
+    "type": "Imperative",
+    "topic": "Entertainment",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Engage critically with entertainment messages and themes.",
+    "type": "Imperative",
+    "topic": "Entertainment",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Wetland ecosystems filter water and prevent flooding.",
+    "type": "Declarative",
+    "topic": "Nature",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Metamorphosis transforms caterpillars into butterflies completely.",
+    "type": "Declarative",
+    "topic": "Nature",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Lichens colonize bare rock surfaces slowly over decades.",
+    "type": "Declarative",
+    "topic": "Nature",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Whale songs travel vast distances underwater.",
+    "type": "Declarative",
+    "topic": "Nature",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Camouflage helps prey animals avoid detection effectively.",
+    "type": "Declarative",
+    "topic": "Nature",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Tropical storms form over warm ocean waters.",
+    "type": "Declarative",
+    "topic": "Nature",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Deciduous forests display spectacular autumn colors annually.",
+    "type": "Declarative",
+    "topic": "Nature",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Erosion shapes landscapes over geological timescales.",
+    "type": "Declarative",
+    "topic": "Nature",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Hibernation conserves energy during scarce winter months.",
+    "type": "Declarative",
+    "topic": "Nature",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Root systems stabilize soil and prevent erosion.",
+    "type": "Declarative",
+    "topic": "Nature",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Bioluminescent organisms create underwater light shows naturally.",
+    "type": "Declarative",
+    "topic": "Nature",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Seed dispersal mechanisms ensure plant propagation success.",
+    "type": "Declarative",
+    "topic": "Nature",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Fog forms when air temperature equals dew point.",
+    "type": "Declarative",
+    "topic": "Nature",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Alpine plants adapt to extreme elevation conditions.",
+    "type": "Declarative",
+    "topic": "Nature",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Pack behavior protects animals from predators effectively.",
+    "type": "Declarative",
+    "topic": "Nature",
+    "wordCount": 7
+  },
+  {
+    "sentence": "What triggers bird migration patterns annually?",
+    "type": "Interrogative",
+    "topic": "Nature",
+    "wordCount": 6
+  },
+  {
+    "sentence": "How do cacti survive prolonged drought periods?",
+    "type": "Interrogative",
+    "topic": "Nature",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Why do fireflies synchronize their flashing?",
+    "type": "Interrogative",
+    "topic": "Nature",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Which pollinators visit flowers at night?",
+    "type": "Interrogative",
+    "topic": "Nature",
+    "wordCount": 6
+  },
+  {
+    "sentence": "How do bats navigate in complete darkness?",
+    "type": "Interrogative",
+    "topic": "Nature",
+    "wordCount": 7
+  },
+  {
+    "sentence": "What magnificent herds roam these grasslands!",
+    "type": "Exclamatory",
+    "topic": "Nature",
+    "wordCount": 6
+  },
+  {
+    "sentence": "How intricate honeybee communication systems are!",
+    "type": "Exclamatory",
+    "topic": "Nature",
+    "wordCount": 6
+  },
+  {
+    "sentence": "What spectacular displays the aurora creates!",
+    "type": "Exclamatory",
+    "topic": "Nature",
+    "wordCount": 6
+  },
+  {
+    "sentence": "How resilient mangrove forests prove to be!",
+    "type": "Exclamatory",
+    "topic": "Nature",
+    "wordCount": 7
+  },
+  {
+    "sentence": "What fascinating symbiotic relationships exist everywhere!",
+    "type": "Exclamatory",
+    "topic": "Nature",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Create wildlife corridors to connect fragmented habitats.",
+    "type": "Imperative",
+    "topic": "Nature",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Remove invasive species threatening native ecosystems.",
+    "type": "Imperative",
+    "topic": "Nature",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Plant trees to combat climate change actively.",
+    "type": "Imperative",
+    "topic": "Nature",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Monitor environmental changes through consistent observation.",
+    "type": "Imperative",
+    "topic": "Nature",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Molecular biology reveals life's chemical foundations.",
+    "type": "Declarative",
+    "topic": "Science",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Superposition allows quantum particles simultaneous states.",
+    "type": "Declarative",
+    "topic": "Science",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Doppler effect explains frequency shifts in waves.",
+    "type": "Declarative",
+    "topic": "Science",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Mitosis enables cellular reproduction and growth.",
+    "type": "Declarative",
+    "topic": "Science",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Refraction bends light passing through different media.",
+    "type": "Declarative",
+    "topic": "Science",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Oxidation reactions involve electron transfer between substances.",
+    "type": "Declarative",
+    "topic": "Science",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Radioactive decay occurs at predictable rates.",
+    "type": "Declarative",
+    "topic": "Science",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Osmosis regulates fluid balance in living cells.",
+    "type": "Declarative",
+    "topic": "Science",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Meiosis produces reproductive cells with half chromosomes.",
+    "type": "Declarative",
+    "topic": "Science",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Gravitational lensing bends light around massive objects.",
+    "type": "Declarative",
+    "topic": "Science",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Plasma physics studies ionized gas behavior.",
+    "type": "Declarative",
+    "topic": "Science",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Enzymes catalyze biochemical reactions with remarkable specificity.",
+    "type": "Declarative",
+    "topic": "Science",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Magnetism arises from electron spin alignment.",
+    "type": "Declarative",
+    "topic": "Science",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Neurotransmitters enable communication between nerve cells.",
+    "type": "Declarative",
+    "topic": "Science",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Entropy measures disorder within physical systems.",
+    "type": "Declarative",
+    "topic": "Science",
+    "wordCount": 6
+  },
+  {
+    "sentence": "What determines protein folding patterns precisely?",
+    "type": "Interrogative",
+    "topic": "Science",
+    "wordCount": 6
+  },
+  {
+    "sentence": "How do telescopes detect distant exoplanets?",
+    "type": "Interrogative",
+    "topic": "Science",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Why does antimatter annihilate with regular matter?",
+    "type": "Interrogative",
+    "topic": "Science",
+    "wordCount": 7
+  },
+  {
+    "sentence": "What causes atmospheric pressure variations?",
+    "type": "Interrogative",
+    "topic": "Science",
+    "wordCount": 5
+  },
+  {
+    "sentence": "How do vaccines train immune responses?",
+    "type": "Interrogative",
+    "topic": "Science",
+    "wordCount": 6
+  },
+  {
+    "sentence": "What remarkable sensitivity mass spectrometers achieve!",
+    "type": "Exclamatory",
+    "topic": "Science",
+    "wordCount": 6
+  },
+  {
+    "sentence": "How elegantly Maxwell's equations describe electromagnetism!",
+    "type": "Exclamatory",
+    "topic": "Science",
+    "wordCount": 6
+  },
+  {
+    "sentence": "What incredible resolution electron microscopes provide!",
+    "type": "Exclamatory",
+    "topic": "Science",
+    "wordCount": 6
+  },
+  {
+    "sentence": "How precisely GPS satellites measure positions!",
+    "type": "Exclamatory",
+    "topic": "Science",
+    "wordCount": 6
+  },
+  {
+    "sentence": "What fascinating properties superconductors exhibit!",
+    "type": "Exclamatory",
+    "topic": "Science",
+    "wordCount": 5
+  },
+  {
+    "sentence": "Replicate studies to confirm initial findings.",
+    "type": "Imperative",
+    "topic": "Science",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Share raw data to enable independent verification.",
+    "type": "Imperative",
+    "topic": "Science",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Consider alternative explanations for observed phenomena.",
+    "type": "Imperative",
+    "topic": "Science",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Maintain detailed laboratory notebooks for documentation.",
+    "type": "Imperative",
+    "topic": "Science",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Montessori education emphasizes self-directed learning activities.",
+    "type": "Declarative",
+    "topic": "Education",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Gamification increases student engagement through game mechanics.",
+    "type": "Declarative",
+    "topic": "Education",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Competency-based progression focuses on mastery over time.",
+    "type": "Declarative",
+    "topic": "Education",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Inquiry-based learning encourages student-driven investigation.",
+    "type": "Declarative",
+    "topic": "Education",
+    "wordCount": 5
+  },
+  {
+    "sentence": "Multiple intelligences theory recognizes diverse cognitive strengths.",
+    "type": "Declarative",
+    "topic": "Education",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Blended learning combines online and face-to-face instruction.",
+    "type": "Declarative",
+    "topic": "Education",
+    "wordCount": 8
+  },
+  {
+    "sentence": "Universal design makes education accessible for everyone.",
+    "type": "Declarative",
+    "topic": "Education",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Apprenticeships provide practical vocational skill development.",
+    "type": "Declarative",
+    "topic": "Education",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Constructivism suggests learners build knowledge actively.",
+    "type": "Declarative",
+    "topic": "Education",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Summative assessments evaluate cumulative learning outcomes.",
+    "type": "Declarative",
+    "topic": "Education",
+    "wordCount": 6
+  },
+  {
+    "sentence": "STEM education prepares students for technological careers.",
+    "type": "Declarative",
+    "topic": "Education",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Cooperative learning builds social and academic skills.",
+    "type": "Declarative",
+    "topic": "Education",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Experiential education connects learning with real experiences.",
+    "type": "Declarative",
+    "topic": "Education",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Rubrics clarify assessment criteria and expectations.",
+    "type": "Declarative",
+    "topic": "Education",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Problem-based learning develops critical thinking skills.",
+    "type": "Declarative",
+    "topic": "Education",
+    "wordCount": 6
+  },
+  {
+    "sentence": "What barriers prevent educational equity?",
+    "type": "Interrogative",
+    "topic": "Education",
+    "wordCount": 5
+  },
+  {
+    "sentence": "How can teachers accommodate different learning speeds?",
+    "type": "Interrogative",
+    "topic": "Education",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Why do students lose motivation over time?",
+    "type": "Interrogative",
+    "topic": "Education",
+    "wordCount": 7
+  },
+  {
+    "sentence": "What makes feedback most effective for learning?",
+    "type": "Interrogative",
+    "topic": "Education",
+    "wordCount": 6
+  },
+  {
+    "sentence": "How does class size affect educational outcomes?",
+    "type": "Interrogative",
+    "topic": "Education",
+    "wordCount": 7
+  },
+  {
+    "sentence": "What remarkable resilience students demonstrate daily!",
+    "type": "Exclamatory",
+    "topic": "Education",
+    "wordCount": 6
+  },
+  {
+    "sentence": "How inspiring dedicated teachers truly are!",
+    "type": "Exclamatory",
+    "topic": "Education",
+    "wordCount": 6
+  },
+  {
+    "sentence": "What incredible growth mindsets enable!",
+    "type": "Exclamatory",
+    "topic": "Education",
+    "wordCount": 5
+  },
+  {
+    "sentence": "How beautifully collaborative learning works!",
+    "type": "Exclamatory",
+    "topic": "Education",
+    "wordCount": 5
+  },
+  {
+    "sentence": "What joy discovery learning brings students!",
+    "type": "Exclamatory",
+    "topic": "Education",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Differentiate instruction to meet individual needs.",
+    "type": "Imperative",
+    "topic": "Education",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Incorporate student feedback into lesson planning.",
+    "type": "Imperative",
+    "topic": "Education",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Build relationships before enforcing classroom rules.",
+    "type": "Imperative",
+    "topic": "Education",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Celebrate effort alongside achievement consistently.",
+    "type": "Imperative",
+    "topic": "Education",
+    "wordCount": 5
+  },
+  {
+    "sentence": "Mindful communication strengthens interpersonal relationships significantly.",
+    "type": "Declarative",
+    "topic": "Daily Life",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Seasonal decorating refreshes home atmosphere pleasantly.",
+    "type": "Declarative",
+    "topic": "Daily Life",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Energy-efficient appliances reduce utility bills substantially.",
+    "type": "Declarative",
+    "topic": "Daily Life",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Proper ergonomics prevents workplace discomfort and injury.",
+    "type": "Declarative",
+    "topic": "Daily Life",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Regular dental checkups maintain oral health effectively.",
+    "type": "Declarative",
+    "topic": "Daily Life",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Water filters improve drinking water quality significantly.",
+    "type": "Declarative",
+    "topic": "Daily Life",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Air purifiers reduce indoor allergens and pollutants.",
+    "type": "Declarative",
+    "topic": "Daily Life",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Reusable bags minimize plastic waste generation.",
+    "type": "Declarative",
+    "topic": "Daily Life",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Proper posture prevents chronic back pain.",
+    "type": "Declarative",
+    "topic": "Daily Life",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Natural lighting improves mood and productivity.",
+    "type": "Declarative",
+    "topic": "Daily Life",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Composting reduces household waste significantly.",
+    "type": "Declarative",
+    "topic": "Daily Life",
+    "wordCount": 5
+  },
+  {
+    "sentence": "Regular car maintenance prevents costly repairs.",
+    "type": "Declarative",
+    "topic": "Daily Life",
+    "wordCount": 5
+  },
+  {
+    "sentence": "Smart thermostats optimize home energy consumption.",
+    "type": "Declarative",
+    "topic": "Daily Life",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Meal planning reduces food waste substantially.",
+    "type": "Declarative",
+    "topic": "Daily Life",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Regular exercise improves sleep quality naturally.",
+    "type": "Declarative",
+    "topic": "Daily Life",
+    "wordCount": 6
+  },
+  {
+    "sentence": "What creates lasting happiness in life?",
+    "type": "Interrogative",
+    "topic": "Daily Life",
+    "wordCount": 6
+  },
+  {
+    "sentence": "How can individuals reduce carbon footprints?",
+    "type": "Interrogative",
+    "topic": "Daily Life",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Why do morning routines improve productivity?",
+    "type": "Interrogative",
+    "topic": "Daily Life",
+    "wordCount": 6
+  },
+  {
+    "sentence": "What household tasks require regular maintenance?",
+    "type": "Interrogative",
+    "topic": "Daily Life",
+    "wordCount": 6
+  },
+  {
+    "sentence": "How does hydration affect daily energy?",
+    "type": "Interrogative",
+    "topic": "Daily Life",
+    "wordCount": 6
+  },
+  {
+    "sentence": "What a cozy atmosphere candles create!",
+    "type": "Exclamatory",
+    "topic": "Daily Life",
+    "wordCount": 6
+  },
+  {
+    "sentence": "How rewarding sustainable living becomes!",
+    "type": "Exclamatory",
+    "topic": "Daily Life",
+    "wordCount": 5
+  },
+  {
+    "sentence": "What simple pleasure fresh air provides!",
+    "type": "Exclamatory",
+    "topic": "Daily Life",
+    "wordCount": 6
+  },
+  {
+    "sentence": "How wonderful supportive communities feel!",
+    "type": "Exclamatory",
+    "topic": "Daily Life",
+    "wordCount": 5
+  },
+  {
+    "sentence": "What satisfaction organizing brings daily!",
+    "type": "Exclamatory",
+    "topic": "Daily Life",
+    "wordCount": 5
+  },
+  {
+    "sentence": "Establish consistent sleep schedules for better rest.",
+    "type": "Imperative",
+    "topic": "Daily Life",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Declutter regularly to maintain organized spaces.",
+    "type": "Imperative",
+    "topic": "Daily Life",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Practice stress management techniques consistently.",
+    "type": "Imperative",
+    "topic": "Daily Life",
+    "wordCount": 5
+  },
+  {
+    "sentence": "Schedule regular family time without distractions.",
+    "type": "Imperative",
+    "topic": "Daily Life",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Machine learning algorithms improve through continuous training.",
+    "type": "Declarative",
+    "topic": "Technology",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Serverless computing eliminates infrastructure management overhead.",
+    "type": "Declarative",
+    "topic": "Technology",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Photonic computing promises faster data processing speeds.",
+    "type": "Declarative",
+    "topic": "Technology",
+    "wordCount": 7
+  },
+  {
+    "sentence": "API integration enables seamless software communication.",
+    "type": "Declarative",
+    "topic": "Technology",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Version control systems track code changes systematically.",
+    "type": "Declarative",
+    "topic": "Technology",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Containerization simplifies application deployment processes significantly.",
+    "type": "Declarative",
+    "topic": "Technology",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Microservices architecture divides applications into independent components.",
+    "type": "Declarative",
+    "topic": "Technology",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Distributed systems increase reliability through redundancy.",
+    "type": "Declarative",
+    "topic": "Technology",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Load balancing distributes network traffic efficiently.",
+    "type": "Declarative",
+    "topic": "Technology",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Real-time analytics provide immediate business insights.",
+    "type": "Declarative",
+    "topic": "Technology",
+    "wordCount": 6
+  },
+  {
+    "sentence": "DevOps practices accelerate software development cycles.",
+    "type": "Declarative",
+    "topic": "Technology",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Continuous integration automates code testing procedures.",
+    "type": "Declarative",
+    "topic": "Technology",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Low-code platforms democratize application development access.",
+    "type": "Declarative",
+    "topic": "Technology",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Progressive web apps blur native mobile boundaries.",
+    "type": "Declarative",
+    "topic": "Technology",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Zero-knowledge proofs enable privacy-preserving verification.",
+    "type": "Declarative",
+    "topic": "Technology",
+    "wordCount": 5
+  },
+  {
+    "sentence": "What limitations constrain current AI systems?",
+    "type": "Interrogative",
+    "topic": "Technology",
+    "wordCount": 6
+  },
+  {
+    "sentence": "How will neuromorphic chips change computing?",
+    "type": "Interrogative",
+    "topic": "Technology",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Why does latency matter in applications?",
+    "type": "Interrogative",
+    "topic": "Technology",
+    "wordCount": 6
+  },
+  {
+    "sentence": "What enables blockchain's tamper-proof characteristics?",
+    "type": "Interrogative",
+    "topic": "Technology",
+    "wordCount": 5
+  },
+  {
+    "sentence": "How do recommendation algorithms shape choices?",
+    "type": "Interrogative",
+    "topic": "Technology",
+    "wordCount": 6
+  },
+  {
+    "sentence": "What extraordinary progress quantum computing demonstrates!",
+    "type": "Exclamatory",
+    "topic": "Technology",
+    "wordCount": 6
+  },
+  {
+    "sentence": "How powerful modern GPU architectures become!",
+    "type": "Exclamatory",
+    "topic": "Technology",
+    "wordCount": 6
+  },
+  {
+    "sentence": "What incredible bandwidth 5G networks provide!",
+    "type": "Exclamatory",
+    "topic": "Technology",
+    "wordCount": 6
+  },
+  {
+    "sentence": "How sophisticated neural networks have grown!",
+    "type": "Exclamatory",
+    "topic": "Technology",
+    "wordCount": 6
+  },
+  {
+    "sentence": "What revolutionary potential edge AI holds!",
+    "type": "Exclamatory",
+    "topic": "Technology",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Implement security by design in development.",
+    "type": "Imperative",
+    "topic": "Technology",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Test applications across multiple device types.",
+    "type": "Imperative",
+    "topic": "Technology",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Document code thoroughly for future maintenance.",
+    "type": "Imperative",
+    "topic": "Technology",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Optimize algorithms before scaling infrastructure.",
+    "type": "Imperative",
+    "topic": "Technology",
+    "wordCount": 5
+  },
+  {
+    "sentence": "Kettlebell training develops functional whole-body strength.",
+    "type": "Declarative",
+    "topic": "Sports",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Sprint intervals maximize cardiovascular conditioning efficiency.",
+    "type": "Declarative",
+    "topic": "Sports",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Proprioception training improves balance and coordination.",
+    "type": "Declarative",
+    "topic": "Sports",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Eccentric exercises strengthen muscles during lengthening.",
+    "type": "Declarative",
+    "topic": "Sports",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Active recovery promotes healing between training sessions.",
+    "type": "Declarative",
+    "topic": "Sports",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Mobility work prevents movement restrictions effectively.",
+    "type": "Declarative",
+    "topic": "Sports",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Zone training optimizes cardiovascular adaptation responses.",
+    "type": "Declarative",
+    "topic": "Sports",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Isometric holds build static strength endurance.",
+    "type": "Declarative",
+    "topic": "Sports",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Deload weeks prevent cumulative training fatigue.",
+    "type": "Declarative",
+    "topic": "Sports",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Compound movements recruit multiple muscle groups simultaneously.",
+    "type": "Declarative",
+    "topic": "Sports",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Progressive overload drives continuous strength improvements.",
+    "type": "Declarative",
+    "topic": "Sports",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Heart rate variability indicates recovery status.",
+    "type": "Declarative",
+    "topic": "Sports",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Agility drills enhance quick directional changes.",
+    "type": "Declarative",
+    "topic": "Sports",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Tempo training controls movement speed intentionally.",
+    "type": "Declarative",
+    "topic": "Sports",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Contrast therapy alternates hot and cold exposure.",
+    "type": "Declarative",
+    "topic": "Sports",
+    "wordCount": 7
+  },
+  {
+    "sentence": "What determines optimal training volume?",
+    "type": "Interrogative",
+    "topic": "Sports",
+    "wordCount": 5
+  },
+  {
+    "sentence": "How do athletes peak for competitions?",
+    "type": "Interrogative",
+    "topic": "Sports",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Why does sleep affect recovery?",
+    "type": "Interrogative",
+    "topic": "Sports",
+    "wordCount": 5
+  },
+  {
+    "sentence": "What causes muscle adaptation responses?",
+    "type": "Interrogative",
+    "topic": "Sports",
+    "wordCount": 5
+  },
+  {
+    "sentence": "How do supplements enhance athletic performance?",
+    "type": "Interrogative",
+    "topic": "Sports",
+    "wordCount": 6
+  },
+  {
+    "sentence": "What impressive discipline elite athletes maintain!",
+    "type": "Exclamatory",
+    "topic": "Sports",
+    "wordCount": 6
+  },
+  {
+    "sentence": "How perfectly timed that record-breaking run!",
+    "type": "Exclamatory",
+    "topic": "Sports",
+    "wordCount": 6
+  },
+  {
+    "sentence": "What extraordinary power weightlifters generate!",
+    "type": "Exclamatory",
+    "topic": "Sports",
+    "wordCount": 5
+  },
+  {
+    "sentence": "How gracefully dancers move across stages!",
+    "type": "Exclamatory",
+    "topic": "Sports",
+    "wordCount": 6
+  },
+  {
+    "sentence": "What mental fortitude marathon training requires!",
+    "type": "Exclamatory",
+    "topic": "Sports",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Monitor training metrics to prevent overtraining.",
+    "type": "Imperative",
+    "topic": "Sports",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Incorporate mobility work into daily routines.",
+    "type": "Imperative",
+    "topic": "Sports",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Listen to body signals during workouts.",
+    "type": "Imperative",
+    "topic": "Sports",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Periodize training for optimal progression.",
+    "type": "Imperative",
+    "topic": "Sports",
+    "wordCount": 5
+  },
+  {
+    "sentence": "Visa requirements vary significantly between countries worldwide.",
+    "type": "Declarative",
+    "topic": "Travel",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Travel loyalty programs reward frequent flyers generously.",
+    "type": "Declarative",
+    "topic": "Travel",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Shoulder seasons offer ideal traveling conditions affordably.",
+    "type": "Declarative",
+    "topic": "Travel",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Carry-on packing maximizes travel flexibility significantly.",
+    "type": "Declarative",
+    "topic": "Travel",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Travel scams target unsuspecting tourists frequently.",
+    "type": "Declarative",
+    "topic": "Travel",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Airport security requires patience and preparation.",
+    "type": "Declarative",
+    "topic": "Travel",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Local SIM cards provide affordable international connectivity.",
+    "type": "Declarative",
+    "topic": "Travel",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Travel adapters enable device charging across regions.",
+    "type": "Declarative",
+    "topic": "Travel",
+    "wordCount": 7
+  },
+  {
+    "sentence": "Layover strategies extend trips economically.",
+    "type": "Declarative",
+    "topic": "Travel",
+    "wordCount": 5
+  },
+  {
+    "sentence": "Travel credit cards offer valuable perks.",
+    "type": "Declarative",
+    "topic": "Travel",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Homestays provide authentic cultural immersion experiences.",
+    "type": "Declarative",
+    "topic": "Travel",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Rail passes simplify European transportation significantly.",
+    "type": "Declarative",
+    "topic": "Travel",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Travel forums provide invaluable insider tips.",
+    "type": "Declarative",
+    "topic": "Travel",
+    "wordCount": 5
+  },
+  {
+    "sentence": "Luggage tracking technology prevents loss anxieties.",
+    "type": "Declarative",
+    "topic": "Travel",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Destination weddings combine celebration with travel.",
+    "type": "Declarative",
+    "topic": "Travel",
+    "wordCount": 6
+  },
+  {
+    "sentence": "What vaccinations do different regions require?",
+    "type": "Interrogative",
+    "topic": "Travel",
+    "wordCount": 6
+  },
+  {
+    "sentence": "How can travelers avoid tourist traps?",
+    "type": "Interrogative",
+    "topic": "Travel",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Why do flight prices fluctuate constantly?",
+    "type": "Interrogative",
+    "topic": "Travel",
+    "wordCount": 6
+  },
+  {
+    "sentence": "What determines hotel cancellation policies?",
+    "type": "Interrogative",
+    "topic": "Travel",
+    "wordCount": 5
+  },
+  {
+    "sentence": "How does altitude sickness affect travelers?",
+    "type": "Interrogative",
+    "topic": "Travel",
+    "wordCount": 6
+  },
+  {
+    "sentence": "What incredible adventures solo travel offers!",
+    "type": "Exclamatory",
+    "topic": "Travel",
+    "wordCount": 6
+  },
+  {
+    "sentence": "How memorable unexpected detours become!",
+    "type": "Exclamatory",
+    "topic": "Travel",
+    "wordCount": 5
+  },
+  {
+    "sentence": "What beautiful friendships travel creates!",
+    "type": "Exclamatory",
+    "topic": "Travel",
+    "wordCount": 5
+  },
+  {
+    "sentence": "How liberating traveling light feels!",
+    "type": "Exclamatory",
+    "topic": "Travel",
+    "wordCount": 5
+  },
+  {
+    "sentence": "What stunning architecture ancient cities preserve!",
+    "type": "Exclamatory",
+    "topic": "Travel",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Arrive early for international flights always.",
+    "type": "Imperative",
+    "topic": "Travel",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Download offline maps before traveling abroad.",
+    "type": "Imperative",
+    "topic": "Travel",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Pack essential medications in carry-on bags.",
+    "type": "Imperative",
+    "topic": "Travel",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Learn basic local phrases before visiting.",
+    "type": "Imperative",
+    "topic": "Travel",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Cinematography transforms visual storytelling through composition.",
+    "type": "Declarative",
+    "topic": "Entertainment",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Sound design enhances immersive viewing experiences.",
+    "type": "Declarative",
+    "topic": "Entertainment",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Character development drives engaging narrative arcs.",
+    "type": "Declarative",
+    "topic": "Entertainment",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Ensemble casts create dynamic interpersonal chemistry.",
+    "type": "Declarative",
+    "topic": "Entertainment",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Editing rhythms control pacing and tension.",
+    "type": "Declarative",
+    "topic": "Entertainment",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Production design establishes authentic period atmospheres.",
+    "type": "Declarative",
+    "topic": "Entertainment",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Casting directors match actors to roles.",
+    "type": "Declarative",
+    "topic": "Entertainment",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Stunt coordination choreographs action sequences safely.",
+    "type": "Declarative",
+    "topic": "Entertainment",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Theatrical releases generate initial revenue streams.",
+    "type": "Declarative",
+    "topic": "Entertainment",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Screenplay structure follows traditional three-act format.",
+    "type": "Declarative",
+    "topic": "Entertainment",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Costume design communicates character personalities visually.",
+    "type": "Declarative",
+    "topic": "Entertainment",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Method acting achieves authentic emotional performances.",
+    "type": "Declarative",
+    "topic": "Entertainment",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Film festivals launch independent cinema careers.",
+    "type": "Declarative",
+    "topic": "Entertainment",
+    "wordCount": 5
+  },
+  {
+    "sentence": "Color grading establishes visual mood effectively.",
+    "type": "Declarative",
+    "topic": "Entertainment",
+    "wordCount": 5
+  },
+  {
+    "sentence": "Voice acting brings animated characters alive.",
+    "type": "Declarative",
+    "topic": "Entertainment",
+    "wordCount": 5
+  },
+  {
+    "sentence": "What defines truly memorable performances?",
+    "type": "Interrogative",
+    "topic": "Entertainment",
+    "wordCount": 5
+  },
+  {
+    "sentence": "How do trailers influence audience expectations?",
+    "type": "Interrogative",
+    "topic": "Entertainment",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Why do certain franchises endure decades?",
+    "type": "Interrogative",
+    "topic": "Entertainment",
+    "wordCount": 6
+  },
+  {
+    "sentence": "What creates emotional resonance in stories?",
+    "type": "Interrogative",
+    "topic": "Entertainment",
+    "wordCount": 6
+  },
+  {
+    "sentence": "How does music enhance dramatic moments?",
+    "type": "Interrogative",
+    "topic": "Entertainment",
+    "wordCount": 6
+  },
+  {
+    "sentence": "What brilliant direction that film showcases!",
+    "type": "Exclamatory",
+    "topic": "Entertainment",
+    "wordCount": 6
+  },
+  {
+    "sentence": "How captivating that opening scene was!",
+    "type": "Exclamatory",
+    "topic": "Entertainment",
+    "wordCount": 6
+  },
+  {
+    "sentence": "What stunning visual effects technology enables!",
+    "type": "Exclamatory",
+    "topic": "Entertainment",
+    "wordCount": 6
+  },
+  {
+    "sentence": "How masterfully that plot twist unfolded!",
+    "type": "Exclamatory",
+    "topic": "Entertainment",
+    "wordCount": 6
+  },
+  {
+    "sentence": "What powerful messages great cinema conveys!",
+    "type": "Exclamatory",
+    "topic": "Entertainment",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Support emerging artists through crowdfunding platforms.",
+    "type": "Imperative",
+    "topic": "Entertainment",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Explore international cinema for diverse perspectives.",
+    "type": "Imperative",
+    "topic": "Entertainment",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Attend previews to discover new talent.",
+    "type": "Imperative",
+    "topic": "Entertainment",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Discuss interpretations to deepen appreciation.",
+    "type": "Imperative",
+    "topic": "Entertainment",
+    "wordCount": 5
+  }
+]
