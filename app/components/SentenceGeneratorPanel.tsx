@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { filterSentences, type SentenceType, type SentenceTopic, type Sentence } from '@/app/utils/sentenceFilter';
 import Select from '@/app/components/ui/Select';
 import { RotateCw, Copy, Check, Sparkles, SlidersHorizontal, Files } from 'lucide-react';
@@ -15,7 +15,7 @@ export default function SentenceGeneratorPanel() {
   const [copiedAll, setCopiedAll] = useState(false);
   const [isGenerating, setIsGenerating] = useState(false);
 
-  const handleGenerate = () => {
+  const handleGenerate = useCallback(() => {
     setError(null);
     setIsGenerating(true);
 
@@ -34,7 +34,7 @@ export default function SentenceGeneratorPanel() {
       }
       setIsGenerating(false);
     }, 300);
-  };
+  }, [sentenceType, sentenceTopic, sentenceCount]);
 
   const handleCopySingle = (sentence: string, index: number) => {
     navigator.clipboard.writeText(sentence);
@@ -58,7 +58,7 @@ export default function SentenceGeneratorPanel() {
     };
     window.addEventListener('keypress', handleKeyPress);
     return () => window.removeEventListener('keypress', handleKeyPress);
-  }, [sentenceType, sentenceTopic, sentenceCount, isGenerating]);
+  }, [handleGenerate, isGenerating]);
 
   return (
     <div className="w-full max-w-6xl mx-auto">

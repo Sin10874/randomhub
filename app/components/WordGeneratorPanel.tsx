@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { filterWords } from '@/app/utils/wordFilter';
 import wordsData from '@/public/data/words.json';
 import Select from '@/app/components/ui/Select';
@@ -23,7 +23,7 @@ export default function WordGeneratorPanel() {
   const [copied, setCopied] = useState(false);
   const [isGenerating, setIsGenerating] = useState(false);
 
-  const handleGenerate = () => {
+  const handleGenerate = useCallback(() => {
     setError(null);
     setIsGenerating(true);
     
@@ -57,7 +57,7 @@ export default function WordGeneratorPanel() {
       }
       setIsGenerating(false);
     }, 300);
-  };
+  }, [wordType, startsWith, endsWith, sizeMode, comparator, sizeValue]);
 
   const handleCopy = () => {
     if (generatedWord) {
@@ -76,7 +76,7 @@ export default function WordGeneratorPanel() {
     };
     window.addEventListener('keypress', handleKeyPress);
     return () => window.removeEventListener('keypress', handleKeyPress);
-  }, [wordType, startsWith, endsWith, sizeMode, comparator, sizeValue, isGenerating]);
+  }, [handleGenerate, isGenerating]);
 
   return (
     <div className="w-full max-w-6xl mx-auto">

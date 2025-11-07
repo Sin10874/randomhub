@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import Select from '@/app/components/ui/Select';
 import { RotateCw, Copy, Check, Sparkles, SlidersHorizontal } from 'lucide-react';
 
@@ -16,7 +16,7 @@ export default function LetterGeneratorPanel() {
   const [isGenerating, setIsGenerating] = useState(false);
 
   // 生成字母的函数
-  const generateLetters = () => {
+  const generateLetters = useCallback(() => {
     setError(null);
     setIsGenerating(true);
     
@@ -82,7 +82,7 @@ export default function LetterGeneratorPanel() {
       setGeneratedLetters(letters);
       setIsGenerating(false);
     }, 300);
-  };
+  }, [numberOfLetters, letterType, allowDuplicates]);
 
   // 复制到剪贴板
   const handleCopy = () => {
@@ -103,7 +103,7 @@ export default function LetterGeneratorPanel() {
     };
     window.addEventListener('keypress', handleKeyPress);
     return () => window.removeEventListener('keypress', handleKeyPress);
-  }, [numberOfLetters, letterType, allowDuplicates, isGenerating]);
+  }, [generateLetters, isGenerating]);
 
   // 当数量超过26时，自动启用允许重复
   useEffect(() => {

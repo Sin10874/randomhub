@@ -1,0 +1,148 @@
+#!/usr/bin/env python3
+import json
+
+# Read current data
+with open('/Users/xinzechao/Projects/randomhub/public/data/sentences.json', 'r') as f:
+    sentences = json.load(f)
+
+print(f"Starting with {len(sentences)} sentences")
+
+# Education sentences (120 total: 30 each type)
+education_sentences = [
+    # Declarative (30)
+    {"text": "Students learn best through active engagement.", "type": "Declarative", "topic": "Education", "wordCount": 6},
+    {"text": "Reading improves vocabulary and comprehension skills.", "type": "Declarative", "topic": "Education", "wordCount": 6},
+    {"text": "Mathematics develops logical thinking abilities.", "type": "Declarative", "topic": "Education", "wordCount": 5},
+    {"text": "Teachers inspire students to reach goals.", "type": "Declarative", "topic": "Education", "wordCount": 6},
+    {"text": "Libraries provide essential resources for learning.", "type": "Declarative", "topic": "Education", "wordCount": 6},
+    {"text": "Critical thinking skills require constant practice.", "type": "Declarative", "topic": "Education", "wordCount": 6},
+    {"text": "Education opens doors to countless opportunities.", "type": "Declarative", "topic": "Education", "wordCount": 6},
+    {"text": "Practice makes perfect in skill development.", "type": "Declarative", "topic": "Education", "wordCount": 6},
+    {"text": "Group projects teach valuable collaboration skills.", "type": "Declarative", "topic": "Education", "wordCount": 6},
+    {"text": "Writing essays strengthens communication abilities.", "type": "Declarative", "topic": "Education", "wordCount": 5},
+    {"text": "History teaches us about past civilizations.", "type": "Declarative", "topic": "Education", "wordCount": 6},
+    {"text": "Science experiments demonstrate theoretical concepts effectively.", "type": "Declarative", "topic": "Education", "wordCount": 6},
+    {"text": "Homework reinforces lessons learned in class.", "type": "Declarative", "topic": "Education", "wordCount": 6},
+    {"text": "Language learning expands cultural understanding.", "type": "Declarative", "topic": "Education", "wordCount": 5},
+    {"text": "Exams measure student knowledge and progress.", "type": "Declarative", "topic": "Education", "wordCount": 6},
+    {"text": "Technology enhances modern classroom instruction.", "type": "Declarative", "topic": "Education", "wordCount": 5},
+    {"text": "Art education fosters creativity and expression.", "type": "Declarative", "topic": "Education", "wordCount": 6},
+    {"text": "Physical education promotes healthy lifestyle habits.", "type": "Declarative", "topic": "Education", "wordCount": 6},
+    {"text": "Scholarships help students afford college tuition.", "type": "Declarative", "topic": "Education", "wordCount": 6},
+    {"text": "Study habits determine academic success rates.", "type": "Declarative", "topic": "Education", "wordCount": 6},
+    {"text": "Classroom discussions encourage diverse perspectives.", "type": "Declarative", "topic": "Education", "wordCount": 5},
+    {"text": "Music education develops cognitive abilities.", "type": "Declarative", "topic": "Education", "wordCount": 5},
+    {"text": "Field trips make learning memorable.", "type": "Declarative", "topic": "Education", "wordCount": 5},
+    {"text": "Tutoring provides personalized academic support.", "type": "Declarative", "topic": "Education", "wordCount": 5},
+    {"text": "Graduation marks an important educational milestone.", "type": "Declarative", "topic": "Education", "wordCount": 6},
+    {"text": "Textbooks contain fundamental course knowledge.", "type": "Declarative", "topic": "Education", "wordCount": 5},
+    {"text": "Peer learning benefits all students involved.", "type": "Declarative", "topic": "Education", "wordCount": 6},
+    {"text": "Extracurricular activities develop well-rounded students.", "type": "Declarative", "topic": "Education", "wordCount": 5},
+    {"text": "Educational games make studying more enjoyable.", "type": "Declarative", "topic": "Education", "wordCount": 6},
+    {"text": "Online courses offer flexible learning options.", "type": "Declarative", "topic": "Education", "wordCount": 6},
+
+    # Interrogative (30)
+    {"text": "What subjects interest you most?", "type": "Interrogative", "topic": "Education", "wordCount": 5},
+    {"text": "How can we improve education quality?", "type": "Interrogative", "topic": "Education", "wordCount": 6},
+    {"text": "Why is homework important for learning?", "type": "Interrogative", "topic": "Education", "wordCount": 6},
+    {"text": "Which study method works best?", "type": "Interrogative", "topic": "Education", "wordCount": 5},
+    {"text": "When do students learn most effectively?", "type": "Interrogative", "topic": "Education", "wordCount": 6},
+    {"text": "Should schools teach financial literacy?", "type": "Interrogative", "topic": "Education", "wordCount": 5},
+    {"text": "How does reading comprehension develop?", "type": "Interrogative", "topic": "Education", "wordCount": 5},
+    {"text": "What makes a great teacher?", "type": "Interrogative", "topic": "Education", "wordCount": 5},
+    {"text": "Can technology replace traditional textbooks?", "type": "Interrogative", "topic": "Education", "wordCount": 5},
+    {"text": "Why do students need critical thinking?", "type": "Interrogative", "topic": "Education", "wordCount": 6},
+    {"text": "How should we assess student progress?", "type": "Interrogative", "topic": "Education", "wordCount": 6},
+    {"text": "What motivates students to learn?", "type": "Interrogative", "topic": "Education", "wordCount": 5},
+    {"text": "Should college education be free?", "type": "Interrogative", "topic": "Education", "wordCount": 5},
+    {"text": "How can parents support homework?", "type": "Interrogative", "topic": "Education", "wordCount": 5},
+    {"text": "What role does creativity play?", "type": "Interrogative", "topic": "Education", "wordCount": 5},
+    {"text": "Why learn multiple foreign languages?", "type": "Interrogative", "topic": "Education", "wordCount": 5},
+    {"text": "How important are standardized tests?", "type": "Interrogative", "topic": "Education", "wordCount": 5},
+    {"text": "What skills prepare students for careers?", "type": "Interrogative", "topic": "Education", "wordCount": 6},
+    {"text": "Should schools start later in morning?", "type": "Interrogative", "topic": "Education", "wordCount": 6},
+    {"text": "How do students overcome learning challenges?", "type": "Interrogative", "topic": "Education", "wordCount": 6},
+    {"text": "What makes lessons engaging and memorable?", "type": "Interrogative", "topic": "Education", "wordCount": 6},
+    {"text": "Can arts education boost academic performance?", "type": "Interrogative", "topic": "Education", "wordCount": 6},
+    {"text": "Why is lifelong learning important?", "type": "Interrogative", "topic": "Education", "wordCount": 5},
+    {"text": "How do we reduce educational inequality?", "type": "Interrogative", "topic": "Education", "wordCount": 6},
+    {"text": "What constitutes effective classroom management?", "type": "Interrogative", "topic": "Education", "wordCount": 5},
+    {"text": "Should schools assign less homework?", "type": "Interrogative", "topic": "Education", "wordCount": 5},
+    {"text": "How can education promote social justice?", "type": "Interrogative", "topic": "Education", "wordCount": 6},
+    {"text": "What defines a successful student?", "type": "Interrogative", "topic": "Education", "wordCount": 5},
+    {"text": "Why teach history in modern schools?", "type": "Interrogative", "topic": "Education", "wordCount": 6},
+    {"text": "How does collaboration improve learning outcomes?", "type": "Interrogative", "topic": "Education", "wordCount": 6},
+
+    # Exclamatory (30)
+    {"text": "What an inspiring lecture that was!", "type": "Exclamatory", "topic": "Education", "wordCount": 6},
+    {"text": "The students achieved remarkable test scores!", "type": "Exclamatory", "topic": "Education", "wordCount": 6},
+    {"text": "How brilliantly she explained complex concepts!", "type": "Exclamatory", "topic": "Education", "wordCount": 6},
+    {"text": "This textbook is incredibly comprehensive!", "type": "Exclamatory", "topic": "Education", "wordCount": 5},
+    {"text": "What a wonderful learning environment!", "type": "Exclamatory", "topic": "Education", "wordCount": 5},
+    {"text": "The graduation ceremony was absolutely moving!", "type": "Exclamatory", "topic": "Education", "wordCount": 6},
+    {"text": "How dedicated these teachers truly are!", "type": "Exclamatory", "topic": "Education", "wordCount": 6},
+    {"text": "What fantastic progress you have made!", "type": "Exclamatory", "topic": "Education", "wordCount": 6},
+    {"text": "The science fair projects were amazing!", "type": "Exclamatory", "topic": "Education", "wordCount": 6},
+    {"text": "How beautifully the students performed today!", "type": "Exclamatory", "topic": "Education", "wordCount": 6},
+    {"text": "This scholarship changed my entire life!", "type": "Exclamatory", "topic": "Education", "wordCount": 6},
+    {"text": "What an outstanding academic achievement!", "type": "Exclamatory", "topic": "Education", "wordCount": 5},
+    {"text": "The library collection is absolutely massive!", "type": "Exclamatory", "topic": "Education", "wordCount": 6},
+    {"text": "How enthusiastically she teaches every lesson!", "type": "Exclamatory", "topic": "Education", "wordCount": 6},
+    {"text": "What incredible research these students conducted!", "type": "Exclamatory", "topic": "Education", "wordCount": 6},
+    {"text": "The debate competition was remarkably intense!", "type": "Exclamatory", "topic": "Education", "wordCount": 6},
+    {"text": "How perfectly you answered that question!", "type": "Exclamatory", "topic": "Education", "wordCount": 6},
+    {"text": "This new curriculum is truly innovative!", "type": "Exclamatory", "topic": "Education", "wordCount": 6},
+    {"text": "What passionate learners they have become!", "type": "Exclamatory", "topic": "Education", "wordCount": 6},
+    {"text": "The field trip was extraordinarily educational!", "type": "Exclamatory", "topic": "Education", "wordCount": 6},
+    {"text": "How impressively the class collaborated together!", "type": "Exclamatory", "topic": "Education", "wordCount": 6},
+    {"text": "What a transformative educational experience!", "type": "Exclamatory", "topic": "Education", "wordCount": 5},
+    {"text": "The presentation skills improved dramatically!", "type": "Exclamatory", "topic": "Education", "wordCount": 5},
+    {"text": "How thoughtfully you analyzed that literature!", "type": "Exclamatory", "topic": "Education", "wordCount": 6},
+    {"text": "This mentorship program is absolutely excellent!", "type": "Exclamatory", "topic": "Education", "wordCount": 6},
+    {"text": "What creative solutions students discovered today!", "type": "Exclamatory", "topic": "Education", "wordCount": 6},
+    {"text": "The spelling bee competition was thrilling!", "type": "Exclamatory", "topic": "Education", "wordCount": 6},
+    {"text": "How diligently everyone studied for exams!", "type": "Exclamatory", "topic": "Education", "wordCount": 6},
+    {"text": "What profound insights emerged from discussions!", "type": "Exclamatory", "topic": "Education", "wordCount": 6},
+    {"text": "This educational app is phenomenally effective!", "type": "Exclamatory", "topic": "Education", "wordCount": 5},
+
+    # Imperative (30)
+    {"text": "Complete your homework before class tomorrow.", "type": "Imperative", "topic": "Education", "wordCount": 6},
+    {"text": "Study the chapter thoroughly for exams.", "type": "Imperative", "topic": "Education", "wordCount": 6},
+    {"text": "Participate actively in classroom discussions.", "type": "Imperative", "topic": "Education", "wordCount": 5},
+    {"text": "Take detailed notes during lectures.", "type": "Imperative", "topic": "Education", "wordCount": 5},
+    {"text": "Ask questions when concepts seem unclear.", "type": "Imperative", "topic": "Education", "wordCount": 6},
+    {"text": "Review your notes every evening.", "type": "Imperative", "topic": "Education", "wordCount": 5},
+    {"text": "Practice math problems until mastery.", "type": "Imperative", "topic": "Education", "wordCount": 5},
+    {"text": "Read the assigned material before class.", "type": "Imperative", "topic": "Education", "wordCount": 6},
+    {"text": "Organize your study materials systematically.", "type": "Imperative", "topic": "Education", "wordCount": 5},
+    {"text": "Collaborate respectfully with your group members.", "type": "Imperative", "topic": "Education", "wordCount": 6},
+    {"text": "Submit assignments by the deadline.", "type": "Imperative", "topic": "Education", "wordCount": 5},
+    {"text": "Attend all scheduled classes regularly.", "type": "Imperative", "topic": "Education", "wordCount": 5},
+    {"text": "Develop good time management habits.", "type": "Imperative", "topic": "Education", "wordCount": 5},
+    {"text": "Seek help from tutors when needed.", "type": "Imperative", "topic": "Education", "wordCount": 6},
+    {"text": "Revise your essays before final submission.", "type": "Imperative", "topic": "Education", "wordCount": 6},
+    {"text": "Listen attentively to teacher instructions.", "type": "Imperative", "topic": "Education", "wordCount": 5},
+    {"text": "Respect diverse opinions in class debates.", "type": "Imperative", "topic": "Education", "wordCount": 6},
+    {"text": "Use reliable sources for research papers.", "type": "Imperative", "topic": "Education", "wordCount": 6},
+    {"text": "Highlight important concepts in textbooks.", "type": "Imperative", "topic": "Education", "wordCount": 5},
+    {"text": "Create flashcards to memorize vocabulary.", "type": "Imperative", "topic": "Education", "wordCount": 5},
+    {"text": "Join study groups for difficult subjects.", "type": "Imperative", "topic": "Education", "wordCount": 6},
+    {"text": "Maintain academic integrity in all work.", "type": "Imperative", "topic": "Education", "wordCount": 6},
+    {"text": "Set achievable learning goals each semester.", "type": "Imperative", "topic": "Education", "wordCount": 6},
+    {"text": "Visit the library for additional resources.", "type": "Imperative", "topic": "Education", "wordCount": 6},
+    {"text": "Proofread your work carefully before submitting.", "type": "Imperative", "topic": "Education", "wordCount": 6},
+    {"text": "Stay curious and keep asking questions.", "type": "Imperative", "topic": "Education", "wordCount": 6},
+    {"text": "Challenge yourself with advanced coursework.", "type": "Imperative", "topic": "Education", "wordCount": 5},
+    {"text": "Document your learning progress consistently.", "type": "Imperative", "topic": "Education", "wordCount": 5},
+    {"text": "Explore subjects beyond required curriculum.", "type": "Imperative", "topic": "Education", "wordCount": 5},
+    {"text": "Celebrate academic achievements with pride.", "type": "Imperative", "topic": "Education", "wordCount": 5},
+]
+
+sentences.extend(education_sentences)
+
+# Save after Education
+with open('/Users/xinzechao/Projects/randomhub/public/data/sentences.json', 'w') as f:
+    json.dump(sentences, f, indent=2)
+
+print(f"\n✓ Added Education sentences. Total: {len(sentences)}")
+print(f"Education count: {sum(1 for s in sentences if s['topic'] == 'Education')}")

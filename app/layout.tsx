@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { Crimson_Pro } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 
 // Primary sans-serif font for UI and body text
@@ -127,19 +128,6 @@ export default function RootLayout({
   return (
     <html lang="en" className="antialiased">
       <head>
-        {/* Google Analytics */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-GY5D56TB81"></script>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'G-GY5D56TB81');
-            `,
-          }}
-        />
-        
         {/* Favicon and Icons - Ensure Google can crawl these */}
         {/* Standard favicon.ico - Google优先查找这个 */}
         <link rel="icon" href="/favicon.ico" sizes="any" />
@@ -160,6 +148,19 @@ export default function RootLayout({
         />
       </head>
       <body className={`${inter.variable} ${crimsonPro.variable} font-display`}>
+        {/* Google Analytics */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-GY5D56TB81"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-GY5D56TB81');
+          `}
+        </Script>
         {children}
       </body>
     </html>

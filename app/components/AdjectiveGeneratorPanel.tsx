@@ -1,8 +1,7 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { filterAdjectives } from '@/app/utils/adjectiveFilter';
-import adjectivesData from '@/public/data/adjectives.json';
 import Select from '@/app/components/ui/Select';
 import { RotateCw, Copy, Check, Sparkles, SlidersHorizontal } from 'lucide-react';
 
@@ -21,7 +20,7 @@ export default function AdjectiveGeneratorPanel() {
   const [copied, setCopied] = useState(false);
   const [isGenerating, setIsGenerating] = useState(false);
 
-  const handleGenerate = () => {
+  const handleGenerate = useCallback(() => {
     setError(null);
     setIsGenerating(true);
 
@@ -53,7 +52,7 @@ export default function AdjectiveGeneratorPanel() {
       }
       setIsGenerating(false);
     }, 300);
-  };
+  }, [startsWith, endsWith, sizeMode, comparator, sizeValue, count]);
 
   const handleCopy = () => {
     if (generatedAdjectives.length > 0) {
@@ -73,7 +72,7 @@ export default function AdjectiveGeneratorPanel() {
     };
     window.addEventListener('keypress', handleKeyPress);
     return () => window.removeEventListener('keypress', handleKeyPress);
-  }, [startsWith, endsWith, sizeMode, comparator, sizeValue, count, isGenerating]);
+  }, [handleGenerate, isGenerating]);
 
   return (
     <div className="w-full max-w-6xl mx-auto">

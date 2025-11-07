@@ -1,0 +1,148 @@
+#!/usr/bin/env python3
+import json
+
+# Read current data
+with open('/Users/xinzechao/Projects/randomhub/public/data/sentences.json', 'r') as f:
+    sentences = json.load(f)
+
+print(f"Starting with {len(sentences)} sentences")
+
+# Daily Life sentences (120 total: 30 each type)
+daily_life_sentences = [
+    # Declarative (30)
+    {"text": "Morning coffee energizes my entire day.", "type": "Declarative", "topic": "Daily Life", "wordCount": 6},
+    {"text": "Traffic delays make commutes frustrating.", "type": "Declarative", "topic": "Daily Life", "wordCount": 5},
+    {"text": "Grocery shopping takes significant planning time.", "type": "Declarative", "topic": "Daily Life", "wordCount": 6},
+    {"text": "Exercise improves both physical and mental health.", "type": "Declarative", "topic": "Daily Life", "wordCount": 7},
+    {"text": "Cooking meals at home saves money.", "type": "Declarative", "topic": "Daily Life", "wordCount": 6},
+    {"text": "Sleep quality affects daily productivity levels.", "type": "Declarative", "topic": "Daily Life", "wordCount": 6},
+    {"text": "Family dinners strengthen household bonds.", "type": "Declarative", "topic": "Daily Life", "wordCount": 5},
+    {"text": "Morning routines establish productive day patterns.", "type": "Declarative", "topic": "Daily Life", "wordCount": 6},
+    {"text": "Pets bring joy to their owners.", "type": "Declarative", "topic": "Daily Life", "wordCount": 6},
+    {"text": "Weather conditions influence clothing choices daily.", "type": "Declarative", "topic": "Daily Life", "wordCount": 6},
+    {"text": "Laundry piles up faster than expected.", "type": "Declarative", "topic": "Daily Life", "wordCount": 6},
+    {"text": "Phone calls connect distant family members.", "type": "Declarative", "topic": "Daily Life", "wordCount": 6},
+    {"text": "Weekend activities provide necessary relaxation.", "type": "Declarative", "topic": "Daily Life", "wordCount": 5},
+    {"text": "Bills arrive every month without fail.", "type": "Declarative", "topic": "Daily Life", "wordCount": 6},
+    {"text": "Neighbors form an important support network.", "type": "Declarative", "topic": "Daily Life", "wordCount": 6},
+    {"text": "Cleaning house takes several hours weekly.", "type": "Declarative", "topic": "Daily Life", "wordCount": 6},
+    {"text": "Reading books offers peaceful evening entertainment.", "type": "Declarative", "topic": "Daily Life", "wordCount": 6},
+    {"text": "Gardens require regular maintenance and care.", "type": "Declarative", "topic": "Daily Life", "wordCount": 6},
+    {"text": "Appointments need scheduling weeks in advance.", "type": "Declarative", "topic": "Daily Life", "wordCount": 6},
+    {"text": "Public transportation saves parking hassle.", "type": "Declarative", "topic": "Daily Life", "wordCount": 5},
+    {"text": "Birthday celebrations bring families together.", "type": "Declarative", "topic": "Daily Life", "wordCount": 5},
+    {"text": "Shopping lists prevent forgetting essential items.", "type": "Declarative", "topic": "Daily Life", "wordCount": 6},
+    {"text": "Walking dogs promotes daily physical activity.", "type": "Declarative", "topic": "Daily Life", "wordCount": 6},
+    {"text": "Lunch breaks provide midday energy renewal.", "type": "Declarative", "topic": "Daily Life", "wordCount": 6},
+    {"text": "Home repairs require patience and skill.", "type": "Declarative", "topic": "Daily Life", "wordCount": 6},
+    {"text": "Evening news keeps people informed.", "type": "Declarative", "topic": "Daily Life", "wordCount": 5},
+    {"text": "Carpooling reduces commuting expenses significantly.", "type": "Declarative", "topic": "Daily Life", "wordCount": 5},
+    {"text": "Hobbies provide stress relief after work.", "type": "Declarative", "topic": "Daily Life", "wordCount": 6},
+    {"text": "Alarm clocks wake us each morning.", "type": "Declarative", "topic": "Daily Life", "wordCount": 6},
+    {"text": "Mail delivery arrives around noon daily.", "type": "Declarative", "topic": "Daily Life", "wordCount": 6},
+
+    # Interrogative (30)
+    {"text": "What time should we leave tomorrow?", "type": "Interrogative", "topic": "Daily Life", "wordCount": 6},
+    {"text": "Where did you put the keys?", "type": "Interrogative", "topic": "Daily Life", "wordCount": 6},
+    {"text": "How was your day at work?", "type": "Interrogative", "topic": "Daily Life", "wordCount": 6},
+    {"text": "What should we cook for dinner?", "type": "Interrogative", "topic": "Daily Life", "wordCount": 6},
+    {"text": "When does the store close today?", "type": "Interrogative", "topic": "Daily Life", "wordCount": 6},
+    {"text": "Can you pick up groceries later?", "type": "Interrogative", "topic": "Daily Life", "wordCount": 6},
+    {"text": "Why is traffic so heavy today?", "type": "Interrogative", "topic": "Daily Life", "wordCount": 6},
+    {"text": "Should we walk or drive there?", "type": "Interrogative", "topic": "Daily Life", "wordCount": 6},
+    {"text": "Did you remember to pay bills?", "type": "Interrogative", "topic": "Daily Life", "wordCount": 6},
+    {"text": "How much sleep did you get?", "type": "Interrogative", "topic": "Daily Life", "wordCount": 6},
+    {"text": "What movie should we watch tonight?", "type": "Interrogative", "topic": "Daily Life", "wordCount": 6},
+    {"text": "Where shall we meet for lunch?", "type": "Interrogative", "topic": "Daily Life", "wordCount": 6},
+    {"text": "Have you finished cleaning your room?", "type": "Interrogative", "topic": "Daily Life", "wordCount": 6},
+    {"text": "When will the package arrive here?", "type": "Interrogative", "topic": "Daily Life", "wordCount": 6},
+    {"text": "Could you help me move furniture?", "type": "Interrogative", "topic": "Daily Life", "wordCount": 6},
+    {"text": "What plans do you have weekend?", "type": "Interrogative", "topic": "Daily Life", "wordCount": 6},
+    {"text": "Why does the alarm keep beeping?", "type": "Interrogative", "topic": "Daily Life", "wordCount": 6},
+    {"text": "Should I bring an umbrella outside?", "type": "Interrogative", "topic": "Daily Life", "wordCount": 6},
+    {"text": "How long until dinner is ready?", "type": "Interrogative", "topic": "Daily Life", "wordCount": 6},
+    {"text": "Can we reschedule our appointment tomorrow?", "type": "Interrogative", "topic": "Daily Life", "wordCount": 6},
+    {"text": "Where did everyone go this morning?", "type": "Interrogative", "topic": "Daily Life", "wordCount": 6},
+    {"text": "What route should we take home?", "type": "Interrogative", "topic": "Daily Life", "wordCount": 6},
+    {"text": "Have you walked the dog yet?", "type": "Interrogative", "topic": "Daily Life", "wordCount": 6},
+    {"text": "When should we start preparing lunch?", "type": "Interrogative", "topic": "Daily Life", "wordCount": 6},
+    {"text": "Could you turn down the volume?", "type": "Interrogative", "topic": "Daily Life", "wordCount": 6},
+    {"text": "Why did the lights suddenly go out?", "type": "Interrogative", "topic": "Daily Life", "wordCount": 7},
+    {"text": "Should we order takeout or cook?", "type": "Interrogative", "topic": "Daily Life", "wordCount": 6},
+    {"text": "How often do you water plants?", "type": "Interrogative", "topic": "Daily Life", "wordCount": 6},
+    {"text": "What time does your shift end?", "type": "Interrogative", "topic": "Daily Life", "wordCount": 6},
+    {"text": "Can anyone help with these bags?", "type": "Interrogative", "topic": "Daily Life", "wordCount": 6},
+
+    # Exclamatory (30)
+    {"text": "What a beautiful morning this is!", "type": "Exclamatory", "topic": "Daily Life", "wordCount": 6},
+    {"text": "That coffee tastes absolutely wonderful!", "type": "Exclamatory", "topic": "Daily Life", "wordCount": 5},
+    {"text": "How delicious this homemade meal is!", "type": "Exclamatory", "topic": "Daily Life", "wordCount": 6},
+    {"text": "The traffic jam is incredibly frustrating!", "type": "Exclamatory", "topic": "Daily Life", "wordCount": 6},
+    {"text": "What an exhausting day at work!", "type": "Exclamatory", "topic": "Daily Life", "wordCount": 6},
+    {"text": "How comfortable this new couch feels!", "type": "Exclamatory", "topic": "Daily Life", "wordCount": 6},
+    {"text": "This weather is absolutely perfect today!", "type": "Exclamatory", "topic": "Daily Life", "wordCount": 6},
+    {"text": "What a cozy home you have!", "type": "Exclamatory", "topic": "Daily Life", "wordCount": 6},
+    {"text": "That sunset looks breathtakingly beautiful!", "type": "Exclamatory", "topic": "Daily Life", "wordCount": 5},
+    {"text": "How quickly time passes during weekends!", "type": "Exclamatory", "topic": "Daily Life", "wordCount": 6},
+    {"text": "This room needs serious cleaning now!", "type": "Exclamatory", "topic": "Daily Life", "wordCount": 6},
+    {"text": "What a relief to be home!", "type": "Exclamatory", "topic": "Daily Life", "wordCount": 6},
+    {"text": "The neighbors are incredibly noisy tonight!", "type": "Exclamatory", "topic": "Daily Life", "wordCount": 6},
+    {"text": "How refreshing this cold shower feels!", "type": "Exclamatory", "topic": "Daily Life", "wordCount": 6},
+    {"text": "What an amazing dinner you prepared!", "type": "Exclamatory", "topic": "Daily Life", "wordCount": 6},
+    {"text": "This grocery bill is surprisingly expensive!", "type": "Exclamatory", "topic": "Daily Life", "wordCount": 6},
+    {"text": "How peaceful the morning garden looks!", "type": "Exclamatory", "topic": "Daily Life", "wordCount": 6},
+    {"text": "What a productive day this has been!", "type": "Exclamatory", "topic": "Daily Life", "wordCount": 7},
+    {"text": "The laundry pile is enormously high!", "type": "Exclamatory", "topic": "Daily Life", "wordCount": 6},
+    {"text": "How wonderful to see you again!", "type": "Exclamatory", "topic": "Daily Life", "wordCount": 6},
+    {"text": "This bed feels incredibly soft tonight!", "type": "Exclamatory", "topic": "Daily Life", "wordCount": 6},
+    {"text": "What lovely flowers bloom in spring!", "type": "Exclamatory", "topic": "Daily Life", "wordCount": 6},
+    {"text": "How organized your closet has become!", "type": "Exclamatory", "topic": "Daily Life", "wordCount": 6},
+    {"text": "This heating bill is shockingly high!", "type": "Exclamatory", "topic": "Daily Life", "wordCount": 6},
+    {"text": "What adorable puppies play in park!", "type": "Exclamatory", "topic": "Daily Life", "wordCount": 6},
+    {"text": "How quickly children grow up nowadays!", "type": "Exclamatory", "topic": "Daily Life", "wordCount": 6},
+    {"text": "This traffic light takes forever changing!", "type": "Exclamatory", "topic": "Daily Life", "wordCount": 6},
+    {"text": "What spectacular fireworks lit the sky!", "type": "Exclamatory", "topic": "Daily Life", "wordCount": 6},
+    {"text": "How spotless the house looks now!", "type": "Exclamatory", "topic": "Daily Life", "wordCount": 6},
+    {"text": "What perfect timing you have arrived!", "type": "Exclamatory", "topic": "Daily Life", "wordCount": 6},
+
+    # Imperative (30)
+    {"text": "Wake up and start your day.", "type": "Imperative", "topic": "Daily Life", "wordCount": 6},
+    {"text": "Please turn off the lights.", "type": "Imperative", "topic": "Daily Life", "wordCount": 5},
+    {"text": "Close the door behind you.", "type": "Imperative", "topic": "Daily Life", "wordCount": 5},
+    {"text": "Take out the trash immediately.", "type": "Imperative", "topic": "Daily Life", "wordCount": 5},
+    {"text": "Set your alarm for tomorrow morning.", "type": "Imperative", "topic": "Daily Life", "wordCount": 6},
+    {"text": "Lock all doors before leaving home.", "type": "Imperative", "topic": "Daily Life", "wordCount": 6},
+    {"text": "Water the plants every other day.", "type": "Imperative", "topic": "Daily Life", "wordCount": 6},
+    {"text": "Check the mail when you arrive.", "type": "Imperative", "topic": "Daily Life", "wordCount": 6},
+    {"text": "Clean your room this weekend.", "type": "Imperative", "topic": "Daily Life", "wordCount": 5},
+    {"text": "Put groceries away in refrigerator.", "type": "Imperative", "topic": "Daily Life", "wordCount": 5},
+    {"text": "Call your parents this evening.", "type": "Imperative", "topic": "Daily Life", "wordCount": 5},
+    {"text": "Make your bed every single morning.", "type": "Imperative", "topic": "Daily Life", "wordCount": 6},
+    {"text": "Pay bills by their due dates.", "type": "Imperative", "topic": "Daily Life", "wordCount": 6},
+    {"text": "Organize your closet this weekend.", "type": "Imperative", "topic": "Daily Life", "wordCount": 5},
+    {"text": "Wash dishes right after eating meals.", "type": "Imperative", "topic": "Daily Life", "wordCount": 6},
+    {"text": "Exercise at least three times weekly.", "type": "Imperative", "topic": "Daily Life", "wordCount": 6},
+    {"text": "Keep track of household expenses.", "type": "Imperative", "topic": "Daily Life", "wordCount": 5},
+    {"text": "Pack lunches the night before work.", "type": "Imperative", "topic": "Daily Life", "wordCount": 6},
+    {"text": "Sort recycling from regular garbage.", "type": "Imperative", "topic": "Daily Life", "wordCount": 5},
+    {"text": "Schedule appointments well in advance.", "type": "Imperative", "topic": "Daily Life", "wordCount": 5},
+    {"text": "Hang up clothes after wearing them.", "type": "Imperative", "topic": "Daily Life", "wordCount": 6},
+    {"text": "Save energy by unplugging unused devices.", "type": "Imperative", "topic": "Daily Life", "wordCount": 6},
+    {"text": "Plan weekly menus for easier shopping.", "type": "Imperative", "topic": "Daily Life", "wordCount": 6},
+    {"text": "Replace air filters every three months.", "type": "Imperative", "topic": "Daily Life", "wordCount": 6},
+    {"text": "Keep emergency supplies readily available.", "type": "Imperative", "topic": "Daily Life", "wordCount": 5},
+    {"text": "Maintain a regular sleep schedule nightly.", "type": "Imperative", "topic": "Daily Life", "wordCount": 6},
+    {"text": "Store important documents in safe place.", "type": "Imperative", "topic": "Daily Life", "wordCount": 6},
+    {"text": "Review monthly budgets and adjust accordingly.", "type": "Imperative", "topic": "Daily Life", "wordCount": 6},
+    {"text": "Charge electronic devices before bedtime.", "type": "Imperative", "topic": "Daily Life", "wordCount": 5},
+    {"text": "Respect quiet hours in your neighborhood.", "type": "Imperative", "topic": "Daily Life", "wordCount": 6},
+]
+
+sentences.extend(daily_life_sentences)
+
+# Save after Daily Life
+with open('/Users/xinzechao/Projects/randomhub/public/data/sentences.json', 'w') as f:
+    json.dump(sentences, f, indent=2)
+
+print(f"\n✓ Added Daily Life sentences. Total: {len(sentences)}")
+print(f"Daily Life count: {sum(1 for s in sentences if s['topic'] == 'Daily Life')}")
