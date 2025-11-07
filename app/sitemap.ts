@@ -11,6 +11,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: '/random-city-generator', priority: 0.9, changeFreq: 'weekly' as const },
     { path: '/random-letter-generator', priority: 0.9, changeFreq: 'weekly' as const },
     { path: '/random-sentence-generator', priority: 0.9, changeFreq: 'weekly' as const },
+    { path: '/random-adjective-generator', priority: 0.9, changeFreq: 'weekly' as const },
     { path: '/privacy', priority: 0.5, changeFreq: 'monthly' as const },
   ]
 

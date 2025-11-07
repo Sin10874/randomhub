@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { UserSquare, Building2, CaseUpper, MessageSquareText } from 'lucide-react';
+import { UserSquare, Building2, CaseUpper, MessageSquareText, Sparkles } from 'lucide-react';
 
 const tools = [
   {
@@ -11,6 +11,14 @@ const tools = [
     Icon: MessageSquareText,
     gradient: 'from-orange-500 to-pink-500',
     hoverGradient: 'hover:from-orange-600 hover:to-pink-600',
+  },
+  {
+    title: 'Random Adjective Generator',
+    description: 'Generate descriptive adjectives for creative writing',
+    href: '/random-adjective-generator',
+    Icon: Sparkles,
+    gradient: 'from-emerald-500 to-green-500',
+    hoverGradient: 'hover:from-emerald-600 hover:to-green-600',
   },
   {
     title: 'Random Name Generator',
@@ -33,8 +41,8 @@ const tools = [
     description: 'Generate random letters for games and activities',
     href: '/random-letter-generator',
     Icon: CaseUpper,
-    gradient: 'from-emerald-500 to-lime-400',
-    hoverGradient: 'hover:from-emerald-600 hover:to-lime-500',
+    gradient: 'from-amber-500 to-yellow-400',
+    hoverGradient: 'hover:from-amber-600 hover:to-yellow-500',
   },
 ];
 
