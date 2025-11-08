@@ -1,0 +1,3590 @@
+[
+  {
+    "job": "Accountant",
+    "category": "Business & Finance"
+  },
+  {
+    "job": "Actuary",
+    "category": "Business & Finance"
+  },
+  {
+    "job": "Financial Analyst",
+    "category": "Business & Finance"
+  },
+  {
+    "job": "Investment Banker",
+    "category": "Business & Finance"
+  },
+  {
+    "job": "Stockbroker",
+    "category": "Business & Finance"
+  },
+  {
+    "job": "Auditor",
+    "category": "Business & Finance"
+  },
+  {
+    "job": "Tax Consultant",
+    "category": "Business & Finance"
+  },
+  {
+    "job": "Business Analyst",
+    "category": "Business & Finance"
+  },
+  {
+    "job": "Marketing Manager",
+    "category": "Business & Finance"
+  },
+  {
+    "job": "Sales Representative",
+    "category": "Business & Finance"
+  },
+  {
+    "job": "Financial Advisor",
+    "category": "Business & Finance"
+  },
+  {
+    "job": "Budget Analyst",
+    "category": "Business & Finance"
+  },
+  {
+    "job": "Credit Analyst",
+    "category": "Business & Finance"
+  },
+  {
+    "job": "Loan Officer",
+    "category": "Business & Finance"
+  },
+  {
+    "job": "Portfolio Manager",
+    "category": "Business & Finance"
+  },
+  {
+    "job": "Risk Manager",
+    "category": "Business & Finance"
+  },
+  {
+    "job": "Compliance Officer",
+    "category": "Business & Finance"
+  },
+  {
+    "job": "Investment Analyst",
+    "category": "Business & Finance"
+  },
+  {
+    "job": "Fundraiser",
+    "category": "Business & Finance"
+  },
+  {
+    "job": "Brand Manager",
+    "category": "Business & Finance"
+  },
+  {
+    "job": "Product Manager",
+    "category": "Business & Finance"
+  },
+  {
+    "job": "Business Development Manager",
+    "category": "Business & Finance"
+  },
+  {
+    "job": "Economist",
+    "category": "Business & Finance"
+  },
+  {
+    "job": "Management Consultant",
+    "category": "Business & Finance"
+  },
+  {
+    "job": "Operations Manager",
+    "category": "Business & Finance"
+  },
+  {
+    "job": "Software Engineer",
+    "category": "Technology & IT"
+  },
+  {
+    "job": "Web Developer",
+    "category": "Technology & IT"
+  },
+  {
+    "job": "Data Scientist",
+    "category": "Technology & IT"
+  },
+  {
+    "job": "Network Administrator",
+    "category": "Technology & IT"
+  },
+  {
+    "job": "Database Administrator",
+    "category": "Technology & IT"
+  },
+  {
+    "job": "Systems Analyst",
+    "category": "Technology & IT"
+  },
+  {
+    "job": "Cybersecurity Specialist",
+    "category": "Technology & IT"
+  },
+  {
+    "job": "DevOps Engineer",
+    "category": "Technology & IT"
+  },
+  {
+    "job": "UX Designer",
+    "category": "Technology & IT"
+  },
+  {
+    "job": "Mobile App Developer",
+    "category": "Technology & IT"
+  },
+  {
+    "job": "Cloud Architect",
+    "category": "Technology & IT"
+  },
+  {
+    "job": "AI Engineer",
+    "category": "Technology & IT"
+  },
+  {
+    "job": "Machine Learning Engineer",
+    "category": "Technology & IT"
+  },
+  {
+    "job": "Full Stack Developer",
+    "category": "Technology & IT"
+  },
+  {
+    "job": "Frontend Developer",
+    "category": "Technology & IT"
+  },
+  {
+    "job": "Backend Developer",
+    "category": "Technology & IT"
+  },
+  {
+    "job": "Game Developer",
+    "category": "Technology & IT"
+  },
+  {
+    "job": "QA Engineer",
+    "category": "Technology & IT"
+  },
+  {
+    "job": "IT Support Specialist",
+    "category": "Technology & IT"
+  },
+  {
+    "job": "Network Engineer",
+    "category": "Technology & IT"
+  },
+  {
+    "job": "Security Analyst",
+    "category": "Technology & IT"
+  },
+  {
+    "job": "Blockchain Developer",
+    "category": "Technology & IT"
+  },
+  {
+    "job": "Data Engineer",
+    "category": "Technology & IT"
+  },
+  {
+    "job": "Site Reliability Engineer",
+    "category": "Technology & IT"
+  },
+  {
+    "job": "Systems Administrator",
+    "category": "Technology & IT"
+  },
+  {
+    "job": "UI Designer",
+    "category": "Technology & IT"
+  },
+  {
+    "job": "Product Designer",
+    "category": "Technology & IT"
+  },
+  {
+    "job": "Technical Writer",
+    "category": "Technology & IT"
+  },
+  {
+    "job": "Scrum Master",
+    "category": "Technology & IT"
+  },
+  {
+    "job": "IT Project Manager",
+    "category": "Technology & IT"
+  },
+  {
+    "job": "Teacher",
+    "category": "Education"
+  },
+  {
+    "job": "Professor",
+    "category": "Education"
+  },
+  {
+    "job": "School Principal",
+    "category": "Education"
+  },
+  {
+    "job": "Librarian",
+    "category": "Education"
+  },
+  {
+    "job": "Education Consultant",
+    "category": "Education"
+  },
+  {
+    "job": "School Counselor",
+    "category": "Education"
+  },
+  {
+    "job": "Special Education Teacher",
+    "category": "Education"
+  },
+  {
+    "job": "Tutor",
+    "category": "Education"
+  },
+  {
+    "job": "Curriculum Developer",
+    "category": "Education"
+  },
+  {
+    "job": "Academic Advisor",
+    "category": "Education"
+  },
+  {
+    "job": "Preschool Teacher",
+    "category": "Education"
+  },
+  {
+    "job": "Elementary School Teacher",
+    "category": "Education"
+  },
+  {
+    "job": "High School Teacher",
+    "category": "Education"
+  },
+  {
+    "job": "College Instructor",
+    "category": "Education"
+  },
+  {
+    "job": "ESL Teacher",
+    "category": "Education"
+  },
+  {
+    "job": "Music Teacher",
+    "category": "Education"
+  },
+  {
+    "job": "Art Teacher",
+    "category": "Education"
+  },
+  {
+    "job": "Physical Education Teacher",
+    "category": "Education"
+  },
+  {
+    "job": "Substitute Teacher",
+    "category": "Education"
+  },
+  {
+    "job": "Teaching Assistant",
+    "category": "Education"
+  },
+  {
+    "job": "Education Administrator",
+    "category": "Education"
+  },
+  {
+    "job": "Instructional Designer",
+    "category": "Education"
+  },
+  {
+    "job": "Online Course Creator",
+    "category": "Education"
+  },
+  {
+    "job": "School Psychologist",
+    "category": "Education"
+  },
+  {
+    "job": "Doctor",
+    "category": "Healthcare & Medical"
+  },
+  {
+    "job": "Nurse",
+    "category": "Healthcare & Medical"
+  },
+  {
+    "job": "Surgeon",
+    "category": "Healthcare & Medical"
+  },
+  {
+    "job": "Dentist",
+    "category": "Healthcare & Medical"
+  },
+  {
+    "job": "Pharmacist",
+    "category": "Healthcare & Medical"
+  },
+  {
+    "job": "Veterinarian",
+    "category": "Healthcare & Medical"
+  },
+  {
+    "job": "Paramedic",
+    "category": "Healthcare & Medical"
+  },
+  {
+    "job": "Physical Therapist",
+    "category": "Healthcare & Medical"
+  },
+  {
+    "job": "Radiologist",
+    "category": "Healthcare & Medical"
+  },
+  {
+    "job": "Psychologist",
+    "category": "Healthcare & Medical"
+  },
+  {
+    "job": "Psychiatrist",
+    "category": "Healthcare & Medical"
+  },
+  {
+    "job": "Occupational Therapist",
+    "category": "Healthcare & Medical"
+  },
+  {
+    "job": "Medical Laboratory Technician",
+    "category": "Healthcare & Medical"
+  },
+  {
+    "job": "Anesthesiologist",
+    "category": "Healthcare & Medical"
+  },
+  {
+    "job": "Optometrist",
+    "category": "Healthcare & Medical"
+  },
+  {
+    "job": "Pediatrician",
+    "category": "Healthcare & Medical"
+  },
+  {
+    "job": "Cardiologist",
+    "category": "Healthcare & Medical"
+  },
+  {
+    "job": "Dermatologist",
+    "category": "Healthcare & Medical"
+  },
+  {
+    "job": "Neurologist",
+    "category": "Healthcare & Medical"
+  },
+  {
+    "job": "Oncologist",
+    "category": "Healthcare & Medical"
+  },
+  {
+    "job": "Obstetrician",
+    "category": "Healthcare & Medical"
+  },
+  {
+    "job": "Orthopedic Surgeon",
+    "category": "Healthcare & Medical"
+  },
+  {
+    "job": "Emergency Room Physician",
+    "category": "Healthcare & Medical"
+  },
+  {
+    "job": "Registered Nurse",
+    "category": "Healthcare & Medical"
+  },
+  {
+    "job": "Nurse Practitioner",
+    "category": "Healthcare & Medical"
+  },
+  {
+    "job": "Physician Assistant",
+    "category": "Healthcare & Medical"
+  },
+  {
+    "job": "Medical Technologist",
+    "category": "Healthcare & Medical"
+  },
+  {
+    "job": "Respiratory Therapist",
+    "category": "Healthcare & Medical"
+  },
+  {
+    "job": "Speech Therapist",
+    "category": "Healthcare & Medical"
+  },
+  {
+    "job": "Chiropractor",
+    "category": "Healthcare & Medical"
+  },
+  {
+    "job": "Dental Hygienist",
+    "category": "Healthcare & Medical"
+  },
+  {
+    "job": "Orthodontist",
+    "category": "Healthcare & Medical"
+  },
+  {
+    "job": "Pathologist",
+    "category": "Healthcare & Medical"
+  },
+  {
+    "job": "Dietitian",
+    "category": "Healthcare & Medical"
+  },
+  {
+    "job": "Medical Receptionist",
+    "category": "Healthcare & Medical"
+  },
+  {
+    "job": "Health Information Technician",
+    "category": "Healthcare & Medical"
+  },
+  {
+    "job": "Medical Billing Specialist",
+    "category": "Healthcare & Medical"
+  },
+  {
+    "job": "Clinical Research Coordinator",
+    "category": "Healthcare & Medical"
+  },
+  {
+    "job": "Phlebotomist",
+    "category": "Healthcare & Medical"
+  },
+  {
+    "job": "Lawyer",
+    "category": "Law & Legal"
+  },
+  {
+    "job": "Judge",
+    "category": "Law & Legal"
+  },
+  {
+    "job": "Paralegal",
+    "category": "Law & Legal"
+  },
+  {
+    "job": "Legal Secretary",
+    "category": "Law & Legal"
+  },
+  {
+    "job": "Attorney",
+    "category": "Law & Legal"
+  },
+  {
+    "job": "Court Reporter",
+    "category": "Law & Legal"
+  },
+  {
+    "job": "Mediator",
+    "category": "Law & Legal"
+  },
+  {
+    "job": "Legal Consultant",
+    "category": "Law & Legal"
+  },
+  {
+    "job": "Corporate Lawyer",
+    "category": "Law & Legal"
+  },
+  {
+    "job": "Criminal Defense Lawyer",
+    "category": "Law & Legal"
+  },
+  {
+    "job": "Prosecutor",
+    "category": "Law & Legal"
+  },
+  {
+    "job": "Patent Attorney",
+    "category": "Law & Legal"
+  },
+  {
+    "job": "Immigration Lawyer",
+    "category": "Law & Legal"
+  },
+  {
+    "job": "Tax Lawyer",
+    "category": "Law & Legal"
+  },
+  {
+    "job": "Family Lawyer",
+    "category": "Law & Legal"
+  },
+  {
+    "job": "Contract Specialist",
+    "category": "Law & Legal"
+  },
+  {
+    "job": "Legal Researcher",
+    "category": "Law & Legal"
+  },
+  {
+    "job": "Bailiff",
+    "category": "Law & Legal"
+  },
+  {
+    "job": "Police Officer",
+    "category": "Public Safety"
+  },
+  {
+    "job": "Firefighter",
+    "category": "Public Safety"
+  },
+  {
+    "job": "Detective",
+    "category": "Public Safety"
+  },
+  {
+    "job": "Security Guard",
+    "category": "Public Safety"
+  },
+  {
+    "job": "Emergency Dispatcher",
+    "category": "Public Safety"
+  },
+  {
+    "job": "Border Patrol Agent",
+    "category": "Public Safety"
+  },
+  {
+    "job": "Correctional Officer",
+    "category": "Public Safety"
+  },
+  {
+    "job": "Private Investigator",
+    "category": "Public Safety"
+  },
+  {
+    "job": "EMT",
+    "category": "Public Safety"
+  },
+  {
+    "job": "Crime Scene Investigator",
+    "category": "Public Safety"
+  },
+  {
+    "job": "FBI Agent",
+    "category": "Public Safety"
+  },
+  {
+    "job": "DEA Agent",
+    "category": "Public Safety"
+  },
+  {
+    "job": "Secret Service Agent",
+    "category": "Public Safety"
+  },
+  {
+    "job": "Marshal",
+    "category": "Public Safety"
+  },
+  {
+    "job": "Homeland Security Agent",
+    "category": "Public Safety"
+  },
+  {
+    "job": "Fire Chief",
+    "category": "Public Safety"
+  },
+  {
+    "job": "Police Chief",
+    "category": "Public Safety"
+  },
+  {
+    "job": "SWAT Team Member",
+    "category": "Public Safety"
+  },
+  {
+    "job": "K-9 Handler",
+    "category": "Public Safety"
+  },
+  {
+    "job": "Architect",
+    "category": "Engineering & Construction"
+  },
+  {
+    "job": "Civil Engineer",
+    "category": "Engineering & Construction"
+  },
+  {
+    "job": "Mechanical Engineer",
+    "category": "Engineering & Construction"
+  },
+  {
+    "job": "Electrical Engineer",
+    "category": "Engineering & Construction"
+  },
+  {
+    "job": "Construction Manager",
+    "category": "Engineering & Construction"
+  },
+  {
+    "job": "Surveyor",
+    "category": "Engineering & Construction"
+  },
+  {
+    "job": "Plumber",
+    "category": "Engineering & Construction"
+  },
+  {
+    "job": "Carpenter",
+    "category": "Engineering & Construction"
+  },
+  {
+    "job": "Electrician",
+    "category": "Engineering & Construction"
+  },
+  {
+    "job": "Welder",
+    "category": "Engineering & Construction"
+  },
+  {
+    "job": "Structural Engineer",
+    "category": "Engineering & Construction"
+  },
+  {
+    "job": "Industrial Engineer",
+    "category": "Engineering & Construction"
+  },
+  {
+    "job": "Aerospace Engineer",
+    "category": "Engineering & Construction"
+  },
+  {
+    "job": "Chemical Engineer",
+    "category": "Engineering & Construction"
+  },
+  {
+    "job": "Biomedical Engineer",
+    "category": "Engineering & Construction"
+  },
+  {
+    "job": "Environmental Engineer",
+    "category": "Engineering & Construction"
+  },
+  {
+    "job": "Petroleum Engineer",
+    "category": "Engineering & Construction"
+  },
+  {
+    "job": "Mining Engineer",
+    "category": "Engineering & Construction"
+  },
+  {
+    "job": "Materials Engineer",
+    "category": "Engineering & Construction"
+  },
+  {
+    "job": "Quality Engineer",
+    "category": "Engineering & Construction"
+  },
+  {
+    "job": "Project Engineer",
+    "category": "Engineering & Construction"
+  },
+  {
+    "job": "Safety Engineer",
+    "category": "Engineering & Construction"
+  },
+  {
+    "job": "Draftsperson",
+    "category": "Engineering & Construction"
+  },
+  {
+    "job": "Construction Worker",
+    "category": "Engineering & Construction"
+  },
+  {
+    "job": "Foreman",
+    "category": "Engineering & Construction"
+  },
+  {
+    "job": "Crane Operator",
+    "category": "Engineering & Construction"
+  },
+  {
+    "job": "Heavy Equipment Operator",
+    "category": "Engineering & Construction"
+  },
+  {
+    "job": "Estimator",
+    "category": "Engineering & Construction"
+  },
+  {
+    "job": "Building Inspector",
+    "category": "Engineering & Construction"
+  },
+  {
+    "job": "Journalist",
+    "category": "Media & Communications"
+  },
+  {
+    "job": "News Anchor",
+    "category": "Media & Communications"
+  },
+  {
+    "job": "Editor",
+    "category": "Media & Communications"
+  },
+  {
+    "job": "Content Writer",
+    "category": "Media & Communications"
+  },
+  {
+    "job": "Public Relations Specialist",
+    "category": "Media & Communications"
+  },
+  {
+    "job": "Social Media Manager",
+    "category": "Media & Communications"
+  },
+  {
+    "job": "Photographer",
+    "category": "Media & Communications"
+  },
+  {
+    "job": "Videographer",
+    "category": "Media & Communications"
+  },
+  {
+    "job": "Radio Host",
+    "category": "Media & Communications"
+  },
+  {
+    "job": "Copywriter",
+    "category": "Media & Communications"
+  },
+  {
+    "job": "Technical Writer",
+    "category": "Media & Communications"
+  },
+  {
+    "job": "Grant Writer",
+    "category": "Media & Communications"
+  },
+  {
+    "job": "Communications Director",
+    "category": "Media & Communications"
+  },
+  {
+    "job": "Media Buyer",
+    "category": "Media & Communications"
+  },
+  {
+    "job": "Advertising Manager",
+    "category": "Media & Communications"
+  },
+  {
+    "job": "Communications Specialist",
+    "category": "Media & Communications"
+  },
+  {
+    "job": "Blogger",
+    "category": "Media & Communications"
+  },
+  {
+    "job": "Podcaster",
+    "category": "Media & Communications"
+  },
+  {
+    "job": "Content Strategist",
+    "category": "Media & Communications"
+  },
+  {
+    "job": "SEO Specialist",
+    "category": "Media & Communications"
+  },
+  {
+    "job": "Digital Marketing Manager",
+    "category": "Media & Communications"
+  },
+  {
+    "job": "Broadcast Engineer",
+    "category": "Media & Communications"
+  },
+  {
+    "job": "Camera Operator",
+    "category": "Media & Communications"
+  },
+  {
+    "job": "Film Critic",
+    "category": "Media & Communications"
+  },
+  {
+    "job": "Sports Journalist",
+    "category": "Media & Communications"
+  },
+  {
+    "job": "Chef",
+    "category": "Hospitality & Food Service"
+  },
+  {
+    "job": "Baker",
+    "category": "Hospitality & Food Service"
+  },
+  {
+    "job": "Bartender",
+    "category": "Hospitality & Food Service"
+  },
+  {
+    "job": "Waiter/Waitress",
+    "category": "Hospitality & Food Service"
+  },
+  {
+    "job": "Hotel Manager",
+    "category": "Hospitality & Food Service"
+  },
+  {
+    "job": "Restaurant Manager",
+    "category": "Hospitality & Food Service"
+  },
+  {
+    "job": "Sommelier",
+    "category": "Hospitality & Food Service"
+  },
+  {
+    "job": "Barista",
+    "category": "Hospitality & Food Service"
+  },
+  {
+    "job": "Event Planner",
+    "category": "Hospitality & Food Service"
+  },
+  {
+    "job": "Catering Manager",
+    "category": "Hospitality & Food Service"
+  },
+  {
+    "job": "Pastry Chef",
+    "category": "Hospitality & Food Service"
+  },
+  {
+    "job": "Sous Chef",
+    "category": "Hospitality & Food Service"
+  },
+  {
+    "job": "Executive Chef",
+    "category": "Hospitality & Food Service"
+  },
+  {
+    "job": "Line Cook",
+    "category": "Hospitality & Food Service"
+  },
+  {
+    "job": "Food Service Manager",
+    "category": "Hospitality & Food Service"
+  },
+  {
+    "job": "Hospitality Manager",
+    "category": "Hospitality & Food Service"
+  },
+  {
+    "job": "Concierge",
+    "category": "Hospitality & Food Service"
+  },
+  {
+    "job": "Front Desk Manager",
+    "category": "Hospitality & Food Service"
+  },
+  {
+    "job": "Housekeeper",
+    "category": "Hospitality & Food Service"
+  },
+  {
+    "job": "Valet",
+    "category": "Hospitality & Food Service"
+  },
+  {
+    "job": "Bellhop",
+    "category": "Hospitality & Food Service"
+  },
+  {
+    "job": "Banquet Manager",
+    "category": "Hospitality & Food Service"
+  },
+  {
+    "job": "Cruise Director",
+    "category": "Hospitality & Food Service"
+  },
+  {
+    "job": "Resort Manager",
+    "category": "Hospitality & Food Service"
+  },
+  {
+    "job": "Food Critic",
+    "category": "Hospitality & Food Service"
+  },
+  {
+    "job": "Graphic Designer",
+    "category": "Arts & Design"
+  },
+  {
+    "job": "Interior Designer",
+    "category": "Arts & Design"
+  },
+  {
+    "job": "Fashion Designer",
+    "category": "Arts & Design"
+  },
+  {
+    "job": "Illustrator",
+    "category": "Arts & Design"
+  },
+  {
+    "job": "Animator",
+    "category": "Arts & Design"
+  },
+  {
+    "job": "Art Director",
+    "category": "Arts & Design"
+  },
+  {
+    "job": "Product Designer",
+    "category": "Arts & Design"
+  },
+  {
+    "job": "Creative Director",
+    "category": "Arts & Design"
+  },
+  {
+    "job": "3D Modeler",
+    "category": "Arts & Design"
+  },
+  {
+    "job": "Web Designer",
+    "category": "Arts & Design"
+  },
+  {
+    "job": "Industrial Designer",
+    "category": "Arts & Design"
+  },
+  {
+    "job": "Textile Designer",
+    "category": "Arts & Design"
+  },
+  {
+    "job": "Jewelry Designer",
+    "category": "Arts & Design"
+  },
+  {
+    "job": "Set Designer",
+    "category": "Arts & Design"
+  },
+  {
+    "job": "Costume Designer",
+    "category": "Arts & Design"
+  },
+  {
+    "job": "Visual Effects Artist",
+    "category": "Arts & Design"
+  },
+  {
+    "job": "Motion Graphics Designer",
+    "category": "Arts & Design"
+  },
+  {
+    "job": "Game Designer",
+    "category": "Arts & Design"
+  },
+  {
+    "job": "Character Designer",
+    "category": "Arts & Design"
+  },
+  {
+    "job": "Concept Artist",
+    "category": "Arts & Design"
+  },
+  {
+    "job": "Tattoo Artist",
+    "category": "Arts & Design"
+  },
+  {
+    "job": "Muralist",
+    "category": "Arts & Design"
+  },
+  {
+    "job": "Calligrapher",
+    "category": "Arts & Design"
+  },
+  {
+    "job": "Exhibit Designer",
+    "category": "Arts & Design"
+  },
+  {
+    "job": "Lighting Designer",
+    "category": "Arts & Design"
+  },
+  {
+    "job": "Actor",
+    "category": "Entertainment"
+  },
+  {
+    "job": "Musician",
+    "category": "Entertainment"
+  },
+  {
+    "job": "Dancer",
+    "category": "Entertainment"
+  },
+  {
+    "job": "Director",
+    "category": "Entertainment"
+  },
+  {
+    "job": "Producer",
+    "category": "Entertainment"
+  },
+  {
+    "job": "Screenwriter",
+    "category": "Entertainment"
+  },
+  {
+    "job": "Sound Engineer",
+    "category": "Entertainment"
+  },
+  {
+    "job": "Makeup Artist",
+    "category": "Entertainment"
+  },
+  {
+    "job": "Stunt Performer",
+    "category": "Entertainment"
+  },
+  {
+    "job": "Voice Actor",
+    "category": "Entertainment"
+  },
+  {
+    "job": "Choreographer",
+    "category": "Entertainment"
+  },
+  {
+    "job": "Comedian",
+    "category": "Entertainment"
+  },
+  {
+    "job": "Magician",
+    "category": "Entertainment"
+  },
+  {
+    "job": "DJ",
+    "category": "Entertainment"
+  },
+  {
+    "job": "Singer",
+    "category": "Entertainment"
+  },
+  {
+    "job": "Music Producer",
+    "category": "Entertainment"
+  },
+  {
+    "job": "Film Editor",
+    "category": "Entertainment"
+  },
+  {
+    "job": "Cinematographer",
+    "category": "Entertainment"
+  },
+  {
+    "job": "Casting Director",
+    "category": "Entertainment"
+  },
+  {
+    "job": "Talent Agent",
+    "category": "Entertainment"
+  },
+  {
+    "job": "Show Runner",
+    "category": "Entertainment"
+  },
+  {
+    "job": "Stage Manager",
+    "category": "Entertainment"
+  },
+  {
+    "job": "Music Composer",
+    "category": "Entertainment"
+  },
+  {
+    "job": "Songwriter",
+    "category": "Entertainment"
+  },
+  {
+    "job": "Record Producer",
+    "category": "Entertainment"
+  },
+  {
+    "job": "Audio Engineer",
+    "category": "Entertainment"
+  },
+  {
+    "job": "Video Game Streamer",
+    "category": "Entertainment"
+  },
+  {
+    "job": "YouTuber",
+    "category": "Entertainment"
+  },
+  {
+    "job": "Influencer",
+    "category": "Entertainment"
+  },
+  {
+    "job": "Stand-up Comedian",
+    "category": "Entertainment"
+  },
+  {
+    "job": "Biologist",
+    "category": "Science & Research"
+  },
+  {
+    "job": "Chemist",
+    "category": "Science & Research"
+  },
+  {
+    "job": "Physicist",
+    "category": "Science & Research"
+  },
+  {
+    "job": "Research Scientist",
+    "category": "Science & Research"
+  },
+  {
+    "job": "Geologist",
+    "category": "Science & Research"
+  },
+  {
+    "job": "Environmental Scientist",
+    "category": "Science & Research"
+  },
+  {
+    "job": "Astronomer",
+    "category": "Science & Research"
+  },
+  {
+    "job": "Meteorologist",
+    "category": "Science & Research"
+  },
+  {
+    "job": "Marine Biologist",
+    "category": "Science & Research"
+  },
+  {
+    "job": "Archaeologist",
+    "category": "Science & Research"
+  },
+  {
+    "job": "Anthropologist",
+    "category": "Science & Research"
+  },
+  {
+    "job": "Sociologist",
+    "category": "Science & Research"
+  },
+  {
+    "job": "Botanist",
+    "category": "Science & Research"
+  },
+  {
+    "job": "Microbiologist",
+    "category": "Science & Research"
+  },
+  {
+    "job": "Biochemist",
+    "category": "Science & Research"
+  },
+  {
+    "job": "Ecologist",
+    "category": "Science & Research"
+  },
+  {
+    "job": "Toxicologist",
+    "category": "Science & Research"
+  },
+  {
+    "job": "Paleontologist",
+    "category": "Science & Research"
+  },
+  {
+    "job": "Seismologist",
+    "category": "Science & Research"
+  },
+  {
+    "job": "Climatologist",
+    "category": "Science & Research"
+  },
+  {
+    "job": "Hydrologist",
+    "category": "Science & Research"
+  },
+  {
+    "job": "Lab Technician",
+    "category": "Science & Research"
+  },
+  {
+    "job": "Clinical Trial Coordinator",
+    "category": "Science & Research"
+  },
+  {
+    "job": "Science Writer",
+    "category": "Science & Research"
+  },
+  {
+    "job": "Research Assistant",
+    "category": "Science & Research"
+  },
+  {
+    "job": "Pilot",
+    "category": "Transportation"
+  },
+  {
+    "job": "Flight Attendant",
+    "category": "Transportation"
+  },
+  {
+    "job": "Air Traffic Controller",
+    "category": "Transportation"
+  },
+  {
+    "job": "Truck Driver",
+    "category": "Transportation"
+  },
+  {
+    "job": "Bus Driver",
+    "category": "Transportation"
+  },
+  {
+    "job": "Train Conductor",
+    "category": "Transportation"
+  },
+  {
+    "job": "Ship Captain",
+    "category": "Transportation"
+  },
+  {
+    "job": "Taxi Driver",
+    "category": "Transportation"
+  },
+  {
+    "job": "Delivery Driver",
+    "category": "Transportation"
+  },
+  {
+    "job": "Logistics Coordinator",
+    "category": "Transportation"
+  },
+  {
+    "job": "Commercial Pilot",
+    "category": "Transportation"
+  },
+  {
+    "job": "Helicopter Pilot",
+    "category": "Transportation"
+  },
+  {
+    "job": "Flight Engineer",
+    "category": "Transportation"
+  },
+  {
+    "job": "Aircraft Mechanic",
+    "category": "Transportation"
+  },
+  {
+    "job": "Locomotive Engineer",
+    "category": "Transportation"
+  },
+  {
+    "job": "Subway Operator",
+    "category": "Transportation"
+  },
+  {
+    "job": "Crane Operator",
+    "category": "Transportation"
+  },
+  {
+    "job": "Forklift Operator",
+    "category": "Transportation"
+  },
+  {
+    "job": "Dispatcher",
+    "category": "Transportation"
+  },
+  {
+    "job": "Freight Agent",
+    "category": "Transportation"
+  },
+  {
+    "job": "Transportation Manager",
+    "category": "Transportation"
+  },
+  {
+    "job": "Warehouse Manager",
+    "category": "Transportation"
+  },
+  {
+    "job": "Supply Chain Manager",
+    "category": "Transportation"
+  },
+  {
+    "job": "Uber/Lyft Driver",
+    "category": "Transportation"
+  },
+  {
+    "job": "Courier",
+    "category": "Transportation"
+  },
+  {
+    "job": "Personal Trainer",
+    "category": "Sports & Fitness"
+  },
+  {
+    "job": "Athletic Coach",
+    "category": "Sports & Fitness"
+  },
+  {
+    "job": "Sports Coach",
+    "category": "Sports & Fitness"
+  },
+  {
+    "job": "Professional Athlete",
+    "category": "Sports & Fitness"
+  },
+  {
+    "job": "Fitness Instructor",
+    "category": "Sports & Fitness"
+  },
+  {
+    "job": "Sports Manager",
+    "category": "Sports & Fitness"
+  },
+  {
+    "job": "Yoga Instructor",
+    "category": "Sports & Fitness"
+  },
+  {
+    "job": "Nutritionist",
+    "category": "Sports & Fitness"
+  },
+  {
+    "job": "Referee",
+    "category": "Sports & Fitness"
+  },
+  {
+    "job": "Sports Commentator",
+    "category": "Sports & Fitness"
+  },
+  {
+    "job": "Pilates Instructor",
+    "category": "Sports & Fitness"
+  },
+  {
+    "job": "CrossFit Coach",
+    "category": "Sports & Fitness"
+  },
+  {
+    "job": "Strength Coach",
+    "category": "Sports & Fitness"
+  },
+  {
+    "job": "Sports Therapist",
+    "category": "Sports & Fitness"
+  },
+  {
+    "job": "Athletic Trainer",
+    "category": "Sports & Fitness"
+  },
+  {
+    "job": "Gym Manager",
+    "category": "Sports & Fitness"
+  },
+  {
+    "job": "Zumba Instructor",
+    "category": "Sports & Fitness"
+  },
+  {
+    "job": "Martial Arts Instructor",
+    "category": "Sports & Fitness"
+  },
+  {
+    "job": "Swimming Coach",
+    "category": "Sports & Fitness"
+  },
+  {
+    "job": "Tennis Coach",
+    "category": "Sports & Fitness"
+  },
+  {
+    "job": "Golf Instructor",
+    "category": "Sports & Fitness"
+  },
+  {
+    "job": "Sports Scout",
+    "category": "Sports & Fitness"
+  },
+  {
+    "job": "Sports Agent",
+    "category": "Sports & Fitness"
+  },
+  {
+    "job": "Umpire",
+    "category": "Sports & Fitness"
+  },
+  {
+    "job": "Real Estate Agent",
+    "category": "Sales & Real Estate"
+  },
+  {
+    "job": "Property Manager",
+    "category": "Sales & Real Estate"
+  },
+  {
+    "job": "Retail Manager",
+    "category": "Sales & Real Estate"
+  },
+  {
+    "job": "Sales Manager",
+    "category": "Sales & Real Estate"
+  },
+  {
+    "job": "Insurance Agent",
+    "category": "Sales & Real Estate"
+  },
+  {
+    "job": "Appraiser",
+    "category": "Sales & Real Estate"
+  },
+  {
+    "job": "Leasing Agent",
+    "category": "Sales & Real Estate"
+  },
+  {
+    "job": "Car Salesperson",
+    "category": "Sales & Real Estate"
+  },
+  {
+    "job": "Real Estate Broker",
+    "category": "Sales & Real Estate"
+  },
+  {
+    "job": "Commercial Real Estate Agent",
+    "category": "Sales & Real Estate"
+  },
+  {
+    "job": "Real Estate Developer",
+    "category": "Sales & Real Estate"
+  },
+  {
+    "job": "Mortgage Broker",
+    "category": "Sales & Real Estate"
+  },
+  {
+    "job": "Retail Sales Associate",
+    "category": "Sales & Real Estate"
+  },
+  {
+    "job": "Store Manager",
+    "category": "Sales & Real Estate"
+  },
+  {
+    "job": "District Manager",
+    "category": "Sales & Real Estate"
+  },
+  {
+    "job": "Account Executive",
+    "category": "Sales & Real Estate"
+  },
+  {
+    "job": "Business Development Representative",
+    "category": "Sales & Real Estate"
+  },
+  {
+    "job": "Sales Engineer",
+    "category": "Sales & Real Estate"
+  },
+  {
+    "job": "Pharmaceutical Sales Rep",
+    "category": "Sales & Real Estate"
+  },
+  {
+    "job": "Medical Sales Rep",
+    "category": "Sales & Real Estate"
+  },
+  {
+    "job": "Software Sales Rep",
+    "category": "Sales & Real Estate"
+  },
+  {
+    "job": "Telemarketer",
+    "category": "Sales & Real Estate"
+  },
+  {
+    "job": "Administrative Assistant",
+    "category": "Administration & Office"
+  },
+  {
+    "job": "Executive Assistant",
+    "category": "Administration & Office"
+  },
+  {
+    "job": "Office Manager",
+    "category": "Administration & Office"
+  },
+  {
+    "job": "Receptionist",
+    "category": "Administration & Office"
+  },
+  {
+    "job": "Data Entry Clerk",
+    "category": "Administration & Office"
+  },
+  {
+    "job": "Human Resources Manager",
+    "category": "Administration & Office"
+  },
+  {
+    "job": "Recruiter",
+    "category": "Administration & Office"
+  },
+  {
+    "job": "Payroll Specialist",
+    "category": "Administration & Office"
+  },
+  {
+    "job": "Secretary",
+    "category": "Administration & Office"
+  },
+  {
+    "job": "Office Clerk",
+    "category": "Administration & Office"
+  },
+  {
+    "job": "File Clerk",
+    "category": "Administration & Office"
+  },
+  {
+    "job": "Bookkeeper",
+    "category": "Administration & Office"
+  },
+  {
+    "job": "Billing Clerk",
+    "category": "Administration & Office"
+  },
+  {
+    "job": "Customer Service Representative",
+    "category": "Administration & Office"
+  },
+  {
+    "job": "Call Center Representative",
+    "category": "Administration & Office"
+  },
+  {
+    "job": "Virtual Assistant",
+    "category": "Administration & Office"
+  },
+  {
+    "job": "HR Specialist",
+    "category": "Administration & Office"
+  },
+  {
+    "job": "Benefits Administrator",
+    "category": "Administration & Office"
+  },
+  {
+    "job": "Training Coordinator",
+    "category": "Administration & Office"
+  },
+  {
+    "job": "Operations Coordinator",
+    "category": "Administration & Office"
+  },
+  {
+    "job": "Project Coordinator",
+    "category": "Administration & Office"
+  },
+  {
+    "job": "Farmer",
+    "category": "Agriculture & Environment"
+  },
+  {
+    "job": "Agricultural Engineer",
+    "category": "Agriculture & Environment"
+  },
+  {
+    "job": "Forester",
+    "category": "Agriculture & Environment"
+  },
+  {
+    "job": "Park Ranger",
+    "category": "Agriculture & Environment"
+  },
+  {
+    "job": "Wildlife Biologist",
+    "category": "Agriculture & Environment"
+  },
+  {
+    "job": "Landscape Architect",
+    "category": "Agriculture & Environment"
+  },
+  {
+    "job": "Conservation Scientist",
+    "category": "Agriculture & Environment"
+  },
+  {
+    "job": "Gardener",
+    "category": "Agriculture & Environment"
+  },
+  {
+    "job": "Florist",
+    "category": "Agriculture & Environment"
+  },
+  {
+    "job": "Fisherman",
+    "category": "Agriculture & Environment"
+  },
+  {
+    "job": "Rancher",
+    "category": "Agriculture & Environment"
+  },
+  {
+    "job": "Agronomist",
+    "category": "Agriculture & Environment"
+  },
+  {
+    "job": "Horticulturist",
+    "category": "Agriculture & Environment"
+  },
+  {
+    "job": "Soil Scientist",
+    "category": "Agriculture & Environment"
+  },
+  {
+    "job": "Animal Scientist",
+    "category": "Agriculture & Environment"
+  },
+  {
+    "job": "Dairy Farmer",
+    "category": "Agriculture & Environment"
+  },
+  {
+    "job": "Beekeeper",
+    "category": "Agriculture & Environment"
+  },
+  {
+    "job": "Arborist",
+    "category": "Agriculture & Environment"
+  },
+  {
+    "job": "Landscape Designer",
+    "category": "Agriculture & Environment"
+  },
+  {
+    "job": "Greenhouse Manager",
+    "category": "Agriculture & Environment"
+  },
+  {
+    "job": "Pest Control Specialist",
+    "category": "Agriculture & Environment"
+  },
+  {
+    "job": "Irrigation Specialist",
+    "category": "Agriculture & Environment"
+  },
+  {
+    "job": "Wildlife Rehabilitator",
+    "category": "Agriculture & Environment"
+  },
+  {
+    "job": "Environmental Consultant",
+    "category": "Agriculture & Environment"
+  },
+  {
+    "job": "Sustainability Coordinator",
+    "category": "Agriculture & Environment"
+  },
+  {
+    "job": "Hairdresser",
+    "category": "Personal Services"
+  },
+  {
+    "job": "Barber",
+    "category": "Personal Services"
+  },
+  {
+    "job": "Cosmetologist",
+    "category": "Personal Services"
+  },
+  {
+    "job": "Massage Therapist",
+    "category": "Personal Services"
+  },
+  {
+    "job": "Esthetician",
+    "category": "Personal Services"
+  },
+  {
+    "job": "Nail Technician",
+    "category": "Personal Services"
+  },
+  {
+    "job": "Personal Stylist",
+    "category": "Personal Services"
+  },
+  {
+    "job": "Life Coach",
+    "category": "Personal Services"
+  },
+  {
+    "job": "Funeral Director",
+    "category": "Personal Services"
+  },
+  {
+    "job": "Wedding Planner",
+    "category": "Personal Services"
+  },
+  {
+    "job": "Personal Shopper",
+    "category": "Personal Services"
+  },
+  {
+    "job": "Image Consultant",
+    "category": "Personal Services"
+  },
+  {
+    "job": "Color Consultant",
+    "category": "Personal Services"
+  },
+  {
+    "job": "Pet Groomer",
+    "category": "Personal Services"
+  },
+  {
+    "job": "Dog Walker",
+    "category": "Personal Services"
+  },
+  {
+    "job": "Pet Sitter",
+    "category": "Personal Services"
+  },
+  {
+    "job": "Professional Organizer",
+    "category": "Personal Services"
+  },
+  {
+    "job": "Personal Assistant",
+    "category": "Personal Services"
+  },
+  {
+    "job": "Nanny",
+    "category": "Personal Services"
+  },
+  {
+    "job": "Babysitter",
+    "category": "Personal Services"
+  },
+  {
+    "job": "Home Health Aide",
+    "category": "Personal Services"
+  },
+  {
+    "job": "Caregiver",
+    "category": "Personal Services"
+  },
+  {
+    "job": "Elder Care Specialist",
+    "category": "Personal Services"
+  },
+  {
+    "job": "Butler",
+    "category": "Personal Services"
+  },
+  {
+    "job": "Housekeeper",
+    "category": "Personal Services"
+  },
+  {
+    "job": "Automotive Technician",
+    "category": "Skilled Trades"
+  },
+  {
+    "job": "HVAC Technician",
+    "category": "Skilled Trades"
+  },
+  {
+    "job": "Locksmith",
+    "category": "Skilled Trades"
+  },
+  {
+    "job": "Painter",
+    "category": "Skilled Trades"
+  },
+  {
+    "job": "Roofer",
+    "category": "Skilled Trades"
+  },
+  {
+    "job": "Mason",
+    "category": "Skilled Trades"
+  },
+  {
+    "job": "Glazier",
+    "category": "Skilled Trades"
+  },
+  {
+    "job": "Tile Setter",
+    "category": "Skilled Trades"
+  },
+  {
+    "job": "Machinist",
+    "category": "Skilled Trades"
+  },
+  {
+    "job": "Blacksmith",
+    "category": "Skilled Trades"
+  },
+  {
+    "job": "Auto Body Technician",
+    "category": "Skilled Trades"
+  },
+  {
+    "job": "Diesel Mechanic",
+    "category": "Skilled Trades"
+  },
+  {
+    "job": "Small Engine Mechanic",
+    "category": "Skilled Trades"
+  },
+  {
+    "job": "Appliance Repair Technician",
+    "category": "Skilled Trades"
+  },
+  {
+    "job": "Elevator Technician",
+    "category": "Skilled Trades"
+  },
+  {
+    "job": "Wind Turbine Technician",
+    "category": "Skilled Trades"
+  },
+  {
+    "job": "Solar Panel Installer",
+    "category": "Skilled Trades"
+  },
+  {
+    "job": "Boilermaker",
+    "category": "Skilled Trades"
+  },
+  {
+    "job": "Ironworker",
+    "category": "Skilled Trades"
+  },
+  {
+    "job": "Sheet Metal Worker",
+    "category": "Skilled Trades"
+  },
+  {
+    "job": "Pipefitter",
+    "category": "Skilled Trades"
+  },
+  {
+    "job": "Insulation Installer",
+    "category": "Skilled Trades"
+  },
+  {
+    "job": "Drywall Installer",
+    "category": "Skilled Trades"
+  },
+  {
+    "job": "Flooring Installer",
+    "category": "Skilled Trades"
+  },
+  {
+    "job": "Window Installer",
+    "category": "Skilled Trades"
+  },
+  {
+    "job": "Cabinetmaker",
+    "category": "Skilled Trades"
+  },
+  {
+    "job": "Millwright",
+    "category": "Skilled Trades"
+  },
+  {
+    "job": "Tool and Die Maker",
+    "category": "Skilled Trades"
+  },
+  {
+    "job": "Jeweler",
+    "category": "Skilled Trades"
+  },
+  {
+    "job": "Watchmaker",
+    "category": "Skilled Trades"
+  },
+  {
+    "job": "Diplomat",
+    "category": "Government & Politics"
+  },
+  {
+    "job": "Politician",
+    "category": "Government & Politics"
+  },
+  {
+    "job": "City Planner",
+    "category": "Government & Politics"
+  },
+  {
+    "job": "Policy Analyst",
+    "category": "Government & Politics"
+  },
+  {
+    "job": "Government Official",
+    "category": "Government & Politics"
+  },
+  {
+    "job": "Intelligence Analyst",
+    "category": "Government & Politics"
+  },
+  {
+    "job": "Military Officer",
+    "category": "Government & Politics"
+  },
+  {
+    "job": "Ambassador",
+    "category": "Government & Politics"
+  },
+  {
+    "job": "Mayor",
+    "category": "Government & Politics"
+  },
+  {
+    "job": "Governor",
+    "category": "Government & Politics"
+  },
+  {
+    "job": "Senator",
+    "category": "Government & Politics"
+  },
+  {
+    "job": "Congressman/Congresswoman",
+    "category": "Government & Politics"
+  },
+  {
+    "job": "Campaign Manager",
+    "category": "Government & Politics"
+  },
+  {
+    "job": "Political Consultant",
+    "category": "Government & Politics"
+  },
+  {
+    "job": "Lobbyist",
+    "category": "Government & Politics"
+  },
+  {
+    "job": "Legislative Assistant",
+    "category": "Government & Politics"
+  },
+  {
+    "job": "Foreign Service Officer",
+    "category": "Government & Politics"
+  },
+  {
+    "job": "Urban Planner",
+    "category": "Government & Politics"
+  },
+  {
+    "job": "Public Administrator",
+    "category": "Government & Politics"
+  },
+  {
+    "job": "Veteran Affairs Officer",
+    "category": "Government & Politics"
+  },
+  {
+    "job": "Census Worker",
+    "category": "Government & Politics"
+  },
+  {
+    "job": "Social Worker",
+    "category": "Government & Politics"
+  },
+  {
+    "job": "Postal Worker",
+    "category": "Government & Politics"
+  },
+  {
+    "job": "Tax Examiner",
+    "category": "Government & Politics"
+  },
+  {
+    "job": "Astronaut",
+    "category": "Specialized & Unique"
+  },
+  {
+    "job": "Zoologist",
+    "category": "Specialized & Unique"
+  },
+  {
+    "job": "Oceanographer",
+    "category": "Specialized & Unique"
+  },
+  {
+    "job": "Epidemiologist",
+    "category": "Specialized & Unique"
+  },
+  {
+    "job": "Forensic Scientist",
+    "category": "Specialized & Unique"
+  },
+  {
+    "job": "Cryptographer",
+    "category": "Specialized & Unique"
+  },
+  {
+    "job": "Ethical Hacker",
+    "category": "Specialized & Unique"
+  },
+  {
+    "job": "Geneticist",
+    "category": "Specialized & Unique"
+  },
+  {
+    "job": "Neuroscientist",
+    "category": "Specialized & Unique"
+  },
+  {
+    "job": "Robotics Engineer",
+    "category": "Specialized & Unique"
+  },
+  {
+    "job": "Quantum Physicist",
+    "category": "Specialized & Unique"
+  },
+  {
+    "job": "Nanotechnologist",
+    "category": "Specialized & Unique"
+  },
+  {
+    "job": "Curator",
+    "category": "Specialized & Unique"
+  },
+  {
+    "job": "Museum Director",
+    "category": "Specialized & Unique"
+  },
+  {
+    "job": "Archivist",
+    "category": "Specialized & Unique"
+  },
+  {
+    "job": "Sommelier",
+    "category": "Specialized & Unique"
+  },
+  {
+    "job": "Wine Maker",
+    "category": "Specialized & Unique"
+  },
+  {
+    "job": "Brewmaster",
+    "category": "Specialized & Unique"
+  },
+  {
+    "job": "Perfumer",
+    "category": "Specialized & Unique"
+  },
+  {
+    "job": "Food Scientist",
+    "category": "Specialized & Unique"
+  },
+  {
+    "job": "Futurist",
+    "category": "Specialized & Unique"
+  },
+  {
+    "job": "Sleep Specialist",
+    "category": "Specialized & Unique"
+  },
+  {
+    "job": "Professional Gamer",
+    "category": "Specialized & Unique"
+  },
+  {
+    "job": "eSports Coach",
+    "category": "Specialized & Unique"
+  },
+  {
+    "job": "Drone Pilot",
+    "category": "Specialized & Unique"
+  },
+  {
+    "job": "VR Developer",
+    "category": "Specialized & Unique"
+  },
+  {
+    "job": "AR Developer",
+    "category": "Specialized & Unique"
+  },
+  {
+    "job": "Holography Specialist",
+    "category": "Specialized & Unique"
+  },
+  {
+    "job": "Space Tourism Coordinator",
+    "category": "Specialized & Unique"
+  },
+  {
+    "job": "Underwater Photographer",
+    "category": "Specialized & Unique"
+  },
+  {
+    "job": "Venture Capitalist",
+    "category": "Business & Finance"
+  },
+  {
+    "job": "Hedge Fund Manager",
+    "category": "Business & Finance"
+  },
+  {
+    "job": "Private Equity Analyst",
+    "category": "Business & Finance"
+  },
+  {
+    "job": "Wealth Manager",
+    "category": "Business & Finance"
+  },
+  {
+    "job": "Corporate Treasurer",
+    "category": "Business & Finance"
+  },
+  {
+    "job": "Mergers & Acquisitions Specialist",
+    "category": "Business & Finance"
+  },
+  {
+    "job": "Commodities Trader",
+    "category": "Business & Finance"
+  },
+  {
+    "job": "Forex Trader",
+    "category": "Business & Finance"
+  },
+  {
+    "job": "Quantitative Analyst",
+    "category": "Business & Finance"
+  },
+  {
+    "job": "Chief Financial Officer",
+    "category": "Business & Finance"
+  },
+  {
+    "job": "Blockchain Analyst",
+    "category": "Technology & IT"
+  },
+  {
+    "job": "IoT Engineer",
+    "category": "Technology & IT"
+  },
+  {
+    "job": "Computer Vision Engineer",
+    "category": "Technology & IT"
+  },
+  {
+    "job": "Natural Language Processing Engineer",
+    "category": "Technology & IT"
+  },
+  {
+    "job": "Deep Learning Engineer",
+    "category": "Technology & IT"
+  },
+  {
+    "job": "MLOps Engineer",
+    "category": "Technology & IT"
+  },
+  {
+    "job": "Platform Engineer",
+    "category": "Technology & IT"
+  },
+  {
+    "job": "Solutions Architect",
+    "category": "Technology & IT"
+  },
+  {
+    "job": "Enterprise Architect",
+    "category": "Technology & IT"
+  },
+  {
+    "job": "Chief Technology Officer",
+    "category": "Technology & IT"
+  },
+  {
+    "job": "Principal Engineer",
+    "category": "Technology & IT"
+  },
+  {
+    "job": "Staff Engineer",
+    "category": "Technology & IT"
+  },
+  {
+    "job": "Penetration Tester",
+    "category": "Technology & IT"
+  },
+  {
+    "job": "Security Operations Engineer",
+    "category": "Technology & IT"
+  },
+  {
+    "job": "Information Security Manager",
+    "category": "Technology & IT"
+  },
+  {
+    "job": "Kindergarten Teacher",
+    "category": "Education"
+  },
+  {
+    "job": "Reading Specialist",
+    "category": "Education"
+  },
+  {
+    "job": "Math Teacher",
+    "category": "Education"
+  },
+  {
+    "job": "Science Teacher",
+    "category": "Education"
+  },
+  {
+    "job": "History Teacher",
+    "category": "Education"
+  },
+  {
+    "job": "Foreign Language Teacher",
+    "category": "Education"
+  },
+  {
+    "job": "Drama Teacher",
+    "category": "Education"
+  },
+  {
+    "job": "Dance Teacher",
+    "category": "Education"
+  },
+  {
+    "job": "Computer Science Teacher",
+    "category": "Education"
+  },
+  {
+    "job": "Literacy Coach",
+    "category": "Education"
+  },
+  {
+    "job": "Dean of Students",
+    "category": "Education"
+  },
+  {
+    "job": "Athletic Director",
+    "category": "Education"
+  },
+  {
+    "job": "Admissions Counselor",
+    "category": "Education"
+  },
+  {
+    "job": "Career Counselor",
+    "category": "Education"
+  },
+  {
+    "job": "Allergist",
+    "category": "Healthcare & Medical"
+  },
+  {
+    "job": "Endocrinologist",
+    "category": "Healthcare & Medical"
+  },
+  {
+    "job": "Gastroenterologist",
+    "category": "Healthcare & Medical"
+  },
+  {
+    "job": "Hematologist",
+    "category": "Healthcare & Medical"
+  },
+  {
+    "job": "Immunologist",
+    "category": "Healthcare & Medical"
+  },
+  {
+    "job": "Infectious Disease Specialist",
+    "category": "Healthcare & Medical"
+  },
+  {
+    "job": "Nephrologist",
+    "category": "Healthcare & Medical"
+  },
+  {
+    "job": "Pulmonologist",
+    "category": "Healthcare & Medical"
+  },
+  {
+    "job": "Rheumatologist",
+    "category": "Healthcare & Medical"
+  },
+  {
+    "job": "Urologist",
+    "category": "Healthcare & Medical"
+  },
+  {
+    "job": "Plastic Surgeon",
+    "category": "Healthcare & Medical"
+  },
+  {
+    "job": "Neurosurgeon",
+    "category": "Healthcare & Medical"
+  },
+  {
+    "job": "Cardiovascular Surgeon",
+    "category": "Healthcare & Medical"
+  },
+  {
+    "job": "Oral Surgeon",
+    "category": "Healthcare & Medical"
+  },
+  {
+    "job": "Podiatrist",
+    "category": "Healthcare & Medical"
+  },
+  {
+    "job": "Midwife",
+    "category": "Healthcare & Medical"
+  },
+  {
+    "job": "Hospice Nurse",
+    "category": "Healthcare & Medical"
+  },
+  {
+    "job": "Trauma Nurse",
+    "category": "Healthcare & Medical"
+  },
+  {
+    "job": "Neonatal Nurse",
+    "category": "Healthcare & Medical"
+  },
+  {
+    "job": "Psychiatric Nurse",
+    "category": "Healthcare & Medical"
+  },
+  {
+    "job": "Medical Examiner",
+    "category": "Healthcare & Medical"
+  },
+  {
+    "job": "Coroner",
+    "category": "Healthcare & Medical"
+  },
+  {
+    "job": "Medical Illustrator",
+    "category": "Healthcare & Medical"
+  },
+  {
+    "job": "Bioethicist",
+    "category": "Healthcare & Medical"
+  },
+  {
+    "job": "Environmental Lawyer",
+    "category": "Law & Legal"
+  },
+  {
+    "job": "Entertainment Lawyer",
+    "category": "Law & Legal"
+  },
+  {
+    "job": "Sports Lawyer",
+    "category": "Law & Legal"
+  },
+  {
+    "job": "Real Estate Lawyer",
+    "category": "Law & Legal"
+  },
+  {
+    "job": "Bankruptcy Lawyer",
+    "category": "Law & Legal"
+  },
+  {
+    "job": "Civil Rights Lawyer",
+    "category": "Law & Legal"
+  },
+  {
+    "job": "Employment Lawyer",
+    "category": "Law & Legal"
+  },
+  {
+    "job": "Intellectual Property Lawyer",
+    "category": "Law & Legal"
+  },
+  {
+    "job": "Constitutional Lawyer",
+    "category": "Law & Legal"
+  },
+  {
+    "job": "Public Defender",
+    "category": "Law & Legal"
+  },
+  {
+    "job": "District Attorney",
+    "category": "Law & Legal"
+  },
+  {
+    "job": "Legal Aid Attorney",
+    "category": "Law & Legal"
+  },
+  {
+    "job": "Compliance Manager",
+    "category": "Law & Legal"
+  },
+  {
+    "job": "ATF Agent",
+    "category": "Public Safety"
+  },
+  {
+    "job": "Coast Guard",
+    "category": "Public Safety"
+  },
+  {
+    "job": "Park Police",
+    "category": "Public Safety"
+  },
+  {
+    "job": "Wildlife Officer",
+    "category": "Public Safety"
+  },
+  {
+    "job": "Fish and Game Warden",
+    "category": "Public Safety"
+  },
+  {
+    "job": "Campus Security Officer",
+    "category": "Public Safety"
+  },
+  {
+    "job": "TSA Agent",
+    "category": "Public Safety"
+  },
+  {
+    "job": "Customs Officer",
+    "category": "Public Safety"
+  },
+  {
+    "job": "Immigration Officer",
+    "category": "Public Safety"
+  },
+  {
+    "job": "Probation Officer",
+    "category": "Public Safety"
+  },
+  {
+    "job": "Parole Officer",
+    "category": "Public Safety"
+  },
+  {
+    "job": "Bailiff",
+    "category": "Public Safety"
+  },
+  {
+    "job": "Court Security Officer",
+    "category": "Public Safety"
+  },
+  {
+    "job": "Loss Prevention Specialist",
+    "category": "Public Safety"
+  },
+  {
+    "job": "Nuclear Engineer",
+    "category": "Engineering & Construction"
+  },
+  {
+    "job": "Marine Engineer",
+    "category": "Engineering & Construction"
+  },
+  {
+    "job": "Acoustical Engineer",
+    "category": "Engineering & Construction"
+  },
+  {
+    "job": "Manufacturing Engineer",
+    "category": "Engineering & Construction"
+  },
+  {
+    "job": "Process Engineer",
+    "category": "Engineering & Construction"
+  },
+  {
+    "job": "Test Engineer",
+    "category": "Engineering & Construction"
+  },
+  {
+    "job": "Validation Engineer",
+    "category": "Engineering & Construction"
+  },
+  {
+    "job": "Reliability Engineer",
+    "category": "Engineering & Construction"
+  },
+  {
+    "job": "Automation Engineer",
+    "category": "Engineering & Construction"
+  },
+  {
+    "job": "Controls Engineer",
+    "category": "Engineering & Construction"
+  },
+  {
+    "job": "Instrumentation Engineer",
+    "category": "Engineering & Construction"
+  },
+  {
+    "job": "Geotechnical Engineer",
+    "category": "Engineering & Construction"
+  },
+  {
+    "job": "Transportation Engineer",
+    "category": "Engineering & Construction"
+  },
+  {
+    "job": "Traffic Engineer",
+    "category": "Engineering & Construction"
+  },
+  {
+    "job": "Water Resources Engineer",
+    "category": "Engineering & Construction"
+  },
+  {
+    "job": "Chief Engineer",
+    "category": "Engineering & Construction"
+  },
+  {
+    "job": "Technical Editor",
+    "category": "Media & Communications"
+  },
+  {
+    "job": "Medical Writer",
+    "category": "Media & Communications"
+  },
+  {
+    "job": "Script Writer",
+    "category": "Media & Communications"
+  },
+  {
+    "job": "Speechwriter",
+    "category": "Media & Communications"
+  },
+  {
+    "job": "Ghost Writer",
+    "category": "Media & Communications"
+  },
+  {
+    "job": "Book Editor",
+    "category": "Media & Communications"
+  },
+  {
+    "job": "Magazine Editor",
+    "category": "Media & Communications"
+  },
+  {
+    "job": "Managing Editor",
+    "category": "Media & Communications"
+  },
+  {
+    "job": "Copy Editor",
+    "category": "Media & Communications"
+  },
+  {
+    "job": "Proofreader",
+    "category": "Media & Communications"
+  },
+  {
+    "job": "Fact Checker",
+    "category": "Media & Communications"
+  },
+  {
+    "job": "Media Planner",
+    "category": "Media & Communications"
+  },
+  {
+    "job": "Brand Strategist",
+    "category": "Media & Communications"
+  },
+  {
+    "job": "Influencer Marketing Manager",
+    "category": "Media & Communications"
+  },
+  {
+    "job": "Community Manager",
+    "category": "Media & Communications"
+  },
+  {
+    "job": "Pastry Chef",
+    "category": "Hospitality & Food Service"
+  },
+  {
+    "job": "Chocolatier",
+    "category": "Hospitality & Food Service"
+  },
+  {
+    "job": "Sushi Chef",
+    "category": "Hospitality & Food Service"
+  },
+  {
+    "job": "Personal Chef",
+    "category": "Hospitality & Food Service"
+  },
+  {
+    "job": "Culinary Instructor",
+    "category": "Hospitality & Food Service"
+  },
+  {
+    "job": "Food Stylist",
+    "category": "Hospitality & Food Service"
+  },
+  {
+    "job": "Menu Developer",
+    "category": "Hospitality & Food Service"
+  },
+  {
+    "job": "Restaurant Consultant",
+    "category": "Hospitality & Food Service"
+  },
+  {
+    "job": "Wine Steward",
+    "category": "Hospitality & Food Service"
+  },
+  {
+    "job": "Mixologist",
+    "category": "Hospitality & Food Service"
+  },
+  {
+    "job": "Coffee Roaster",
+    "category": "Hospitality & Food Service"
+  },
+  {
+    "job": "Tea Sommelier",
+    "category": "Hospitality & Food Service"
+  },
+  {
+    "job": "Butcher",
+    "category": "Hospitality & Food Service"
+  },
+  {
+    "job": "Cheesemonger",
+    "category": "Hospitality & Food Service"
+  },
+  {
+    "job": "Packaging Designer",
+    "category": "Arts & Design"
+  },
+  {
+    "job": "Brand Identity Designer",
+    "category": "Arts & Design"
+  },
+  {
+    "job": "Logo Designer",
+    "category": "Arts & Design"
+  },
+  {
+    "job": "Type Designer",
+    "category": "Arts & Design"
+  },
+  {
+    "job": "Publication Designer",
+    "category": "Arts & Design"
+  },
+  {
+    "job": "Environmental Designer",
+    "category": "Arts & Design"
+  },
+  {
+    "job": "Experiential Designer",
+    "category": "Arts & Design"
+  },
+  {
+    "job": "Service Designer",
+    "category": "Arts & Design"
+  },
+  {
+    "job": "Interaction Designer",
+    "category": "Arts & Design"
+  },
+  {
+    "job": "Information Designer",
+    "category": "Arts & Design"
+  },
+  {
+    "job": "UX Researcher",
+    "category": "Arts & Design"
+  },
+  {
+    "job": "Design Strategist",
+    "category": "Arts & Design"
+  },
+  {
+    "job": "Design Thinking Facilitator",
+    "category": "Arts & Design"
+  },
+  {
+    "job": "Furniture Designer",
+    "category": "Arts & Design"
+  },
+  {
+    "job": "Shoe Designer",
+    "category": "Arts & Design"
+  },
+  {
+    "job": "Accessory Designer",
+    "category": "Arts & Design"
+  },
+  {
+    "job": "Prop Designer",
+    "category": "Arts & Design"
+  },
+  {
+    "job": "Storyboard Artist",
+    "category": "Arts & Design"
+  },
+  {
+    "job": "Background Artist",
+    "category": "Arts & Design"
+  },
+  {
+    "job": "Colorist",
+    "category": "Arts & Design"
+  },
+  {
+    "job": "Caricaturist",
+    "category": "Arts & Design"
+  },
+  {
+    "job": "Portrait Artist",
+    "category": "Arts & Design"
+  },
+  {
+    "job": "Sketch Artist",
+    "category": "Arts & Design"
+  },
+  {
+    "job": "Music Director",
+    "category": "Entertainment"
+  },
+  {
+    "job": "Orchestra Conductor",
+    "category": "Entertainment"
+  },
+  {
+    "job": "Choir Director",
+    "category": "Entertainment"
+  },
+  {
+    "job": "Opera Singer",
+    "category": "Entertainment"
+  },
+  {
+    "job": "Session Musician",
+    "category": "Entertainment"
+  },
+  {
+    "job": "Concert Promoter",
+    "category": "Entertainment"
+  },
+  {
+    "job": "Music Therapist",
+    "category": "Entertainment"
+  },
+  {
+    "job": "Sound Designer",
+    "category": "Entertainment"
+  },
+  {
+    "job": "Foley Artist",
+    "category": "Entertainment"
+  },
+  {
+    "job": "Audio Book Narrator",
+    "category": "Entertainment"
+  },
+  {
+    "job": "Dubbing Director",
+    "category": "Entertainment"
+  },
+  {
+    "job": "Subtitle Editor",
+    "category": "Entertainment"
+  },
+  {
+    "job": "Location Scout",
+    "category": "Entertainment"
+  },
+  {
+    "job": "Gaffer",
+    "category": "Entertainment"
+  },
+  {
+    "job": "Grip",
+    "category": "Entertainment"
+  },
+  {
+    "job": "Best Boy",
+    "category": "Entertainment"
+  },
+  {
+    "job": "Costume Supervisor",
+    "category": "Entertainment"
+  },
+  {
+    "job": "Wardrobe Stylist",
+    "category": "Entertainment"
+  },
+  {
+    "job": "Hair Stylist",
+    "category": "Entertainment"
+  },
+  {
+    "job": "Special Effects Coordinator",
+    "category": "Entertainment"
+  },
+  {
+    "job": "Pyrotechnician",
+    "category": "Entertainment"
+  },
+  {
+    "job": "Cinematography Director",
+    "category": "Entertainment"
+  },
+  {
+    "job": "Documentary Filmmaker",
+    "category": "Entertainment"
+  },
+  {
+    "job": "Film Distributor",
+    "category": "Entertainment"
+  },
+  {
+    "job": "Astrophysicist",
+    "category": "Science & Research"
+  },
+  {
+    "job": "Cosmologist",
+    "category": "Science & Research"
+  },
+  {
+    "job": "Volcanologist",
+    "category": "Science & Research"
+  },
+  {
+    "job": "Glaciologist",
+    "category": "Science & Research"
+  },
+  {
+    "job": "Cartographer",
+    "category": "Science & Research"
+  },
+  {
+    "job": "Geophysicist",
+    "category": "Science & Research"
+  },
+  {
+    "job": "Mineralogist",
+    "category": "Science & Research"
+  },
+  {
+    "job": "Petrologist",
+    "category": "Science & Research"
+  },
+  {
+    "job": "Crystallographer",
+    "category": "Science & Research"
+  },
+  {
+    "job": "Spectroscopist",
+    "category": "Science & Research"
+  },
+  {
+    "job": "Particle Physicist",
+    "category": "Science & Research"
+  },
+  {
+    "job": "Theoretical Physicist",
+    "category": "Science & Research"
+  },
+  {
+    "job": "Experimental Physicist",
+    "category": "Science & Research"
+  },
+  {
+    "job": "Biophysicist",
+    "category": "Science & Research"
+  },
+  {
+    "job": "Computational Biologist",
+    "category": "Science & Research"
+  },
+  {
+    "job": "Systems Biologist",
+    "category": "Science & Research"
+  },
+  {
+    "job": "Molecular Biologist",
+    "category": "Science & Research"
+  },
+  {
+    "job": "Cell Biologist",
+    "category": "Science & Research"
+  },
+  {
+    "job": "Developmental Biologist",
+    "category": "Science & Research"
+  },
+  {
+    "job": "Evolutionary Biologist",
+    "category": "Science & Research"
+  },
+  {
+    "job": "Conservation Biologist",
+    "category": "Science & Research"
+  },
+  {
+    "job": "Ethnobotanist",
+    "category": "Science & Research"
+  },
+  {
+    "job": "Mycologist",
+    "category": "Science & Research"
+  },
+  {
+    "job": "Entomologist",
+    "category": "Science & Research"
+  },
+  {
+    "job": "Ornithologist",
+    "category": "Science & Research"
+  },
+  {
+    "job": "Herpetologist",
+    "category": "Science & Research"
+  },
+  {
+    "job": "Ichthyologist",
+    "category": "Science & Research"
+  },
+  {
+    "job": "Primatologist",
+    "category": "Science & Research"
+  },
+  {
+    "job": "Aerospace Technician",
+    "category": "Transportation"
+  },
+  {
+    "job": "Avionics Technician",
+    "category": "Transportation"
+  },
+  {
+    "job": "Flight Dispatcher",
+    "category": "Transportation"
+  },
+  {
+    "job": "Airline Operations Manager",
+    "category": "Transportation"
+  },
+  {
+    "job": "Harbor Master",
+    "category": "Transportation"
+  },
+  {
+    "job": "Marine Engineer",
+    "category": "Transportation"
+  },
+  {
+    "job": "Naval Architect",
+    "category": "Transportation"
+  },
+  {
+    "job": "Deck Officer",
+    "category": "Transportation"
+  },
+  {
+    "job": "Port Manager",
+    "category": "Transportation"
+  },
+  {
+    "job": "Freight Forwarder",
+    "category": "Transportation"
+  },
+  {
+    "job": "Import/Export Specialist",
+    "category": "Transportation"
+  },
+  {
+    "job": "Customs Broker",
+    "category": "Transportation"
+  },
+  {
+    "job": "Basketball Coach",
+    "category": "Sports & Fitness"
+  },
+  {
+    "job": "Football Coach",
+    "category": "Sports & Fitness"
+  },
+  {
+    "job": "Baseball Coach",
+    "category": "Sports & Fitness"
+  },
+  {
+    "job": "Soccer Coach",
+    "category": "Sports & Fitness"
+  },
+  {
+    "job": "Hockey Coach",
+    "category": "Sports & Fitness"
+  },
+  {
+    "job": "Track and Field Coach",
+    "category": "Sports & Fitness"
+  },
+  {
+    "job": "Gymnastics Coach",
+    "category": "Sports & Fitness"
+  },
+  {
+    "job": "Volleyball Coach",
+    "category": "Sports & Fitness"
+  },
+  {
+    "job": "Wrestling Coach",
+    "category": "Sports & Fitness"
+  },
+  {
+    "job": "Boxing Coach",
+    "category": "Sports & Fitness"
+  },
+  {
+    "job": "Figure Skating Coach",
+    "category": "Sports & Fitness"
+  },
+  {
+    "job": "Ski Instructor",
+    "category": "Sports & Fitness"
+  },
+  {
+    "job": "Snowboard Instructor",
+    "category": "Sports & Fitness"
+  },
+  {
+    "job": "Surfing Instructor",
+    "category": "Sports & Fitness"
+  },
+  {
+    "job": "Scuba Diving Instructor",
+    "category": "Sports & Fitness"
+  },
+  {
+    "job": "Rock Climbing Instructor",
+    "category": "Sports & Fitness"
+  },
+  {
+    "job": "Equestrian Trainer",
+    "category": "Sports & Fitness"
+  },
+  {
+    "job": "Sports Psychologist",
+    "category": "Sports & Fitness"
+  },
+  {
+    "job": "Luxury Real Estate Agent",
+    "category": "Sales & Real Estate"
+  },
+  {
+    "job": "Commercial Broker",
+    "category": "Sales & Real Estate"
+  },
+  {
+    "job": "Industrial Real Estate Agent",
+    "category": "Sales & Real Estate"
+  },
+  {
+    "job": "Land Broker",
+    "category": "Sales & Real Estate"
+  },
+  {
+    "job": "Auction Manager",
+    "category": "Sales & Real Estate"
+  },
+  {
+    "job": "Title Examiner",
+    "category": "Sales & Real Estate"
+  },
+  {
+    "job": "Escrow Officer",
+    "category": "Sales & Real Estate"
+  },
+  {
+    "job": "Commercial Appraiser",
+    "category": "Sales & Real Estate"
+  },
+  {
+    "job": "Residential Appraiser",
+    "category": "Sales & Real Estate"
+  },
+  {
+    "job": "Chief Operating Officer",
+    "category": "Administration & Office"
+  },
+  {
+    "job": "Chief Administrative Officer",
+    "category": "Administration & Office"
+  },
+  {
+    "job": "Facilities Manager",
+    "category": "Administration & Office"
+  },
+  {
+    "job": "Office Administrator",
+    "category": "Administration & Office"
+  },
+  {
+    "job": "Records Manager",
+    "category": "Administration & Office"
+  },
+  {
+    "job": "Document Controller",
+    "category": "Administration & Office"
+  },
+  {
+    "job": "Mail Clerk",
+    "category": "Administration & Office"
+  },
+  {
+    "job": "Scheduling Coordinator",
+    "category": "Administration & Office"
+  },
+  {
+    "job": "Meeting Planner",
+    "category": "Administration & Office"
+  },
+  {
+    "job": "Travel Coordinator",
+    "category": "Administration & Office"
+  },
+  {
+    "job": "Procurement Specialist",
+    "category": "Administration & Office"
+  },
+  {
+    "job": "Vineyard Manager",
+    "category": "Agriculture & Environment"
+  },
+  {
+    "job": "Orchard Manager",
+    "category": "Agriculture & Environment"
+  },
+  {
+    "job": "Farm Manager",
+    "category": "Agriculture & Environment"
+  },
+  {
+    "job": "Livestock Manager",
+    "category": "Agriculture & Environment"
+  },
+  {
+    "job": "Aquaculture Manager",
+    "category": "Agriculture & Environment"
+  },
+  {
+    "job": "Crop Consultant",
+    "category": "Agriculture & Environment"
+  },
+  {
+    "job": "Agricultural Inspector",
+    "category": "Agriculture & Environment"
+  },
+  {
+    "job": "Soil Conservationist",
+    "category": "Agriculture & Environment"
+  },
+  {
+    "job": "Water Quality Specialist",
+    "category": "Agriculture & Environment"
+  },
+  {
+    "job": "Recycling Coordinator",
+    "category": "Agriculture & Environment"
+  },
+  {
+    "job": "Waste Management Specialist",
+    "category": "Agriculture & Environment"
+  },
+  {
+    "job": "Environmental Health Specialist",
+    "category": "Agriculture & Environment"
+  },
+  {
+    "job": "Climate Change Analyst",
+    "category": "Agriculture & Environment"
+  },
+  {
+    "job": "Renewable Energy Consultant",
+    "category": "Agriculture & Environment"
+  },
+  {
+    "job": "Concierge Medicine Physician",
+    "category": "Personal Services"
+  },
+  {
+    "job": "Errand Runner",
+    "category": "Personal Services"
+  },
+  {
+    "job": "Personal Concierge",
+    "category": "Personal Services"
+  },
+  {
+    "job": "Travel Planner",
+    "category": "Personal Services"
+  },
+  {
+    "job": "Etiquette Consultant",
+    "category": "Personal Services"
+  },
+  {
+    "job": "Closet Organizer",
+    "category": "Personal Services"
+  },
+  {
+    "job": "Home Stager",
+    "category": "Personal Services"
+  },
+  {
+    "job": "Interior Decorator",
+    "category": "Personal Services"
+  },
+  {
+    "job": "Feng Shui Consultant",
+    "category": "Personal Services"
+  },
+  {
+    "job": "Pool Cleaner",
+    "category": "Personal Services"
+  },
+  {
+    "job": "Lawn Care Specialist",
+    "category": "Personal Services"
+  },
+  {
+    "job": "Snow Removal Specialist",
+    "category": "Personal Services"
+  },
+  {
+    "job": "Handyman",
+    "category": "Personal Services"
+  },
+  {
+    "job": "Bicycle Mechanic",
+    "category": "Skilled Trades"
+  },
+  {
+    "job": "Motorcycle Mechanic",
+    "category": "Skilled Trades"
+  },
+  {
+    "job": "Marine Mechanic",
+    "category": "Skilled Trades"
+  },
+  {
+    "job": "Aircraft Mechanic",
+    "category": "Skilled Trades"
+  },
+  {
+    "job": "Locksmith Technician",
+    "category": "Skilled Trades"
+  },
+  {
+    "job": "Gunsmith",
+    "category": "Skilled Trades"
+  },
+  {
+    "job": "Piano Tuner",
+    "category": "Skilled Trades"
+  },
+  {
+    "job": "Instrument Repair Technician",
+    "category": "Skilled Trades"
+  },
+  {
+    "job": "Upholsterer",
+    "category": "Skilled Trades"
+  },
+  {
+    "job": "Carpet Installer",
+    "category": "Skilled Trades"
+  },
+  {
+    "job": "Fence Installer",
+    "category": "Skilled Trades"
+  },
+  {
+    "job": "Landscaper",
+    "category": "Skilled Trades"
+  },
+  {
+    "job": "Tree Trimmer",
+    "category": "Skilled Trades"
+  },
+  {
+    "job": "Stump Grinder",
+    "category": "Skilled Trades"
+  },
+  {
+    "job": "Concrete Finisher",
+    "category": "Skilled Trades"
+  },
+  {
+    "job": "Bricklayer",
+    "category": "Skilled Trades"
+  },
+  {
+    "job": "Plasterer",
+    "category": "Skilled Trades"
+  },
+  {
+    "job": "Stucco Mason",
+    "category": "Skilled Trades"
+  },
+  {
+    "job": "City Council Member",
+    "category": "Government & Politics"
+  },
+  {
+    "job": "County Commissioner",
+    "category": "Government & Politics"
+  },
+  {
+    "job": "State Representative",
+    "category": "Government & Politics"
+  },
+  {
+    "job": "Lieutenant Governor",
+    "category": "Government & Politics"
+  },
+  {
+    "job": "Secretary of State",
+    "category": "Government & Politics"
+  },
+  {
+    "job": "Attorney General",
+    "category": "Government & Politics"
+  },
+  {
+    "job": "Treasurer",
+    "category": "Government & Politics"
+  },
+  {
+    "job": "Controller",
+    "category": "Government & Politics"
+  },
+  {
+    "job": "Inspector General",
+    "category": "Government & Politics"
+  },
+  {
+    "job": "Ombudsman",
+    "category": "Government & Politics"
+  },
+  {
+    "job": "Parliamentary Procedure Expert",
+    "category": "Government & Politics"
+  },
+  {
+    "job": "Election Official",
+    "category": "Government & Politics"
+  },
+  {
+    "job": "Voting Machine Technician",
+    "category": "Government & Politics"
+  },
+  {
+    "job": "Art Restorer",
+    "category": "Specialized & Unique"
+  },
+  {
+    "job": "Manuscript Conservator",
+    "category": "Specialized & Unique"
+  },
+  {
+    "job": "Digital Preservationist",
+    "category": "Specialized & Unique"
+  },
+  {
+    "job": "Rare Book Dealer",
+    "category": "Specialized & Unique"
+  },
+  {
+    "job": "Antique Appraiser",
+    "category": "Specialized & Unique"
+  },
+  {
+    "job": "Art Auctioneer",
+    "category": "Specialized & Unique"
+  },
+  {
+    "job": "Gallery Owner",
+    "category": "Specialized & Unique"
+  },
+  {
+    "job": "Art Consultant",
+    "category": "Specialized & Unique"
+  },
+  {
+    "job": "Cultural Anthropologist",
+    "category": "Specialized & Unique"
+  },
+  {
+    "job": "Linguistic Anthropologist",
+    "category": "Specialized & Unique"
+  },
+  {
+    "job": "Forensic Anthropologist",
+    "category": "Specialized & Unique"
+  },
+  {
+    "job": "Medical Anthropologist",
+    "category": "Specialized & Unique"
+  },
+  {
+    "job": "Cryptozoologist",
+    "category": "Specialized & Unique"
+  },
+  {
+    "job": "Paranormal Investigator",
+    "category": "Specialized & Unique"
+  },
+  {
+    "job": "UFO Researcher",
+    "category": "Specialized & Unique"
+  },
+  {
+    "job": "Treasure Hunter",
+    "category": "Specialized & Unique"
+  },
+  {
+    "job": "Underwater Archaeologist",
+    "category": "Specialized & Unique"
+  },
+  {
+    "job": "Cave Explorer",
+    "category": "Specialized & Unique"
+  },
+  {
+    "job": "Expedition Leader",
+    "category": "Specialized & Unique"
+  },
+  {
+    "job": "Survival Expert",
+    "category": "Specialized & Unique"
+  },
+  {
+    "job": "Wilderness Guide",
+    "category": "Specialized & Unique"
+  },
+  {
+    "job": "Safari Guide",
+    "category": "Specialized & Unique"
+  },
+  {
+    "job": "Mountain Guide",
+    "category": "Specialized & Unique"
+  },
+  {
+    "job": "Avalanche Forecaster",
+    "category": "Specialized & Unique"
+  },
+  {
+    "job": "Storm Chaser",
+    "category": "Specialized & Unique"
+  },
+  {
+    "job": "Smokejumper",
+    "category": "Specialized & Unique"
+  },
+  {
+    "job": "Hotshot Firefighter",
+    "category": "Specialized & Unique"
+  },
+  {
+    "job": "Search and Rescue Specialist",
+    "category": "Specialized & Unique"
+  },
+  {
+    "job": "Bomb Disposal Expert",
+    "category": "Specialized & Unique"
+  },
+  {
+    "job": "Hostage Negotiator",
+    "category": "Specialized & Unique"
+  },
+  {
+    "job": "Profiler",
+    "category": "Specialized & Unique"
+  },
+  {
+    "job": "Handwriting Analyst",
+    "category": "Specialized & Unique"
+  },
+  {
+    "job": "Polygraph Examiner",
+    "category": "Specialized & Unique"
+  },
+  {
+    "job": "Voice Stress Analyst",
+    "category": "Specialized & Unique"
+  },
+  {
+    "job": "Body Language Expert",
+    "category": "Specialized & Unique"
+  },
+  {
+    "job": "Futurologist",
+    "category": "Specialized & Unique"
+  },
+  {
+    "job": "Trend Forecaster",
+    "category": "Specialized & Unique"
+  },
+  {
+    "job": "Color Forecaster",
+    "category": "Specialized & Unique"
+  },
+  {
+    "job": "Cool Hunter",
+    "category": "Specialized & Unique"
+  }
+]

@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { UserSquare, Building2, CaseUpper, MessageSquareText, Sparkles } from 'lucide-react';
+import { UserSquare, Building2, CaseUpper, MessageSquareText, Sparkles, Globe, Briefcase } from 'lucide-react';
 
 const tools = [
   {
@@ -19,6 +19,14 @@ const tools = [
     Icon: Sparkles,
     gradient: 'from-emerald-500 to-green-500',
     hoverGradient: 'hover:from-emerald-600 hover:to-green-600',
+  },
+  {
+    title: 'Random Job Generator',
+    description: 'Generate random careers and occupations for characters',
+    href: '/random-job-generator',
+    Icon: Briefcase,
+    gradient: 'from-blue-500 to-indigo-500',
+    hoverGradient: 'hover:from-blue-600 hover:to-indigo-600',
   },
   {
     title: 'Random Name Generator',
@@ -43,6 +51,14 @@ const tools = [
     Icon: CaseUpper,
     gradient: 'from-amber-500 to-yellow-400',
     hoverGradient: 'hover:from-amber-600 hover:to-yellow-500',
+  },
+  {
+    title: 'Random Website Generator',
+    description: 'Discover interesting websites from 300+ curated sites',
+    href: '/random-website-generator',
+    Icon: Globe,
+    gradient: 'from-violet-500 to-purple-500',
+    hoverGradient: 'hover:from-violet-600 hover:to-purple-600',
   },
 ];
 
