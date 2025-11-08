@@ -3,15 +3,15 @@ import type { Metadata } from "next";
 const siteUrl = "https://randomhub.io";
 
 export const metadata: Metadata = {
-  title: "Random Website Generator - Discover New Websites | RandomHub",
-  description: "Free random website generator with 300+ curated sites. Discover new websites across productivity, creative, learning, entertainment, and more categories. Break your browsing routine and explore the web!",
-  keywords: "random website generator, discover websites, random site, website discovery, explore internet, random web page, find new websites, website explorer, random url generator, web discovery tool",
+  title: "Random Website Generator - Discover 300+ Curated Sites | RandomHub",
+  description: "Click GO to instantly visit a random website! Explore 300+ hand-picked sites including fun games, creative tools, learning resources & entertainment. Break your browsing routine - discover something new every click!",
+  keywords: "random website generator, random site generator, discover new websites, random url, web discovery tool, fun random sites, surprise me website, random website button, explore internet, theuselessweb alternative",
   alternates: {
     canonical: `${siteUrl}/random-website-generator`,
   },
   openGraph: {
-    title: "Free Random Website Generator - Discover New Sites | RandomHub",
-    description: "Discover random websites from 300+ curated sites. Break your browsing routine and explore productivity, creative, learning, and entertainment websites. 100% free!",
+    title: "Random Website Generator - Click & Discover 300+ Sites | RandomHub",
+    description: "🎲 One click to explore random websites! 300+ curated sites from fun games to creative tools. Like TheUselessWeb but better - discover something awesome every time!",
     url: `${siteUrl}/random-website-generator`,
     type: "website",
     siteName: "RandomHub",
@@ -27,8 +27,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Free Random Website Generator - Discover New Sites",
-    description: "Discover random websites from 300+ curated sites. Break your browsing routine and explore the web. 100% free!",
+    title: "Random Website Generator - Discover 300+ Curated Sites",
+    description: "Click GO to visit a random website instantly! 300+ hand-picked sites: games, tools, learning & more. Your web exploration starts here!",
     images: [`${siteUrl}/og-image-website-generator.png`],
     creator: "@RandomHub",
   },

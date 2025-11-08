@@ -18,7 +18,7 @@ export default function WebsiteGeneratorPage() {
       price: '0',
       priceCurrency: 'USD',
     },
-    description: 'Free random website generator with 300+ curated websites. Discover new sites across productivity, creative, learning, entertainment, and more.',
+    description: 'Click GO to instantly visit random websites! Explore 300+ hand-picked sites including fun games, creative tools, learning resources, and entertainment. Break your browsing routine with one simple click.',
     browserRequirements: 'Requires JavaScript',
     aggregateRating: {
       '@type': 'AggregateRating',
@@ -26,11 +26,12 @@ export default function WebsiteGeneratorPage() {
       ratingCount: '1240',
     },
     featureList: [
-      '300+ curated websites',
-      'Multiple category filters',
-      'Generate 1-10 websites at once',
-      'Direct website links',
-      'No registration required',
+      'Instant random website discovery',
+      '300+ hand-curated quality sites',
+      'One-click web exploration',
+      'Fun, creative, and educational content',
+      'No registration or sign-up required',
+      'Completely free forever',
     ],
   };
 
@@ -43,23 +44,23 @@ export default function WebsiteGeneratorPage() {
         name: 'What is a random website generator?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'A random website generator is a tool that selects and recommends websites from a curated database. Our generator includes 300+ quality websites across categories like productivity, creative, learning, entertainment, tools, and more.',
+          text: 'A random website generator is a web tool that takes you to a random website with one click. Our generator features 300+ hand-picked, quality websites across categories like games, creative tools, learning resources, entertainment, and more. It\'s perfect for discovering new corners of the internet and breaking your browsing routine.',
         },
       },
       {
         '@type': 'Question',
-        name: 'How many websites can I discover at once?',
+        name: 'How does the random website generator work?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'You can generate between 1 and 10 random websites at once. The generator ensures you get unique websites each time without duplicates.',
+          text: 'Simply click the GO button and our generator will instantly open a random website in a new tab. Each click takes you to a different site from our curated collection of 300+ quality websites. It\'s that simple - one click, one surprise!',
         },
       },
       {
         '@type': 'Question',
-        name: 'Can I filter by category?',
+        name: 'Is this like TheUselessWeb?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Yes! You can filter by categories including Productivity, Creative, Learning, Entertainment, Tools, News, Inspiration, Tech, Design, and Random & Fun.',
+          text: 'Yes! Similar to TheUselessWeb, we help you discover random websites. However, our collection includes not just fun/useless sites, but also productive tools, creative resources, learning platforms, and entertainment - offering more variety and value with every click.',
         },
       },
       {
@@ -140,10 +141,10 @@ export default function WebsiteGeneratorPage() {
               What is Random Website Generator?
             </h2>
             <p className="text-gray-700 text-base sm:text-lg leading-relaxed mb-4">
-              <strong>Random Website Generator</strong> is a free discovery tool that helps you break out of your browsing routine by recommending random websites from a carefully curated collection of 300+ quality sites. Unlike traditional search engines that show you what you already know to look for, our generator introduces you to new corners of the internet you might never have found otherwise.
+              <strong>Random Website Generator</strong> is the simplest way to discover new websites - just click GO and explore! With one click, you&apos;ll be taken to a random website from our hand-curated collection of <strong>300+ quality sites</strong>. No filters, no choices, just pure serendipity.
             </p>
             <p className="text-gray-700 text-base leading-relaxed">
-              Whether you&apos;re seeking <strong>productivity tools</strong>, <strong>creative inspiration</strong>, <strong>learning resources</strong>, or simply want to explore interesting websites, our generator delivers fresh discoveries with every click. Filter by category or let serendipity guide you—either way, you&apos;ll expand your digital horizons.
+              Tired of visiting the same websites every day? Our generator breaks you out of your browsing bubble. Discover <strong>fun games</strong>, <strong>creative tools</strong>, <strong>mind-blowing art</strong>, <strong>learning resources</strong>, and <strong>entertaining content</strong> you never knew existed. It&apos;s like <strong>TheUselessWeb</strong> but with more variety - from silly to serious, useless to useful, every click is a surprise!
             </p>
           </div>
 
@@ -205,30 +206,30 @@ export default function WebsiteGeneratorPage() {
             </h2>
             <div className="space-y-6">
               <div className="flex gap-4 items-start">
-                <div className="w-10 h-10 rounded-full bg-gradient-to-br from-blue-500 to-indigo-500 flex items-center justify-center text-white font-bold flex-shrink-0">
+                <div className="w-10 h-10 rounded-full bg-gradient-to-br from-emerald-500 to-teal-500 flex items-center justify-center text-white font-bold flex-shrink-0">
                   1
                 </div>
                 <div>
-                  <h3 className="font-semibold text-gray-800 mb-1 text-lg">Choose Your Preferences</h3>
-                  <p className="text-gray-600">Select how many websites to generate (1-10) and optionally filter by category like Productivity, Creative, Learning, or Entertainment.</p>
+                  <h3 className="font-semibold text-gray-800 mb-1 text-lg">Click the GO Button</h3>
+                  <p className="text-gray-600">That&apos;s it! Just click the big green GO button at the top of the page. No settings, no filters, no choices to make.</p>
                 </div>
               </div>
               <div className="flex gap-4 items-start">
-                <div className="w-10 h-10 rounded-full bg-gradient-to-br from-blue-500 to-indigo-500 flex items-center justify-center text-white font-bold flex-shrink-0">
+                <div className="w-10 h-10 rounded-full bg-gradient-to-br from-emerald-500 to-teal-500 flex items-center justify-center text-white font-bold flex-shrink-0">
                   2
                 </div>
                 <div>
-                  <h3 className="font-semibold text-gray-800 mb-1 text-lg">Generate & Discover</h3>
-                  <p className="text-gray-600">Click the generate button or press Enter to instantly get random website recommendations with descriptions.</p>
+                  <h3 className="font-semibold text-gray-800 mb-1 text-lg">Discover Something New</h3>
+                  <p className="text-gray-600">A random website from our curated collection will instantly open in a new tab. Every click is a surprise!</p>
                 </div>
               </div>
               <div className="flex gap-4 items-start">
-                <div className="w-10 h-10 rounded-full bg-gradient-to-br from-blue-500 to-indigo-500 flex items-center justify-center text-white font-bold flex-shrink-0">
+                <div className="w-10 h-10 rounded-full bg-gradient-to-br from-emerald-500 to-teal-500 flex items-center justify-center text-white font-bold flex-shrink-0">
                   3
                 </div>
                 <div>
-                  <h3 className="font-semibold text-gray-800 mb-1 text-lg">Visit & Explore</h3>
-                  <p className="text-gray-600">Click the visit button to open any website in a new tab. Regenerate anytime to discover more sites.</p>
+                  <h3 className="font-semibold text-gray-800 mb-1 text-lg">Click Again for More</h3>
+                  <p className="text-gray-600">Want another random site? Just click GO again. Explore endlessly - there are 300+ websites waiting to be discovered!</p>
                 </div>
               </div>
             </div>
