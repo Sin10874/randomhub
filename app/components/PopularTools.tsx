@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { UserSquare, Building2, CaseUpper, MessageSquareText, Sparkles, Globe, Briefcase, ArrowUpRight, PawPrint } from 'lucide-react';
+import { UserSquare, Building2, CaseUpper, MessageSquareText, Sparkles, Globe, Briefcase, ArrowUpRight } from 'lucide-react';
 
 const tools = [
   {
@@ -45,12 +45,6 @@ const tools = [
     description: 'Discover interesting websites from 300+ curated sites',
     href: '/random-website-generator',
     Icon: Globe,
-  },
-  {
-    title: 'Animal Generator',
-    description: 'Generate random animals from 180+ species',
-    href: '/random-animal-generator',
-    Icon: PawPrint,
   },
 ];
 

@@ -12,9 +12,6 @@ export default function Navbar() {
             <span className="text-xl font-bold text-foreground tracking-tight font-display group-hover:text-accent transition-colors">
               RandomHub
             </span>
-            <span className="ml-2 px-1.5 py-0.5 text-[10px] border border-zinc-200 bg-white text-zinc-500 font-mono hidden sm:inline-block">
-              BETA
-            </span>
           </Link>
           <div className="flex items-center gap-6">
             <Link
