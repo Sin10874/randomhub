@@ -30,7 +30,7 @@ const tools = [
   },
   {
     title: 'City Generator',
-    description: 'Discover random cities from around the world',
+    description: 'Discover random cities from around the world with detailed maps',
     href: '/random-city-generator',
     Icon: Building2,
   },

@@ -228,7 +228,6 @@ export default function CityGeneratorPage() {
                           allowFullScreen
                           src={getMapEmbedUrl(generatedCity)}
                           title={`Map of ${generatedCity.city}`}
-                          className="grayscale opacity-80 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-500"
                         />
                         <div className="absolute top-4 right-4">
                            <a
