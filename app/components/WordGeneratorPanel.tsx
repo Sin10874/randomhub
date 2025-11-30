@@ -3,8 +3,7 @@
 import { useState, useEffect, useCallback } from 'react';
 import { filterWords } from '@/app/utils/wordFilter';
 import wordsData from '@/public/data/words.json';
-import Select from '@/app/components/ui/Select';
-import { RotateCw, Copy, Check, Sparkles, SlidersHorizontal } from 'lucide-react';
+import { RotateCw, Copy, Check, Terminal, Settings2 } from 'lucide-react';
 
 type WordType = 'all' | 'noun' | 'verb' | 'adjective' | 'extended';
 type SizeMode = 'syllables' | 'letters';
@@ -27,7 +26,6 @@ export default function WordGeneratorPanel() {
     setError(null);
     setIsGenerating(true);
     
-    // 添加短暂延迟以显示动画效果
     setTimeout(() => {
       const result = filterWords({
         wordType,
@@ -39,15 +37,13 @@ export default function WordGeneratorPanel() {
       });
 
       if (result.length === 0) {
-        setError('No words found matching your criteria. Try adjusting the filters.');
+        setError('NO_MATCH_FOUND');
         setGeneratedWord(null);
         setGeneratedWordType(null);
       } else {
-        // 使用改进的随机选择，确保更好的随机性
         const randomIndex = Math.floor(Math.random() * result.length);
         const randomWord = result[randomIndex];
         
-        // 从词库中查找单词的实际类型
         const wordData = (wordsData as Array<{word: string; type: string}>).find(
           w => w.word.toLowerCase() === randomWord.toLowerCase()
         );
@@ -56,7 +52,7 @@ export default function WordGeneratorPanel() {
         setGeneratedWordType(wordData?.type || 'unknown');
       }
       setIsGenerating(false);
-    }, 300);
+    }, 200);
   }, [wordType, startsWith, endsWith, sizeMode, comparator, sizeValue]);
 
   const handleCopy = () => {
@@ -67,7 +63,6 @@ export default function WordGeneratorPanel() {
     }
   };
 
-  // 键盘快捷键支持
   useEffect(() => {
     const handleKeyPress = (e: KeyboardEvent) => {
       if (e.key === 'Enter' && !isGenerating) {
@@ -80,210 +75,201 @@ export default function WordGeneratorPanel() {
 
   return (
     <div className="w-full max-w-6xl mx-auto">
-      {/* 标题区域 */}
-      <div className="text-center mb-6 sm:mb-8 px-4">
-        <h1 className="font-display text-3xl sm:text-4xl md:text-5xl font-bold text-white tracking-tight animate-fade-in drop-shadow-lg">
-          Random Word Generator
+      <div className="text-center mb-8 md:mb-12">
+        <h1 className="font-display text-3xl sm:text-5xl md:text-6xl font-bold text-foreground mb-4 uppercase tracking-tight">
+          Random Word<br className="sm:hidden" /> Generator
         </h1>
+        <p className="text-zinc-500 font-mono text-sm uppercase tracking-widest">
+          System v2.1 // Ready for input
+        </p>
       </div>
 
-      {/* 主面板 */}
-      <div className="bg-white/95 backdrop-blur-sm rounded-2xl sm:rounded-3xl shadow-2xl overflow-hidden">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-0">
-          {/* Settings card */}
-          <div className="border-b lg:border-b-0 lg:border-r border-violet-100/60 p-6 sm:p-8 bg-gradient-to-br from-violet-50/50 to-transparent">
-            <div className="text-xl sm:text-2xl font-semibold text-gray-800 mb-6 flex items-center gap-2">
-              <SlidersHorizontal className="w-5 h-5 sm:w-6 sm:h-6 text-orange-600" />
-              Settings
+      <div className="swiss-card bg-panel border-grid shadow-sm">
+        <div className="grid grid-cols-1 lg:grid-cols-12 min-h-[400px] lg:min-h-[500px]">
+          
+          {/* Settings Column */}
+          <div className="lg:col-span-5 border-b lg:border-b-0 lg:border-r border-grid p-4 sm:p-6 lg:p-8 flex flex-col justify-between bg-white">
+            <div>
+              <div className="flex items-center gap-2 mb-8 text-accent font-mono text-xs uppercase tracking-widest">
+                <Settings2 className="w-4 h-4" />
+                <span>Configuration</span>
+              </div>
+
+              <div className="space-y-6">
+                {/* Word Type */}
+                <div className="group">
+                  <label className="block text-xs font-mono text-zinc-500 uppercase tracking-widest mb-2 group-hover:text-foreground transition-colors">
+                    Type Filter
+                  </label>
+                  <select
+                    value={wordType}
+                    onChange={(e) => setWordType(e.target.value as WordType)}
+                    className="w-full bg-white border border-zinc-300 p-3 text-sm font-mono text-foreground focus:border-accent focus:ring-1 focus:ring-accent transition-all appearance-none rounded-none"
+                  >
+                    <option value="all">ALL_TYPES</option>
+                    <option value="noun">NOUN</option>
+                    <option value="verb">VERB</option>
+                    <option value="adjective">ADJECTIVE</option>
+                    <option value="extended">EXTENDED</option>
+                  </select>
+                </div>
+
+                {/* Constraints */}
+                <div className="grid grid-cols-2 gap-4">
+                  <div className="group">
+                    <label className="block text-xs font-mono text-zinc-500 uppercase tracking-widest mb-2 group-hover:text-foreground transition-colors">
+                      Start With
+                    </label>
+                    <input
+                      type="text"
+                      maxLength={1}
+                      value={startsWith}
+                      onChange={(e) => setStartsWith(e.target.value.toUpperCase())}
+                      placeholder="A-Z"
+                      className="w-full bg-white border border-zinc-300 p-3 text-center font-mono text-foreground placeholder-zinc-300 focus:border-accent focus:ring-1 focus:ring-accent transition-all rounded-none uppercase"
+                    />
+                  </div>
+                  <div className="group">
+                    <label className="block text-xs font-mono text-zinc-500 uppercase tracking-widest mb-2 group-hover:text-foreground transition-colors">
+                      End With
+                    </label>
+                    <input
+                      type="text"
+                      maxLength={1}
+                      value={endsWith}
+                      onChange={(e) => setEndsWith(e.target.value.toUpperCase())}
+                      placeholder="A-Z"
+                      className="w-full bg-white border border-zinc-300 p-3 text-center font-mono text-foreground placeholder-zinc-300 focus:border-accent focus:ring-1 focus:ring-accent transition-all rounded-none uppercase"
+                    />
+                  </div>
+                </div>
+
+                {/* Size Controls */}
+                <div className="group">
+                  <label className="block text-xs font-mono text-zinc-500 uppercase tracking-widest mb-2 group-hover:text-foreground transition-colors">
+                    Size Constraints
+                  </label>
+                  <div className="flex -space-x-px">
+                    <select
+                      value={sizeMode}
+                      onChange={(e) => setSizeMode(e.target.value as SizeMode)}
+                      className="flex-1 bg-white border border-zinc-300 p-3 text-sm font-mono text-foreground focus:border-accent focus:ring-1 focus:ring-accent focus:z-10 transition-all rounded-none"
+                    >
+                      <option value="syllables">SYLLABLES</option>
+                      <option value="letters">LETTERS</option>
+                    </select>
+                    <select
+                      value={comparator}
+                      onChange={(e) => setComparator(e.target.value as Comparator)}
+                      className="w-16 bg-white border border-zinc-300 p-3 text-sm font-mono text-center text-foreground focus:border-accent focus:ring-1 focus:ring-accent focus:z-10 transition-all rounded-none border-l-transparent"
+                    >
+                      <option value="=">=</option>
+                      <option value=">">&gt;</option>
+                      <option value="<">&lt;</option>
+                    </select>
+                    <input
+                      type="number"
+                      min="1"
+                      max="20"
+                      value={sizeValue}
+                      onChange={(e) => setSizeValue(e.target.value)}
+                      placeholder="VAL"
+                      className="w-20 bg-white border border-zinc-300 p-3 text-center font-mono text-foreground placeholder-zinc-300 focus:border-accent focus:ring-1 focus:ring-accent focus:z-10 transition-all rounded-none border-l-transparent"
+                    />
+                  </div>
+                </div>
+              </div>
             </div>
 
-            <div className="space-y-5 mb-6">
-              {/* Word Type */}
-              <Select
-                label="Word Type"
-                value={wordType}
-                onChange={(e) => setWordType(e.target.value as WordType)}
+            <div className="mt-8 pt-6 border-t border-grid">
+              <button
+                onClick={handleGenerate}
+                disabled={isGenerating}
+                className="w-full bg-foreground hover:bg-zinc-800 text-white font-mono font-bold py-4 px-6 uppercase tracking-wider transition-all disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-3 rounded-none relative overflow-hidden group"
               >
-                <option value="all">All Types</option>
-                <option value="noun">Noun</option>
-                <option value="verb">Verb</option>
-                <option value="adjective">Adjective</option>
-                <option value="extended">Extended</option>
-              </Select>
-
-              {/* Starts/Ends With - 合并显示在移动端 */}
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                {/* Starts With */}
-                <div>
-                  <label className="block text-sm font-medium text-slate-700 mb-2">
-                    Starts With
-                  </label>
-                  <input
-                    type="text"
-                    maxLength={1}
-                    value={startsWith}
-                    onChange={(e) => setStartsWith(e.target.value.toUpperCase())}
-                    placeholder="e.g., A"
-                    className="w-full appearance-none rounded-xl border-2 border-slate-200 bg-white px-4 py-2.5 text-slate-900 text-center uppercase font-semibold text-lg shadow-sm hover:border-violet-300 focus:outline-none focus:ring-2 focus:ring-violet-400 focus:border-violet-400 transition-all"
-                  />
-                </div>
-
-                {/* Ends With */}
-                <div>
-                  <label className="block text-sm font-medium text-slate-700 mb-2">
-                    Ends With
-                  </label>
-                  <input
-                    type="text"
-                    maxLength={1}
-                    value={endsWith}
-                    onChange={(e) => setEndsWith(e.target.value.toUpperCase())}
-                    placeholder="e.g., Z"
-                    className="w-full appearance-none rounded-xl border-2 border-slate-200 bg-white px-4 py-2.5 text-slate-900 text-center uppercase font-semibold text-lg shadow-sm hover:border-violet-300 focus:outline-none focus:ring-2 focus:ring-violet-400 focus:border-violet-400 transition-all"
-                  />
-                </div>
-              </div>
-
-              {/* Word Size */}
-              <div>
-                <label className="block text-sm font-medium text-slate-700 mb-2">
-                  Word Size
-                </label>
-                <div className="flex gap-2">
-                  <Select
-                    value={sizeMode}
-                    onChange={(e) => setSizeMode(e.target.value as SizeMode)}
-                    className="flex-1"
-                  >
-                    <option value="syllables">Syllables</option>
-                    <option value="letters">Letters</option>
-                  </Select>
-                  <Select
-                    value={comparator}
-                    onChange={(e) => setComparator(e.target.value as Comparator)}
-                    className="w-20"
-                  >
-                    <option value="=">=</option>
-                    <option value=">">&gt;</option>
-                    <option value="<">&lt;</option>
-                  </Select>
-                  <input
-                    type="number"
-                    min="1"
-                    max="20"
-                    value={sizeValue}
-                    onChange={(e) => setSizeValue(e.target.value)}
-                    placeholder="Size"
-                    className="w-20 appearance-none rounded-xl border-2 border-slate-200 bg-white px-3 py-2.5 text-slate-900 text-center shadow-sm hover:border-violet-300 focus:outline-none focus:ring-2 focus:ring-violet-400 focus:border-violet-400 transition-all"
-                  />
-                </div>
+                {isGenerating ? (
+                  <>
+                    <RotateCw className="w-5 h-5 animate-spin" />
+                    <span>Processing...</span>
+                  </>
+                ) : (
+                  <>
+                    <span className="absolute inset-0 bg-accent translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-out mix-blend-screen"></span>
+                    <span className="relative z-10 flex items-center gap-2">
+                       Generate_Word
+                    </span>
+                  </>
+                )}
+              </button>
+              <div className="flex justify-between items-center mt-3 text-[10px] text-zinc-400 font-mono uppercase">
+                <span>Status: Ready</span>
+                <span>Press [ENTER]</span>
               </div>
             </div>
-
-            {/* Generate Button */}
-            <button
-              onClick={handleGenerate}
-              disabled={isGenerating}
-              className="w-full bg-gradient-to-r from-orange-500 via-orange-600 to-orange-700 text-white font-semibold py-3.5 sm:py-4 rounded-xl hover:from-orange-600 hover:via-orange-700 hover:to-orange-800 transition-all shadow-lg hover:shadow-xl active:scale-95 disabled:opacity-50 disabled:cursor-not-allowed text-base sm:text-lg flex items-center justify-center gap-2"
-            >
-              {isGenerating ? (
-                <>
-                  <RotateCw className="w-5 h-5 animate-spin" />
-                  Generating...
-                </>
-              ) : (
-                <>
-                  <Sparkles className="w-5 h-5" />
-                  Generate Word
-                </>
-              )}
-            </button>
-            
-            <p className="text-xs text-slate-500 text-center mt-3">
-              Press <kbd className="px-2 py-1 bg-slate-100 rounded text-xs font-mono">Enter</kbd> to generate
-            </p>
           </div>
 
-          {/* Result card */}
-          <div className="p-6 sm:p-8 bg-gradient-to-br from-blue-50/50 to-transparent min-h-[400px] lg:min-h-0 flex flex-col">
-            <div className="text-xl sm:text-2xl font-semibold text-gray-800 mb-6 flex items-center gap-2">
-              <Sparkles className="w-5 h-5 sm:w-6 sm:h-6 text-orange-600" />
-              Result
+          {/* Output Column */}
+          <div className="lg:col-span-7 p-4 sm:p-6 lg:p-8 flex flex-col relative bg-zinc-50/50">
+            {/* Background Grid Accent */}
+            <div className="absolute inset-0 pointer-events-none" style={{ 
+              backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.03) 1px, transparent 1px), linear-gradient(90deg, rgba(0, 0, 0, 0.03) 1px, transparent 1px)', 
+              backgroundSize: '20px 20px' 
+            }}></div>
+
+            <div className="flex items-center justify-between mb-8 z-10">
+              <div className="flex items-center gap-2 text-accent font-mono text-xs uppercase tracking-widest">
+                <Terminal className="w-4 h-4" />
+                <span>Output_Stream</span>
+              </div>
+              {generatedWord && (
+                 <div className="flex gap-2">
+                   <span className="px-2 py-1 bg-white border border-zinc-200 text-[10px] font-mono text-zinc-500 shadow-sm">
+                     LEN: {generatedWord.length}
+                   </span>
+                   <span className="px-2 py-1 bg-white border border-zinc-200 text-[10px] font-mono text-zinc-500 uppercase shadow-sm">
+                     TYPE: {generatedWordType}
+                   </span>
+                 </div>
+              )}
             </div>
 
-            <div className="flex-1 rounded-2xl border-2 border-dashed border-violet-200 bg-gradient-to-br from-violet-50/50 via-blue-50/30 to-pink-50/20 p-6 sm:p-10 flex flex-col items-center justify-center relative overflow-hidden">
-              {/* 装饰性背景元素 */}
-              <div className="absolute inset-0 bg-grid-pattern opacity-5"></div>
-              
+            <div className="flex-1 flex items-center justify-center z-10 relative">
               {error ? (
-                <div className="text-center animate-fade-in z-10">
-                  <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-red-100 flex items-center justify-center">
-                    <span className="text-3xl">⚠️</span>
+                <div className="text-center">
+                  <div className="inline-block border border-red-500/30 bg-red-50 px-4 py-2 mb-2">
+                    <p className="text-red-600 font-mono text-sm tracking-widest uppercase">Error: {error}</p>
                   </div>
-                  <p className="text-red-600 font-medium text-sm sm:text-base max-w-xs">{error}</p>
                 </div>
               ) : generatedWord ? (
-                <div className="flex flex-col items-center gap-6 sm:gap-8 w-full z-10 animate-fade-in">
-                  {/* 单词显示 */}
-                  <div className="relative">
-                    <div className="absolute inset-0 bg-gradient-to-r from-purple-400 to-blue-400 blur-2xl opacity-20 animate-pulse"></div>
-                    <p className="relative text-4xl sm:text-5xl md:text-6xl font-bold bg-gradient-to-r from-purple-600 via-violet-600 to-blue-600 bg-clip-text text-transparent break-all text-center px-4 py-2 leading-tight">
-                      {generatedWord}
-                    </p>
-                  </div>
-
-                  {/* 单词信息标签 */}
-                  <div className="flex flex-wrap gap-2 justify-center">
-                    <span className="px-3 py-1 bg-white/80 backdrop-blur-sm rounded-full text-xs font-medium text-slate-600 shadow-sm border border-violet-100">
-                      {generatedWord.length} letters
-                    </span>
-                    <span className="px-3 py-1 bg-white/80 backdrop-blur-sm rounded-full text-xs font-medium text-slate-600 shadow-sm border border-violet-100 capitalize">
-                      {generatedWordType || 'unknown'}
-                    </span>
-                  </div>
-
-                  {/* 操作按钮 */}
-                  <div className="flex flex-col sm:flex-row gap-3 w-full max-w-sm">
-                    <button
-                      onClick={handleGenerate}
-                      disabled={isGenerating}
-                      className="flex-1 flex items-center justify-center gap-2 px-4 sm:px-6 py-3 bg-gradient-to-r from-purple-500 to-purple-600 text-white font-semibold rounded-xl hover:from-purple-600 hover:to-purple-700 transition-all shadow-lg hover:shadow-xl active:scale-95 disabled:opacity-50"
-                    >
-                      <RotateCw className={`w-4 h-4 ${isGenerating ? 'animate-spin' : ''}`} />
-                      <span className="hidden sm:inline">Regenerate</span>
-                      <span className="sm:hidden">Again</span>
-                    </button>
-                    <button
-                      onClick={handleCopy}
-                      className="flex-1 flex items-center justify-center gap-2 px-4 sm:px-6 py-3 bg-gradient-to-r from-blue-500 to-blue-600 text-white font-semibold rounded-xl hover:from-blue-600 hover:to-blue-700 transition-all shadow-lg hover:shadow-xl active:scale-95"
-                    >
-                      {copied ? (
-                        <>
-                          <Check className="w-4 h-4" />
-                          Copied!
-                        </>
-                      ) : (
-                        <>
-                          <Copy className="w-4 h-4" />
-                          Copy
-                        </>
-                      )}
-                    </button>
+                <div className="w-full text-center">
+                  <h2 className="font-display text-4xl sm:text-6xl md:text-8xl font-bold text-foreground tracking-tighter break-all animate-fade-in mb-8 select-all">
+                    {generatedWord}
+                  </h2>
+                  <div className="flex justify-center">
+                     <button
+                        onClick={handleCopy}
+                        className="group flex items-center gap-2 px-6 py-2 border border-zinc-300 bg-white hover:border-accent hover:text-accent transition-colors shadow-sm"
+                      >
+                        {copied ? <Check className="w-4 h-4 text-green-600" /> : <Copy className="w-4 h-4 text-zinc-400 group-hover:text-accent" />}
+                        <span className="font-mono text-xs text-zinc-500 group-hover:text-accent uppercase tracking-wider">
+                          {copied ? 'Copied_to_Clipboard' : 'Copy_String'}
+                        </span>
+                      </button>
                   </div>
                 </div>
               ) : (
-                <div className="text-center z-10 animate-fade-in">
-                  <div className="w-20 h-20 mx-auto mb-6 rounded-full bg-gradient-to-br from-orange-100 to-orange-50 flex items-center justify-center">
-                    <Sparkles className="w-10 h-10 text-orange-500" />
-                  </div>
-                  <p className="text-slate-400 text-base sm:text-lg font-medium mb-2">
-                    Ready to generate!
-                  </p>
-                  <p className="text-slate-400 text-sm">
-                    Click the button to start generating words
-                  </p>
+                <div className="text-center opacity-30">
+                  <div className="font-mono text-6xl mb-4 font-thin text-zinc-300">_</div>
+                  <p className="font-mono text-sm text-zinc-400 uppercase tracking-widest">Waiting for data...</p>
                 </div>
               )}
+            </div>
+
+            {/* Bottom Decoration */}
+            <div className="absolute bottom-4 right-4 flex gap-1">
+               <div className="w-1 h-1 bg-zinc-300"></div>
+               <div className="w-1 h-1 bg-zinc-300"></div>
+               <div className="w-1 h-1 bg-zinc-300"></div>
             </div>
           </div>
         </div>

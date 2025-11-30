@@ -76,46 +76,8 @@ export default function JobGeneratorPage() {
     ],
   };
 
-  const breadcrumbSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'BreadcrumbList',
-    itemListElement: [
-      {
-        '@type': 'ListItem',
-        position: 1,
-        name: 'Home',
-        item: siteUrl,
-      },
-      {
-        '@type': 'ListItem',
-        position: 2,
-        name: 'Random Job Generator',
-        item: `${siteUrl}/random-job-generator`,
-      },
-    ],
-  };
-
   return (
-    <div className="min-h-screen flex flex-col job-page-bg">
-      <style jsx global>{`
-        .job-page-bg {
-          background: linear-gradient(135deg, #DBEAFE 0%, #BFDBFE 25%, #93C5FD 50%, #60A5FA 75%, #3B82F6 100%);
-          background-size: 400% 400%;
-          animation: gradient 15s ease infinite;
-        }
-
-        @keyframes gradient {
-          0% {
-            background-position: 0% 50%;
-          }
-          50% {
-            background-position: 100% 50%;
-          }
-          100% {
-            background-position: 0% 50%;
-          }
-        }
-      `}</style>
+    <div className="min-h-screen flex flex-col bg-background text-foreground">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(webAppSchema) }}
@@ -124,205 +86,136 @@ export default function JobGeneratorPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
-      />
       <Navbar />
-      <main className="flex-1 container mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-10 lg:py-12">
+      <main className="flex-1 container mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
         {/* Job Generator Panel */}
-        <div className="mb-12 sm:mb-16 lg:mb-20">
+        <div className="mb-16">
           <JobGeneratorPanel />
         </div>
 
         {/* SEO Content Section */}
-        <div className="max-w-4xl mx-auto mb-12 sm:mb-16 space-y-8">
+        <div className="max-w-4xl mx-auto mb-12 space-y-12">
           {/* What is Random Job Generator */}
-          <div className="bg-white/90 backdrop-blur-sm rounded-2xl p-6 sm:p-8 shadow-lg">
-            <h2 className="font-display text-2xl sm:text-3xl font-bold text-gray-800 mb-4">
+          <div className="swiss-card p-6 sm:p-8 bg-white">
+            <h2 className="font-display text-2xl sm:text-3xl font-bold mb-6 flex items-center text-foreground">
+              <span className="w-2 h-8 bg-accent mr-3"></span>
               What is a Random Job Generator?
             </h2>
-            <p className="text-gray-700 text-base sm:text-lg leading-relaxed mb-4">
+            <p className="text-zinc-600 text-base leading-relaxed font-sans mb-4">
               A <strong>random job generator</strong> is a comprehensive creative tool that randomly selects careers and occupations from an extensive database of professions. Our job generator features <strong>900+ diverse jobs</strong> spanning 20+ industry categories, making it the ultimate resource for writers, game developers, educators, career explorers, and creative professionals.
             </p>
-            <p className="text-gray-700 text-base leading-relaxed">
+            <p className="text-zinc-600 text-base leading-relaxed font-sans">
               Whether you&apos;re developing characters for a novel, creating NPCs for a role-playing game, exploring career paths, building fictional worlds, or seeking creative inspiration, our tool provides instant access to everything from traditional careers like healthcare and education to cutting-edge tech roles, specialized sciences, unique arts professions, and even extraordinary occupations like astronauts, storm chasers, and cool hunters.
             </p>
           </div>
 
           {/* Use Cases */}
-          <div className="bg-white/90 backdrop-blur-sm rounded-2xl p-6 sm:p-8 shadow-lg">
-            <h2 className="font-display text-2xl sm:text-3xl font-bold text-gray-800 mb-6">
+          <div className="swiss-card p-6 sm:p-8 bg-white">
+            <h2 className="font-display text-2xl sm:text-3xl font-bold mb-8 flex items-center text-foreground">
+              <span className="w-2 h-8 bg-accent mr-3"></span>
               How to Use the Random Job Generator
             </h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-              <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-xl p-4 border border-blue-100">
-                <h3 className="font-semibold text-gray-800 mb-2">✍️ Creative Writing</h3>
-                <p className="text-sm text-gray-600">Generate realistic occupations for your characters to add depth and authenticity to your stories.</p>
-              </div>
-              <div className="bg-gradient-to-br from-indigo-50 to-purple-50 rounded-xl p-4 border border-indigo-100">
-                <h3 className="font-semibold text-gray-800 mb-2">🎮 Game Development</h3>
-                <p className="text-sm text-gray-600">Create diverse NPCs with varied careers for role-playing games, video games, and tabletop adventures.</p>
-              </div>
-              <div className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-xl p-4 border border-purple-100">
-                <h3 className="font-semibold text-gray-800 mb-2">🎓 Career Exploration</h3>
-                <p className="text-sm text-gray-600">Discover careers you may never have considered and explore diverse professional paths.</p>
-              </div>
-              <div className="bg-gradient-to-br from-cyan-50 to-blue-50 rounded-xl p-4 border border-cyan-100">
-                <h3 className="font-semibold text-gray-800 mb-2">👥 Icebreakers</h3>
-                <p className="text-sm text-gray-600">Use random jobs for fun group activities, team building, and conversation starters.</p>
-              </div>
-              <div className="bg-gradient-to-br from-blue-50 to-sky-50 rounded-xl p-4 border border-blue-100">
-                <h3 className="font-semibold text-gray-800 mb-2">🏫 Education</h3>
-                <p className="text-sm text-gray-600">Teachers can use this for vocabulary lessons, career education, and creative writing prompts.</p>
-              </div>
-              <div className="bg-gradient-to-br from-violet-50 to-purple-50 rounded-xl p-4 border border-violet-100">
-                <h3 className="font-semibold text-gray-800 mb-2">💭 Brainstorming</h3>
-                <p className="text-sm text-gray-600">Spark new ideas for projects, storylines, or creative content by exploring random professions.</p>
-              </div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-px bg-grid border border-grid">
+              {[
+                { title: "Creative Writing", desc: "Generate realistic occupations for your characters to add depth and authenticity to your stories." },
+                { title: "Game Development", desc: "Create diverse NPCs with varied careers for role-playing games, video games, and tabletop adventures." },
+                { title: "Career Exploration", desc: "Discover careers you may never have considered and explore diverse professional paths." },
+                { title: "Icebreakers", desc: "Use random jobs for fun group activities, team building, and conversation starters." },
+                { title: "Education", desc: "Teachers can use this for vocabulary lessons, career education, and creative writing prompts." },
+                { title: "Brainstorming", desc: "Spark new ideas for projects, storylines, or creative content by exploring random professions." }
+              ].map((item, i) => (
+                <div key={i} className="bg-white p-6 hover:bg-zinc-50 transition-colors">
+                  <h3 className="font-mono font-bold text-foreground mb-2 uppercase tracking-wider text-xs">{item.title}</h3>
+                  <p className="text-zinc-500 text-sm font-sans">{item.desc}</p>
+                </div>
+              ))}
             </div>
           </div>
 
           {/* Features */}
-          <div className="bg-white/90 backdrop-blur-sm rounded-2xl p-6 sm:p-8 shadow-lg">
-            <h2 className="font-display text-2xl sm:text-3xl font-bold text-gray-800 mb-6">
+          <div className="swiss-card p-6 sm:p-8 bg-white">
+            <h2 className="font-display text-2xl sm:text-3xl font-bold mb-8 flex items-center text-foreground">
+              <span className="w-2 h-8 bg-accent mr-3"></span>
               Key Features
             </h2>
-            <div className="space-y-4">
-              <div className="flex gap-4 items-start">
-                <span className="text-2xl flex-shrink-0">💼</span>
-                <div>
-                  <h3 className="font-semibold text-gray-800 mb-1 text-lg">900+ Diverse Jobs</h3>
-                  <p className="text-gray-600">Comprehensive database covering everything from common careers to specialized professions across all industries.</p>
+            <div className="space-y-6">
+              {[
+                { icon: "💼", title: "900+ Diverse Jobs", desc: "Comprehensive database covering everything from common careers to specialized professions across all industries." },
+                { icon: "🎯", title: "Category Filtering", desc: "Filter by 20+ categories including Healthcare, Technology, Arts, Science, Business, and more." },
+                { icon: "🔢", title: "Bulk Generation", desc: "Generate up to 20 jobs at once for character creation, brainstorming, or large projects." },
+                { icon: "📋", title: "Easy Copy Function", desc: "Copy all generated jobs to clipboard with a single click for use in your projects." },
+                { icon: "⚡", title: "Instant Results", desc: "No waiting, no ads, no registration - just instant job generation whenever you need it." }
+              ].map((item, i) => (
+                <div key={i} className="flex gap-6 items-start">
+                  <span className="text-2xl grayscale opacity-70 pt-1">{item.icon}</span>
+                  <div>
+                    <h3 className="font-bold text-foreground mb-1 text-lg">{item.title}</h3>
+                    <p className="text-zinc-500 font-sans">{item.desc}</p>
+                  </div>
                 </div>
-              </div>
-              <div className="flex gap-4 items-start">
-                <span className="text-2xl flex-shrink-0">🎯</span>
-                <div>
-                  <h3 className="font-semibold text-gray-800 mb-1 text-lg">Category Filtering</h3>
-                  <p className="text-gray-600">Filter by 20+ categories including Healthcare, Technology, Arts, Science, Business, and more.</p>
-                </div>
-              </div>
-              <div className="flex gap-4 items-start">
-                <span className="text-2xl flex-shrink-0">🔢</span>
-                <div>
-                  <h3 className="font-semibold text-gray-800 mb-1 text-lg">Bulk Generation</h3>
-                  <p className="text-gray-600">Generate up to 20 jobs at once for character creation, brainstorming, or large projects.</p>
-                </div>
-              </div>
-              <div className="flex gap-4 items-start">
-                <span className="text-2xl flex-shrink-0">📋</span>
-                <div>
-                  <h3 className="font-semibold text-gray-800 mb-1 text-lg">Easy Copy Function</h3>
-                  <p className="text-gray-600">Copy all generated jobs to clipboard with a single click for use in your projects.</p>
-                </div>
-              </div>
-              <div className="flex gap-4 items-start">
-                <span className="text-2xl flex-shrink-0">⚡</span>
-                <div>
-                  <h3 className="font-semibold text-gray-800 mb-1 text-lg">Instant Results</h3>
-                  <p className="text-gray-600">No waiting, no ads, no registration - just instant job generation whenever you need it.</p>
-                </div>
-              </div>
+              ))}
             </div>
           </div>
 
           {/* Job Categories */}
-          <div className="bg-white/90 backdrop-blur-sm rounded-2xl p-6 sm:p-8 shadow-lg">
-            <h2 className="font-display text-2xl sm:text-3xl font-bold text-gray-800 mb-6">
+          <div className="swiss-card p-6 sm:p-8 bg-white">
+            <h2 className="font-display text-2xl sm:text-3xl font-bold mb-8 flex items-center text-foreground">
+              <span className="w-2 h-8 bg-accent mr-3"></span>
               Available Job Categories
             </h2>
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
-              <div className="bg-blue-50 rounded-lg p-3 text-center border border-blue-100">
-                <p className="text-sm font-medium text-gray-700">Business & Finance</p>
-              </div>
-              <div className="bg-indigo-50 rounded-lg p-3 text-center border border-indigo-100">
-                <p className="text-sm font-medium text-gray-700">Technology & IT</p>
-              </div>
-              <div className="bg-purple-50 rounded-lg p-3 text-center border border-purple-100">
-                <p className="text-sm font-medium text-gray-700">Healthcare & Medical</p>
-              </div>
-              <div className="bg-pink-50 rounded-lg p-3 text-center border border-pink-100">
-                <p className="text-sm font-medium text-gray-700">Education</p>
-              </div>
-              <div className="bg-rose-50 rounded-lg p-3 text-center border border-rose-100">
-                <p className="text-sm font-medium text-gray-700">Law & Legal</p>
-              </div>
-              <div className="bg-cyan-50 rounded-lg p-3 text-center border border-cyan-100">
-                <p className="text-sm font-medium text-gray-700">Entertainment</p>
-              </div>
-              <div className="bg-sky-50 rounded-lg p-3 text-center border border-sky-100">
-                <p className="text-sm font-medium text-gray-700">Science & Research</p>
-              </div>
-              <div className="bg-teal-50 rounded-lg p-3 text-center border border-teal-100">
-                <p className="text-sm font-medium text-gray-700">Arts & Design</p>
-              </div>
-              <div className="bg-emerald-50 rounded-lg p-3 text-center border border-emerald-100">
-                <p className="text-sm font-medium text-gray-700">Public Safety</p>
-              </div>
-              <div className="bg-lime-50 rounded-lg p-3 text-center border border-lime-100">
-                <p className="text-sm font-medium text-gray-700">Transportation</p>
-              </div>
-              <div className="bg-amber-50 rounded-lg p-3 text-center border border-amber-100">
-                <p className="text-sm font-medium text-gray-700">Sports & Fitness</p>
-              </div>
-              <div className="bg-orange-50 rounded-lg p-3 text-center border border-orange-100">
-                <p className="text-sm font-medium text-gray-700">Skilled Trades</p>
-              </div>
+              {[
+                "Business & Finance", "Technology & IT", "Healthcare & Medical", "Education",
+                "Law & Legal", "Entertainment", "Science & Research", "Arts & Design",
+                "Public Safety", "Transportation", "Sports & Fitness", "Skilled Trades"
+              ].map((cat, i) => (
+                <div key={i} className="bg-zinc-50 rounded-none p-3 text-center border border-zinc-200">
+                  <p className="text-sm font-medium text-foreground font-mono">{cat}</p>
+                </div>
+              ))}
             </div>
-            <p className="text-sm text-gray-600 mt-4 text-center">...and many more!</p>
+            <p className="text-sm text-zinc-500 mt-4 text-center font-mono uppercase tracking-widest">...and many more!</p>
           </div>
 
           {/* FAQ */}
-          <div className="bg-white/90 backdrop-blur-sm rounded-2xl p-6 sm:p-8 shadow-lg">
-            <h2 className="font-display text-2xl sm:text-3xl font-bold text-gray-800 mb-6">
+          <div className="swiss-card p-6 sm:p-8 bg-white">
+            <h2 className="font-display text-2xl sm:text-3xl font-bold mb-8 flex items-center text-foreground">
+              <span className="w-2 h-8 bg-accent mr-3"></span>
               Frequently Asked Questions
             </h2>
-            <div className="space-y-5">
-              <div>
-                <h3 className="font-semibold text-gray-800 mb-2 text-lg">What is a random job generator?</h3>
-                <p className="text-gray-600">A random job generator is a tool that randomly selects careers and occupations from a comprehensive database. Our generator includes 900+ jobs across 20+ categories including healthcare, technology, arts, business, and more.</p>
-              </div>
-              <div className="border-t border-gray-200 pt-5">
-                <h3 className="font-semibold text-gray-800 mb-2 text-lg">How can I use the random job generator?</h3>
-                <p className="text-gray-600">Random job generators are perfect for creative writing (character development), career exploration, role-playing games, educational purposes, icebreaker activities, and brainstorming sessions. Simply select a category and click generate.</p>
-              </div>
-              <div className="border-t border-gray-200 pt-5">
-                <h3 className="font-semibold text-gray-800 mb-2 text-lg">Can I filter jobs by category?</h3>
-                <p className="text-gray-600">Yes! You can filter by over 20 categories including Business & Finance, Technology & IT, Healthcare & Medical, Education, Entertainment, Science & Research, and many more. You can also select &quot;All Categories&quot; for maximum variety.</p>
-              </div>
-              <div className="border-t border-gray-200 pt-5">
-                <h3 className="font-semibold text-gray-800 mb-2 text-lg">Is the job generator really free?</h3>
-                <p className="text-gray-600">Absolutely! RandomHub&apos;s job generator is 100% free with no registration, no limits, and no hidden costs. Generate unlimited jobs whenever you need them.</p>
-              </div>
-              <div className="border-t border-gray-200 pt-5">
-                <h3 className="font-semibold text-gray-800 mb-2 text-lg">How many jobs can I generate at once?</h3>
-                <p className="text-gray-600">You can generate between 1 and 20 jobs at a time. This is perfect for creating multiple characters, exploring various career options, or conducting classroom activities.</p>
-              </div>
-              <div className="border-t border-gray-200 pt-5">
-                <h3 className="font-semibold text-gray-800 mb-2 text-lg">Can I copy the generated jobs?</h3>
-                <p className="text-gray-600">Yes! Click the &quot;Copy&quot; button to copy all generated jobs to your clipboard at once. They&apos;ll be formatted with one job per line for easy pasting into your projects.</p>
-              </div>
+            <div className="space-y-8">
+              {[
+                { q: "What is a random job generator?", a: "A random job generator is a tool that randomly selects careers and occupations from a comprehensive database. Our generator includes 900+ jobs across 20+ categories including healthcare, technology, arts, business, and more." },
+                { q: "How can I use the random job generator?", a: "Random job generators are perfect for creative writing (character development), career exploration, role-playing games, educational purposes, icebreaker activities, and brainstorming sessions. Simply select a category and click generate." },
+                { q: "Can I filter jobs by category?", a: "Yes! You can filter by over 20 categories including Business & Finance, Technology & IT, Healthcare & Medical, Education, Entertainment, Science & Research, and many more. You can also select 'All Categories' for maximum variety." },
+                { q: "Is the job generator really free?", a: "Absolutely! RandomHub's job generator is 100% free with no registration, no limits, and no hidden costs. Generate unlimited jobs whenever you need them." },
+                { q: "How many jobs can I generate at once?", a: "You can generate between 1 and 20 jobs at a time. This is perfect for creating multiple characters, exploring various career options, or conducting classroom activities." },
+                { q: "Can I copy the generated jobs?", a: "Yes! Click the 'Copy' button to copy all generated jobs to your clipboard at once. They'll be formatted with one job per line for easy pasting into your projects." }
+              ].map((item, i) => (
+                <div key={i}>
+                  <h3 className="font-bold text-foreground mb-2 text-lg">{item.q}</h3>
+                  <p className="text-zinc-500 font-sans text-sm leading-relaxed">{item.a}</p>
+                </div>
+              ))}
             </div>
           </div>
 
           {/* Why Choose */}
-          <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-6 sm:p-8 shadow-lg border-2 border-blue-100">
-            <h2 className="font-display text-2xl sm:text-3xl font-bold text-gray-800 mb-4">
+          <div className="swiss-card p-6 sm:p-8 bg-white border-l-4 border-l-accent">
+            <h2 className="font-display text-2xl sm:text-3xl font-bold mb-4 text-foreground">
               Why Choose Our Job Generator?
             </h2>
-            <p className="text-gray-700 text-base sm:text-lg leading-relaxed">
-              Unlike basic job lists, our <strong>random job generator</strong> combines a comprehensive database of 300+ careers with intelligent category filtering. Whether you&apos;re a novelist crafting realistic characters, a game master creating NPCs, a teacher developing curriculum, or simply exploring career possibilities, our tool delivers diverse, realistic results instantly. <span className="text-blue-600 font-semibold">Free forever, unlimited generation, no registration required.</span>
+            <p className="text-zinc-600 text-base leading-relaxed font-sans">
+              Unlike basic job lists, our <strong>random job generator</strong> combines a comprehensive database of 900+ careers with intelligent category filtering. Whether you&apos;re a novelist crafting realistic characters, a game master creating NPCs, a teacher developing curriculum, or simply exploring career possibilities, our tool delivers diverse, realistic results instantly. <span className="text-accent font-semibold">Free forever, unlimited generation, no registration required.</span>
             </p>
           </div>
         </div>
       </main>
 
-      {/* Footer */}
-      <footer className="bg-white/10 backdrop-blur-sm py-6 mt-auto border-t border-white/10">
+      <footer className="border-t border-grid py-8 bg-background">
         <div className="container mx-auto px-4 text-center">
-          <p className="text-white/80 text-sm">
-            © 2025 RandomHub
+          <p className="text-zinc-400 font-mono text-xs uppercase tracking-widest">
+            © 2025 RandomHub System
           </p>
         </div>
       </footer>

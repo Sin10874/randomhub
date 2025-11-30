@@ -1,40 +1,11 @@
+'use client';
+
 import Navbar from '@/app/components/Navbar';
 import LetterGeneratorPanel from '@/app/components/LetterGeneratorPanel';
-import type { Metadata } from "next";
-
-const siteUrl = "https://randomhub.io";
-
-export const metadata: Metadata = {
-  title: "Random Letter Generator - Generate Random Letters | RandomHub",
-  description: "Generate random letters instantly. Free letter generator with uppercase, lowercase, and mixed options. Perfect for games, education, alphabet learning, and creative activities.",
-  keywords: "random letter generator, letter picker, alphabet generator, random alphabet, letter randomizer, educational tool, letter games",
-  alternates: {
-    canonical: `${siteUrl}/random-letter-generator`,
-  },
-  openGraph: {
-    title: "Random Letter Generator - Generate Random Letters",
-    description: "Generate random letters with customizable options. Free forever!",
-    url: `${siteUrl}/random-letter-generator`,
-    type: "website",
-    siteName: "RandomHub",
-    images: [
-      {
-        url: `${siteUrl}/og-image-letter-generator.png`,
-        width: 1200,
-        height: 630,
-        alt: "Random Letter Generator - RandomHub",
-      },
-    ],
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Random Letter Generator",
-    description: "Generate random letters with customizable options. Free forever!",
-    images: [`${siteUrl}/og-image-letter-generator.png`],
-  },
-};
 
 export default function LetterGeneratorPage() {
+  const siteUrl = "https://randomhub.io";
+
   const webAppSchema = {
     '@context': 'https://schema.org',
     '@type': 'WebApplication',
@@ -53,239 +24,158 @@ export default function LetterGeneratorPage() {
   };
 
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen flex flex-col bg-background text-foreground">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(webAppSchema) }}
       />
       <Navbar />
-      <main className="flex-1 container mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-10 lg:py-12">
-        <LetterGeneratorPanel />
+      <main className="flex-1 container mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
+        {/* Letter Generator Panel */}
+        <div className="mb-16">
+          <LetterGeneratorPanel />
+        </div>
 
         {/* SEO Content Section */}
-        <div className="max-w-4xl mx-auto mb-12 space-y-8 mt-12 sm:mt-16">
+        <div className="max-w-4xl mx-auto mb-12 space-y-12">
           {/* What is Random Letter Generator */}
-          <div className="bg-white/90 backdrop-blur-sm rounded-2xl p-6 sm:p-8 shadow-lg">
-            <h2 className="font-display text-2xl sm:text-3xl font-bold text-gray-800 mb-4">
+          <div className="swiss-card p-6 sm:p-8 bg-white">
+            <h2 className="font-display text-2xl sm:text-3xl font-bold mb-6 flex items-center text-foreground">
+              <span className="w-2 h-8 bg-accent mr-3"></span>
               What is Random Letter Generator?
             </h2>
-            <p className="text-gray-700 text-base sm:text-lg leading-relaxed">
+            <p className="text-zinc-600 text-base leading-relaxed font-sans">
               <strong>Random Letter Generator</strong> is a free tool that instantly generates random letters from the alphabet. Whether you need uppercase letters, lowercase letters, or a mix of both, our generator provides quick and easy randomization. Perfect for educational activities, word games, creative exercises, and decision-making when you need a random letter.
             </p>
           </div>
 
           {/* Who is it for */}
-          <div className="bg-white/90 backdrop-blur-sm rounded-2xl p-6 sm:p-8 shadow-lg">
-            <h2 className="font-display text-2xl sm:text-3xl font-bold text-gray-800 mb-6">
+          <div className="swiss-card p-6 sm:p-8 bg-white">
+            <h2 className="font-display text-2xl sm:text-3xl font-bold mb-8 flex items-center text-foreground">
+              <span className="w-2 h-8 bg-accent mr-3"></span>
               Who is Random Letter Generator for?
             </h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              <div className="flex gap-3">
-                <span className="text-2xl">👨‍🏫</span>
-                <div>
-                  <h3 className="font-semibold text-gray-800 mb-1">Teachers & Educators</h3>
-                  <p className="text-sm text-gray-600">Create alphabet learning activities and classroom games</p>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-px bg-grid border border-grid">
+              {[
+                { icon: "👨‍🏫", title: "Teachers & Educators", desc: "Create alphabet learning activities and classroom games" },
+                { icon: "👶", title: "Parents", desc: "Help children learn the alphabet through interactive play" },
+                { icon: "🎮", title: "Game Players", desc: "Use for Scrabble practice, Boggle, and word formation games" },
+                { icon: "✍️", title: "Writers", desc: "Generate starting letters for creative writing prompts" },
+                { icon: "🎲", title: "Decision Makers", desc: "Use letters for random selection and fair choices" },
+                { icon: "🎨", title: "Designers & Artists", desc: "Generate random letters for typography and design projects" }
+              ].map((item, i) => (
+                <div key={i} className="bg-white p-6 hover:bg-zinc-50 transition-colors">
+                  <div className="flex gap-4">
+                    <span className="text-2xl grayscale opacity-70">{item.icon}</span>
+                    <div>
+                      <h3 className="font-mono font-bold text-foreground mb-1 uppercase tracking-wider text-sm">{item.title}</h3>
+                      <p className="text-sm text-zinc-500 font-sans">{item.desc}</p>
+                    </div>
+                  </div>
                 </div>
-              </div>
-              <div className="flex gap-3">
-                <span className="text-2xl">👶</span>
-                <div>
-                  <h3 className="font-semibold text-gray-800 mb-1">Parents</h3>
-                  <p className="text-sm text-gray-600">Help children learn the alphabet through interactive play</p>
-                </div>
-              </div>
-              <div className="flex gap-3">
-                <span className="text-2xl">🎮</span>
-                <div>
-                  <h3 className="font-semibold text-gray-800 mb-1">Game Players</h3>
-                  <p className="text-sm text-gray-600">Use for Scrabble practice, Boggle, and word formation games</p>
-                </div>
-              </div>
-              <div className="flex gap-3">
-                <span className="text-2xl">✍️</span>
-                <div>
-                  <h3 className="font-semibold text-gray-800 mb-1">Writers</h3>
-                  <p className="text-sm text-gray-600">Generate starting letters for creative writing prompts</p>
-                </div>
-              </div>
-              <div className="flex gap-3">
-                <span className="text-2xl">🎲</span>
-                <div>
-                  <h3 className="font-semibold text-gray-800 mb-1">Decision Makers</h3>
-                  <p className="text-sm text-gray-600">Use letters for random selection and fair choices</p>
-                </div>
-              </div>
-              <div className="flex gap-3">
-                <span className="text-2xl">🎨</span>
-                <div>
-                  <h3 className="font-semibold text-gray-800 mb-1">Designers & Artists</h3>
-                  <p className="text-sm text-gray-600">Generate random letters for typography and design projects</p>
-                </div>
-              </div>
+              ))}
             </div>
           </div>
 
           {/* Why Choose */}
-          <div className="bg-white/90 backdrop-blur-sm rounded-2xl p-6 sm:p-8 shadow-lg">
-            <h2 className="font-display text-2xl sm:text-3xl font-bold text-gray-800 mb-6">
+          <div className="swiss-card p-6 sm:p-8 bg-white">
+            <h2 className="font-display text-2xl sm:text-3xl font-bold mb-8 flex items-center text-foreground">
+              <span className="w-2 h-8 bg-accent mr-3"></span>
               Why Choose Our Letter Generator?
             </h2>
-            <div className="space-y-4">
-              <div className="flex gap-4 items-start">
-                <span className="text-2xl flex-shrink-0">⚡</span>
-                <div>
-                  <h3 className="font-semibold text-gray-800 mb-1 text-lg">Instant Results</h3>
-                  <p className="text-gray-600">Generate random letters immediately with a single click - no delays or waiting</p>
+            <div className="space-y-6">
+              {[
+                { icon: "⚡", title: "Instant Results", desc: "Generate random letters immediately with a single click - no delays or waiting" },
+                { icon: "🔤", title: "Case Options", desc: "Choose uppercase, lowercase, or mixed case to suit your specific needs" },
+                { icon: "🎯", title: "Bulk Generation", desc: "Generate multiple random letters at once for games and activities" },
+                { icon: "📱", title: "Mobile Friendly", desc: "Works perfectly on all devices - phones, tablets, and computers" },
+                { icon: "🎁", title: "Forever Free", desc: "No registration, no limits, no cost - completely free to use anytime" }
+              ].map((item, i) => (
+                <div key={i} className="flex gap-6 items-start group">
+                  <span className="text-2xl grayscale opacity-70 pt-1">{item.icon}</span>
+                  <div>
+                    <h3 className="font-bold text-foreground mb-1 text-lg">{item.title}</h3>
+                    <p className="text-zinc-500 font-sans">{item.desc}</p>
+                  </div>
                 </div>
-              </div>
-              <div className="flex gap-4 items-start">
-                <span className="text-2xl flex-shrink-0">🔤</span>
-                <div>
-                  <h3 className="font-semibold text-gray-800 mb-1 text-lg">Case Options</h3>
-                  <p className="text-gray-600">Choose uppercase, lowercase, or mixed case to suit your specific needs</p>
-                </div>
-              </div>
-              <div className="flex gap-4 items-start">
-                <span className="text-2xl flex-shrink-0">🎯</span>
-                <div>
-                  <h3 className="font-semibold text-gray-800 mb-1 text-lg">Bulk Generation</h3>
-                  <p className="text-gray-600">Generate multiple random letters at once for games and activities</p>
-                </div>
-              </div>
-              <div className="flex gap-4 items-start">
-                <span className="text-2xl flex-shrink-0">📱</span>
-                <div>
-                  <h3 className="font-semibold text-gray-800 mb-1 text-lg">Mobile Friendly</h3>
-                  <p className="text-gray-600">Works perfectly on all devices - phones, tablets, and computers</p>
-                </div>
-              </div>
-              <div className="flex gap-4 items-start">
-                <span className="text-2xl flex-shrink-0">🎁</span>
-                <div>
-                  <h3 className="font-semibold text-gray-800 mb-1 text-lg">Forever Free</h3>
-                  <p className="text-gray-600">No registration, no limits, no cost - completely free to use anytime</p>
-                </div>
-              </div>
+              ))}
             </div>
           </div>
 
           {/* How to Use */}
-          <div className="bg-white/90 backdrop-blur-sm rounded-2xl p-6 sm:p-8 shadow-lg">
-            <h2 className="font-display text-2xl sm:text-3xl font-bold text-gray-800 mb-6">
+          <div className="swiss-card p-6 sm:p-8 bg-white">
+            <h2 className="font-display text-2xl sm:text-3xl font-bold mb-8 flex items-center text-foreground">
+              <span className="w-2 h-8 bg-accent mr-3"></span>
               How to Use Random Letter Generator
             </h2>
             <div className="space-y-6">
-              <div className="flex gap-4 items-start">
-                <div className="w-10 h-10 rounded-full bg-gradient-to-br from-green-500 to-emerald-500 flex items-center justify-center text-white font-bold flex-shrink-0">
-                  1
+              {[
+                { step: "01", title: "Choose Your Options", desc: "Select how many letters you want and choose between uppercase, lowercase, or mixed case." },
+                { step: "02", title: "Generate Letters", desc: "Click the generate button to instantly get your random letters." },
+                { step: "03", title: "Copy & Use", desc: "Copy the letters and use them in your games, activities, or projects." }
+              ].map((item, i) => (
+                <div key={i} className="flex gap-6 items-start">
+                  <div className="text-accent font-mono font-bold text-xl flex-shrink-0 pt-1">{item.step}</div>
+                  <div>
+                    <h3 className="font-bold text-foreground mb-1 text-lg">{item.title}</h3>
+                    <p className="text-zinc-500 font-sans">{item.desc}</p>
+                  </div>
                 </div>
-                <div>
-                  <h3 className="font-semibold text-gray-800 mb-1 text-lg">Choose Your Options</h3>
-                  <p className="text-gray-600">Select how many letters you want and choose between uppercase, lowercase, or mixed case.</p>
-                </div>
-              </div>
-              <div className="flex gap-4 items-start">
-                <div className="w-10 h-10 rounded-full bg-gradient-to-br from-green-500 to-emerald-500 flex items-center justify-center text-white font-bold flex-shrink-0">
-                  2
-                </div>
-                <div>
-                  <h3 className="font-semibold text-gray-800 mb-1 text-lg">Generate Letters</h3>
-                  <p className="text-gray-600">Click the generate button to instantly get your random letters.</p>
-                </div>
-              </div>
-              <div className="flex gap-4 items-start">
-                <div className="w-10 h-10 rounded-full bg-gradient-to-br from-green-500 to-emerald-500 flex items-center justify-center text-white font-bold flex-shrink-0">
-                  3
-                </div>
-                <div>
-                  <h3 className="font-semibold text-gray-800 mb-1 text-lg">Copy & Use</h3>
-                  <p className="text-gray-600">Copy the letters and use them in your games, activities, or projects.</p>
-                </div>
-              </div>
+              ))}
             </div>
           </div>
 
           {/* Popular Use Cases */}
-          <div className="bg-white/90 backdrop-blur-sm rounded-2xl p-6 sm:p-8 shadow-lg">
-            <h2 className="font-display text-2xl sm:text-3xl font-bold text-gray-800 mb-6">
-              Popular Use Cases
-            </h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-              <div className="bg-gradient-to-br from-green-50 to-emerald-50 rounded-xl p-4 border border-green-100">
-                <h3 className="font-semibold text-gray-800 mb-2">🎓 Alphabet Learning</h3>
-                <p className="text-sm text-gray-600">Help children recognize and practice letters in a fun, interactive way.</p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+            {[
+              { title: "Alphabet Learning", desc: "Help children recognize and practice letters in a fun, interactive way." },
+              { title: "Word Games", desc: "Generate starting letters for Scrabble, Boggle, or word-building challenges." },
+              { title: "Writing Prompts", desc: "Use random letters as starting points for creative writing exercises." },
+              { title: "Classroom Activities", desc: "Create spelling tests, phonics practice, and alphabet games." },
+              { title: "Decision Making", desc: "Use letters for random selection when you need a fair choice." },
+              { title: "Design Projects", desc: "Generate letters for typography practice and design mockups." }
+            ].map((item, i) => (
+              <div key={i} className="swiss-card p-6 bg-white">
+                <h3 className="font-mono font-bold text-accent mb-2 uppercase tracking-wider text-xs">Use Case {String(i + 1).padStart(2, '0')}</h3>
+                <h4 className="font-bold text-lg mb-2 text-foreground">{item.title}</h4>
+                <p className="text-zinc-500 text-sm font-sans">{item.desc}</p>
               </div>
-              <div className="bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl p-4 border border-blue-100">
-                <h3 className="font-semibold text-gray-800 mb-2">🎮 Word Games</h3>
-                <p className="text-sm text-gray-600">Generate starting letters for Scrabble, Boggle, or word-building challenges.</p>
-              </div>
-              <div className="bg-gradient-to-br from-purple-50 to-violet-50 rounded-xl p-4 border border-purple-100">
-                <h3 className="font-semibold text-gray-800 mb-2">✍️ Writing Prompts</h3>
-                <p className="text-sm text-gray-600">Use random letters as starting points for creative writing exercises.</p>
-              </div>
-              <div className="bg-gradient-to-br from-pink-50 to-rose-50 rounded-xl p-4 border border-pink-100">
-                <h3 className="font-semibold text-gray-800 mb-2">🏫 Classroom Activities</h3>
-                <p className="text-sm text-gray-600">Create spelling tests, phonics practice, and alphabet games.</p>
-              </div>
-              <div className="bg-gradient-to-br from-orange-50 to-amber-50 rounded-xl p-4 border border-orange-100">
-                <h3 className="font-semibold text-gray-800 mb-2">🎲 Decision Making</h3>
-                <p className="text-sm text-gray-600">Use letters for random selection when you need a fair choice.</p>
-              </div>
-              <div className="bg-gradient-to-br from-indigo-50 to-blue-50 rounded-xl p-4 border border-indigo-100">
-                <h3 className="font-semibold text-gray-800 mb-2">🎨 Design Projects</h3>
-                <p className="text-sm text-gray-600">Generate letters for typography practice and design mockups.</p>
-              </div>
-            </div>
+            ))}
           </div>
 
           {/* FAQ */}
-          <div className="bg-white/90 backdrop-blur-sm rounded-2xl p-6 sm:p-8 shadow-lg">
-            <h2 className="font-display text-2xl sm:text-3xl font-bold text-gray-800 mb-6">
+          <div className="swiss-card p-6 sm:p-8 bg-white">
+            <h2 className="font-display text-2xl sm:text-3xl font-bold mb-8 flex items-center text-foreground">
+              <span className="w-2 h-8 bg-accent mr-3"></span>
               Frequently Asked Questions
             </h2>
-            <div className="space-y-5">
-              <div>
-                <h3 className="font-semibold text-gray-800 mb-2 text-lg">How does the random letter generator work?</h3>
-                <p className="text-gray-600">Our generator uses a true randomization algorithm to select letters from the English alphabet (A-Z). Each letter has an equal chance of being selected.</p>
-              </div>
-              <div className="border-t border-gray-200 pt-5">
-                <h3 className="font-semibold text-gray-800 mb-2 text-lg">Can I generate multiple letters at once?</h3>
-                <p className="text-gray-600">Yes! You can choose to generate anywhere from 1 to multiple letters in a single generation.</p>
-              </div>
-              <div className="border-t border-gray-200 pt-5">
-                <h3 className="font-semibold text-gray-800 mb-2 text-lg">What&apos;s the difference between uppercase and lowercase?</h3>
-                <p className="text-gray-600">Uppercase generates capital letters (A, B, C), lowercase generates small letters (a, b, c), and mixed randomly combines both.</p>
-              </div>
-              <div className="border-t border-gray-200 pt-5">
-                <h3 className="font-semibold text-gray-800 mb-2 text-lg">Is the letter generation truly random?</h3>
-                <p className="text-gray-600">Yes! We use JavaScript&apos;s cryptographically secure random number generator to ensure fair and unpredictable letter selection.</p>
-              </div>
-              <div className="border-t border-gray-200 pt-5">
-                <h3 className="font-semibold text-gray-800 mb-2 text-lg">Can I use this for educational purposes?</h3>
-                <p className="text-gray-600">Absolutely! Our letter generator is perfect for classroom activities, alphabet learning, phonics practice, and educational games.</p>
-              </div>
-              <div className="border-t border-gray-200 pt-5">
-                <h3 className="font-semibold text-gray-800 mb-2 text-lg">Is the Random Letter Generator free?</h3>
-                <p className="text-gray-600">Yes! It&apos;s completely free with no registration required. Generate unlimited letters anytime, anywhere.</p>
-              </div>
-              <div className="border-t border-gray-200 pt-5">
-                <h3 className="font-semibold text-gray-800 mb-2 text-lg">Does it work on mobile devices?</h3>
-                <p className="text-gray-600">Yes! Our generator is fully responsive and works perfectly on smartphones, tablets, and desktop computers.</p>
-              </div>
+            <div className="space-y-8">
+              {[
+                { q: "How does the random letter generator work?", a: "Our generator uses a true randomization algorithm to select letters from the English alphabet (A-Z). Each letter has an equal chance of being selected." },
+                { q: "Can I generate multiple letters at once?", a: "Yes! You can choose to generate anywhere from 1 to multiple letters in a single generation." },
+                { q: "What's the difference between uppercase and lowercase?", a: "Uppercase generates capital letters (A, B, C), lowercase generates small letters (a, b, c), and mixed randomly combines both." },
+                { q: "Is the letter generation truly random?", a: "Yes! We use JavaScript's cryptographically secure random number generator to ensure fair and unpredictable letter selection." },
+                { q: "Can I use this for educational purposes?", a: "Absolutely! Our letter generator is perfect for classroom activities, alphabet learning, phonics practice, and educational games." },
+                { q: "Is the Random Letter Generator free?", a: "Yes! It's completely free with no registration required. Generate unlimited letters anytime, anywhere." },
+                { q: "Does it work on mobile devices?", a: "Yes! Our generator is fully responsive and works perfectly on smartphones, tablets, and desktop computers." }
+              ].map((item, i) => (
+                <div key={i}>
+                  <h3 className="font-bold text-foreground mb-2 text-lg">{item.q}</h3>
+                  <p className="text-zinc-500 font-sans text-sm leading-relaxed">{item.a}</p>
+                </div>
+              ))}
             </div>
           </div>
         </div>
       </main>
 
-      {/* Footer */}
-      <footer className="bg-white/10 backdrop-blur-sm py-6 mt-auto border-t border-white/10">
+      <footer className="border-t border-grid py-8 bg-background">
         <div className="container mx-auto px-4 text-center">
-          <p className="text-white/80 text-sm">
-            © 2025 RandomHub
+          <p className="text-zinc-400 font-mono text-xs uppercase tracking-widest">
+            © 2025 RandomHub System
           </p>
         </div>
       </footer>
     </div>
   );
 }
-

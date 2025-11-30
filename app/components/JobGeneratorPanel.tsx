@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useCallback } from 'react';
 import Select from '@/app/components/ui/Select';
-import { RotateCw, Copy, Check, Sparkles, SlidersHorizontal, Briefcase } from 'lucide-react';
+import { RotateCw, Copy, Check, Sparkles, Settings2, Briefcase } from 'lucide-react';
 
 interface Job {
   job: string;
@@ -66,16 +66,14 @@ export default function JobGeneratorPanel() {
     setIsGenerating(true);
 
     setTimeout(() => {
-      // Filter jobs by category
       const filteredJobs = category === 'All Categories'
         ? allJobs
         : allJobs.filter(job => job.category === category);
 
       if (filteredJobs.length === 0) {
-        setError('No jobs found in this category.');
+        setError('NO_MATCH_FOUND');
         setGeneratedJobs([]);
       } else {
-        // Generate multiple unique jobs
         const selected: Job[] = [];
         const available = [...filteredJobs];
         const targetCount = Math.min(count, available.length);
@@ -101,7 +99,6 @@ export default function JobGeneratorPanel() {
     }
   };
 
-  // Keyboard shortcut support
   useEffect(() => {
     const handleKeyPress = (e: KeyboardEvent) => {
       if (e.key === 'Enter' && !isGenerating && !isLoading) {
@@ -114,31 +111,30 @@ export default function JobGeneratorPanel() {
 
   return (
     <div className="w-full max-w-6xl mx-auto">
-      {/* Title */}
-      <div className="text-center mb-6 sm:mb-8 px-4">
-        <h1 className="font-display text-3xl sm:text-4xl md:text-5xl font-bold text-white tracking-tight animate-fade-in drop-shadow-lg">
-          Random Job Generator
+      <div className="text-center mb-8 md:mb-12">
+        <h1 className="font-display text-3xl sm:text-5xl md:text-6xl font-bold text-foreground mb-4 uppercase tracking-tight">
+          Job<br className="sm:hidden" /> Generator
         </h1>
-        <p className="text-white/90 text-base sm:text-lg mt-3 drop-shadow">
-          Discover random careers and occupations across diverse industries
+        <p className="text-zinc-500 font-mono text-sm uppercase tracking-widest">
+          Career Database Access // v1.0
         </p>
       </div>
 
-      {/* Main Panel */}
-      <div className="bg-white/95 backdrop-blur-sm rounded-2xl sm:rounded-3xl shadow-2xl overflow-hidden">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-0">
-          {/* Settings card */}
-          <div className="border-b lg:border-b-0 lg:border-r border-blue-100/60 p-6 sm:p-8 bg-gradient-to-br from-blue-50/50 to-transparent">
-            <div className="text-xl sm:text-2xl font-semibold text-gray-800 mb-6 flex items-center gap-2">
-              <SlidersHorizontal className="w-5 h-5 sm:w-6 sm:h-6 text-blue-600" />
-              Settings
+      <div className="swiss-card bg-panel border-grid shadow-sm">
+        <div className="grid grid-cols-1 lg:grid-cols-12 min-h-[400px] lg:min-h-[500px]">
+          
+          {/* Settings Column */}
+          <div className="lg:col-span-4 border-b lg:border-b-0 lg:border-r border-grid p-4 sm:p-6 lg:p-8 bg-white flex flex-col">
+            <div className="flex items-center gap-2 mb-8 text-accent font-mono text-xs uppercase tracking-widest">
+              <Settings2 className="w-4 h-4" />
+              <span>Configuration</span>
             </div>
 
-            <div className="space-y-5 mb-6">
-              {/* Category Filter */}
+            <div className="space-y-6 flex-1">
+              {/* Category */}
               <div>
-                <label className="block text-sm font-medium text-slate-700 mb-2">
-                  Job Category
+                <label className="block text-xs font-mono text-zinc-500 uppercase tracking-widest mb-2">
+                  Industry Sector
                 </label>
                 <Select
                   value={category}
@@ -147,15 +143,15 @@ export default function JobGeneratorPanel() {
                   disabled={isLoading}
                 >
                   {CATEGORIES.map(cat => (
-                    <option key={cat} value={cat}>{cat}</option>
+                    <option key={cat} value={cat}>{cat.toUpperCase()}</option>
                   ))}
                 </Select>
               </div>
 
-              {/* Number of Jobs */}
+              {/* Count */}
               <div>
-                <label className="block text-sm font-medium text-slate-700 mb-2">
-                  Number of Jobs
+                <label className="block text-xs font-mono text-zinc-500 uppercase tracking-widest mb-2">
+                  Position Count
                 </label>
                 <input
                   type="number"
@@ -163,125 +159,89 @@ export default function JobGeneratorPanel() {
                   max="20"
                   value={count}
                   onChange={(e) => setCount(Math.min(20, Math.max(1, parseInt(e.target.value) || 1)))}
-                  className="w-full appearance-none rounded-xl border-2 border-slate-200 bg-white px-4 py-2.5 text-slate-900 text-center font-semibold shadow-sm hover:border-blue-300 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-blue-400 transition-all"
+                  className="w-full bg-white border border-zinc-300 p-3 text-center font-mono text-foreground focus:border-accent focus:ring-1 focus:ring-accent rounded-none"
                   disabled={isLoading}
                 />
+                <p className="text-[10px] font-mono text-zinc-400 mt-2 text-right uppercase tracking-wider">Max: 20</p>
               </div>
             </div>
 
-            {/* Generate Button */}
-            <button
-              onClick={handleGenerate}
-              disabled={isGenerating || isLoading}
-              className="w-full bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 text-white font-semibold py-3.5 sm:py-4 rounded-xl hover:from-blue-600 hover:via-blue-700 hover:to-blue-800 transition-all shadow-lg hover:shadow-xl active:scale-95 disabled:opacity-50 disabled:cursor-not-allowed text-base sm:text-lg flex items-center justify-center gap-2"
-            >
-              {isLoading ? (
-                <>
-                  <RotateCw className="w-5 h-5 animate-spin" />
-                  Loading...
-                </>
-              ) : isGenerating ? (
-                <>
-                  <RotateCw className="w-5 h-5 animate-spin" />
-                  Generating...
-                </>
-              ) : (
-                <>
-                  <Sparkles className="w-5 h-5" />
-                  Generate Jobs
-                </>
-              )}
-            </button>
-
-            <p className="text-xs text-slate-500 text-center mt-3">
-              Press <kbd className="px-2 py-1 bg-slate-100 rounded text-xs font-mono">Enter</kbd> to generate
-            </p>
+            <div className="mt-8 pt-6 border-t border-zinc-100">
+              <button
+                onClick={handleGenerate}
+                disabled={isGenerating || isLoading}
+                className="w-full bg-foreground hover:bg-zinc-800 text-white font-mono font-bold py-4 px-6 uppercase tracking-wider transition-all disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-3 rounded-none relative overflow-hidden group"
+              >
+                {isLoading ? (
+                  <>
+                    <RotateCw className="w-5 h-5 animate-spin" />
+                    <span>Init DB...</span>
+                  </>
+                ) : isGenerating ? (
+                  <>
+                    <RotateCw className="w-5 h-5 animate-spin" />
+                    <span>Processing...</span>
+                  </>
+                ) : (
+                  <>
+                    <span className="absolute inset-0 bg-accent translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-out mix-blend-screen"></span>
+                    <span className="relative z-10 flex items-center gap-2">
+                      Generate_Jobs
+                    </span>
+                  </>
+                )}
+              </button>
+            </div>
           </div>
 
-          {/* Result card */}
-          <div className="p-6 sm:p-8 bg-gradient-to-br from-indigo-50/50 to-transparent min-h-[400px] lg:min-h-0 flex flex-col">
-            <div className="text-xl sm:text-2xl font-semibold text-gray-800 mb-6 flex items-center gap-2">
-              <Briefcase className="w-5 h-5 sm:w-6 sm:h-6 text-blue-600" />
-              Result
+          {/* Result Column */}
+          <div className="lg:col-span-8 bg-zinc-50/50 p-4 sm:p-6 lg:p-8 relative flex flex-col">
+             {/* Background Grid Accent */}
+            <div className="absolute inset-0 pointer-events-none" style={{ 
+              backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.03) 1px, transparent 1px), linear-gradient(90deg, rgba(0, 0, 0, 0.03) 1px, transparent 1px)', 
+              backgroundSize: '20px 20px' 
+            }}></div>
+
+            <div className="flex items-center justify-between mb-6 z-10">
+              <div className="flex items-center gap-2 text-accent font-mono text-xs uppercase tracking-widest">
+                <Briefcase className="w-4 h-4" />
+                <span>Output_Stream</span>
+              </div>
+              {generatedJobs.length > 0 && (
+                <button
+                  onClick={handleCopy}
+                  className="text-[10px] font-mono uppercase tracking-wider text-zinc-500 hover:text-accent flex items-center gap-1 transition-colors"
+                >
+                  {copied ? <Check className="w-3 h-3" /> : <Copy className="w-3 h-3" />}
+                  {copied ? 'Copied' : 'Copy_All'}
+                </button>
+              )}
             </div>
 
-            <div className="flex-1 rounded-2xl border-2 border-dashed border-blue-200 bg-gradient-to-br from-blue-50/50 via-indigo-50/30 to-purple-50/20 p-6 sm:p-10 flex flex-col items-center justify-center relative overflow-hidden">
-              {/* Decorative background */}
-              <div className="absolute inset-0 bg-grid-pattern opacity-5"></div>
-
+            <div className="flex-1 z-10 overflow-y-auto custom-scrollbar pr-2">
               {error ? (
-                <div className="text-center animate-fade-in z-10">
-                  <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-red-100 flex items-center justify-center">
-                    <span className="text-3xl">⚠️</span>
-                  </div>
-                  <p className="text-red-600 font-medium text-sm sm:text-base max-w-xs">{error}</p>
-                </div>
+                 <div className="h-full flex items-center justify-center">
+                    <p className="font-mono text-red-500 text-sm uppercase border border-red-200 bg-red-50 px-4 py-2">{error}</p>
+                 </div>
               ) : generatedJobs.length > 0 ? (
-                <div className="flex flex-col items-center gap-6 sm:gap-8 w-full z-10 animate-fade-in">
-                  {/* Jobs Display */}
-                  <div className="relative w-full max-h-64 overflow-y-auto">
-                    <div className="absolute inset-0 bg-gradient-to-r from-blue-400 to-indigo-400 blur-2xl opacity-20 animate-pulse"></div>
-                    <div className="relative space-y-3 px-4">
-                      {generatedJobs.map((job, index) => (
-                        <div key={index} className="bg-white/80 backdrop-blur-sm rounded-xl p-4 border border-blue-100 shadow-sm">
-                          <p className="text-xl sm:text-2xl font-bold bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 bg-clip-text text-transparent text-center">
-                            {job.job}
-                          </p>
-                          <p className="text-xs text-slate-500 text-center mt-1">
-                            {job.category}
-                          </p>
-                        </div>
-                      ))}
+                <div className="space-y-3">
+                  {generatedJobs.map((job, index) => (
+                    <div key={index} className="bg-white border border-zinc-200 p-4 hover:border-accent hover:shadow-sm transition-all group">
+                      <div className="flex items-baseline justify-between">
+                        <h3 className="text-xl font-display font-bold text-foreground tracking-tight group-hover:text-accent transition-colors">
+                          {job.job}
+                        </h3>
+                        <span className="text-[10px] font-mono uppercase tracking-widest text-zinc-400 bg-zinc-50 px-2 py-1 border border-zinc-100">
+                          {job.category}
+                        </span>
+                      </div>
                     </div>
-                  </div>
-
-                  {/* Info tags */}
-                  <div className="flex flex-wrap gap-2 justify-center">
-                    <span className="px-3 py-1 bg-white/80 backdrop-blur-sm rounded-full text-xs font-medium text-slate-600 shadow-sm border border-blue-100">
-                      {generatedJobs.length} {generatedJobs.length === 1 ? 'job' : 'jobs'}
-                    </span>
-                  </div>
-
-                  {/* Action Buttons */}
-                  <div className="flex flex-col sm:flex-row gap-3 w-full max-w-sm">
-                    <button
-                      onClick={handleGenerate}
-                      disabled={isGenerating}
-                      className="flex-1 flex items-center justify-center gap-2 px-4 sm:px-6 py-3 bg-gradient-to-r from-blue-500 to-blue-600 text-white font-semibold rounded-xl hover:from-blue-600 hover:to-blue-700 transition-all shadow-lg hover:shadow-xl active:scale-95 disabled:opacity-50"
-                    >
-                      <RotateCw className={`w-4 h-4 ${isGenerating ? 'animate-spin' : ''}`} />
-                      <span className="hidden sm:inline">Regenerate</span>
-                      <span className="sm:hidden">Again</span>
-                    </button>
-                    <button
-                      onClick={handleCopy}
-                      className="flex-1 flex items-center justify-center gap-2 px-4 sm:px-6 py-3 bg-gradient-to-r from-indigo-500 to-indigo-600 text-white font-semibold rounded-xl hover:from-indigo-600 hover:to-indigo-700 transition-all shadow-lg hover:shadow-xl active:scale-95"
-                    >
-                      {copied ? (
-                        <>
-                          <Check className="w-4 h-4" />
-                          Copied!
-                        </>
-                      ) : (
-                        <>
-                          <Copy className="w-4 h-4" />
-                          Copy
-                        </>
-                      )}
-                    </button>
-                  </div>
+                  ))}
                 </div>
               ) : (
-                <div className="text-center z-10 animate-fade-in">
-                  <div className="w-20 h-20 mx-auto mb-6 rounded-full bg-gradient-to-br from-blue-100 to-blue-50 flex items-center justify-center">
-                    <Briefcase className="w-10 h-10 text-blue-500" />
-                  </div>
-                  <p className="text-slate-400 text-base sm:text-lg font-medium mb-2">
-                    Ready to generate!
-                  </p>
-                  <p className="text-slate-400 text-sm">
-                    Click the button to discover random jobs
-                  </p>
+                <div className="h-full flex flex-col items-center justify-center text-zinc-300">
+                  <Sparkles className="w-12 h-12 mb-4 opacity-20" />
+                  <p className="font-mono text-sm uppercase tracking-widest opacity-50">Awaiting Input...</p>
                 </div>
               )}
             </div>

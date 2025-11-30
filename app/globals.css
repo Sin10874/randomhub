@@ -2,78 +2,111 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  /* Warm Swiss Technical Theme */
+  --background: #FDFBF7; /* Cream/Off-white substrate */
+  --foreground: #18181B; /* Zinc 900 - High contrast text */
+  --grid-line: #E4E4E7; /* Zinc 200 - Subtle grid */
+  --accent: #EA580C; /* Orange 600 - Industrial Accent */
+  --accent-foreground: #FFFFFF;
+  --panel-bg: #FFFFFF; /* White panels */
+  --muted: #71717A; /* Zinc 500 */
+}
+
 body {
-  background: linear-gradient(135deg, #FFE082 0%, #FFCC80 25%, #FFB74D 50%, #FF9800 75%, #FF6F00 100%);
-  background-size: 400% 400%;
-  animation: gradient 15s ease infinite;
+  background-color: var(--background);
+  color: var(--foreground);
   min-height: 100vh;
-}
-
-@keyframes gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-
-/* 淡入动画 */
-@keyframes fade-in {
-  from {
-    opacity: 0;
-    transform: translateY(10px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-.animate-fade-in {
-  animation: fade-in 0.5s ease-out forwards;
-}
-
-/* 网格背景图案 */
-.bg-grid-pattern {
+  /* Technical Grid Background */
   background-image: 
-    linear-gradient(to right, rgba(139, 92, 246, 0.1) 1px, transparent 1px),
-    linear-gradient(to bottom, rgba(139, 92, 246, 0.1) 1px, transparent 1px);
-  background-size: 20px 20px;
+    linear-gradient(to right, var(--grid-line) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--grid-line) 1px, transparent 1px);
+  background-size: 40px 40px;
+  background-position: center top;
 }
 
-/* 优化移动端输入框 */
-@media (max-width: 640px) {
-  input[type="text"],
-  input[type="number"],
-  select {
-    font-size: 16px !important; /* 防止iOS自动缩放 */
-  }
+::selection {
+  background-color: var(--accent);
+  color: white;
 }
 
-/* 优化 kbd 标签样式 */
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--background);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #A1A1AA; /* Zinc 400 */
+  border-radius: 0px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent);
+}
+
+/* KBD - Industrial Style */
 kbd {
   display: inline-block;
-  padding: 0.25rem 0.5rem;
-  background: #f1f5f9;
-  border: 1px solid #cbd5e1;
-  border-radius: 0.25rem;
-  font-family: ui-monospace, monospace;
+  padding: 0.1rem 0.4rem;
+  background: #F4F4F5; /* Zinc 100 */
+  border: 1px solid #D4D4D8; /* Zinc 300 */
+  border-radius: 0px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
   font-size: 0.75rem;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  color: var(--foreground);
+  box-shadow: 1px 1px 0px #D4D4D8;
 }
 
-/* 平滑滚动 */
-html {
-  scroll-behavior: smooth;
+/* Swiss Style Utilities */
+.swiss-border {
+  border: 1px solid var(--grid-line);
 }
 
-/* 优化触摸设备的按钮反馈 */
-@media (hover: none) {
-  button:active {
-    transform: scale(0.95);
-  }
+.swiss-card {
+  background-color: var(--panel-bg);
+  border: 1px solid var(--grid-line);
+  position: relative;
+  box-shadow: 2px 2px 0px rgba(0,0,0,0.02); /* Very subtle depth */
+}
+
+.swiss-card::after {
+  /* Corner decoration */
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  right: -1px;
+  width: 10px;
+  height: 10px;
+  border-bottom: 2px solid var(--accent);
+  border-right: 2px solid var(--accent);
+}
+
+/* Input Styles */
+input, select, textarea {
+  background-color: #FFFFFF;
+  border: 1px solid #D4D4D8; /* Zinc 300 */
+  color: var(--foreground);
+  border-radius: 0 !important;
+}
+
+input:focus, select:focus, textarea:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 1px var(--accent);
+  background-color: #FFFFFF;
+}
+
+input::placeholder {
+  color: #A1A1AA;
+}
+
+/* Reset default appearance */
+input, button, select, textarea {
+  -webkit-appearance: none;
+  border-radius: 0;
 }

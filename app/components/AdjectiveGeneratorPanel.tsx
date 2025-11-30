@@ -2,8 +2,7 @@
 
 import { useState, useEffect, useCallback } from 'react';
 import { filterAdjectives } from '@/app/utils/adjectiveFilter';
-import Select from '@/app/components/ui/Select';
-import { RotateCw, Copy, Check, Sparkles, SlidersHorizontal } from 'lucide-react';
+import { RotateCw, Copy, Check, Sparkles, Settings2, FileType } from 'lucide-react';
 
 type SizeMode = 'syllables' | 'letters';
 type Comparator = '=' | '>' | '<';
@@ -34,10 +33,9 @@ export default function AdjectiveGeneratorPanel() {
       });
 
       if (result.length === 0) {
-        setError('No adjectives found matching your criteria. Try adjusting the filters.');
+        setError('NO_MATCH_FOUND');
         setGeneratedAdjectives([]);
       } else {
-        // Generate multiple unique adjectives
         const selected: string[] = [];
         const available = [...result];
         const targetCount = Math.min(count, available.length);
@@ -63,7 +61,6 @@ export default function AdjectiveGeneratorPanel() {
     }
   };
 
-  // Keyboard shortcut support
   useEffect(() => {
     const handleKeyPress = (e: KeyboardEvent) => {
       if (e.key === 'Enter' && !isGenerating) {
@@ -76,28 +73,30 @@ export default function AdjectiveGeneratorPanel() {
 
   return (
     <div className="w-full max-w-6xl mx-auto">
-      {/* Title */}
-      <div className="text-center mb-6 sm:mb-8 px-4">
-        <h1 className="font-display text-3xl sm:text-4xl md:text-5xl font-bold text-white tracking-tight animate-fade-in drop-shadow-lg">
-          Random Adjective Generator
+      <div className="text-center mb-8 md:mb-12">
+        <h1 className="font-display text-3xl sm:text-5xl md:text-6xl font-bold text-foreground mb-4 uppercase tracking-tight">
+          Adjective<br className="sm:hidden" /> Generator
         </h1>
+        <p className="text-zinc-500 font-mono text-sm uppercase tracking-widest">
+          Descriptive Index // v2.1
+        </p>
       </div>
 
-      {/* Main Panel */}
-      <div className="bg-white/95 backdrop-blur-sm rounded-2xl sm:rounded-3xl shadow-2xl overflow-hidden">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-0">
-          {/* Settings card */}
-          <div className="border-b lg:border-b-0 lg:border-r border-emerald-100/60 p-6 sm:p-8 bg-gradient-to-br from-emerald-50/50 to-transparent">
-            <div className="text-xl sm:text-2xl font-semibold text-gray-800 mb-6 flex items-center gap-2">
-              <SlidersHorizontal className="w-5 h-5 sm:w-6 sm:h-6 text-emerald-600" />
-              Settings
+      <div className="swiss-card bg-panel border-grid shadow-sm">
+        <div className="grid grid-cols-1 lg:grid-cols-12 min-h-[400px] lg:min-h-[500px]">
+          
+          {/* Settings Column */}
+          <div className="lg:col-span-5 border-b lg:border-b-0 lg:border-r border-grid p-4 sm:p-6 lg:p-8 bg-white flex flex-col">
+            <div className="flex items-center gap-2 mb-8 text-accent font-mono text-xs uppercase tracking-widest">
+              <Settings2 className="w-4 h-4" />
+              <span>Configuration</span>
             </div>
 
-            <div className="space-y-5 mb-6">
-              {/* Number of Adjectives */}
+            <div className="space-y-6 flex-1">
+              {/* Count */}
               <div>
-                <label className="block text-sm font-medium text-slate-700 mb-2">
-                  Number of Adjectives
+                <label className="block text-xs font-mono text-zinc-500 uppercase tracking-widest mb-2">
+                  Quantity
                 </label>
                 <input
                   type="number"
@@ -105,15 +104,15 @@ export default function AdjectiveGeneratorPanel() {
                   max="50"
                   value={count}
                   onChange={(e) => setCount(Math.min(50, Math.max(1, parseInt(e.target.value) || 1)))}
-                  className="w-full appearance-none rounded-xl border-2 border-slate-200 bg-white px-4 py-2.5 text-slate-900 text-center font-semibold shadow-sm hover:border-emerald-300 focus:outline-none focus:ring-2 focus:ring-emerald-400 focus:border-emerald-400 transition-all"
+                  className="w-full bg-white border border-zinc-300 p-3 text-center font-mono text-foreground font-semibold focus:border-accent focus:ring-1 focus:ring-accent rounded-none"
                 />
+                <p className="text-[10px] font-mono text-zinc-400 mt-2 text-right uppercase tracking-wider">Max: 50</p>
               </div>
 
-              {/* Starts/Ends With */}
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                {/* Starts With */}
+              {/* Constraints */}
+              <div className="grid grid-cols-2 gap-4">
                 <div>
-                  <label className="block text-sm font-medium text-slate-700 mb-2">
+                  <label className="block text-xs font-mono text-zinc-500 uppercase tracking-widest mb-2">
                     Starts With
                   </label>
                   <input
@@ -121,14 +120,12 @@ export default function AdjectiveGeneratorPanel() {
                     maxLength={1}
                     value={startsWith}
                     onChange={(e) => setStartsWith(e.target.value.toUpperCase())}
-                    placeholder="e.g., A"
-                    className="w-full appearance-none rounded-xl border-2 border-slate-200 bg-white px-4 py-2.5 text-slate-900 text-center uppercase font-semibold text-lg shadow-sm hover:border-emerald-300 focus:outline-none focus:ring-2 focus:ring-emerald-400 focus:border-emerald-400 transition-all"
+                    placeholder="A-Z"
+                    className="w-full bg-white border border-zinc-300 p-3 text-center font-mono text-foreground focus:border-accent focus:ring-1 focus:ring-accent rounded-none uppercase"
                   />
                 </div>
-
-                {/* Ends With */}
                 <div>
-                  <label className="block text-sm font-medium text-slate-700 mb-2">
+                  <label className="block text-xs font-mono text-zinc-500 uppercase tracking-widest mb-2">
                     Ends With
                   </label>
                   <input
@@ -136,100 +133,106 @@ export default function AdjectiveGeneratorPanel() {
                     maxLength={1}
                     value={endsWith}
                     onChange={(e) => setEndsWith(e.target.value.toUpperCase())}
-                    placeholder="e.g., Z"
-                    className="w-full appearance-none rounded-xl border-2 border-slate-200 bg-white px-4 py-2.5 text-slate-900 text-center uppercase font-semibold text-lg shadow-sm hover:border-emerald-300 focus:outline-none focus:ring-2 focus:ring-emerald-400 focus:border-emerald-400 transition-all"
+                    placeholder="A-Z"
+                    className="w-full bg-white border border-zinc-300 p-3 text-center font-mono text-foreground focus:border-accent focus:ring-1 focus:ring-accent rounded-none uppercase"
                   />
                 </div>
               </div>
 
-              {/* Adjective Size */}
+              {/* Size Constraints */}
               <div>
-                <label className="block text-sm font-medium text-slate-700 mb-2">
-                  Adjective Size
+                <label className="block text-xs font-mono text-zinc-500 uppercase tracking-widest mb-2">
+                  Length Constraints
                 </label>
-                <div className="flex gap-2">
-                  <Select
+                <div className="flex -space-x-px">
+                  <select
                     value={sizeMode}
                     onChange={(e) => setSizeMode(e.target.value as SizeMode)}
-                    className="flex-1"
+                    className="flex-1 bg-white border border-zinc-300 p-3 text-sm font-mono text-foreground focus:border-accent focus:ring-1 focus:ring-accent rounded-none"
                   >
-                    <option value="syllables">Syllables</option>
-                    <option value="letters">Letters</option>
-                  </Select>
-                  <Select
+                    <option value="syllables">SYLLABLES</option>
+                    <option value="letters">LETTERS</option>
+                  </select>
+                  <select
                     value={comparator}
                     onChange={(e) => setComparator(e.target.value as Comparator)}
-                    className="w-20"
+                    className="w-16 bg-white border border-zinc-300 p-3 text-sm font-mono text-center text-foreground focus:border-accent focus:ring-1 focus:ring-accent rounded-none border-l-transparent"
                   >
                     <option value="=">=</option>
                     <option value=">">&gt;</option>
                     <option value="<">&lt;</option>
-                  </Select>
+                  </select>
                   <input
                     type="number"
                     min="1"
                     max="20"
                     value={sizeValue}
                     onChange={(e) => setSizeValue(e.target.value)}
-                    placeholder="Size"
-                    className="w-20 appearance-none rounded-xl border-2 border-slate-200 bg-white px-3 py-2.5 text-slate-900 text-center shadow-sm hover:border-emerald-300 focus:outline-none focus:ring-2 focus:ring-emerald-400 focus:border-emerald-400 transition-all"
+                    placeholder="VAL"
+                    className="w-20 bg-white border border-zinc-300 p-3 text-center font-mono text-foreground focus:border-accent focus:ring-1 focus:ring-accent rounded-none border-l-transparent"
                   />
                 </div>
               </div>
             </div>
 
-            {/* Generate Button */}
-            <button
-              onClick={handleGenerate}
-              disabled={isGenerating}
-              className="w-full bg-gradient-to-r from-emerald-500 via-emerald-600 to-emerald-700 text-white font-semibold py-3.5 sm:py-4 rounded-xl hover:from-emerald-600 hover:via-emerald-700 hover:to-emerald-800 transition-all shadow-lg hover:shadow-xl active:scale-95 disabled:opacity-50 disabled:cursor-not-allowed text-base sm:text-lg flex items-center justify-center gap-2"
-            >
-              {isGenerating ? (
-                <>
-                  <RotateCw className="w-5 h-5 animate-spin" />
-                  Generating...
-                </>
-              ) : (
-                <>
-                  <Sparkles className="w-5 h-5" />
-                  Generate Adjectives
-                </>
-              )}
-            </button>
-
-            <p className="text-xs text-slate-500 text-center mt-3">
-              Press <kbd className="px-2 py-1 bg-slate-100 rounded text-xs font-mono">Enter</kbd> to generate
-            </p>
+            <div className="mt-8 pt-6 border-t border-zinc-100">
+              <button
+                onClick={handleGenerate}
+                disabled={isGenerating}
+                className="w-full bg-foreground hover:bg-zinc-800 text-white font-mono font-bold py-4 px-6 uppercase tracking-wider transition-all disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-3 rounded-none relative overflow-hidden group"
+              >
+                {isGenerating ? (
+                  <>
+                    <RotateCw className="w-5 h-5 animate-spin" />
+                    <span>Scanning...</span>
+                  </>
+                ) : (
+                  <>
+                    <span className="absolute inset-0 bg-accent translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-out mix-blend-screen"></span>
+                    <span className="relative z-10 flex items-center gap-2">
+                      Generate_Adjectives
+                    </span>
+                  </>
+                )}
+              </button>
+            </div>
           </div>
 
-          {/* Result card */}
-          <div className="p-6 sm:p-8 bg-gradient-to-br from-green-50/50 to-transparent min-h-[400px] lg:min-h-0 flex flex-col">
-            <div className="text-xl sm:text-2xl font-semibold text-gray-800 mb-6 flex items-center gap-2">
-              <Sparkles className="w-5 h-5 sm:w-6 sm:h-6 text-emerald-600" />
-              Result
+          {/* Result Column */}
+          <div className="lg:col-span-7 bg-zinc-50/50 p-4 sm:p-6 lg:p-8 relative flex flex-col">
+             {/* Background Grid Accent */}
+            <div className="absolute inset-0 pointer-events-none" style={{ 
+              backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.03) 1px, transparent 1px), linear-gradient(90deg, rgba(0, 0, 0, 0.03) 1px, transparent 1px)', 
+              backgroundSize: '20px 20px' 
+            }}></div>
+
+            <div className="flex items-center justify-between mb-6 z-10">
+              <div className="flex items-center gap-2 text-accent font-mono text-xs uppercase tracking-widest">
+                <FileType className="w-4 h-4" />
+                <span>Output_Stream</span>
+              </div>
+              {generatedAdjectives.length > 0 && (
+                <div className="flex gap-2">
+                  <span className="px-2 py-1 bg-white border border-zinc-200 text-[10px] font-mono text-zinc-500 shadow-sm">
+                    COUNT: {generatedAdjectives.length}
+                  </span>
+                </div>
+              )}
             </div>
 
-            <div className="flex-1 rounded-2xl border-2 border-dashed border-emerald-200 bg-gradient-to-br from-emerald-50/50 via-green-50/30 to-teal-50/20 p-6 sm:p-10 flex flex-col items-center justify-center relative overflow-hidden">
-              {/* Decorative background */}
-              <div className="absolute inset-0 bg-grid-pattern opacity-5"></div>
-
+            <div className="flex-1 z-10 flex flex-col">
               {error ? (
-                <div className="text-center animate-fade-in z-10">
-                  <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-red-100 flex items-center justify-center">
-                    <span className="text-3xl">⚠️</span>
-                  </div>
-                  <p className="text-red-600 font-medium text-sm sm:text-base max-w-xs">{error}</p>
+                <div className="h-full flex items-center justify-center">
+                   <p className="font-mono text-red-500 text-sm uppercase border border-red-200 bg-red-50 px-4 py-2">{error}</p>
                 </div>
               ) : generatedAdjectives.length > 0 ? (
-                <div className="flex flex-col items-center gap-6 sm:gap-8 w-full z-10 animate-fade-in">
-                  {/* Adjectives Display */}
-                  <div className="relative w-full max-h-64 overflow-y-auto">
-                    <div className="absolute inset-0 bg-gradient-to-r from-emerald-400 to-green-400 blur-2xl opacity-20 animate-pulse"></div>
-                    <div className="relative space-y-2 px-4">
+                <div className="flex-1 flex flex-col items-center justify-center">
+                  <div className="w-full max-h-[300px] overflow-y-auto custom-scrollbar px-2 mb-6">
+                    <div className="space-y-1 text-center">
                       {generatedAdjectives.map((adj, index) => (
                         <p
                           key={index}
-                          className="text-2xl sm:text-3xl md:text-4xl font-bold bg-gradient-to-r from-emerald-600 via-green-600 to-teal-600 bg-clip-text text-transparent text-center py-1 leading-tight"
+                          className="text-2xl sm:text-3xl md:text-4xl font-display font-bold text-foreground py-1 tracking-tight hover:text-accent transition-colors cursor-default"
                         >
                           {adj}
                         </p>
@@ -237,36 +240,27 @@ export default function AdjectiveGeneratorPanel() {
                     </div>
                   </div>
 
-                  {/* Info tags */}
-                  <div className="flex flex-wrap gap-2 justify-center">
-                    <span className="px-3 py-1 bg-white/80 backdrop-blur-sm rounded-full text-xs font-medium text-slate-600 shadow-sm border border-emerald-100">
-                      {generatedAdjectives.length} {generatedAdjectives.length === 1 ? 'adjective' : 'adjectives'}
-                    </span>
-                  </div>
-
-                  {/* Action Buttons */}
-                  <div className="flex flex-col sm:flex-row gap-3 w-full max-w-sm">
+                  <div className="flex gap-3 w-full max-w-xs">
                     <button
                       onClick={handleGenerate}
                       disabled={isGenerating}
-                      className="flex-1 flex items-center justify-center gap-2 px-4 sm:px-6 py-3 bg-gradient-to-r from-emerald-500 to-emerald-600 text-white font-semibold rounded-xl hover:from-emerald-600 hover:to-emerald-700 transition-all shadow-lg hover:shadow-xl active:scale-95 disabled:opacity-50"
+                      className="flex-1 h-10 border border-zinc-300 bg-white hover:bg-zinc-50 text-zinc-600 font-mono text-xs uppercase tracking-wider flex items-center justify-center gap-2 transition-all"
                     >
-                      <RotateCw className={`w-4 h-4 ${isGenerating ? 'animate-spin' : ''}`} />
-                      <span className="hidden sm:inline">Regenerate</span>
-                      <span className="sm:hidden">Again</span>
+                      <RotateCw className={`w-3 h-3 ${isGenerating ? 'animate-spin' : ''}`} />
+                      Rerun
                     </button>
                     <button
                       onClick={handleCopy}
-                      className="flex-1 flex items-center justify-center gap-2 px-4 sm:px-6 py-3 bg-gradient-to-r from-green-500 to-green-600 text-white font-semibold rounded-xl hover:from-green-600 hover:to-green-700 transition-all shadow-lg hover:shadow-xl active:scale-95"
+                      className="flex-1 h-10 bg-accent text-white hover:bg-accent/90 font-mono text-xs uppercase tracking-wider flex items-center justify-center gap-2 transition-all shadow-sm"
                     >
                       {copied ? (
                         <>
-                          <Check className="w-4 h-4" />
-                          Copied!
+                          <Check className="w-3 h-3" />
+                          Copied
                         </>
                       ) : (
                         <>
-                          <Copy className="w-4 h-4" />
+                          <Copy className="w-3 h-3" />
                           Copy
                         </>
                       )}
@@ -274,16 +268,9 @@ export default function AdjectiveGeneratorPanel() {
                   </div>
                 </div>
               ) : (
-                <div className="text-center z-10 animate-fade-in">
-                  <div className="w-20 h-20 mx-auto mb-6 rounded-full bg-gradient-to-br from-emerald-100 to-emerald-50 flex items-center justify-center">
-                    <Sparkles className="w-10 h-10 text-emerald-500" />
-                  </div>
-                  <p className="text-slate-400 text-base sm:text-lg font-medium mb-2">
-                    Ready to generate!
-                  </p>
-                  <p className="text-slate-400 text-sm">
-                    Click the button to start generating adjectives
-                  </p>
+                <div className="h-full flex flex-col items-center justify-center text-zinc-300">
+                  <Sparkles className="w-12 h-12 mb-4 opacity-20" />
+                  <p className="font-mono text-sm uppercase tracking-widest opacity-50">Awaiting Input...</p>
                 </div>
               )}
             </div>

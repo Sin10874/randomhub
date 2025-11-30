@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useCallback } from 'react';
 import Select from '@/app/components/ui/Select';
-import { RotateCw, Copy, Check, Sparkles, SlidersHorizontal } from 'lucide-react';
+import { RotateCw, Copy, Check, Sparkles, Settings2, Type } from 'lucide-react';
 
 type LetterType = 'all' | 'capital' | 'lowercase';
 
@@ -15,7 +15,6 @@ export default function LetterGeneratorPanel() {
   const [copied, setCopied] = useState(false);
   const [isGenerating, setIsGenerating] = useState(false);
 
-  // 生成字母的函数
   const generateLetters = useCallback(() => {
     setError(null);
     setIsGenerating(true);
@@ -23,7 +22,6 @@ export default function LetterGeneratorPanel() {
     setTimeout(() => {
       const count = parseInt(numberOfLetters);
       
-      // 验证输入
       if (isNaN(count) || count < 1 || count > 100) {
         setError('Please enter a number between 1 and 100.');
         setGeneratedLetters([]);
@@ -31,47 +29,39 @@ export default function LetterGeneratorPanel() {
         return;
       }
 
-      // 如果超过26个且不允许重复，提示错误
       if (count > 26 && !allowDuplicates) {
-        setError('Cannot generate more than 26 unique letters. Enable "Allow Duplicates" for more.');
+        setError('Cannot generate >26 unique letters. Enable Duplicates.');
         setGeneratedLetters([]);
         setIsGenerating(false);
         return;
       }
 
-      // 生成字母
       const letters: string[] = [];
       const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
       
       if (allowDuplicates) {
-        // 允许重复：随机选择
         for (let i = 0; i < count; i++) {
           const randomIndex = Math.floor(Math.random() * 26);
           let letter = alphabet[randomIndex];
           
-          // 根据类型调整大小写
           if (letterType === 'lowercase') {
             letter = letter.toLowerCase();
           } else if (letterType === 'all') {
-            // 随机大小写
             letter = Math.random() > 0.5 ? letter : letter.toLowerCase();
           }
           
           letters.push(letter);
         }
       } else {
-        // 不允许重复：洗牌算法
         const availableLetters = alphabet.split('');
         const shuffled = availableLetters.sort(() => Math.random() - 0.5);
         
         for (let i = 0; i < count; i++) {
           let letter = shuffled[i];
           
-          // 根据类型调整大小写
           if (letterType === 'lowercase') {
             letter = letter.toLowerCase();
           } else if (letterType === 'all') {
-            // 随机大小写
             letter = Math.random() > 0.5 ? letter : letter.toLowerCase();
           }
           
@@ -84,7 +74,6 @@ export default function LetterGeneratorPanel() {
     }, 300);
   }, [numberOfLetters, letterType, allowDuplicates]);
 
-  // 复制到剪贴板
   const handleCopy = () => {
     if (generatedLetters.length > 0) {
       const text = generatedLetters.join('');
@@ -94,7 +83,6 @@ export default function LetterGeneratorPanel() {
     }
   };
 
-  // 键盘快捷键支持（Enter键生成）
   useEffect(() => {
     const handleKeyPress = (e: KeyboardEvent) => {
       if (e.key === 'Enter' && !isGenerating) {
@@ -105,7 +93,6 @@ export default function LetterGeneratorPanel() {
     return () => window.removeEventListener('keypress', handleKeyPress);
   }, [generateLetters, isGenerating]);
 
-  // 当数量超过26时，自动启用允许重复
   useEffect(() => {
     const count = parseInt(numberOfLetters);
     if (!isNaN(count) && count > 26) {
@@ -115,28 +102,30 @@ export default function LetterGeneratorPanel() {
 
   return (
     <div className="w-full max-w-6xl mx-auto">
-      {/* 标题区域 */}
-      <div className="text-center mb-6 sm:mb-8 px-4">
-        <h1 className="font-display text-3xl sm:text-4xl md:text-5xl font-bold text-white tracking-tight animate-fade-in drop-shadow-lg">
-          Random Letter Generator
+      <div className="text-center mb-8 md:mb-12">
+        <h1 className="font-display text-3xl sm:text-5xl md:text-6xl font-bold text-foreground mb-4 uppercase tracking-tight">
+          Letter<br className="sm:hidden" /> Generator
         </h1>
+        <p className="text-zinc-500 font-mono text-sm uppercase tracking-widest">
+          Character Sequence System // v1.2
+        </p>
       </div>
 
-      {/* 主面板 */}
-      <div className="bg-white/95 backdrop-blur-sm rounded-2xl sm:rounded-3xl shadow-2xl overflow-hidden">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-0">
-          {/* Settings card */}
-          <div className="border-b lg:border-b-0 lg:border-r border-green-100/60 p-6 sm:p-8 bg-gradient-to-br from-green-50/50 to-transparent">
-            <div className="text-xl sm:text-2xl font-semibold text-gray-800 mb-6 flex items-center gap-2">
-              <SlidersHorizontal className="w-5 h-5 sm:w-6 sm:h-6 text-green-600" />
-              Settings
+      <div className="swiss-card bg-panel border-grid shadow-sm">
+        <div className="grid grid-cols-1 lg:grid-cols-12 min-h-[400px] lg:min-h-[500px]">
+          
+          {/* Settings Column */}
+          <div className="lg:col-span-4 border-b lg:border-b-0 lg:border-r border-grid p-4 sm:p-6 lg:p-8 bg-white flex flex-col">
+            <div className="flex items-center gap-2 mb-8 text-accent font-mono text-xs uppercase tracking-widest">
+              <Settings2 className="w-4 h-4" />
+              <span>Configuration</span>
             </div>
 
-            <div className="space-y-5 mb-6">
-              {/* Number of Letters */}
+            <div className="space-y-6 flex-1">
+              {/* Count */}
               <div>
-                <label className="block text-sm font-medium text-slate-700 mb-2">
-                  Number of Letters
+                <label className="block text-xs font-mono text-zinc-500 uppercase tracking-widest mb-2">
+                  Output Length
                 </label>
                 <input
                   type="number"
@@ -144,151 +133,136 @@ export default function LetterGeneratorPanel() {
                   max="100"
                   value={numberOfLetters}
                   onChange={(e) => setNumberOfLetters(e.target.value)}
-                  placeholder="e.g., 5"
-                  className="w-full appearance-none rounded-xl border-2 border-slate-200 bg-white px-4 py-2.5 text-slate-900 text-left font-semibold text-lg shadow-sm hover:border-green-300 focus:outline-none focus:ring-2 focus:ring-green-400 focus:border-green-400 transition-all"
+                  placeholder="VAL"
+                  className="w-full bg-white border border-zinc-300 p-3 text-center font-mono text-foreground focus:border-accent focus:ring-1 focus:ring-accent rounded-none"
                 />
-                <p className="text-xs text-slate-500 mt-1.5">Range: 1-100 letters</p>
+                <p className="text-[10px] font-mono text-zinc-400 mt-2 text-right uppercase tracking-wider">Range: 1-100</p>
               </div>
 
-              {/* Letter Type */}
-              <Select
-                label="Letter Type"
-                value={letterType}
-                onChange={(e) => setLetterType(e.target.value as LetterType)}
-              >
-                <option value="all">All Types</option>
-                <option value="capital">Capital Letters</option>
-                <option value="lowercase">Lowercase Letters</option>
-              </Select>
-
-              {/* Allow Duplicates */}
+              {/* Type */}
               <div>
-                <label className="flex items-center gap-3 cursor-pointer group">
-                  <div className="relative">
-                    <input
-                      type="checkbox"
-                      checked={allowDuplicates}
-                      onChange={(e) => setAllowDuplicates(e.target.checked)}
-                      disabled={parseInt(numberOfLetters) > 26}
-                      className="w-5 h-5 rounded border-2 border-slate-300 text-green-600 focus:ring-2 focus:ring-green-400 focus:ring-offset-0 transition-all cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed"
-                    />
-                  </div>
-                  <div className="flex-1">
-                    <span className="text-sm font-medium text-slate-700 group-hover:text-green-600 transition-colors">
-                      Allow Duplicate Letters
-                    </span>
-                    {parseInt(numberOfLetters) > 26 && (
-                      <p className="text-xs text-green-600 mt-0.5">
-                        ✓ Automatically enabled (more than 26 letters)
-                      </p>
-                    )}
-                  </div>
+                <label className="block text-xs font-mono text-zinc-500 uppercase tracking-widest mb-2">
+                  Case Format
                 </label>
+                <Select
+                  value={letterType}
+                  onChange={(e) => setLetterType(e.target.value as LetterType)}
+                  className="w-full"
+                >
+                  <option value="all">MIXED_CASE</option>
+                  <option value="capital">UPPERCASE</option>
+                  <option value="lowercase">LOWERCASE</option>
+                </Select>
+              </div>
+
+              {/* Duplicates */}
+              <div>
+                <label className="flex items-center gap-3 cursor-pointer group p-3 border border-zinc-200 hover:border-accent transition-colors">
+                  <input
+                    type="checkbox"
+                    checked={allowDuplicates}
+                    onChange={(e) => setAllowDuplicates(e.target.checked)}
+                    disabled={parseInt(numberOfLetters) > 26}
+                    className="appearance-none w-4 h-4 border border-zinc-400 checked:bg-accent checked:border-accent transition-all rounded-none relative checked:after:content-[''] checked:after:absolute checked:after:left-[5px] checked:after:top-[1px] checked:after:w-[4px] checked:after:h-[8px] checked:after:border-r-2 checked:after:border-b-2 checked:after:border-white checked:after:rotate-45"
+                  />
+                  <span className="text-xs font-mono uppercase tracking-wider text-zinc-600 group-hover:text-foreground transition-colors">
+                    Allow_Duplicates
+                  </span>
+                </label>
+                {parseInt(numberOfLetters) > 26 && (
+                   <p className="text-[10px] font-mono text-accent mt-2 uppercase">
+                     Auto-enabled for large sets
+                   </p>
+                )}
               </div>
             </div>
 
-            {/* Generate Button */}
-            <button
-              onClick={generateLetters}
-              disabled={isGenerating}
-              className="w-full bg-gradient-to-r from-green-600 via-emerald-600 to-teal-600 text-white font-semibold py-3.5 sm:py-4 rounded-xl hover:from-green-700 hover:via-emerald-700 hover:to-teal-700 transition-all shadow-lg hover:shadow-xl active:scale-95 disabled:opacity-50 disabled:cursor-not-allowed text-base sm:text-lg flex items-center justify-center gap-2"
-            >
-              {isGenerating ? (
-                <>
-                  <RotateCw className="w-5 h-5 animate-spin" />
-                  Generating...
-                </>
-              ) : (
-                <>
-                  <Sparkles className="w-5 h-5" />
-                  Generate Letters
-                </>
-              )}
-            </button>
-            
-            <p className="text-xs text-slate-500 text-center mt-3">
-              Press <kbd className="px-2 py-1 bg-slate-100 rounded text-xs font-mono">Enter</kbd> to generate
-            </p>
+            <div className="mt-8 pt-6 border-t border-zinc-100">
+              <button
+                onClick={generateLetters}
+                disabled={isGenerating}
+                className="w-full bg-foreground hover:bg-zinc-800 text-white font-mono font-bold py-4 px-6 uppercase tracking-wider transition-all disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-3 rounded-none relative overflow-hidden group"
+              >
+                {isGenerating ? (
+                  <>
+                    <RotateCw className="w-5 h-5 animate-spin" />
+                    <span>Generating...</span>
+                  </>
+                ) : (
+                  <>
+                    <span className="absolute inset-0 bg-accent translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-out mix-blend-screen"></span>
+                    <span className="relative z-10 flex items-center gap-2">
+                      Generate_Sequence
+                    </span>
+                  </>
+                )}
+              </button>
+            </div>
           </div>
 
-          {/* Result card */}
-          <div className="p-6 sm:p-8 bg-gradient-to-br from-emerald-50/50 to-transparent min-h-[400px] lg:min-h-0 flex flex-col">
-            <div className="text-xl sm:text-2xl font-semibold text-gray-800 mb-6 flex items-center gap-2">
-              <Sparkles className="w-5 h-5 sm:w-6 sm:h-6 text-emerald-600" />
-              Result
+          {/* Result Column */}
+          <div className="lg:col-span-8 bg-zinc-50/50 p-4 sm:p-6 lg:p-8 relative flex flex-col">
+             {/* Background Grid Accent */}
+            <div className="absolute inset-0 pointer-events-none" style={{ 
+              backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.03) 1px, transparent 1px), linear-gradient(90deg, rgba(0, 0, 0, 0.03) 1px, transparent 1px)', 
+              backgroundSize: '20px 20px' 
+            }}></div>
+
+            <div className="flex items-center justify-between mb-6 z-10">
+              <div className="flex items-center gap-2 text-accent font-mono text-xs uppercase tracking-widest">
+                <Type className="w-4 h-4" />
+                <span>Output_Buffer</span>
+              </div>
+              {generatedLetters.length > 0 && (
+                <div className="flex gap-2">
+                  <span className="px-2 py-1 bg-white border border-zinc-200 text-[10px] font-mono text-zinc-500 shadow-sm">
+                    LEN: {generatedLetters.length}
+                  </span>
+                </div>
+              )}
             </div>
 
-            <div className="flex-1 rounded-2xl border-2 border-dashed border-green-200 bg-gradient-to-br from-green-50/50 via-emerald-50/30 to-teal-50/20 p-6 sm:p-8 flex flex-col items-center justify-center relative overflow-hidden">
-              {/* 装饰性背景元素 */}
-              <div className="absolute inset-0 bg-grid-pattern opacity-5"></div>
-              
+            <div className="flex-1 z-10 flex flex-col">
               {error ? (
-                <div className="text-center animate-fade-in z-10">
-                  <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-red-100 flex items-center justify-center">
-                    <span className="text-3xl">⚠️</span>
-                  </div>
-                  <p className="text-red-600 font-medium text-sm sm:text-base max-w-xs">{error}</p>
+                <div className="h-full flex items-center justify-center">
+                   <p className="font-mono text-red-500 text-sm uppercase border border-red-200 bg-red-50 px-4 py-2">{error}</p>
                 </div>
               ) : generatedLetters.length > 0 ? (
-                <div className="flex flex-col items-center gap-6 w-full z-10 animate-fade-in">
-                  {/* 字母显示区域 - 分行显示 */}
-                  <div className="w-full max-h-[300px] overflow-y-auto custom-scrollbar px-2">
-                    <div className="flex flex-col gap-2">
-                      {generatedLetters.map((letter, index) => (
-                        <div
-                          key={index}
-                          className="relative group"
-                          style={{ animationDelay: `${index * 30}ms` }}
-                        >
-                          <div className="absolute inset-0 bg-gradient-to-r from-green-400 to-emerald-400 blur-xl opacity-0 group-hover:opacity-30 transition-opacity"></div>
-                          <div className="relative bg-white/80 backdrop-blur-sm rounded-xl p-4 shadow-md hover:shadow-lg transition-all border border-green-100 hover:border-green-300">
-                            <p className="text-3xl sm:text-4xl font-bold bg-gradient-to-r from-green-600 via-emerald-600 to-teal-600 bg-clip-text text-transparent text-center">
-                              {letter}
-                            </p>
+                <div className="flex-1 flex flex-col items-center justify-center">
+                   <div className="w-full max-h-[300px] overflow-y-auto custom-scrollbar px-2 mb-8">
+                      <div className="flex flex-wrap gap-2 justify-center">
+                        {generatedLetters.map((letter, index) => (
+                          <div
+                            key={index}
+                            className="w-12 h-12 bg-white border border-zinc-200 flex items-center justify-center shadow-sm hover:border-accent transition-colors cursor-default"
+                          >
+                            <span className="text-2xl font-display font-bold text-foreground">{letter}</span>
                           </div>
-                        </div>
-                      ))}
-                    </div>
-                  </div>
+                        ))}
+                      </div>
+                   </div>
 
-                  {/* 信息标签 */}
-                  <div className="flex flex-wrap gap-2 justify-center">
-                    <span className="px-3 py-1 bg-white/80 backdrop-blur-sm rounded-full text-xs font-medium text-slate-600 shadow-sm border border-green-100">
-                      {generatedLetters.length} {generatedLetters.length === 1 ? 'letter' : 'letters'}
-                    </span>
-                    <span className="px-3 py-1 bg-white/80 backdrop-blur-sm rounded-full text-xs font-medium text-slate-600 shadow-sm border border-green-100 capitalize">
-                      {letterType === 'all' ? 'Mixed Case' : letterType === 'capital' ? 'Uppercase' : 'Lowercase'}
-                    </span>
-                    {allowDuplicates && (
-                      <span className="px-3 py-1 bg-white/80 backdrop-blur-sm rounded-full text-xs font-medium text-slate-600 shadow-sm border border-green-100">
-                        Duplicates Allowed
-                      </span>
-                    )}
-                  </div>
-
-                  {/* 操作按钮 */}
-                  <div className="flex flex-col sm:flex-row gap-3 w-full max-w-sm">
+                   <div className="flex gap-3 w-full max-w-xs">
                     <button
                       onClick={generateLetters}
                       disabled={isGenerating}
-                      className="flex-1 flex items-center justify-center gap-2 px-4 sm:px-6 py-3 bg-gradient-to-r from-green-500 to-green-600 text-white font-semibold rounded-xl hover:from-green-600 hover:to-green-700 transition-all shadow-lg hover:shadow-xl active:scale-95 disabled:opacity-50"
+                      className="flex-1 h-10 border border-zinc-300 bg-white hover:bg-zinc-50 text-zinc-600 font-mono text-xs uppercase tracking-wider flex items-center justify-center gap-2 transition-all"
                     >
-                      <RotateCw className={`w-4 h-4 ${isGenerating ? 'animate-spin' : ''}`} />
-                      <span className="hidden sm:inline">Regenerate</span>
-                      <span className="sm:hidden">Again</span>
+                      <RotateCw className={`w-3 h-3 ${isGenerating ? 'animate-spin' : ''}`} />
+                      Rerun
                     </button>
                     <button
                       onClick={handleCopy}
-                      className="flex-1 flex items-center justify-center gap-2 px-4 sm:px-6 py-3 bg-gradient-to-r from-emerald-500 to-emerald-600 text-white font-semibold rounded-xl hover:from-emerald-600 hover:to-emerald-700 transition-all shadow-lg hover:shadow-xl active:scale-95"
+                      className="flex-1 h-10 bg-accent text-white hover:bg-accent/90 font-mono text-xs uppercase tracking-wider flex items-center justify-center gap-2 transition-all shadow-sm"
                     >
                       {copied ? (
                         <>
-                          <Check className="w-4 h-4" />
-                          Copied!
+                          <Check className="w-3 h-3" />
+                          Copied
                         </>
                       ) : (
                         <>
-                          <Copy className="w-4 h-4" />
+                          <Copy className="w-3 h-3" />
                           Copy
                         </>
                       )}
@@ -296,16 +270,9 @@ export default function LetterGeneratorPanel() {
                   </div>
                 </div>
               ) : (
-                <div className="text-center z-10 animate-fade-in">
-                  <div className="w-20 h-20 mx-auto mb-6 rounded-full bg-gradient-to-br from-green-100 to-emerald-100 flex items-center justify-center">
-                    <Sparkles className="w-10 h-10 text-green-500" />
-                  </div>
-                  <p className="text-slate-400 text-base sm:text-lg font-medium mb-2">
-                    Ready to generate!
-                  </p>
-                  <p className="text-slate-400 text-sm">
-                    Click the button to start generating letters
-                  </p>
+                <div className="h-full flex flex-col items-center justify-center text-zinc-300">
+                  <Sparkles className="w-12 h-12 mb-4 opacity-20" />
+                  <p className="font-mono text-sm uppercase tracking-widest opacity-50">Awaiting Input...</p>
                 </div>
               )}
             </div>
@@ -315,4 +282,3 @@ export default function LetterGeneratorPanel() {
     </div>
   );
 }
-

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import { Crimson_Pro } from "next/font/google";
+import { Space_Grotesk } from "next/font/google";
+import { JetBrains_Mono } from "next/font/google";
 import Script from "next/script";
 import "./globals.css";
 
@@ -11,15 +12,21 @@ const inter = Inter({
   display: "swap",
 });
 
-// Display serif font for headings and emphasis
-const crimsonPro = Crimson_Pro({
+// Display font for headings
+const spaceGrotesk = Space_Grotesk({
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
   variable: "--font-display",
   display: "swap",
 });
 
-const siteUrl = "https://randomhub.io"; // 请替换为你的实际域名
+// Mono font for data and code
+const jetbrainsMono = JetBrains_Mono({
+  subsets: ["latin"],
+  variable: "--font-mono",
+  display: "swap",
+});
+
+const siteUrl = "https://randomhub.io";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -34,7 +41,8 @@ export const metadata: Metadata = {
   publisher: "RandomHub",
   icons: {
     icon: [
-      { url: '/favicon.ico', sizes: 'any' }, // Google优先查找的标准favicon
+      { url: '/icon.svg', type: 'image/svg+xml' },
+      { url: '/favicon.ico', sizes: 'any' },
       { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
       { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
     ],
@@ -42,7 +50,7 @@ export const metadata: Metadata = {
       { url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' },
     ],
     other: [
-      { rel: 'mask-icon', url: '/safari-pinned-tab.svg', color: '#FF8C00' },
+      { rel: 'mask-icon', url: '/icon.svg', color: '#3b82f6' },
     ],
   },
   manifest: '/site.webmanifest',
@@ -58,7 +66,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     images: [
       {
-        url: "/og-image.png", // 你需要创建这个图片
+        url: "/og-image.png",
         width: 1200,
         height: 630,
         alt: "RandomHub - Free Random Word Generator",
@@ -83,7 +91,6 @@ export const metadata: Metadata = {
     },
   },
   verification: {
-    // 添加你的Google Search Console验证码
     // google: 'your-google-verification-code',
   },
 };
@@ -128,15 +135,14 @@ export default function RootLayout({
   return (
     <html lang="en" className="antialiased">
       <head>
-        {/* Favicon and Icons - Ensure Google can crawl these */}
-        {/* Standard favicon.ico - Google优先查找这个 */}
-        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+        <link rel="icon" href="/favicon.ico" sizes="32x32" />
+        <link rel="shortcut icon" href="/favicon.ico" />
         <link rel="icon" href="/favicon-32x32.png" type="image/png" sizes="32x32" />
         <link rel="icon" href="/favicon-16x16.png" type="image/png" sizes="16x16" />
-        <link rel="shortcut icon" href="/favicon.ico" />
-        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
         <link rel="manifest" href="/site.webmanifest" />
-        <meta name="theme-color" content="#FF8C00" />
+        <meta name="theme-color" content="#FDFBF7" />
         
         <script
           type="application/ld+json"
@@ -147,8 +153,7 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
         />
       </head>
-      <body className={`${inter.variable} ${crimsonPro.variable} font-display`}>
-        {/* Google Analytics */}
+      <body className={`${inter.variable} ${spaceGrotesk.variable} ${jetbrainsMono.variable} font-sans bg-background text-foreground`}>
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-GY5D56TB81"
           strategy="afterInteractive"

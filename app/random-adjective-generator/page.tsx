@@ -76,46 +76,8 @@ export default function AdjectiveGeneratorPage() {
     ],
   };
 
-  const breadcrumbSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'BreadcrumbList',
-    itemListElement: [
-      {
-        '@type': 'ListItem',
-        position: 1,
-        name: 'Home',
-        item: siteUrl,
-      },
-      {
-        '@type': 'ListItem',
-        position: 2,
-        name: 'Random Adjective Generator',
-        item: `${siteUrl}/random-adjective-generator`,
-      },
-    ],
-  };
-
   return (
-    <div className="min-h-screen flex flex-col adjective-page-bg">
-      <style jsx global>{`
-        .adjective-page-bg {
-          background: linear-gradient(135deg, #D1FAE5 0%, #A7F3D0 25%, #6EE7B7 50%, #34D399 75%, #10B981 100%);
-          background-size: 400% 400%;
-          animation: gradient 15s ease infinite;
-        }
-
-        @keyframes gradient {
-          0% {
-            background-position: 0% 50%;
-          }
-          50% {
-            background-position: 100% 50%;
-          }
-          100% {
-            background-position: 0% 50%;
-          }
-        }
-      `}</style>
+    <div className="min-h-screen flex flex-col bg-background text-foreground">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(webAppSchema) }}
@@ -124,321 +86,186 @@ export default function AdjectiveGeneratorPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
-      />
       <Navbar />
-      <main className="flex-1 container mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-10 lg:py-12">
+      <main className="flex-1 container mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
         {/* Adjective Generator Panel */}
-        <div className="mb-12 sm:mb-16 lg:mb-20">
+        <div className="mb-16">
           <AdjectiveGeneratorPanel />
         </div>
 
         {/* SEO Content Section */}
-        <div className="max-w-4xl mx-auto mb-12 sm:mb-16 space-y-8">
+        <div className="max-w-4xl mx-auto mb-12 space-y-12">
           {/* What is Random Adjective Generator */}
-          <div className="bg-white/90 backdrop-blur-sm rounded-2xl p-6 sm:p-8 shadow-lg">
-            <h2 className="font-display text-2xl sm:text-3xl font-bold text-gray-800 mb-4">
+          <div className="swiss-card p-6 sm:p-8 bg-white">
+            <h2 className="font-display text-2xl sm:text-3xl font-bold mb-6 flex items-center text-foreground">
+              <span className="w-2 h-8 bg-accent mr-3"></span>
               What is Random Adjective Generator?
             </h2>
-            <p className="text-gray-700 text-base sm:text-lg leading-relaxed mb-4">
+            <p className="text-zinc-600 text-base leading-relaxed font-sans mb-4">
               <strong>Random Adjective Generator</strong> is a powerful, free online tool that instantly generates descriptive adjectives from a carefully curated database of over 1,300 English words. Whether you&apos;re a writer seeking vivid descriptions, a marketer crafting compelling copy, a teacher creating vocabulary exercises, or a student expanding your language skills, this adjective finder tool delivers the perfect descriptive words for your needs.
             </p>
-            <p className="text-gray-700 text-base leading-relaxed">
+            <p className="text-zinc-600 text-base leading-relaxed font-sans">
               Our advanced filtering system allows you to narrow down results by <strong>starting letter</strong>, <strong>ending letter</strong>, <strong>syllable count</strong>, or <strong>letter length</strong>—giving you precise control over the adjectives you generate. With support for bulk generation (up to 50 words at once) and one-click copying, it&apos;s the most efficient adjective generator available online.
             </p>
           </div>
 
           {/* Who is it for */}
-          <div className="bg-white/90 backdrop-blur-sm rounded-2xl p-6 sm:p-8 shadow-lg">
-            <h2 className="font-display text-2xl sm:text-3xl font-bold text-gray-800 mb-6">
+          <div className="swiss-card p-6 sm:p-8 bg-white">
+            <h2 className="font-display text-2xl sm:text-3xl font-bold mb-8 flex items-center text-foreground">
+              <span className="w-2 h-8 bg-accent mr-3"></span>
               Who is Random Adjective Generator for?
             </h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              <div className="flex gap-3">
-                <span className="text-2xl">✍️</span>
-                <div>
-                  <h3 className="font-semibold text-gray-800 mb-1">Writers & Authors</h3>
-                  <p className="text-sm text-gray-600">Find vivid adjectives to enrich descriptions and avoid repetitive language</p>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-px bg-grid border border-grid">
+              {[
+                { icon: "✍️", title: "Writers & Authors", desc: "Find vivid adjectives to enrich descriptions and avoid repetitive language" },
+                { icon: "📚", title: "Teachers & Educators", desc: "Create vocabulary quizzes, writing prompts, and grammar exercises" },
+                { icon: "🎓", title: "Students & Learners", desc: "Expand vocabulary and practice descriptive writing skills" },
+                { icon: "💡", title: "Content Creators", desc: "Generate engaging adjectives for marketing copy and social media" },
+                { icon: "🎨", title: "Designers & Creatives", desc: "Find inspiration for brand names, taglines, and creative projects" },
+                { icon: "🎭", title: "Game Developers", desc: "Create character traits, item descriptions, and game lore" }
+              ].map((item, i) => (
+                <div key={i} className="bg-white p-6 hover:bg-zinc-50 transition-colors">
+                  <div className="flex gap-4">
+                    <span className="text-2xl grayscale opacity-70">{item.icon}</span>
+                    <div>
+                      <h3 className="font-mono font-bold text-foreground mb-1 uppercase tracking-wider text-sm">{item.title}</h3>
+                      <p className="text-sm text-zinc-500 font-sans">{item.desc}</p>
+                    </div>
+                  </div>
                 </div>
-              </div>
-              <div className="flex gap-3">
-                <span className="text-2xl">📚</span>
-                <div>
-                  <h3 className="font-semibold text-gray-800 mb-1">Teachers & Educators</h3>
-                  <p className="text-sm text-gray-600">Create vocabulary quizzes, writing prompts, and grammar exercises</p>
-                </div>
-              </div>
-              <div className="flex gap-3">
-                <span className="text-2xl">🎓</span>
-                <div>
-                  <h3 className="font-semibold text-gray-800 mb-1">Students & Learners</h3>
-                  <p className="text-sm text-gray-600">Expand vocabulary and practice descriptive writing skills</p>
-                </div>
-              </div>
-              <div className="flex gap-3">
-                <span className="text-2xl">💡</span>
-                <div>
-                  <h3 className="font-semibold text-gray-800 mb-1">Content Creators</h3>
-                  <p className="text-sm text-gray-600">Generate engaging adjectives for marketing copy and social media</p>
-                </div>
-              </div>
-              <div className="flex gap-3">
-                <span className="text-2xl">🎨</span>
-                <div>
-                  <h3 className="font-semibold text-gray-800 mb-1">Designers & Creatives</h3>
-                  <p className="text-sm text-gray-600">Find inspiration for brand names, taglines, and creative projects</p>
-                </div>
-              </div>
-              <div className="flex gap-3">
-                <span className="text-2xl">🎭</span>
-                <div>
-                  <h3 className="font-semibold text-gray-800 mb-1">Game Developers</h3>
-                  <p className="text-sm text-gray-600">Create character traits, item descriptions, and game lore</p>
-                </div>
-              </div>
+              ))}
             </div>
           </div>
 
           {/* Why Choose */}
-          <div className="bg-white/90 backdrop-blur-sm rounded-2xl p-6 sm:p-8 shadow-lg">
-            <h2 className="font-display text-2xl sm:text-3xl font-bold text-gray-800 mb-6">
+          <div className="swiss-card p-6 sm:p-8 bg-white">
+            <h2 className="font-display text-2xl sm:text-3xl font-bold mb-8 flex items-center text-foreground">
+              <span className="w-2 h-8 bg-accent mr-3"></span>
               Why Choose Our Adjective Generator?
             </h2>
-            <div className="space-y-4">
-              <div className="flex gap-4 items-start">
-                <span className="text-2xl flex-shrink-0">📖</span>
-                <div>
-                  <h3 className="font-semibold text-gray-800 mb-1 text-lg">1,300+ Quality Adjectives</h3>
-                  <p className="text-gray-600">Carefully curated database of descriptive, qualitative, and quantitative adjectives</p>
+            <div className="space-y-6">
+              {[
+                { icon: "📖", title: "1,300+ Quality Adjectives", desc: "Carefully curated database of descriptive, qualitative, and quantitative adjectives" },
+                { icon: "🎯", title: "Advanced Filtering", desc: "Filter by starting letter, ending letter, syllable count, or letter length for precise results" },
+                { icon: "⚡", title: "Bulk Generation", desc: "Generate up to 50 adjectives at once - perfect for large projects and brainstorming sessions" },
+                { icon: "🔄", title: "One-Click Copy", desc: "Instantly copy results to clipboard - single adjective or entire list" },
+                { icon: "🎁", title: "100% Free", desc: "No registration, no limits, no cost. Generate unlimited adjectives forever" }
+              ].map((item, i) => (
+                <div key={i} className="flex gap-6 items-start group">
+                  <span className="text-2xl grayscale opacity-70 pt-1">{item.icon}</span>
+                  <div>
+                    <h3 className="font-bold text-foreground mb-1 text-lg">{item.title}</h3>
+                    <p className="text-zinc-500 font-sans">{item.desc}</p>
+                  </div>
                 </div>
-              </div>
-              <div className="flex gap-4 items-start">
-                <span className="text-2xl flex-shrink-0">🎯</span>
-                <div>
-                  <h3 className="font-semibold text-gray-800 mb-1 text-lg">Advanced Filtering</h3>
-                  <p className="text-gray-600">Filter by starting letter, ending letter, syllable count, or letter length for precise results</p>
-                </div>
-              </div>
-              <div className="flex gap-4 items-start">
-                <span className="text-2xl flex-shrink-0">⚡</span>
-                <div>
-                  <h3 className="font-semibold text-gray-800 mb-1 text-lg">Bulk Generation</h3>
-                  <p className="text-gray-600">Generate up to 50 adjectives at once - perfect for large projects and brainstorming sessions</p>
-                </div>
-              </div>
-              <div className="flex gap-4 items-start">
-                <span className="text-2xl flex-shrink-0">🔄</span>
-                <div>
-                  <h3 className="font-semibold text-gray-800 mb-1 text-lg">One-Click Copy</h3>
-                  <p className="text-gray-600">Instantly copy results to clipboard - single adjective or entire list</p>
-                </div>
-              </div>
-              <div className="flex gap-4 items-start">
-                <span className="text-2xl flex-shrink-0">🎁</span>
-                <div>
-                  <h3 className="font-semibold text-gray-800 mb-1 text-lg">100% Free</h3>
-                  <p className="text-gray-600">No registration, no limits, no cost. Generate unlimited adjectives forever</p>
-                </div>
-              </div>
+              ))}
             </div>
           </div>
 
           {/* How to Use */}
-          <div className="bg-white/90 backdrop-blur-sm rounded-2xl p-6 sm:p-8 shadow-lg">
-            <h2 className="font-display text-2xl sm:text-3xl font-bold text-gray-800 mb-6">
+          <div className="swiss-card p-6 sm:p-8 bg-white">
+            <h2 className="font-display text-2xl sm:text-3xl font-bold mb-8 flex items-center text-foreground">
+              <span className="w-2 h-8 bg-accent mr-3"></span>
               How to Use Random Adjective Generator
             </h2>
             <div className="space-y-6">
-              <div className="flex gap-4 items-start">
-                <div className="w-10 h-10 rounded-full bg-gradient-to-br from-emerald-500 to-green-500 flex items-center justify-center text-white font-bold flex-shrink-0">
-                  1
+              {[
+                { step: "01", title: "Set Your Preferences", desc: "Choose how many adjectives to generate (1-50). Optionally set filters for starting letter, ending letter, or word length." },
+                { step: "02", title: "Generate Adjectives", desc: "Click the generate button or press Enter to instantly get random adjectives matching your criteria." },
+                { step: "03", title: "Copy & Use", desc: "Copy all adjectives at once or regenerate for new options. Use them in your writing, projects, or learning materials." }
+              ].map((item, i) => (
+                <div key={i} className="flex gap-6 items-start">
+                  <div className="text-accent font-mono font-bold text-xl flex-shrink-0 pt-1">{item.step}</div>
+                  <div>
+                    <h3 className="font-bold text-foreground mb-1 text-lg">{item.title}</h3>
+                    <p className="text-zinc-500 font-sans">{item.desc}</p>
+                  </div>
                 </div>
-                <div>
-                  <h3 className="font-semibold text-gray-800 mb-1 text-lg">Set Your Preferences</h3>
-                  <p className="text-gray-600">Choose how many adjectives to generate (1-50). Optionally set filters for starting letter, ending letter, or word length.</p>
-                </div>
-              </div>
-              <div className="flex gap-4 items-start">
-                <div className="w-10 h-10 rounded-full bg-gradient-to-br from-emerald-500 to-green-500 flex items-center justify-center text-white font-bold flex-shrink-0">
-                  2
-                </div>
-                <div>
-                  <h3 className="font-semibold text-gray-800 mb-1 text-lg">Generate Adjectives</h3>
-                  <p className="text-gray-600">Click the generate button or press Enter to instantly get random adjectives matching your criteria.</p>
-                </div>
-              </div>
-              <div className="flex gap-4 items-start">
-                <div className="w-10 h-10 rounded-full bg-gradient-to-br from-emerald-500 to-green-500 flex items-center justify-center text-white font-bold flex-shrink-0">
-                  3
-                </div>
-                <div>
-                  <h3 className="font-semibold text-gray-800 mb-1 text-lg">Copy & Use</h3>
-                  <p className="text-gray-600">Copy all adjectives at once or regenerate for new options. Use them in your writing, projects, or learning materials.</p>
-                </div>
-              </div>
+              ))}
             </div>
           </div>
 
           {/* Popular Use Cases */}
-          <div className="bg-white/90 backdrop-blur-sm rounded-2xl p-6 sm:p-8 shadow-lg">
-            <h2 className="font-display text-2xl sm:text-3xl font-bold text-gray-800 mb-6">
-              Popular Use Cases
-            </h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-              <div className="bg-gradient-to-br from-emerald-50 to-green-50 rounded-xl p-4 border border-emerald-100">
-                <h3 className="font-semibold text-gray-800 mb-2">📝 Creative Writing</h3>
-                <p className="text-sm text-gray-600">Enhance descriptions, avoid repetitive words, and find the perfect modifier for any noun.</p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+            {[
+              { title: "Creative Writing", desc: "Enhance descriptions, avoid repetitive words, and find the perfect modifier for any noun." },
+              { title: "Vocabulary Building", desc: "Discover new adjectives to expand your vocabulary and improve language skills." },
+              { title: "Teaching Materials", desc: "Create worksheets, flashcards, and grammar exercises for ESL and language classes." },
+              { title: "Marketing Copy", desc: "Find powerful adjectives for product descriptions, ads, and compelling content." },
+              { title: "Game Development", desc: "Generate descriptive words for character traits, items, and world-building." },
+              { title: "Writing Prompts", desc: "Use random adjectives as creative prompts to spark story ideas and overcome writer's block." }
+            ].map((item, i) => (
+              <div key={i} className="swiss-card p-6 bg-white">
+                <h3 className="font-mono font-bold text-accent mb-2 uppercase tracking-wider text-xs">Use Case {String(i + 1).padStart(2, '0')}</h3>
+                <h4 className="font-bold text-lg mb-2 text-foreground">{item.title}</h4>
+                <p className="text-zinc-500 text-sm font-sans">{item.desc}</p>
               </div>
-              <div className="bg-gradient-to-br from-green-50 to-teal-50 rounded-xl p-4 border border-green-100">
-                <h3 className="font-semibold text-gray-800 mb-2">🎓 Vocabulary Building</h3>
-                <p className="text-sm text-gray-600">Discover new adjectives to expand your vocabulary and improve language skills.</p>
-              </div>
-              <div className="bg-gradient-to-br from-teal-50 to-cyan-50 rounded-xl p-4 border border-teal-100">
-                <h3 className="font-semibold text-gray-800 mb-2">🏫 Teaching Materials</h3>
-                <p className="text-sm text-gray-600">Create worksheets, flashcards, and grammar exercises for ESL and language classes.</p>
-              </div>
-              <div className="bg-gradient-to-br from-cyan-50 to-blue-50 rounded-xl p-4 border border-cyan-100">
-                <h3 className="font-semibold text-gray-800 mb-2">💼 Marketing Copy</h3>
-                <p className="text-sm text-gray-600">Find powerful adjectives for product descriptions, ads, and compelling content.</p>
-              </div>
-              <div className="bg-gradient-to-br from-lime-50 to-green-50 rounded-xl p-4 border border-lime-100">
-                <h3 className="font-semibold text-gray-800 mb-2">🎮 Game Development</h3>
-                <p className="text-sm text-gray-600">Generate descriptive words for character traits, items, and world-building.</p>
-              </div>
-              <div className="bg-gradient-to-br from-emerald-50 to-teal-50 rounded-xl p-4 border border-emerald-100">
-                <h3 className="font-semibold text-gray-800 mb-2">✏️ Writing Prompts</h3>
-                <p className="text-sm text-gray-600">Use random adjectives as creative prompts to spark story ideas and overcome writer&apos;s block.</p>
-              </div>
-            </div>
+            ))}
           </div>
 
           {/* What are Adjectives */}
-          <div className="bg-white/90 backdrop-blur-sm rounded-2xl p-6 sm:p-8 shadow-lg">
-            <h2 className="font-display text-2xl sm:text-3xl font-bold text-gray-800 mb-4">
+          <div className="swiss-card p-6 sm:p-8 bg-white">
+            <h2 className="font-display text-2xl sm:text-3xl font-bold mb-6 flex items-center text-foreground">
+              <span className="w-2 h-8 bg-accent mr-3"></span>
               What are Adjectives?
             </h2>
-            <p className="text-gray-700 text-base leading-relaxed mb-4">
+            <p className="text-zinc-600 text-base leading-relaxed font-sans mb-6">
               Adjectives are words that describe or modify nouns and pronouns, providing additional information about their qualities, quantities, or states. They answer questions like &quot;What kind?&quot;, &quot;How many?&quot;, or &quot;Which one?&quot;
             </p>
-            <div className="space-y-3">
-              <div className="bg-emerald-50/50 rounded-lg p-4 border border-emerald-100">
-                <h3 className="font-semibold text-gray-800 mb-2">Descriptive Adjectives</h3>
-                <p className="text-sm text-gray-600">Describe qualities or characteristics: <em>beautiful, tall, ancient, sleek, mysterious</em></p>
-              </div>
-              <div className="bg-green-50/50 rounded-lg p-4 border border-green-100">
-                <h3 className="font-semibold text-gray-800 mb-2">Quantitative Adjectives</h3>
-                <p className="text-sm text-gray-600">Express quantity or amount: <em>few, many, several, numerous, countless</em></p>
-              </div>
-              <div className="bg-teal-50/50 rounded-lg p-4 border border-teal-100">
-                <h3 className="font-semibold text-gray-800 mb-2">Demonstrative Adjectives</h3>
-                <p className="text-sm text-gray-600">Point to specific things: <em>this, that, these, those</em></p>
-              </div>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-px bg-grid border border-grid">
+              {[
+                { title: "Descriptive", desc: "Describe qualities: beautiful, tall, ancient, sleek, mysterious" },
+                { title: "Quantitative", desc: "Express amount: few, many, several, numerous, countless" },
+                { title: "Demonstrative", desc: "Point to things: this, that, these, those" }
+              ].map((item, i) => (
+                <div key={i} className="bg-white p-6 hover:bg-zinc-50 transition-colors">
+                  <h3 className="font-mono font-bold text-foreground mb-2 uppercase tracking-wider text-xs">{item.title}</h3>
+                  <p className="text-zinc-500 text-sm font-sans">{item.desc}</p>
+                </div>
+              ))}
             </div>
           </div>
 
           {/* FAQ */}
-          <div className="bg-white/90 backdrop-blur-sm rounded-2xl p-6 sm:p-8 shadow-lg">
-            <h2 className="font-display text-2xl sm:text-3xl font-bold text-gray-800 mb-6">
+          <div className="swiss-card p-6 sm:p-8 bg-white">
+            <h2 className="font-display text-2xl sm:text-3xl font-bold mb-8 flex items-center text-foreground">
+              <span className="w-2 h-8 bg-accent mr-3"></span>
               Frequently Asked Questions
             </h2>
-            <div className="space-y-5">
-              <div>
-                <h3 className="font-semibold text-gray-800 mb-2 text-lg">How many adjectives can I generate?</h3>
-                <p className="text-gray-600">You can generate between 1 and 50 adjectives at once. The default is 1, and you can adjust this number to suit your needs.</p>
-              </div>
-              <div className="border-t border-gray-200 pt-5">
-                <h3 className="font-semibold text-gray-800 mb-2 text-lg">Can I filter adjectives by specific criteria?</h3>
-                <p className="text-gray-600">Yes! You can filter by starting letter, ending letter, number of syllables, or number of letters with equal to, greater than, or less than comparisons.</p>
-              </div>
-              <div className="border-t border-gray-200 pt-5">
-                <h3 className="font-semibold text-gray-800 mb-2 text-lg">Is the adjective generator really free?</h3>
-                <p className="text-gray-600">Absolutely! No registration, no hidden fees, no limits. Generate unlimited adjectives completely free.</p>
-              </div>
-              <div className="border-t border-gray-200 pt-5">
-                <h3 className="font-semibold text-gray-800 mb-2 text-lg">Can I use these adjectives commercially?</h3>
-                <p className="text-gray-600">Yes! All generated adjectives are common English words free to use in any project - books, marketing, games, education, or personal use.</p>
-              </div>
-              <div className="border-t border-gray-200 pt-5">
-                <h3 className="font-semibold text-gray-800 mb-2 text-lg">What types of adjectives are included?</h3>
-                <p className="text-gray-600">Our database includes 1,300+ adjectives covering descriptive (beautiful, tall), quantitative (many, few), and various other categories to suit different writing needs.</p>
-              </div>
-              <div className="border-t border-gray-200 pt-5">
-                <h3 className="font-semibold text-gray-800 mb-2 text-lg">How do I copy the generated adjectives?</h3>
-                <p className="text-gray-600">Click the &quot;Copy&quot; button to copy all generated adjectives to your clipboard at once. They&apos;ll be formatted with one adjective per line.</p>
-              </div>
-              <div className="border-t border-gray-200 pt-5">
-                <h3 className="font-semibold text-gray-800 mb-2 text-lg">Can I regenerate if I don&apos;t like the results?</h3>
-                <p className="text-gray-600">Of course! Click &quot;Regenerate&quot; or press Enter to get a new set of random adjectives with the same filters.</p>
-              </div>
+            <div className="space-y-8">
+              {[
+                { q: "How many adjectives can I generate?", a: "You can generate between 1 and 50 adjectives at once. The default is 1, and you can adjust this number to suit your needs." },
+                { q: "Can I filter adjectives by specific criteria?", a: "Yes! You can filter by starting letter, ending letter, number of syllables, or number of letters with equal to, greater than, or less than comparisons." },
+                { q: "Is the adjective generator really free?", a: "Absolutely! No registration, no hidden fees, no limits. Generate unlimited adjectives completely free." },
+                { q: "Can I use these adjectives commercially?", a: "Yes! All generated adjectives are common English words free to use in any project - books, marketing, games, education, or personal use." },
+                { q: "What types of adjectives are included?", a: "Our database includes 1,300+ adjectives covering descriptive (beautiful, tall), quantitative (many, few), and various other categories to suit different writing needs." },
+                { q: "How do I copy the generated adjectives?", a: "Click the 'Copy' button to copy all generated adjectives to your clipboard at once. They'll be formatted with one adjective per line." },
+                { q: "Can I regenerate if I don't like the results?", a: "Of course! Click 'Regenerate' or press Enter to get a new set of random adjectives with the same filters." }
+              ].map((item, i) => (
+                <div key={i}>
+                  <h3 className="font-bold text-foreground mb-2 text-lg">{item.q}</h3>
+                  <p className="text-zinc-500 font-sans text-sm leading-relaxed">{item.a}</p>
+                </div>
+              ))}
             </div>
           </div>
 
           {/* Benefits Section */}
-          <div className="bg-gradient-to-br from-emerald-50 to-green-50 rounded-2xl p-6 sm:p-8 shadow-lg border-2 border-emerald-100">
-            <h2 className="font-display text-2xl sm:text-3xl font-bold text-gray-800 mb-4">
+          <div className="swiss-card p-6 sm:p-8 bg-white border-l-4 border-l-accent">
+            <h2 className="font-display text-2xl sm:text-3xl font-bold mb-4 text-foreground">
               Why Use Our Random Adjective Generator?
             </h2>
-            <p className="text-gray-700 text-base leading-relaxed mb-4">
-              Finding the right adjective can transform ordinary writing into extraordinary content. Our <strong>adjective generator tool</strong> helps you discover the perfect descriptive words instantly, saving time and sparking creativity. Unlike traditional thesauruses, our tool offers:
+            <p className="text-zinc-600 text-base leading-relaxed font-sans mb-4">
+              Finding the right adjective can transform ordinary writing into extraordinary content. Our <strong>adjective generator tool</strong> helps you discover the perfect descriptive words instantly, saving time and sparking creativity. Unlike traditional thesauruses, our tool offers true randomization for unexpected word discoveries, advanced filters, and a distraction-free interface.
             </p>
-            <ul className="space-y-2 text-gray-700">
-              <li className="flex gap-2">
-                <span className="text-emerald-600 font-bold">✓</span>
-                <span><strong>True randomization</strong> for unexpected word discoveries that break writer&apos;s block</span>
-              </li>
-              <li className="flex gap-2">
-                <span className="text-emerald-600 font-bold">✓</span>
-                <span><strong>Advanced filters</strong> to match specific writing requirements and constraints</span>
-              </li>
-              <li className="flex gap-2">
-                <span className="text-emerald-600 font-bold">✓</span>
-                <span><strong>Educational value</strong> for ESL students and vocabulary learners</span>
-              </li>
-              <li className="flex gap-2">
-                <span className="text-emerald-600 font-bold">✓</span>
-                <span><strong>No distractions</strong> - clean interface with no ads or popups</span>
-              </li>
-              <li className="flex gap-2">
-                <span className="text-emerald-600 font-bold">✓</span>
-                <span><strong>Mobile-friendly</strong> design for on-the-go writing and learning</span>
-              </li>
-            </ul>
-          </div>
-
-          {/* Additional Tips */}
-          <div className="bg-white/90 backdrop-blur-sm rounded-2xl p-6 sm:p-8 shadow-lg">
-            <h2 className="font-display text-2xl sm:text-3xl font-bold text-gray-800 mb-4">
-              Tips for Using Adjectives Effectively
-            </h2>
-            <div className="space-y-4 text-gray-700">
-              <div>
-                <h3 className="font-semibold text-lg mb-2">1. Use Specific Over Generic</h3>
-                <p className="text-sm">Choose &quot;ancient&quot; instead of &quot;old&quot; or &quot;minuscule&quot; instead of &quot;small&quot; to create more vivid imagery.</p>
-              </div>
-              <div>
-                <h3 className="font-semibold text-lg mb-2">2. Avoid Overuse</h3>
-                <p className="text-sm">While adjectives add color, too many can slow your writing. Use our generator to find the perfect one or two adjectives rather than piling them on.</p>
-              </div>
-              <div>
-                <h3 className="font-semibold text-lg mb-2">3. Match Tone and Context</h3>
-                <p className="text-sm">Filter by syllable count to match formal writing (longer words) or casual content (shorter words).</p>
-              </div>
-              <div>
-                <h3 className="font-semibold text-lg mb-2">4. Expand Your Vocabulary</h3>
-                <p className="text-sm">Use this tool as a learning resource—look up unfamiliar adjectives to expand your linguistic repertoire.</p>
-              </div>
-            </div>
           </div>
         </div>
       </main>
 
-      {/* Footer */}
-      <footer className="bg-white/10 backdrop-blur-sm py-6 mt-auto border-t border-white/10">
+      <footer className="border-t border-grid py-8 bg-background">
         <div className="container mx-auto px-4 text-center">
-          <p className="text-white/80 text-sm">
-            © 2025 RandomHub
+          <p className="text-zinc-400 font-mono text-xs uppercase tracking-widest">
+            © 2025 RandomHub System
           </p>
         </div>
       </footer>
