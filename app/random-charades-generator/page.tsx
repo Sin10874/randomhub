@@ -189,7 +189,7 @@ export default function CharadesGeneratorPage() {
                 <ol className="space-y-2 text-zinc-600 text-sm">
                   <li className="flex gap-3">
                     <span className="font-bold text-accent min-w-[1.5rem]">1.</span>
-                    <span>One player (the actor) clicks "Reveal" to see their charades word privately</span>
+                    <span>One player (the actor) clicks &quot;Reveal&quot; to see their charades word privately</span>
                   </li>
                   <li className="flex gap-3">
                     <span className="font-bold text-accent min-w-[1.5rem]">2.</span>

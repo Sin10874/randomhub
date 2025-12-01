@@ -222,7 +222,7 @@ export default function CharadesGeneratorPanel() {
                 <Drama className="w-4 h-4" />
                 <span>Output</span>
                 {generatedCharades.length > 0 && (
-                  <span className="text-zinc-400 ml-2">// {generatedCharades.length} {generatedCharades.length === 1 ? 'word' : 'words'}</span>
+                  <span className="text-zinc-400 ml-2">&#47;&#47; {generatedCharades.length} {generatedCharades.length === 1 ? 'word' : 'words'}</span>
                 )}
               </div>
               {generatedCharades.length > 0 && (
