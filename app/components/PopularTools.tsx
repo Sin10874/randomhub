@@ -1,9 +1,15 @@
 'use client';
 
 import Link from 'next/link';
-import { UserSquare, Building2, CaseUpper, MessageSquareText, Sparkles, Globe, Briefcase, ArrowUpRight } from 'lucide-react';
+import { UserSquare, Building2, CaseUpper, MessageSquareText, Sparkles, Globe, Briefcase, Drama, ArrowUpRight } from 'lucide-react';
 
 const tools = [
+  {
+    title: 'Charades Generator',
+    description: 'Generate random charades words for parties and games',
+    href: '/random-charades-generator',
+    Icon: Drama,
+  },
   {
     title: 'Sentence Generator',
     description: 'Generate random sentences for writing and creativity',
@@ -54,7 +60,7 @@ export default function PopularTools() {
       <div className="flex items-center justify-between mb-6 md:mb-8 border-b border-grid pb-4">
         <h2 className="font-display text-xl md:text-2xl font-bold text-foreground tracking-tight flex items-center gap-3">
           <span className="w-3 h-3 bg-accent"></span>
-          Other_Tools
+          Popular Tools
         </h2>
         <span className="font-mono text-xs text-zinc-500 uppercase">Index: {tools.length}</span>
       </div>

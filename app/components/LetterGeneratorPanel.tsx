@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useRef, useEffect, useRef, useCallback, useRef } from 'react';
 import Select from '@/app/components/ui/Select';
 import { RotateCw, Copy, Check, Sparkles, Settings2, Type } from 'lucide-react';
 
@@ -14,6 +14,7 @@ export default function LetterGeneratorPanel() {
   const [error, setError] = useState<string | null>(null);
   const [copied, setCopied] = useState(false);
   const [isGenerating, setIsGenerating] = useState(false);
+  const outputRef = useRef<HTMLDivElement>(null);
 
   const generateLetters = useCallback(() => {
     setError(null);
@@ -99,6 +100,15 @@ export default function LetterGeneratorPanel() {
       setAllowDuplicates(true);
     }
   }, [numberOfLetters]);
+
+  // Scroll to output when results are generated
+  useEffect(() => {
+    if (generatedLetters.length > 0 && outputRef.current) {
+      setTimeout(() => {
+        outputRef.current?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }, 300);
+    }
+  }, [generatedLetters]);
 
   return (
     <div className="w-full max-w-6xl mx-auto">
@@ -201,7 +211,7 @@ export default function LetterGeneratorPanel() {
           </div>
 
           {/* Result Column */}
-          <div className="lg:col-span-8 bg-zinc-50/50 p-4 sm:p-6 lg:p-8 relative flex flex-col">
+          <div ref={outputRef} className="lg:col-span-8 bg-zinc-50/50 p-4 sm:p-6 lg:p-8 relative flex flex-col">
              {/* Background Grid Accent */}
             <div className="absolute inset-0 pointer-events-none" style={{ 
               backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.03) 1px, transparent 1px), linear-gradient(90deg, rgba(0, 0, 0, 0.03) 1px, transparent 1px)', 

@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback, useRef } from 'react';
 import { filterSentences, type SentenceType, type SentenceTopic, type Sentence } from '@/app/utils/sentenceFilter';
 import { RotateCw, Copy, Check, Sparkles, Settings2, MessageSquareText } from 'lucide-react';
 
@@ -13,6 +13,7 @@ export default function SentenceGeneratorPanel() {
   const [copiedIndex, setCopiedIndex] = useState<number | null>(null);
   const [copiedAll, setCopiedAll] = useState(false);
   const [isGenerating, setIsGenerating] = useState(false);
+  const outputRef = useRef<HTMLDivElement>(null);
 
   const handleGenerate = useCallback(() => {
     setError(null);
@@ -57,6 +58,15 @@ export default function SentenceGeneratorPanel() {
     window.addEventListener('keypress', handleKeyPress);
     return () => window.removeEventListener('keypress', handleKeyPress);
   }, [handleGenerate, isGenerating]);
+
+  // Scroll to output when results are generated
+  useEffect(() => {
+    if (generatedSentences.length > 0 && outputRef.current) {
+      setTimeout(() => {
+        outputRef.current?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }, 300);
+    }
+  }, [generatedSentences]);
 
   return (
     <div className="w-full max-w-6xl mx-auto">
@@ -158,7 +168,7 @@ export default function SentenceGeneratorPanel() {
           </div>
 
           {/* Result Column */}
-          <div className="lg:col-span-8 bg-zinc-50/50 p-4 sm:p-6 lg:p-8 relative flex flex-col">
+          <div ref={outputRef} className="lg:col-span-8 bg-zinc-50/50 p-4 sm:p-6 lg:p-8 relative flex flex-col">
              {/* Background Grid Accent */}
             <div className="absolute inset-0 pointer-events-none" style={{ 
               backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.03) 1px, transparent 1px), linear-gradient(90deg, rgba(0, 0, 0, 0.03) 1px, transparent 1px)', 

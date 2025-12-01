@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback, useRef } from 'react';
 import { filterAdjectives } from '@/app/utils/adjectiveFilter';
 import { RotateCw, Copy, Check, Sparkles, Settings2, FileType } from 'lucide-react';
 
@@ -18,6 +18,7 @@ export default function AdjectiveGeneratorPanel() {
   const [error, setError] = useState<string | null>(null);
   const [copied, setCopied] = useState(false);
   const [isGenerating, setIsGenerating] = useState(false);
+  const outputRef = useRef<HTMLDivElement>(null);
 
   const handleGenerate = useCallback(() => {
     setError(null);
@@ -70,6 +71,15 @@ export default function AdjectiveGeneratorPanel() {
     window.addEventListener('keypress', handleKeyPress);
     return () => window.removeEventListener('keypress', handleKeyPress);
   }, [handleGenerate, isGenerating]);
+
+  // Scroll to output when results are generated
+  useEffect(() => {
+    if (generatedAdjectives.length > 0 && outputRef.current) {
+      setTimeout(() => {
+        outputRef.current?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }, 300);
+    }
+  }, [generatedAdjectives]);
 
   return (
     <div className="w-full max-w-6xl mx-auto">
@@ -199,7 +209,7 @@ export default function AdjectiveGeneratorPanel() {
           </div>
 
           {/* Result Column */}
-          <div className="lg:col-span-7 bg-zinc-50/50 p-4 sm:p-6 lg:p-8 relative flex flex-col">
+          <div ref={outputRef} className="lg:col-span-7 bg-zinc-50/50 p-4 sm:p-6 lg:p-8 relative flex flex-col">
              {/* Background Grid Accent */}
             <div className="absolute inset-0 pointer-events-none" style={{ 
               backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.03) 1px, transparent 1px), linear-gradient(90deg, rgba(0, 0, 0, 0.03) 1px, transparent 1px)', 

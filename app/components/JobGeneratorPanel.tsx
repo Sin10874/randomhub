@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback, useRef } from 'react';
 import Select from '@/app/components/ui/Select';
 import { RotateCw, Copy, Check, Sparkles, Settings2, Briefcase } from 'lucide-react';
 
@@ -43,6 +43,7 @@ export default function JobGeneratorPanel() {
   const [copied, setCopied] = useState(false);
   const [isGenerating, setIsGenerating] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
+  const outputRef = useRef<HTMLDivElement>(null);
 
   // Load jobs data
   useEffect(() => {
@@ -108,6 +109,15 @@ export default function JobGeneratorPanel() {
     window.addEventListener('keypress', handleKeyPress);
     return () => window.removeEventListener('keypress', handleKeyPress);
   }, [handleGenerate, isGenerating, isLoading]);
+
+  // Scroll to output when results are generated
+  useEffect(() => {
+    if (generatedJobs.length > 0 && outputRef.current) {
+      setTimeout(() => {
+        outputRef.current?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }, 300);
+    }
+  }, [generatedJobs]);
 
   return (
     <div className="w-full max-w-6xl mx-auto">
@@ -195,6 +205,7 @@ export default function JobGeneratorPanel() {
           </div>
 
           {/* Result Column */}
+          <div ref={outputRef} className="lg:col-span-8 bg-zinc-50/50 p-4 sm:p-6 lg:p-8 relative flex flex-col">
           <div className="lg:col-span-8 bg-zinc-50/50 p-4 sm:p-6 lg:p-8 relative flex flex-col">
              {/* Background Grid Accent */}
             <div className="absolute inset-0 pointer-events-none" style={{ 

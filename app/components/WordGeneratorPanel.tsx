@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useRef, useEffect, useCallback } from 'react';
 import { filterWords } from '@/app/utils/wordFilter';
 import wordsData from '@/public/data/words.json';
 import { RotateCw, Copy, Check, Terminal, Settings2 } from 'lucide-react';
@@ -21,6 +21,7 @@ export default function WordGeneratorPanel() {
   const [error, setError] = useState<string | null>(null);
   const [copied, setCopied] = useState(false);
   const [isGenerating, setIsGenerating] = useState(false);
+  const outputRef = useRef<HTMLDivElement>(null);
 
   const handleGenerate = useCallback(() => {
     setError(null);
@@ -72,6 +73,15 @@ export default function WordGeneratorPanel() {
     window.addEventListener('keypress', handleKeyPress);
     return () => window.removeEventListener('keypress', handleKeyPress);
   }, [handleGenerate, isGenerating]);
+
+  // Scroll to output when results are generated
+  useEffect(() => {
+    if (generatedWord && outputRef.current) {
+      setTimeout(() => {
+        outputRef.current?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }, 300);
+    }
+  }, [generatedWord]);
 
   return (
     <div className="w-full max-w-6xl mx-auto">
@@ -209,7 +219,7 @@ export default function WordGeneratorPanel() {
           </div>
 
           {/* Output Column */}
-          <div className="lg:col-span-7 p-4 sm:p-6 lg:p-8 flex flex-col relative bg-zinc-50/50">
+          <div ref={outputRef} className="lg:col-span-7 p-4 sm:p-6 lg:p-8 flex flex-col relative bg-zinc-50/50">
             {/* Background Grid Accent */}
             <div className="absolute inset-0 pointer-events-none" style={{ 
               backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.03) 1px, transparent 1px), linear-gradient(90deg, rgba(0, 0, 0, 0.03) 1px, transparent 1px)', 
