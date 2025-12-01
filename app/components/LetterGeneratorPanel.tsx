@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useRef, useEffect, useRef, useCallback, useRef } from 'react';
+import { useState, useRef, useEffect, useCallback } from 'react';
 import Select from '@/app/components/ui/Select';
 import { RotateCw, Copy, Check, Sparkles, Settings2, Type } from 'lucide-react';
 
