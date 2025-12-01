@@ -6960,1441 +6960,1441 @@
     "wordCount": 7
   },
   {
-    "text": "Atoms are the building blocks of matter.",
+    "sentence": "Atoms are the building blocks of matter.",
     "type": "Declarative",
     "topic": "Science",
     "wordCount": 7
   },
   {
-    "text": "Gravity keeps planets orbiting the sun.",
+    "sentence": "Gravity keeps planets orbiting the sun.",
     "type": "Declarative",
     "topic": "Science",
     "wordCount": 6
   },
   {
-    "text": "Light travels faster than sound.",
+    "sentence": "Light travels faster than sound.",
     "type": "Declarative",
     "topic": "Science",
     "wordCount": 5
   },
   {
-    "text": "DNA contains genetic information for organisms.",
+    "sentence": "DNA contains genetic information for organisms.",
     "type": "Declarative",
     "topic": "Science",
     "wordCount": 6
   },
   {
-    "text": "The human brain has billions of neurons.",
+    "sentence": "The human brain has billions of neurons.",
     "type": "Declarative",
     "topic": "Science",
     "wordCount": 7
   },
   {
-    "text": "Photosynthesis converts sunlight into chemical energy.",
+    "sentence": "Photosynthesis converts sunlight into chemical energy.",
     "type": "Declarative",
     "topic": "Science",
     "wordCount": 6
   },
   {
-    "text": "Water molecules consist of hydrogen and oxygen.",
+    "sentence": "Water molecules consist of hydrogen and oxygen.",
     "type": "Declarative",
     "topic": "Science",
     "wordCount": 7
   },
   {
-    "text": "Electrons orbit around the atomic nucleus.",
+    "sentence": "Electrons orbit around the atomic nucleus.",
     "type": "Declarative",
     "topic": "Science",
     "wordCount": 6
   },
   {
-    "text": "The periodic table organizes chemical elements.",
+    "sentence": "The periodic table organizes chemical elements.",
     "type": "Declarative",
     "topic": "Science",
     "wordCount": 6
   },
   {
-    "text": "Evolution occurs through natural selection processes.",
+    "sentence": "Evolution occurs through natural selection processes.",
     "type": "Declarative",
     "topic": "Science",
     "wordCount": 6
   },
   {
-    "text": "Magnetic fields surround electric currents.",
+    "sentence": "Magnetic fields surround electric currents.",
     "type": "Declarative",
     "topic": "Science",
     "wordCount": 5
   },
   {
-    "text": "Cells divide through mitosis and meiosis.",
+    "sentence": "Cells divide through mitosis and meiosis.",
     "type": "Declarative",
     "topic": "Science",
     "wordCount": 6
   },
   {
-    "text": "Sound waves propagate through vibrating particles.",
+    "sentence": "Sound waves propagate through vibrating particles.",
     "type": "Declarative",
     "topic": "Science",
     "wordCount": 6
   },
   {
-    "text": "Black holes have immense gravitational pull.",
+    "sentence": "Black holes have immense gravitational pull.",
     "type": "Declarative",
     "topic": "Science",
     "wordCount": 6
   },
   {
-    "text": "Antibodies fight infections in our bodies.",
+    "sentence": "Antibodies fight infections in our bodies.",
     "type": "Declarative",
     "topic": "Science",
     "wordCount": 6
   },
   {
-    "text": "Chromosomes carry hereditary information in cells.",
+    "sentence": "Chromosomes carry hereditary information in cells.",
     "type": "Declarative",
     "topic": "Science",
     "wordCount": 6
   },
   {
-    "text": "Energy cannot be created or destroyed.",
+    "sentence": "Energy cannot be created or destroyed.",
     "type": "Declarative",
     "topic": "Science",
     "wordCount": 6
   },
   {
-    "text": "Fossil fuels formed from ancient organisms.",
+    "sentence": "Fossil fuels formed from ancient organisms.",
     "type": "Declarative",
     "topic": "Science",
     "wordCount": 6
   },
   {
-    "text": "The speed of light is constant.",
+    "sentence": "The speed of light is constant.",
     "type": "Declarative",
     "topic": "Science",
     "wordCount": 6
   },
   {
-    "text": "Chemical reactions involve breaking molecular bonds.",
+    "sentence": "Chemical reactions involve breaking molecular bonds.",
     "type": "Declarative",
     "topic": "Science",
     "wordCount": 6
   },
   {
-    "text": "Ecosystems maintain delicate ecological balances.",
+    "sentence": "Ecosystems maintain delicate ecological balances.",
     "type": "Declarative",
     "topic": "Science",
     "wordCount": 5
   },
   {
-    "text": "Newton discovered three fundamental motion laws.",
+    "sentence": "Newton discovered three fundamental motion laws.",
     "type": "Declarative",
     "topic": "Science",
     "wordCount": 6
   },
   {
-    "text": "Protons and neutrons form atomic nuclei.",
+    "sentence": "Protons and neutrons form atomic nuclei.",
     "type": "Declarative",
     "topic": "Science",
     "wordCount": 6
   },
   {
-    "text": "Vaccines stimulate immune system responses.",
+    "sentence": "Vaccines stimulate immune system responses.",
     "type": "Declarative",
     "topic": "Science",
     "wordCount": 5
   },
   {
-    "text": "Quantum mechanics describes subatomic particle behavior.",
+    "sentence": "Quantum mechanics describes subatomic particle behavior.",
     "type": "Declarative",
     "topic": "Science",
     "wordCount": 6
   },
   {
-    "text": "Plate tectonics shape Earth's surface features.",
+    "sentence": "Plate tectonics shape Earth's surface features.",
     "type": "Declarative",
     "topic": "Science",
     "wordCount": 6
   },
   {
-    "text": "Enzymes catalyze biochemical reactions efficiently.",
+    "sentence": "Enzymes catalyze biochemical reactions efficiently.",
     "type": "Declarative",
     "topic": "Science",
     "wordCount": 5
   },
   {
-    "text": "Stars generate energy through nuclear fusion.",
+    "sentence": "Stars generate energy through nuclear fusion.",
     "type": "Declarative",
     "topic": "Science",
     "wordCount": 6
   },
   {
-    "text": "The universe continues expanding since inception.",
+    "sentence": "The universe continues expanding since inception.",
     "type": "Declarative",
     "topic": "Science",
     "wordCount": 6
   },
   {
-    "text": "Bacteria can develop antibiotic resistance rapidly.",
+    "sentence": "Bacteria can develop antibiotic resistance rapidly.",
     "type": "Declarative",
     "topic": "Science",
     "wordCount": 6
   },
   {
-    "text": "How do neurons transmit electrical signals?",
+    "sentence": "How do neurons transmit electrical signals?",
     "type": "Interrogative",
     "topic": "Science",
     "wordCount": 6
   },
   {
-    "text": "What causes earthquakes to occur?",
+    "sentence": "What causes earthquakes to occur?",
     "type": "Interrogative",
     "topic": "Science",
     "wordCount": 5
   },
   {
-    "text": "Why is the sky blue?",
+    "sentence": "Why is the sky blue?",
     "type": "Interrogative",
     "topic": "Science",
     "wordCount": 5
   },
   {
-    "text": "How does gravity affect time?",
+    "sentence": "How does gravity affect time?",
     "type": "Interrogative",
     "topic": "Science",
     "wordCount": 5
   },
   {
-    "text": "What are stem cells used for?",
+    "sentence": "What are stem cells used for?",
     "type": "Interrogative",
     "topic": "Science",
     "wordCount": 6
   },
   {
-    "text": "Can we travel faster than light?",
+    "sentence": "Can we travel faster than light?",
     "type": "Interrogative",
     "topic": "Science",
     "wordCount": 6
   },
   {
-    "text": "How do vaccines prevent diseases?",
+    "sentence": "How do vaccines prevent diseases?",
     "type": "Interrogative",
     "topic": "Science",
     "wordCount": 5
   },
   {
-    "text": "What makes elements radioactive?",
+    "sentence": "What makes elements radioactive?",
     "type": "Interrogative",
     "topic": "Science",
     "wordCount": 4
   },
   {
-    "text": "Why do objects fall downward?",
+    "sentence": "Why do objects fall downward?",
     "type": "Interrogative",
     "topic": "Science",
     "wordCount": 5
   },
   {
-    "text": "How does photosynthesis work exactly?",
+    "sentence": "How does photosynthesis work exactly?",
     "type": "Interrogative",
     "topic": "Science",
     "wordCount": 5
   },
   {
-    "text": "What is dark matter composed of?",
+    "sentence": "What is dark matter composed of?",
     "type": "Interrogative",
     "topic": "Science",
     "wordCount": 6
   },
   {
-    "text": "How do antibiotics kill bacteria?",
+    "sentence": "How do antibiotics kill bacteria?",
     "type": "Interrogative",
     "topic": "Science",
     "wordCount": 5
   },
   {
-    "text": "Why do magnets attract metal?",
+    "sentence": "Why do magnets attract metal?",
     "type": "Interrogative",
     "topic": "Science",
     "wordCount": 5
   },
   {
-    "text": "What determines blood type variations?",
+    "sentence": "What determines blood type variations?",
     "type": "Interrogative",
     "topic": "Science",
     "wordCount": 5
   },
   {
-    "text": "How fast do light waves travel?",
+    "sentence": "How fast do light waves travel?",
     "type": "Interrogative",
     "topic": "Science",
     "wordCount": 6
   },
   {
-    "text": "Can quantum computers solve complex problems?",
+    "sentence": "Can quantum computers solve complex problems?",
     "type": "Interrogative",
     "topic": "Science",
     "wordCount": 6
   },
   {
-    "text": "What creates lightning during thunderstorms?",
+    "sentence": "What creates lightning during thunderstorms?",
     "type": "Interrogative",
     "topic": "Science",
     "wordCount": 5
   },
   {
-    "text": "How do black holes form?",
+    "sentence": "How do black holes form?",
     "type": "Interrogative",
     "topic": "Science",
     "wordCount": 5
   },
   {
-    "text": "Why is carbon essential for life?",
+    "sentence": "Why is carbon essential for life?",
     "type": "Interrogative",
     "topic": "Science",
     "wordCount": 6
   },
   {
-    "text": "What powers the human heart?",
+    "sentence": "What powers the human heart?",
     "type": "Interrogative",
     "topic": "Science",
     "wordCount": 5
   },
   {
-    "text": "How do cells produce energy?",
+    "sentence": "How do cells produce energy?",
     "type": "Interrogative",
     "topic": "Science",
     "wordCount": 5
   },
   {
-    "text": "What causes genetic mutations to occur?",
+    "sentence": "What causes genetic mutations to occur?",
     "type": "Interrogative",
     "topic": "Science",
     "wordCount": 6
   },
   {
-    "text": "Why do planets orbit stars?",
+    "sentence": "Why do planets orbit stars?",
     "type": "Interrogative",
     "topic": "Science",
     "wordCount": 5
   },
   {
-    "text": "How does DNA replicate itself?",
+    "sentence": "How does DNA replicate itself?",
     "type": "Interrogative",
     "topic": "Science",
     "wordCount": 5
   },
   {
-    "text": "What makes water essential for life?",
+    "sentence": "What makes water essential for life?",
     "type": "Interrogative",
     "topic": "Science",
     "wordCount": 6
   },
   {
-    "text": "Can humans colonize other planets?",
+    "sentence": "Can humans colonize other planets?",
     "type": "Interrogative",
     "topic": "Science",
     "wordCount": 5
   },
   {
-    "text": "How do telescopes magnify distant objects?",
+    "sentence": "How do telescopes magnify distant objects?",
     "type": "Interrogative",
     "topic": "Science",
     "wordCount": 6
   },
   {
-    "text": "What causes climate change patterns?",
+    "sentence": "What causes climate change patterns?",
     "type": "Interrogative",
     "topic": "Science",
     "wordCount": 5
   },
   {
-    "text": "Why do volcanoes erupt violently?",
+    "sentence": "Why do volcanoes erupt violently?",
     "type": "Interrogative",
     "topic": "Science",
     "wordCount": 5
   },
   {
-    "text": "How do fossils form underground?",
+    "sentence": "How do fossils form underground?",
     "type": "Interrogative",
     "topic": "Science",
     "wordCount": 5
   },
   {
-    "text": "What an incredible scientific discovery!",
+    "sentence": "What an incredible scientific discovery!",
     "type": "Exclamatory",
     "topic": "Science",
     "wordCount": 5
   },
   {
-    "text": "How amazing the human brain is!",
-    "type": "Exclamatory",
-    "topic": "Science",
-    "wordCount": 6
-  },
-  {
-    "text": "That experiment produced fantastic results!",
-    "type": "Exclamatory",
-    "topic": "Science",
-    "wordCount": 5
-  },
-  {
-    "text": "What a powerful telescope this is!",
+    "sentence": "How amazing the human brain is!",
     "type": "Exclamatory",
     "topic": "Science",
     "wordCount": 6
   },
   {
-    "text": "The DNA structure is absolutely brilliant!",
-    "type": "Exclamatory",
-    "topic": "Science",
-    "wordCount": 6
-  },
-  {
-    "text": "How fascinating quantum physics becomes!",
+    "sentence": "That experiment produced fantastic results!",
     "type": "Exclamatory",
     "topic": "Science",
     "wordCount": 5
   },
   {
-    "text": "What extraordinary creatures dinosaurs were!",
-    "type": "Exclamatory",
-    "topic": "Science",
-    "wordCount": 5
-  },
-  {
-    "text": "This microscope reveals amazing details!",
-    "type": "Exclamatory",
-    "topic": "Science",
-    "wordCount": 5
-  },
-  {
-    "text": "How vast our universe truly is!",
+    "sentence": "What a powerful telescope this is!",
     "type": "Exclamatory",
     "topic": "Science",
     "wordCount": 6
   },
   {
-    "text": "What a remarkable chemical reaction!",
-    "type": "Exclamatory",
-    "topic": "Science",
-    "wordCount": 5
-  },
-  {
-    "text": "The speed of light is astonishing!",
+    "sentence": "The DNA structure is absolutely brilliant!",
     "type": "Exclamatory",
     "topic": "Science",
     "wordCount": 6
   },
   {
-    "text": "How complex the ecosystem functions!",
+    "sentence": "How fascinating quantum physics becomes!",
     "type": "Exclamatory",
     "topic": "Science",
     "wordCount": 5
   },
   {
-    "text": "What brilliant minds these scientists have!",
-    "type": "Exclamatory",
-    "topic": "Science",
-    "wordCount": 6
-  },
-  {
-    "text": "This breakthrough could revolutionize medicine!",
+    "sentence": "What extraordinary creatures dinosaurs were!",
     "type": "Exclamatory",
     "topic": "Science",
     "wordCount": 5
   },
   {
-    "text": "How precisely atoms interact together!",
+    "sentence": "This microscope reveals amazing details!",
     "type": "Exclamatory",
     "topic": "Science",
     "wordCount": 5
   },
   {
-    "text": "What incredible adaptations animals develop!",
-    "type": "Exclamatory",
-    "topic": "Science",
-    "wordCount": 5
-  },
-  {
-    "text": "The galaxy contains billions of stars!",
+    "sentence": "How vast our universe truly is!",
     "type": "Exclamatory",
     "topic": "Science",
     "wordCount": 6
   },
   {
-    "text": "How powerful natural selection truly is!",
-    "type": "Exclamatory",
-    "topic": "Science",
-    "wordCount": 6
-  },
-  {
-    "text": "What stunning images the satellite captured!",
-    "type": "Exclamatory",
-    "topic": "Science",
-    "wordCount": 6
-  },
-  {
-    "text": "This discovery changes everything we knew!",
-    "type": "Exclamatory",
-    "topic": "Science",
-    "wordCount": 6
-  },
-  {
-    "text": "How intricate cellular processes actually are!",
-    "type": "Exclamatory",
-    "topic": "Science",
-    "wordCount": 6
-  },
-  {
-    "text": "What a groundbreaking physics theory!",
+    "sentence": "What a remarkable chemical reaction!",
     "type": "Exclamatory",
     "topic": "Science",
     "wordCount": 5
   },
   {
-    "text": "The fossil record tells amazing stories!",
+    "sentence": "The speed of light is astonishing!",
     "type": "Exclamatory",
     "topic": "Science",
     "wordCount": 6
   },
   {
-    "text": "How wonderfully nature balances itself!",
+    "sentence": "How complex the ecosystem functions!",
     "type": "Exclamatory",
     "topic": "Science",
     "wordCount": 5
   },
   {
-    "text": "What perfect symmetry this molecule has!",
+    "sentence": "What brilliant minds these scientists have!",
     "type": "Exclamatory",
     "topic": "Science",
     "wordCount": 6
   },
   {
-    "text": "The periodic table is beautifully organized!",
-    "type": "Exclamatory",
-    "topic": "Science",
-    "wordCount": 6
-  },
-  {
-    "text": "How magnificently the brain operates!",
+    "sentence": "This breakthrough could revolutionize medicine!",
     "type": "Exclamatory",
     "topic": "Science",
     "wordCount": 5
   },
   {
-    "text": "What astounding energy stars release!",
+    "sentence": "How precisely atoms interact together!",
     "type": "Exclamatory",
     "topic": "Science",
     "wordCount": 5
   },
   {
-    "text": "This experiment exceeded all expectations!",
+    "sentence": "What incredible adaptations animals develop!",
     "type": "Exclamatory",
     "topic": "Science",
     "wordCount": 5
   },
   {
-    "text": "How elegantly mathematics explains reality!",
+    "sentence": "The galaxy contains billions of stars!",
+    "type": "Exclamatory",
+    "topic": "Science",
+    "wordCount": 6
+  },
+  {
+    "sentence": "How powerful natural selection truly is!",
+    "type": "Exclamatory",
+    "topic": "Science",
+    "wordCount": 6
+  },
+  {
+    "sentence": "What stunning images the satellite captured!",
+    "type": "Exclamatory",
+    "topic": "Science",
+    "wordCount": 6
+  },
+  {
+    "sentence": "This discovery changes everything we knew!",
+    "type": "Exclamatory",
+    "topic": "Science",
+    "wordCount": 6
+  },
+  {
+    "sentence": "How intricate cellular processes actually are!",
+    "type": "Exclamatory",
+    "topic": "Science",
+    "wordCount": 6
+  },
+  {
+    "sentence": "What a groundbreaking physics theory!",
     "type": "Exclamatory",
     "topic": "Science",
     "wordCount": 5
   },
   {
-    "text": "Observe the specimen under the microscope.",
+    "sentence": "The fossil record tells amazing stories!",
+    "type": "Exclamatory",
+    "topic": "Science",
+    "wordCount": 6
+  },
+  {
+    "sentence": "How wonderfully nature balances itself!",
+    "type": "Exclamatory",
+    "topic": "Science",
+    "wordCount": 5
+  },
+  {
+    "sentence": "What perfect symmetry this molecule has!",
+    "type": "Exclamatory",
+    "topic": "Science",
+    "wordCount": 6
+  },
+  {
+    "sentence": "The periodic table is beautifully organized!",
+    "type": "Exclamatory",
+    "topic": "Science",
+    "wordCount": 6
+  },
+  {
+    "sentence": "How magnificently the brain operates!",
+    "type": "Exclamatory",
+    "topic": "Science",
+    "wordCount": 5
+  },
+  {
+    "sentence": "What astounding energy stars release!",
+    "type": "Exclamatory",
+    "topic": "Science",
+    "wordCount": 5
+  },
+  {
+    "sentence": "This experiment exceeded all expectations!",
+    "type": "Exclamatory",
+    "topic": "Science",
+    "wordCount": 5
+  },
+  {
+    "sentence": "How elegantly mathematics explains reality!",
+    "type": "Exclamatory",
+    "topic": "Science",
+    "wordCount": 5
+  },
+  {
+    "sentence": "Observe the specimen under the microscope.",
     "type": "Imperative",
     "topic": "Science",
     "wordCount": 6
   },
   {
-    "text": "Record your experimental data carefully.",
+    "sentence": "Record your experimental data carefully.",
     "type": "Imperative",
     "topic": "Science",
     "wordCount": 5
   },
   {
-    "text": "Calculate the molecular weight accurately.",
+    "sentence": "Calculate the molecular weight accurately.",
     "type": "Imperative",
     "topic": "Science",
     "wordCount": 5
   },
   {
-    "text": "Wear safety goggles in the laboratory.",
+    "sentence": "Wear safety goggles in the laboratory.",
     "type": "Imperative",
     "topic": "Science",
     "wordCount": 6
   },
   {
-    "text": "Measure the temperature every five minutes.",
+    "sentence": "Measure the temperature every five minutes.",
     "type": "Imperative",
     "topic": "Science",
     "wordCount": 6
   },
   {
-    "text": "Study the periodic table thoroughly.",
+    "sentence": "Study the periodic table thoroughly.",
     "type": "Imperative",
     "topic": "Science",
     "wordCount": 5
   },
   {
-    "text": "Examine the fossil specimens closely.",
+    "sentence": "Examine the fossil specimens closely.",
     "type": "Imperative",
     "topic": "Science",
     "wordCount": 5
   },
   {
-    "text": "Mix the chemical solutions carefully.",
+    "sentence": "Mix the chemical solutions carefully.",
     "type": "Imperative",
     "topic": "Science",
     "wordCount": 5
   },
   {
-    "text": "Document all observations in your notebook.",
+    "sentence": "Document all observations in your notebook.",
     "type": "Imperative",
     "topic": "Science",
     "wordCount": 6
   },
   {
-    "text": "Test the hypothesis using controlled experiments.",
+    "sentence": "Test the hypothesis using controlled experiments.",
     "type": "Imperative",
     "topic": "Science",
     "wordCount": 6
   },
   {
-    "text": "Analyze the DNA sequence completely.",
+    "sentence": "Analyze the DNA sequence completely.",
     "type": "Imperative",
     "topic": "Science",
     "wordCount": 5
   },
   {
-    "text": "Follow the scientific method precisely.",
+    "sentence": "Follow the scientific method precisely.",
     "type": "Imperative",
     "topic": "Science",
     "wordCount": 5
   },
   {
-    "text": "Dispose of hazardous materials properly.",
+    "sentence": "Dispose of hazardous materials properly.",
     "type": "Imperative",
     "topic": "Science",
     "wordCount": 5
   },
   {
-    "text": "Compare the results with previous studies.",
+    "sentence": "Compare the results with previous studies.",
     "type": "Imperative",
     "topic": "Science",
     "wordCount": 6
   },
   {
-    "text": "Calibrate the instruments before measuring.",
+    "sentence": "Calibrate the instruments before measuring.",
     "type": "Imperative",
     "topic": "Science",
     "wordCount": 5
   },
   {
-    "text": "Label all test tubes clearly.",
+    "sentence": "Label all test tubes clearly.",
     "type": "Imperative",
     "topic": "Science",
     "wordCount": 5
   },
   {
-    "text": "Review the research literature extensively.",
+    "sentence": "Review the research literature extensively.",
     "type": "Imperative",
     "topic": "Science",
     "wordCount": 5
   },
   {
-    "text": "Maintain sterile conditions during experiments.",
+    "sentence": "Maintain sterile conditions during experiments.",
     "type": "Imperative",
     "topic": "Science",
     "wordCount": 5
   },
   {
-    "text": "Plot the data on a graph.",
+    "sentence": "Plot the data on a graph.",
     "type": "Imperative",
     "topic": "Science",
     "wordCount": 6
   },
   {
-    "text": "Verify your calculations multiple times.",
+    "sentence": "Verify your calculations multiple times.",
     "type": "Imperative",
     "topic": "Science",
     "wordCount": 5
   },
   {
-    "text": "Store the samples at proper temperature.",
+    "sentence": "Store the samples at proper temperature.",
     "type": "Imperative",
     "topic": "Science",
     "wordCount": 6
   },
   {
-    "text": "Repeat the experiment for accuracy.",
+    "sentence": "Repeat the experiment for accuracy.",
     "type": "Imperative",
     "topic": "Science",
     "wordCount": 5
   },
   {
-    "text": "Clean the equipment after each use.",
+    "sentence": "Clean the equipment after each use.",
     "type": "Imperative",
     "topic": "Science",
     "wordCount": 6
   },
   {
-    "text": "Question the assumptions behind theories.",
+    "sentence": "Question the assumptions behind theories.",
     "type": "Imperative",
     "topic": "Science",
     "wordCount": 5
   },
   {
-    "text": "Prepare the solution using distilled water.",
+    "sentence": "Prepare the solution using distilled water.",
     "type": "Imperative",
     "topic": "Science",
     "wordCount": 6
   },
   {
-    "text": "Study the control group data first.",
+    "sentence": "Study the control group data first.",
     "type": "Imperative",
     "topic": "Science",
     "wordCount": 6
   },
   {
-    "text": "Identify the variables in your experiment.",
+    "sentence": "Identify the variables in your experiment.",
     "type": "Imperative",
     "topic": "Science",
     "wordCount": 6
   },
   {
-    "text": "Present your findings at the conference.",
+    "sentence": "Present your findings at the conference.",
     "type": "Imperative",
     "topic": "Science",
     "wordCount": 6
   },
   {
-    "text": "Consider alternative explanations for results.",
+    "sentence": "Consider alternative explanations for results.",
     "type": "Imperative",
     "topic": "Science",
     "wordCount": 5
   },
   {
-    "text": "Publish your research in scientific journals.",
+    "sentence": "Publish your research in scientific journals.",
     "type": "Imperative",
     "topic": "Science",
     "wordCount": 6
   },
   {
-    "text": "Students learn best through active engagement.",
+    "sentence": "Students learn best through active engagement.",
     "type": "Declarative",
     "topic": "Education",
     "wordCount": 6
   },
   {
-    "text": "Reading improves vocabulary and comprehension skills.",
+    "sentence": "Reading improves vocabulary and comprehension skills.",
     "type": "Declarative",
     "topic": "Education",
     "wordCount": 6
   },
   {
-    "text": "Mathematics develops logical thinking abilities.",
+    "sentence": "Mathematics develops logical thinking abilities.",
     "type": "Declarative",
     "topic": "Education",
     "wordCount": 5
   },
   {
-    "text": "Teachers inspire students to reach goals.",
+    "sentence": "Teachers inspire students to reach goals.",
     "type": "Declarative",
     "topic": "Education",
     "wordCount": 6
   },
   {
-    "text": "Libraries provide essential resources for learning.",
+    "sentence": "Libraries provide essential resources for learning.",
     "type": "Declarative",
     "topic": "Education",
     "wordCount": 6
   },
   {
-    "text": "Critical thinking skills require constant practice.",
+    "sentence": "Critical thinking skills require constant practice.",
     "type": "Declarative",
     "topic": "Education",
     "wordCount": 6
   },
   {
-    "text": "Education opens doors to countless opportunities.",
+    "sentence": "Education opens doors to countless opportunities.",
     "type": "Declarative",
     "topic": "Education",
     "wordCount": 6
   },
   {
-    "text": "Practice makes perfect in skill development.",
+    "sentence": "Practice makes perfect in skill development.",
     "type": "Declarative",
     "topic": "Education",
     "wordCount": 6
   },
   {
-    "text": "Group projects teach valuable collaboration skills.",
+    "sentence": "Group projects teach valuable collaboration skills.",
     "type": "Declarative",
     "topic": "Education",
     "wordCount": 6
   },
   {
-    "text": "Writing essays strengthens communication abilities.",
+    "sentence": "Writing essays strengthens communication abilities.",
     "type": "Declarative",
     "topic": "Education",
     "wordCount": 5
   },
   {
-    "text": "History teaches us about past civilizations.",
+    "sentence": "History teaches us about past civilizations.",
     "type": "Declarative",
     "topic": "Education",
     "wordCount": 6
   },
   {
-    "text": "Science experiments demonstrate theoretical concepts effectively.",
+    "sentence": "Science experiments demonstrate theoretical concepts effectively.",
     "type": "Declarative",
     "topic": "Education",
     "wordCount": 6
   },
   {
-    "text": "Homework reinforces lessons learned in class.",
+    "sentence": "Homework reinforces lessons learned in class.",
     "type": "Declarative",
     "topic": "Education",
     "wordCount": 6
   },
   {
-    "text": "Language learning expands cultural understanding.",
+    "sentence": "Language learning expands cultural understanding.",
     "type": "Declarative",
     "topic": "Education",
     "wordCount": 5
   },
   {
-    "text": "Exams measure student knowledge and progress.",
+    "sentence": "Exams measure student knowledge and progress.",
     "type": "Declarative",
     "topic": "Education",
     "wordCount": 6
   },
   {
-    "text": "Technology enhances modern classroom instruction.",
+    "sentence": "Technology enhances modern classroom instruction.",
     "type": "Declarative",
     "topic": "Education",
     "wordCount": 5
   },
   {
-    "text": "Art education fosters creativity and expression.",
+    "sentence": "Art education fosters creativity and expression.",
     "type": "Declarative",
     "topic": "Education",
     "wordCount": 6
   },
   {
-    "text": "Physical education promotes healthy lifestyle habits.",
+    "sentence": "Physical education promotes healthy lifestyle habits.",
     "type": "Declarative",
     "topic": "Education",
     "wordCount": 6
   },
   {
-    "text": "Scholarships help students afford college tuition.",
+    "sentence": "Scholarships help students afford college tuition.",
     "type": "Declarative",
     "topic": "Education",
     "wordCount": 6
   },
   {
-    "text": "Study habits determine academic success rates.",
+    "sentence": "Study habits determine academic success rates.",
     "type": "Declarative",
     "topic": "Education",
     "wordCount": 6
   },
   {
-    "text": "Classroom discussions encourage diverse perspectives.",
+    "sentence": "Classroom discussions encourage diverse perspectives.",
     "type": "Declarative",
     "topic": "Education",
     "wordCount": 5
   },
   {
-    "text": "Music education develops cognitive abilities.",
+    "sentence": "Music education develops cognitive abilities.",
     "type": "Declarative",
     "topic": "Education",
     "wordCount": 5
   },
   {
-    "text": "Field trips make learning memorable.",
+    "sentence": "Field trips make learning memorable.",
     "type": "Declarative",
     "topic": "Education",
     "wordCount": 5
   },
   {
-    "text": "Tutoring provides personalized academic support.",
+    "sentence": "Tutoring provides personalized academic support.",
     "type": "Declarative",
     "topic": "Education",
     "wordCount": 5
   },
   {
-    "text": "Graduation marks an important educational milestone.",
+    "sentence": "Graduation marks an important educational milestone.",
     "type": "Declarative",
     "topic": "Education",
     "wordCount": 6
   },
   {
-    "text": "Textbooks contain fundamental course knowledge.",
+    "sentence": "Textbooks contain fundamental course knowledge.",
     "type": "Declarative",
     "topic": "Education",
     "wordCount": 5
   },
   {
-    "text": "Peer learning benefits all students involved.",
+    "sentence": "Peer learning benefits all students involved.",
     "type": "Declarative",
     "topic": "Education",
     "wordCount": 6
   },
   {
-    "text": "Extracurricular activities develop well-rounded students.",
+    "sentence": "Extracurricular activities develop well-rounded students.",
     "type": "Declarative",
     "topic": "Education",
     "wordCount": 5
   },
   {
-    "text": "Educational games make studying more enjoyable.",
+    "sentence": "Educational games make studying more enjoyable.",
     "type": "Declarative",
     "topic": "Education",
     "wordCount": 6
   },
   {
-    "text": "Online courses offer flexible learning options.",
+    "sentence": "Online courses offer flexible learning options.",
     "type": "Declarative",
     "topic": "Education",
     "wordCount": 6
   },
   {
-    "text": "What subjects interest you most?",
+    "sentence": "What subjects interest you most?",
     "type": "Interrogative",
     "topic": "Education",
     "wordCount": 5
   },
   {
-    "text": "How can we improve education quality?",
+    "sentence": "How can we improve education quality?",
     "type": "Interrogative",
     "topic": "Education",
     "wordCount": 6
   },
   {
-    "text": "Why is homework important for learning?",
+    "sentence": "Why is homework important for learning?",
     "type": "Interrogative",
     "topic": "Education",
     "wordCount": 6
   },
   {
-    "text": "Which study method works best?",
-    "type": "Interrogative",
-    "topic": "Education",
-    "wordCount": 5
-  },
-  {
-    "text": "When do students learn most effectively?",
-    "type": "Interrogative",
-    "topic": "Education",
-    "wordCount": 6
-  },
-  {
-    "text": "Should schools teach financial literacy?",
+    "sentence": "Which study method works best?",
     "type": "Interrogative",
     "topic": "Education",
     "wordCount": 5
   },
   {
-    "text": "How does reading comprehension develop?",
+    "sentence": "When do students learn most effectively?",
+    "type": "Interrogative",
+    "topic": "Education",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Should schools teach financial literacy?",
     "type": "Interrogative",
     "topic": "Education",
     "wordCount": 5
   },
   {
-    "text": "What makes a great teacher?",
+    "sentence": "How does reading comprehension develop?",
     "type": "Interrogative",
     "topic": "Education",
     "wordCount": 5
   },
   {
-    "text": "Can technology replace traditional textbooks?",
+    "sentence": "What makes a great teacher?",
     "type": "Interrogative",
     "topic": "Education",
     "wordCount": 5
   },
   {
-    "text": "Why do students need critical thinking?",
-    "type": "Interrogative",
-    "topic": "Education",
-    "wordCount": 6
-  },
-  {
-    "text": "How should we assess student progress?",
-    "type": "Interrogative",
-    "topic": "Education",
-    "wordCount": 6
-  },
-  {
-    "text": "What motivates students to learn?",
+    "sentence": "Can technology replace traditional textbooks?",
     "type": "Interrogative",
     "topic": "Education",
     "wordCount": 5
   },
   {
-    "text": "Should college education be free?",
+    "sentence": "Why do students need critical thinking?",
+    "type": "Interrogative",
+    "topic": "Education",
+    "wordCount": 6
+  },
+  {
+    "sentence": "How should we assess student progress?",
+    "type": "Interrogative",
+    "topic": "Education",
+    "wordCount": 6
+  },
+  {
+    "sentence": "What motivates students to learn?",
     "type": "Interrogative",
     "topic": "Education",
     "wordCount": 5
   },
   {
-    "text": "How can parents support homework?",
+    "sentence": "Should college education be free?",
     "type": "Interrogative",
     "topic": "Education",
     "wordCount": 5
   },
   {
-    "text": "What role does creativity play?",
+    "sentence": "How can parents support homework?",
     "type": "Interrogative",
     "topic": "Education",
     "wordCount": 5
   },
   {
-    "text": "Why learn multiple foreign languages?",
+    "sentence": "What role does creativity play?",
     "type": "Interrogative",
     "topic": "Education",
     "wordCount": 5
   },
   {
-    "text": "How important are standardized tests?",
+    "sentence": "Why learn multiple foreign languages?",
     "type": "Interrogative",
     "topic": "Education",
     "wordCount": 5
   },
   {
-    "text": "What skills prepare students for careers?",
-    "type": "Interrogative",
-    "topic": "Education",
-    "wordCount": 6
-  },
-  {
-    "text": "Should schools start later in morning?",
-    "type": "Interrogative",
-    "topic": "Education",
-    "wordCount": 6
-  },
-  {
-    "text": "How do students overcome learning challenges?",
-    "type": "Interrogative",
-    "topic": "Education",
-    "wordCount": 6
-  },
-  {
-    "text": "What makes lessons engaging and memorable?",
-    "type": "Interrogative",
-    "topic": "Education",
-    "wordCount": 6
-  },
-  {
-    "text": "Can arts education boost academic performance?",
-    "type": "Interrogative",
-    "topic": "Education",
-    "wordCount": 6
-  },
-  {
-    "text": "Why is lifelong learning important?",
+    "sentence": "How important are standardized tests?",
     "type": "Interrogative",
     "topic": "Education",
     "wordCount": 5
   },
   {
-    "text": "How do we reduce educational inequality?",
+    "sentence": "What skills prepare students for careers?",
     "type": "Interrogative",
     "topic": "Education",
     "wordCount": 6
   },
   {
-    "text": "What constitutes effective classroom management?",
-    "type": "Interrogative",
-    "topic": "Education",
-    "wordCount": 5
-  },
-  {
-    "text": "Should schools assign less homework?",
-    "type": "Interrogative",
-    "topic": "Education",
-    "wordCount": 5
-  },
-  {
-    "text": "How can education promote social justice?",
+    "sentence": "Should schools start later in morning?",
     "type": "Interrogative",
     "topic": "Education",
     "wordCount": 6
   },
   {
-    "text": "What defines a successful student?",
-    "type": "Interrogative",
-    "topic": "Education",
-    "wordCount": 5
-  },
-  {
-    "text": "Why teach history in modern schools?",
+    "sentence": "How do students overcome learning challenges?",
     "type": "Interrogative",
     "topic": "Education",
     "wordCount": 6
   },
   {
-    "text": "How does collaboration improve learning outcomes?",
+    "sentence": "What makes lessons engaging and memorable?",
     "type": "Interrogative",
     "topic": "Education",
     "wordCount": 6
   },
   {
-    "text": "What an inspiring lecture that was!",
+    "sentence": "Can arts education boost academic performance?",
+    "type": "Interrogative",
+    "topic": "Education",
+    "wordCount": 6
+  },
+  {
+    "sentence": "Why is lifelong learning important?",
+    "type": "Interrogative",
+    "topic": "Education",
+    "wordCount": 5
+  },
+  {
+    "sentence": "How do we reduce educational inequality?",
+    "type": "Interrogative",
+    "topic": "Education",
+    "wordCount": 6
+  },
+  {
+    "sentence": "What constitutes effective classroom management?",
+    "type": "Interrogative",
+    "topic": "Education",
+    "wordCount": 5
+  },
+  {
+    "sentence": "Should schools assign less homework?",
+    "type": "Interrogative",
+    "topic": "Education",
+    "wordCount": 5
+  },
+  {
+    "sentence": "How can education promote social justice?",
+    "type": "Interrogative",
+    "topic": "Education",
+    "wordCount": 6
+  },
+  {
+    "sentence": "What defines a successful student?",
+    "type": "Interrogative",
+    "topic": "Education",
+    "wordCount": 5
+  },
+  {
+    "sentence": "Why teach history in modern schools?",
+    "type": "Interrogative",
+    "topic": "Education",
+    "wordCount": 6
+  },
+  {
+    "sentence": "How does collaboration improve learning outcomes?",
+    "type": "Interrogative",
+    "topic": "Education",
+    "wordCount": 6
+  },
+  {
+    "sentence": "What an inspiring lecture that was!",
     "type": "Exclamatory",
     "topic": "Education",
     "wordCount": 6
   },
   {
-    "text": "The students achieved remarkable test scores!",
+    "sentence": "The students achieved remarkable test scores!",
     "type": "Exclamatory",
     "topic": "Education",
     "wordCount": 6
   },
   {
-    "text": "How brilliantly she explained complex concepts!",
+    "sentence": "How brilliantly she explained complex concepts!",
     "type": "Exclamatory",
     "topic": "Education",
     "wordCount": 6
   },
   {
-    "text": "This textbook is incredibly comprehensive!",
+    "sentence": "This textbook is incredibly comprehensive!",
     "type": "Exclamatory",
     "topic": "Education",
     "wordCount": 5
   },
   {
-    "text": "What a wonderful learning environment!",
+    "sentence": "What a wonderful learning environment!",
     "type": "Exclamatory",
     "topic": "Education",
     "wordCount": 5
   },
   {
-    "text": "The graduation ceremony was absolutely moving!",
+    "sentence": "The graduation ceremony was absolutely moving!",
     "type": "Exclamatory",
     "topic": "Education",
     "wordCount": 6
   },
   {
-    "text": "How dedicated these teachers truly are!",
+    "sentence": "How dedicated these teachers truly are!",
     "type": "Exclamatory",
     "topic": "Education",
     "wordCount": 6
   },
   {
-    "text": "What fantastic progress you have made!",
+    "sentence": "What fantastic progress you have made!",
     "type": "Exclamatory",
     "topic": "Education",
     "wordCount": 6
   },
   {
-    "text": "The science fair projects were amazing!",
+    "sentence": "The science fair projects were amazing!",
     "type": "Exclamatory",
     "topic": "Education",
     "wordCount": 6
   },
   {
-    "text": "How beautifully the students performed today!",
+    "sentence": "How beautifully the students performed today!",
     "type": "Exclamatory",
     "topic": "Education",
     "wordCount": 6
   },
   {
-    "text": "This scholarship changed my entire life!",
+    "sentence": "This scholarship changed my entire life!",
     "type": "Exclamatory",
     "topic": "Education",
     "wordCount": 6
   },
   {
-    "text": "What an outstanding academic achievement!",
+    "sentence": "What an outstanding academic achievement!",
     "type": "Exclamatory",
     "topic": "Education",
     "wordCount": 5
   },
   {
-    "text": "The library collection is absolutely massive!",
+    "sentence": "The library collection is absolutely massive!",
     "type": "Exclamatory",
     "topic": "Education",
     "wordCount": 6
   },
   {
-    "text": "How enthusiastically she teaches every lesson!",
+    "sentence": "How enthusiastically she teaches every lesson!",
     "type": "Exclamatory",
     "topic": "Education",
     "wordCount": 6
   },
   {
-    "text": "What incredible research these students conducted!",
+    "sentence": "What incredible research these students conducted!",
     "type": "Exclamatory",
     "topic": "Education",
     "wordCount": 6
   },
   {
-    "text": "The debate competition was remarkably intense!",
+    "sentence": "The debate competition was remarkably intense!",
     "type": "Exclamatory",
     "topic": "Education",
     "wordCount": 6
   },
   {
-    "text": "How perfectly you answered that question!",
+    "sentence": "How perfectly you answered that question!",
     "type": "Exclamatory",
     "topic": "Education",
     "wordCount": 6
   },
   {
-    "text": "This new curriculum is truly innovative!",
+    "sentence": "This new curriculum is truly innovative!",
     "type": "Exclamatory",
     "topic": "Education",
     "wordCount": 6
   },
   {
-    "text": "What passionate learners they have become!",
+    "sentence": "What passionate learners they have become!",
     "type": "Exclamatory",
     "topic": "Education",
     "wordCount": 6
   },
   {
-    "text": "The field trip was extraordinarily educational!",
+    "sentence": "The field trip was extraordinarily educational!",
     "type": "Exclamatory",
     "topic": "Education",
     "wordCount": 6
   },
   {
-    "text": "How impressively the class collaborated together!",
+    "sentence": "How impressively the class collaborated together!",
     "type": "Exclamatory",
     "topic": "Education",
     "wordCount": 6
   },
   {
-    "text": "What a transformative educational experience!",
+    "sentence": "What a transformative educational experience!",
     "type": "Exclamatory",
     "topic": "Education",
     "wordCount": 5
   },
   {
-    "text": "The presentation skills improved dramatically!",
+    "sentence": "The presentation skills improved dramatically!",
     "type": "Exclamatory",
     "topic": "Education",
     "wordCount": 5
   },
   {
-    "text": "How thoughtfully you analyzed that literature!",
+    "sentence": "How thoughtfully you analyzed that literature!",
     "type": "Exclamatory",
     "topic": "Education",
     "wordCount": 6
   },
   {
-    "text": "This mentorship program is absolutely excellent!",
+    "sentence": "This mentorship program is absolutely excellent!",
     "type": "Exclamatory",
     "topic": "Education",
     "wordCount": 6
   },
   {
-    "text": "What creative solutions students discovered today!",
+    "sentence": "What creative solutions students discovered today!",
     "type": "Exclamatory",
     "topic": "Education",
     "wordCount": 6
   },
   {
-    "text": "The spelling bee competition was thrilling!",
+    "sentence": "The spelling bee competition was thrilling!",
     "type": "Exclamatory",
     "topic": "Education",
     "wordCount": 6
   },
   {
-    "text": "How diligently everyone studied for exams!",
+    "sentence": "How diligently everyone studied for exams!",
     "type": "Exclamatory",
     "topic": "Education",
     "wordCount": 6
   },
   {
-    "text": "What profound insights emerged from discussions!",
+    "sentence": "What profound insights emerged from discussions!",
     "type": "Exclamatory",
     "topic": "Education",
     "wordCount": 6
   },
   {
-    "text": "This educational app is phenomenally effective!",
+    "sentence": "This educational app is phenomenally effective!",
     "type": "Exclamatory",
     "topic": "Education",
     "wordCount": 5
   },
   {
-    "text": "Complete your homework before class tomorrow.",
+    "sentence": "Complete your homework before class tomorrow.",
     "type": "Imperative",
     "topic": "Education",
     "wordCount": 6
   },
   {
-    "text": "Study the chapter thoroughly for exams.",
+    "sentence": "Study the chapter thoroughly for exams.",
     "type": "Imperative",
     "topic": "Education",
     "wordCount": 6
   },
   {
-    "text": "Participate actively in classroom discussions.",
+    "sentence": "Participate actively in classroom discussions.",
     "type": "Imperative",
     "topic": "Education",
     "wordCount": 5
   },
   {
-    "text": "Take detailed notes during lectures.",
+    "sentence": "Take detailed notes during lectures.",
     "type": "Imperative",
     "topic": "Education",
     "wordCount": 5
   },
   {
-    "text": "Ask questions when concepts seem unclear.",
+    "sentence": "Ask questions when concepts seem unclear.",
     "type": "Imperative",
     "topic": "Education",
     "wordCount": 6
   },
   {
-    "text": "Review your notes every evening.",
+    "sentence": "Review your notes every evening.",
     "type": "Imperative",
     "topic": "Education",
     "wordCount": 5
   },
   {
-    "text": "Practice math problems until mastery.",
+    "sentence": "Practice math problems until mastery.",
     "type": "Imperative",
     "topic": "Education",
     "wordCount": 5
   },
   {
-    "text": "Read the assigned material before class.",
+    "sentence": "Read the assigned material before class.",
     "type": "Imperative",
     "topic": "Education",
     "wordCount": 6
   },
   {
-    "text": "Organize your study materials systematically.",
+    "sentence": "Organize your study materials systematically.",
     "type": "Imperative",
     "topic": "Education",
     "wordCount": 5
   },
   {
-    "text": "Collaborate respectfully with your group members.",
+    "sentence": "Collaborate respectfully with your group members.",
     "type": "Imperative",
     "topic": "Education",
     "wordCount": 6
   },
   {
-    "text": "Submit assignments by the deadline.",
+    "sentence": "Submit assignments by the deadline.",
     "type": "Imperative",
     "topic": "Education",
     "wordCount": 5
   },
   {
-    "text": "Attend all scheduled classes regularly.",
+    "sentence": "Attend all scheduled classes regularly.",
     "type": "Imperative",
     "topic": "Education",
     "wordCount": 5
   },
   {
-    "text": "Develop good time management habits.",
+    "sentence": "Develop good time management habits.",
     "type": "Imperative",
     "topic": "Education",
     "wordCount": 5
   },
   {
-    "text": "Seek help from tutors when needed.",
+    "sentence": "Seek help from tutors when needed.",
     "type": "Imperative",
     "topic": "Education",
     "wordCount": 6
   },
   {
-    "text": "Revise your essays before final submission.",
+    "sentence": "Revise your essays before final submission.",
     "type": "Imperative",
     "topic": "Education",
     "wordCount": 6
   },
   {
-    "text": "Listen attentively to teacher instructions.",
+    "sentence": "Listen attentively to teacher instructions.",
     "type": "Imperative",
     "topic": "Education",
     "wordCount": 5
   },
   {
-    "text": "Respect diverse opinions in class debates.",
+    "sentence": "Respect diverse opinions in class debates.",
     "type": "Imperative",
     "topic": "Education",
     "wordCount": 6
   },
   {
-    "text": "Use reliable sources for research papers.",
+    "sentence": "Use reliable sources for research papers.",
     "type": "Imperative",
     "topic": "Education",
     "wordCount": 6
   },
   {
-    "text": "Highlight important concepts in textbooks.",
+    "sentence": "Highlight important concepts in textbooks.",
     "type": "Imperative",
     "topic": "Education",
     "wordCount": 5
   },
   {
-    "text": "Create flashcards to memorize vocabulary.",
+    "sentence": "Create flashcards to memorize vocabulary.",
     "type": "Imperative",
     "topic": "Education",
     "wordCount": 5
   },
   {
-    "text": "Join study groups for difficult subjects.",
+    "sentence": "Join study groups for difficult subjects.",
     "type": "Imperative",
     "topic": "Education",
     "wordCount": 6
   },
   {
-    "text": "Maintain academic integrity in all work.",
+    "sentence": "Maintain academic integrity in all work.",
     "type": "Imperative",
     "topic": "Education",
     "wordCount": 6
   },
   {
-    "text": "Set achievable learning goals each semester.",
+    "sentence": "Set achievable learning goals each semester.",
     "type": "Imperative",
     "topic": "Education",
     "wordCount": 6
   },
   {
-    "text": "Visit the library for additional resources.",
+    "sentence": "Visit the library for additional resources.",
     "type": "Imperative",
     "topic": "Education",
     "wordCount": 6
   },
   {
-    "text": "Proofread your work carefully before submitting.",
+    "sentence": "Proofread your work carefully before submitting.",
     "type": "Imperative",
     "topic": "Education",
     "wordCount": 6
   },
   {
-    "text": "Stay curious and keep asking questions.",
+    "sentence": "Stay curious and keep asking questions.",
     "type": "Imperative",
     "topic": "Education",
     "wordCount": 6
   },
   {
-    "text": "Challenge yourself with advanced coursework.",
+    "sentence": "Challenge yourself with advanced coursework.",
     "type": "Imperative",
     "topic": "Education",
     "wordCount": 5
   },
   {
-    "text": "Document your learning progress consistently.",
+    "sentence": "Document your learning progress consistently.",
     "type": "Imperative",
     "topic": "Education",
     "wordCount": 5
   },
   {
-    "text": "Explore subjects beyond required curriculum.",
+    "sentence": "Explore subjects beyond required curriculum.",
     "type": "Imperative",
     "topic": "Education",
     "wordCount": 5
   },
   {
-    "text": "Celebrate academic achievements with pride.",
+    "sentence": "Celebrate academic achievements with pride.",
     "type": "Imperative",
     "topic": "Education",
     "wordCount": 5
