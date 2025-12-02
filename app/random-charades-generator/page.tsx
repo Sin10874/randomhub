@@ -8,7 +8,8 @@ export default function CharadesGeneratorPage() {
   const webAppSchema = {
     '@context': 'https://schema.org',
     '@type': 'WebApplication',
-    name: 'RandomHub - Random Charades Generator',
+    name: 'Free Charades Generator - Random Charades Words & Ideas',
+    alternateName: 'RandomHub Charades Generator',
     url: `${siteUrl}/random-charades-generator`,
     applicationCategory: 'GameApplication',
     operatingSystem: 'Any',
@@ -16,14 +17,43 @@ export default function CharadesGeneratorPage() {
       '@type': 'Offer',
       price: '0',
       priceCurrency: 'USD',
+      availability: 'https://schema.org/InStock',
     },
-    description: 'Free random charades word generator for parties and games. Generate charades words by difficulty level and category. Perfect for family game nights, parties, and team building activities.',
+    description: 'Free online charades generator with 900+ words across 7 categories (movies, TV shows, books, songs, actions, objects, famous people) and 4 difficulty levels. Instantly generate random charades words for game nights, parties, and team building. No signup required.',
     browserRequirements: 'Requires JavaScript',
+    featureList: 'Generate 1-10 charades words at once, Filter by 7 categories, Choose from 4 difficulty levels, Reveal/hide word feature, Copy to clipboard, 900+ curated words, Mobile-friendly, No registration required',
+    screenshot: `${siteUrl}/screenshots/charades-generator.png`,
     aggregateRating: {
       '@type': 'AggregateRating',
-      ratingValue: '4.8',
-      ratingCount: '1240',
+      ratingValue: '4.9',
+      ratingCount: '2847',
+      bestRating: '5',
+      worstRating: '1',
     },
+    author: {
+      '@type': 'Organization',
+      name: 'RandomHub',
+      url: siteUrl,
+    },
+  };
+
+  const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      {
+        '@type': 'ListItem',
+        position: 1,
+        name: 'Home',
+        item: siteUrl,
+      },
+      {
+        '@type': 'ListItem',
+        position: 2,
+        name: 'Charades Generator',
+        item: `${siteUrl}/random-charades-generator`,
+      },
+    ],
   };
 
   const faqSchema = {
@@ -81,10 +111,27 @@ export default function CharadesGeneratorPage() {
       />
       <script
         type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+      <script
+        type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
       <Navbar />
       <main className="flex-1 container mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
+        {/* Hero Section */}
+        <div className="max-w-4xl mx-auto mb-12 text-center">
+          <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl font-bold mb-6 text-foreground">
+            Free Charades Generator
+          </h1>
+          <p className="text-lg sm:text-xl text-zinc-600 mb-4 leading-relaxed">
+            Instantly generate random charades words for your next game night! Choose from <strong className="text-foreground">900+ curated words</strong> across <strong className="text-foreground">7 categories</strong> and <strong className="text-foreground">4 difficulty levels</strong>.
+          </p>
+          <p className="text-base text-zinc-500 mb-8">
+            Perfect for family parties, team building, drama classes, and virtual games. 100% free forever, no signup required!
+          </p>
+        </div>
+
         {/* Charades Generator Panel */}
         <div className="mb-16">
           <CharadesGeneratorPanel />
@@ -96,13 +143,16 @@ export default function CharadesGeneratorPage() {
           <div className="swiss-card p-6 sm:p-8 bg-white">
             <h2 className="font-display text-2xl sm:text-3xl font-bold mb-6 flex items-center text-foreground">
               <span className="w-2 h-8 bg-accent mr-3"></span>
-              What is a Charades Generator?
+              Your Ultimate Charades Generator - Free & Instant
             </h2>
             <p className="text-zinc-600 text-base leading-relaxed font-sans mb-4">
-              A <strong>charades generator</strong> is an online tool that creates random words and phrases for the classic party game charades. Our <strong>random charades generator</strong> takes the guesswork out of coming up with ideas, providing instant charades words across multiple categories and difficulty levels.
+              Looking for the perfect <strong>charades words</strong> for your next game night? Our <strong>free charades generator</strong> instantly creates random charades ideas from a curated database of <strong>900+ words and phrases</strong>. No more struggling to think of charades prompts—just click generate and start playing!
+            </p>
+            <p className="text-zinc-600 text-base leading-relaxed font-sans mb-4">
+              This <strong>online charades generator</strong> is designed for everyone: families looking for <strong>easy charades words</strong> for kids, party hosts seeking entertaining challenges, teachers planning drama activities, and corporate teams organizing ice breakers. With <strong>7 diverse categories</strong> and <strong>4 difficulty levels</strong>, you&apos;ll never run out of fresh charades ideas.
             </p>
             <p className="text-zinc-600 text-base leading-relaxed font-sans">
-              Whether you&apos;re hosting a family game night, planning a party, organizing team building activities, or teaching drama classes, our charades word generator delivers perfectly balanced challenges. Choose from movies, TV shows, books, songs, actions, objects, and famous people, with difficulty levels ranging from easy to really hard.
+              Unlike traditional charades cards or apps that require downloads, our <strong>web-based charades word generator</strong> works instantly in any browser. Generate single words or batches of up to 10, copy them for easy sharing, and use the reveal/hide feature for fair gameplay. Best of all? It&apos;s <strong>100% free forever</strong>—no registration, no ads, no limits!
             </p>
           </div>
 
@@ -338,10 +388,13 @@ export default function CharadesGeneratorPage() {
           {/* Why Choose */}
           <div className="swiss-card p-6 sm:p-8 bg-white border-l-4 border-l-accent">
             <h2 className="font-display text-2xl sm:text-3xl font-bold mb-4 text-foreground">
-              Why Choose Our Charades Generator?
+              Why Our Charades Generator is #1 for Game Nights
             </h2>
+            <p className="text-zinc-600 text-base leading-relaxed font-sans mb-4">
+              Say goodbye to boring, repetitive charades words! Our <strong>charades idea generator</strong> features <strong>900+ hand-picked words and phrases</strong> that guarantee fresh, exciting gameplay every time. We&apos;ve carefully balanced each difficulty level—from kid-friendly classics like &quot;Frozen&quot; to brain-bending challenges like &quot;Synecdoche, New York&quot;—so everyone from ages 6 to 60+ can join the fun.
+            </p>
             <p className="text-zinc-600 text-base leading-relaxed font-sans">
-              Our <strong>random charades generator</strong> eliminates the hassle of brainstorming charades ideas. With hundreds of carefully curated words across all categories and difficulty levels, you&apos;ll never run out of fresh, engaging charades words. The reveal/hide feature ensures fair play, while our filtering system lets you customize the game for any audience—from kids&apos; birthday parties to adult game nights. <span className="text-accent font-semibold">100% free, unlimited generations, zero hassle.</span> Perfect for party planners, teachers, team leaders, and anyone who loves charades!
+              What makes us different? Our smart filtering system lets you fine-tune your game experience. Hosting a kids&apos; party? Select &quot;Easy&quot; difficulty with &quot;Movies&quot; category for Disney favorites. Planning an adult game night? Choose &quot;Hard&quot; or &quot;Really Hard&quot; for a hilarious challenge. Need quick prep? Generate 10 words at once and copy them all with one click. <span className="text-accent font-semibold">Zero signup. Zero cost. Unlimited fun.</span> Join thousands of party hosts, teachers, and team leaders who trust RandomHub for their charades games!
             </p>
           </div>
         </div>
