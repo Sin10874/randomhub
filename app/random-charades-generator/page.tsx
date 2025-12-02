@@ -119,19 +119,6 @@ export default function CharadesGeneratorPage() {
       />
       <Navbar />
       <main className="flex-1 container mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
-        {/* Hero Section */}
-        <div className="max-w-4xl mx-auto mb-12 text-center">
-          <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl font-bold mb-6 text-foreground">
-            Free Charades Generator
-          </h1>
-          <p className="text-lg sm:text-xl text-zinc-600 mb-4 leading-relaxed">
-            Instantly generate random charades words for your next game night! Choose from <strong className="text-foreground">900+ curated words</strong> across <strong className="text-foreground">7 categories</strong> and <strong className="text-foreground">4 difficulty levels</strong>.
-          </p>
-          <p className="text-base text-zinc-500 mb-8">
-            Perfect for family parties, team building, drama classes, and virtual games. 100% free forever, no signup required!
-          </p>
-        </div>
-
         {/* Charades Generator Panel */}
         <div className="mb-16">
           <CharadesGeneratorPanel />
@@ -141,10 +128,10 @@ export default function CharadesGeneratorPage() {
         <div className="max-w-4xl mx-auto mb-12 space-y-12">
           {/* What is Charades Generator */}
           <div className="swiss-card p-6 sm:p-8 bg-white">
-            <h2 className="font-display text-2xl sm:text-3xl font-bold mb-6 flex items-center text-foreground">
+            <h1 className="font-display text-2xl sm:text-3xl font-bold mb-6 flex items-center text-foreground">
               <span className="w-2 h-8 bg-accent mr-3"></span>
               Your Ultimate Charades Generator - Free & Instant
-            </h2>
+            </h1>
             <p className="text-zinc-600 text-base leading-relaxed font-sans mb-4">
               Looking for the perfect <strong>charades words</strong> for your next game night? Our <strong>free charades generator</strong> instantly creates random charades ideas from a curated database of <strong>900+ words and phrases</strong>. No more struggling to think of charades prompts—just click generate and start playing!
             </p>
