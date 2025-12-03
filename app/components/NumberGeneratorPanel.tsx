@@ -37,7 +37,7 @@ export default function NumberGeneratorPanel() {
         return;
       }
 
-      let numbers: number[] = [];
+      const numbers: number[] = [];
 
       if (allowDuplicates) {
         // Generate with duplicates
