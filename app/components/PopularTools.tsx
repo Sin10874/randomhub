@@ -1,9 +1,15 @@
 'use client';
 
 import Link from 'next/link';
-import { UserSquare, Building2, CaseUpper, MessageSquareText, Sparkles, Globe, Briefcase, Drama, Hash, ArrowUpRight } from 'lucide-react';
+import { UserSquare, Building2, CaseUpper, MessageSquareText, Sparkles, Globe, Briefcase, Drama, Hash, Zap, ArrowUpRight } from 'lucide-react';
 
 const tools = [
+  {
+    title: 'Pokemon Generator',
+    description: 'Generate random Pokemon with advanced filtering options',
+    href: '/random-pokemon-generator',
+    Icon: Zap,
+  },
   {
     title: 'Number Generator',
     description: 'Generate random numbers with custom range and options',
