@@ -2,9 +2,10 @@
 
 import { useState, useRef, useEffect, useCallback } from 'react';
 import Select from '@/app/components/ui/Select';
-import CheckboxGroup from '@/app/components/ui/CheckboxGroup';
 import { RotateCw, Sparkles, Settings2, Zap } from 'lucide-react';
-import { pokemon, regions, types, legendaryCategories, evolutionStages, fullyEvolvedOptions, formOptions, type Pokemon } from '@/app/data/pokemon';
+import { pokemon, regions, types, legendaryCategories, evolutionStages, fullyEvolvedOptions, type Pokemon } from '@/app/data/pokemon';
+
+/* eslint-disable @next/next/no-img-element */
 
 // Helper function to get Pokemon image URL
 const getPokemonImageUrl = (id: number): string => {
@@ -163,9 +164,9 @@ export default function PokemonGeneratorPanel() {
 
       const imageLoadStart = performance.now();
       const imagePromises = imageUrls.map((url, index) => {
-        return new Promise((resolve) => {
+        return new Promise<{ success: boolean; time: number }>((resolve) => {
           const imgStart = performance.now();
-          const img = new Image();
+          const img = new window.Image();
           img.onload = () => {
             const imgEnd = performance.now();
             console.log(`  ✅ Image ${index + 1}/${selected.length} loaded: ${(imgEnd - imgStart).toFixed(0)}ms - ${url.split('/').pop()}`);
