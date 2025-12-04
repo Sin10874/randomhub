@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { UserSquare, Building2, CaseUpper, MessageSquareText, Sparkles, Globe, Briefcase, Drama, Hash, Zap, ArrowUpRight } from 'lucide-react';
+import { UserSquare, Building2, CaseUpper, MessageSquareText, Sparkles, Globe, Briefcase, Drama, Hash, Zap, UtensilsCrossed, Music2, ArrowUpRight } from 'lucide-react';
 
 const tools = [
   {
@@ -15,6 +15,18 @@ const tools = [
     description: 'Generate random numbers with custom range and options',
     href: '/random-number-generator',
     Icon: Hash,
+  },
+  {
+    title: 'Song Word Generator',
+    description: 'Generate random words for song association game and songwriting',
+    href: '/random-song-word-generator',
+    Icon: Music2,
+  },
+  {
+    title: 'Food Generator',
+    description: 'Generate random foods from 670+ dishes across 12 categories',
+    href: '/random-food-generator',
+    Icon: UtensilsCrossed,
   },
   {
     title: 'Charades Generator',
