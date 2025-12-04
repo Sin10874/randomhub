@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { UserSquare, Building2, CaseUpper, MessageSquareText, Sparkles, Globe, Briefcase, Drama, Hash, Zap, UtensilsCrossed, Music2, ArrowUpRight } from 'lucide-react';
+import { UserSquare, Building2, CaseUpper, MessageSquareText, Sparkles, Globe, Briefcase, Drama, Hash, Zap, UtensilsCrossed, Music2, ArrowUpRight, Users } from 'lucide-react';
 
 const tools = [
   {
@@ -15,6 +15,12 @@ const tools = [
     description: 'Generate random numbers with custom range and options',
     href: '/random-number-generator',
     Icon: Hash,
+  },
+  {
+    title: 'Group Generator',
+    description: 'Create fair, random teams and groups for any activity',
+    href: '/random-group-generator',
+    Icon: Users,
   },
   {
     title: 'Song Word Generator',
