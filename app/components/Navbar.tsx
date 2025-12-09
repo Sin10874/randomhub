@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Navbar() {
   return (
@@ -6,8 +7,14 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <Link href="/" className="flex items-center group">
-            <div className="w-8 h-8 bg-foreground text-white flex items-center justify-center mr-3 font-mono font-bold text-lg group-hover:bg-accent transition-colors">
-              R
+            <div className="w-8 h-8 relative mr-3 group-hover:scale-110 transition-transform">
+              <Image
+                src="/favicon-32x32.png"
+                alt="RandomHub Logo"
+                width={32}
+                height={32}
+                className="object-contain"
+              />
             </div>
             <span className="text-xl font-bold text-foreground tracking-tight font-display group-hover:text-accent transition-colors">
               RandomHub
