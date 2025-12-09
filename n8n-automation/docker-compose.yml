@@ -1,0 +1,45 @@
+version: '3.8'
+
+services:
+  n8n:
+    image: n8nio/n8n:latest
+    container_name: n8n-animal-images
+    restart: unless-stopped
+    ports:
+      - "5678:5678"
+    environment:
+      # 基础认证（生产环境建议开启）
+      - N8N_BASIC_AUTH_ACTIVE=true
+      - N8N_BASIC_AUTH_USER=admin
+      - N8N_BASIC_AUTH_PASSWORD=changeme123
+
+      # 时区设置
+      - TZ=Asia/Shanghai
+      - GENERIC_TIMEZONE=Asia/Shanghai
+
+      # API Keys（后续配置）
+      - PEXELS_API_KEY=${PEXELS_API_KEY:-}
+      - DOUBAO_API_KEY=${DOUBAO_API_KEY:-}
+
+      # 文件路径（允许 n8n 访问项目文件）
+      - N8N_DEFAULT_BINARY_DATA_MODE=filesystem
+
+    volumes:
+      # n8n 数据持久化
+      - ./n8n-data:/home/node/.n8n
+
+      # 挂载项目目录（读取 animals.ts，保存图片）
+      - /Users/xinzechao/Projects/randomhub:/workspace
+
+      # 共享 npm 全局模块（用于安装 Sharp 等依赖）
+      - n8n-npm:/usr/local/lib/node_modules
+
+    networks:
+      - n8n-network
+
+volumes:
+  n8n-npm:
+
+networks:
+  n8n-network:
+    driver: bridge

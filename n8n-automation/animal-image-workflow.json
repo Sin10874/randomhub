@@ -1,0 +1,281 @@
+{
+  "name": "Animal Image Downloader",
+  "nodes": [
+    {
+      "parameters": {},
+      "id": "schedule-trigger",
+      "name": "Schedule Trigger",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1,
+      "position": [250, 300],
+      "disabled": true,
+      "notes": "可选：启用定时自动执行"
+    },
+    {
+      "parameters": {
+        "content": "={{ $json.animals }}",
+        "options": {}
+      },
+      "id": "read-animals",
+      "name": "Read Animals Data",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [450, 300],
+      "notes": "从 animals.ts 读取动物数据"
+    },
+    {
+      "parameters": {
+        "fieldName": "animals",
+        "fieldValue": "={{ $evaluateExpression($node[\"Read Animals Data\"].json.content) }}"
+      },
+      "id": "split-animals",
+      "name": "Split Into Items",
+      "type": "n8n-nodes-base.splitInBatches",
+      "typeVersion": 1,
+      "position": [650, 300],
+      "notes": "拆分为单个动物项"
+    },
+    {
+      "parameters": {
+        "url": "=https://api.pexels.com/v1/search",
+        "authentication": "predefinedCredentialType",
+        "nodeCredentialType": "pexelsApi",
+        "sendQuery": true,
+        "queryParameters": {
+          "parameters": [
+            {
+              "name": "query",
+              "value": "={{ $json.name }} animal wildlife"
+            },
+            {
+              "name": "per_page",
+              "value": "5"
+            },
+            {
+              "name": "size",
+              "value": "medium"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "pexels-search",
+      "name": "Search Pexels",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4,
+      "position": [850, 300],
+      "notes": "从 Pexels 搜索动物图片"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "string": [
+            {
+              "value1": "={{ $json.photos }}",
+              "operation": "isNotEmpty"
+            }
+          ]
+        }
+      },
+      "id": "has-results",
+      "name": "Has Results",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 1,
+      "position": [1050, 300],
+      "notes": "检查是否有搜索结果"
+    },
+    {
+      "parameters": {
+        "url": "={{ $json.photos[0].src.medium }}",
+        "options": {
+          "response": {
+            "response": {
+              "responseFormat": "file"
+            }
+          }
+        }
+      },
+      "id": "download-image",
+      "name": "Download Image",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4,
+      "position": [1250, 200],
+      "notes": "下载第一张图片"
+    },
+    {
+      "parameters": {
+        "url": "=https://ark.cn-beijing.volces.com/api/v3/chat/completions",
+        "authentication": "predefinedCredentialType",
+        "nodeCredentialType": "doubaoApi",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "model",
+              "value": "doubao-vision-pro"
+            },
+            {
+              "name": "messages",
+              "value": "={{ [{\"role\": \"user\", \"content\": [{\"type\": \"image_url\", \"image_url\": {\"url\": $json.binary.data}}, {\"type\": \"text\", \"text\": \"评估这张动物图片的质量。返回JSON格式: {\\\"animal_match\\\": 0-10分(是否匹配'\" + $node[\"Split Into Items\"].json.name + \"'), \\\"quality\\\": 0-10分(图片清晰度), \\\"watermark\\\": 0-10分(无水印得分高), \\\"composition\\\": 0-10分(构图美观度), \\\"total\\\": 总分, \\\"reason\\\": \\\"简短评价\\\"}\"}]}] }}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "doubao-score",
+      "name": "AI Quality Score",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4,
+      "position": [1450, 200],
+      "notes": "豆包 AI 评估图片质量"
+    },
+    {
+      "parameters": {
+        "rules": {
+          "values": [
+            {
+              "conditions": {
+                "number": [
+                  {
+                    "value1": "={{ $json.choices[0].message.content.total }}",
+                    "operation": "largerEqual",
+                    "value2": 30
+                  }
+                ]
+              },
+              "output": 0
+            }
+          ]
+        },
+        "fallbackOutput": 1
+      },
+      "id": "quality-filter",
+      "name": "Quality Filter",
+      "type": "n8n-nodes-base.switch",
+      "typeVersion": 1,
+      "position": [1650, 200],
+      "notes": "过滤低质量图片（总分<30分）"
+    },
+    {
+      "parameters": {
+        "functionCode": "const sharp = require('sharp');\nconst inputBuffer = Buffer.from(items[0].binary.data, 'base64');\n\nconst outputBuffer = await sharp(inputBuffer)\n  .resize(400, 400, { fit: 'cover', position: 'center' })\n  .jpeg({ quality: 85 })\n  .toBuffer();\n\nreturn [{\n  json: items[0].json,\n  binary: {\n    data: outputBuffer.toString('base64'),\n    mimeType: 'image/jpeg',\n    fileName: items[0].json.name.toLowerCase().replace(/\\s+/g, '-') + '.jpg'\n  }\n}];"
+      },
+      "id": "sharp-process",
+      "name": "Process Image",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [1850, 100],
+      "notes": "Sharp 处理：400x400, 85%压缩"
+    },
+    {
+      "parameters": {
+        "operation": "write",
+        "fileName": "={{ '/workspace/public/images/animals/' + $node[\"Split Into Items\"].json.category + '/' + $json.binary.fileName }}",
+        "data": "={{ $json.binary.data }}",
+        "encoding": "base64",
+        "options": {}
+      },
+      "id": "save-image",
+      "name": "Save Image",
+      "type": "n8n-nodes-base.files",
+      "typeVersion": 1,
+      "position": [2050, 100],
+      "notes": "保存到 public/images/animals/{category}/"
+    },
+    {
+      "parameters": {
+        "functionCode": "const fs = require('fs');\nconst logData = {\n  timestamp: new Date().toISOString(),\n  animal: items[0].json.name,\n  category: items[0].json.category,\n  status: 'success',\n  score: items[0].json.aiScore || 'N/A',\n  filePath: '/workspace/public/images/animals/' + items[0].json.category + '/' + items[0].json.name.toLowerCase().replace(/\\s+/g, '-') + '.jpg'\n};\n\nconst logFile = '/workspace/n8n-automation/download-log.json';\nlet logs = [];\nif (fs.existsSync(logFile)) {\n  logs = JSON.parse(fs.readFileSync(logFile, 'utf8'));\n}\nlogs.push(logData);\nfs.writeFileSync(logFile, JSON.stringify(logs, null, 2));\n\nreturn items;"
+      },
+      "id": "log-success",
+      "name": "Log Success",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [2250, 100],
+      "notes": "记录成功日志"
+    },
+    {
+      "parameters": {
+        "functionCode": "const fs = require('fs');\nconst logData = {\n  timestamp: new Date().toISOString(),\n  animal: items[0].json.name,\n  category: items[0].json.category,\n  status: 'failed',\n  reason: items[0].json.failReason || 'Low quality score'\n};\n\nconst logFile = '/workspace/n8n-automation/download-log.json';\nlet logs = [];\nif (fs.existsSync(logFile)) {\n  logs = JSON.parse(fs.readFileSync(logFile, 'utf8'));\n}\nlogs.push(logData);\nfs.writeFileSync(logFile, JSON.stringify(logs, null, 2));\n\nreturn items;"
+      },
+      "id": "log-failed",
+      "name": "Log Failed",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [1850, 300],
+      "notes": "记录失败日志"
+    },
+    {
+      "parameters": {},
+      "id": "no-op",
+      "name": "No Results",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [1250, 400],
+      "notes": "无搜索结果"
+    }
+  ],
+  "connections": {
+    "Schedule Trigger": {
+      "main": [[{ "node": "Read Animals Data", "type": "main", "index": 0 }]]
+    },
+    "Read Animals Data": {
+      "main": [[{ "node": "Split Into Items", "type": "main", "index": 0 }]]
+    },
+    "Split Into Items": {
+      "main": [[{ "node": "Search Pexels", "type": "main", "index": 0 }]]
+    },
+    "Search Pexels": {
+      "main": [[{ "node": "Has Results", "type": "main", "index": 0 }]]
+    },
+    "Has Results": {
+      "main": [
+        [{ "node": "Download Image", "type": "main", "index": 0 }],
+        [{ "node": "No Results", "type": "main", "index": 0 }]
+      ]
+    },
+    "Download Image": {
+      "main": [[{ "node": "AI Quality Score", "type": "main", "index": 0 }]]
+    },
+    "AI Quality Score": {
+      "main": [[{ "node": "Quality Filter", "type": "main", "index": 0 }]]
+    },
+    "Quality Filter": {
+      "main": [
+        [{ "node": "Process Image", "type": "main", "index": 0 }],
+        [{ "node": "Log Failed", "type": "main", "index": 0 }]
+      ]
+    },
+    "Process Image": {
+      "main": [[{ "node": "Save Image", "type": "main", "index": 0 }]]
+    },
+    "Save Image": {
+      "main": [[{ "node": "Log Success", "type": "main", "index": 0 }]]
+    },
+    "Log Success": {
+      "main": [[{ "node": "Split Into Items", "type": "main", "index": 0 }]]
+    },
+    "Log Failed": {
+      "main": [[{ "node": "Split Into Items", "type": "main", "index": 0 }]]
+    },
+    "No Results": {
+      "main": [[{ "node": "Split Into Items", "type": "main", "index": 0 }]]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "staticData": null,
+  "tags": [],
+  "triggerCount": 0,
+  "updatedAt": "2025-11-09T04:00:00.000Z",
+  "versionId": "1"
+}

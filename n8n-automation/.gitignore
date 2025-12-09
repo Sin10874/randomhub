@@ -1,0 +1,8 @@
+# Environment variables
+.env
+
+# n8n data directory (contains workflows, credentials, executions)
+n8n-data/
+
+# Workspace temporary files
+workspace/
